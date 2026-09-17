@@ -1,0 +1,194 @@
+match_id,season,date,team1,team2,venue,city,toss_winner,toss_decision,winner,result
+IPL_2023_001,2023,2023-05-09,SRH,CSK,Wankhede Stadium,Mumbai,SRH,bat,CSK,CSK won by 3 wickets
+IPL_2023_002,2023,2023-05-06,DC,LSG,Sawai Mansingh Stadium,Jaipur,LSG,bat,DC,DC won by 5 wickets
+IPL_2023_003,2023,2023-05-05,PBKS,DC,Narendra Modi Stadium,Ahmedabad,DC,bat,PBKS,PBKS won by 6 wickets
+IPL_2023_004,2023,2023-03-24,SRH,CSK,Sawai Mansingh Stadium,Jaipur,SRH,bat,SRH,SRH won by 47 runs
+IPL_2023_005,2023,2023-05-28,MI,LSG,Sawai Mansingh Stadium,Jaipur,MI,field,LSG,LSG won by 5 runs
+IPL_2023_006,2023,2023-03-20,SRH,KKR,Arun Jaitley Stadium,Delhi,SRH,bat,SRH,SRH won by 5 runs
+IPL_2023_007,2023,2023-04-14,DC,LSG,Sawai Mansingh Stadium,Jaipur,DC,field,LSG,LSG won by 27 runs
+IPL_2023_008,2023,2023-05-27,MI,CSK,Maharaja Yadavindra Singh Stadium,Mullanpur,MI,bat,CSK,CSK won by 4 wickets
+IPL_2023_009,2023,2023-03-17,MI,KKR,BRSABV Ekana Cricket Stadium,Lucknow,MI,field,KKR,KKR won by 7 runs
+IPL_2023_010,2023,2023-03-28,GT,KKR,Narendra Modi Stadium,Ahmedabad,KKR,field,KKR,KKR won by 6 wickets
+IPL_2023_011,2023,2023-03-12,MI,RR,Wankhede Stadium,Mumbai,MI,field,RR,RR won by 1 runs
+IPL_2023_012,2023,2023-03-04,CSK,LSG,BRSABV Ekana Cricket Stadium,Lucknow,LSG,bat,CSK,CSK won by 5 wickets
+IPL_2023_013,2023,2023-04-15,SRH,RCB,BRSABV Ekana Cricket Stadium,Lucknow,SRH,field,RCB,RCB won by 23 runs
+IPL_2023_014,2023,2023-05-03,PBKS,MI,M. A. Chidambaram Stadium (Chepauk),Chennai,PBKS,bat,PBKS,PBKS won by 4 runs
+IPL_2023_015,2023,2023-05-23,LSG,SRH,Wankhede Stadium,Mumbai,LSG,bat,LSG,LSG won by 4 runs
+IPL_2023_016,2023,2023-03-09,CSK,DC,Wankhede Stadium,Mumbai,CSK,field,DC,DC won by 3 runs
+IPL_2023_017,2023,2023-04-05,MI,RCB,Eden Gardens,Kolkata,MI,bat,MI,MI won by 10 runs
+IPL_2023_018,2023,2023-04-25,GT,LSG,Rajiv Gandhi International Cricket Stadium,Hyderabad,GT,field,GT,GT won by 6 wickets
+IPL_2023_019,2023,2023-05-16,KKR,RR,Arun Jaitley Stadium,Delhi,KKR,field,RR,RR won by 9 runs
+IPL_2023_020,2023,2023-03-20,KKR,GT,M. A. Chidambaram Stadium (Chepauk),Chennai,GT,bat,GT,GT won by 8 runs
+IPL_2023_021,2023,2023-04-10,PBKS,KKR,Rajiv Gandhi International Cricket Stadium,Hyderabad,PBKS,field,PBKS,PBKS won by 5 wickets
+IPL_2023_022,2023,2023-04-08,CSK,MI,BRSABV Ekana Cricket Stadium,Lucknow,MI,field,CSK,CSK won by 15 runs
+IPL_2023_023,2023,2023-05-20,SRH,PBKS,Sawai Mansingh Stadium,Jaipur,PBKS,field,SRH,SRH won by 10 runs
+IPL_2023_024,2023,2023-05-24,DC,MI,Eden Gardens,Kolkata,DC,field,MI,MI won by 7 runs
+IPL_2023_025,2023,2023-03-21,PBKS,RCB,Wankhede Stadium,Mumbai,RCB,field,PBKS,PBKS won by 6 runs
+IPL_2023_026,2023,2023-04-08,CSK,GT,Sawai Mansingh Stadium,Jaipur,CSK,field,GT,GT won by 6 runs
+IPL_2023_027,2023,2023-04-14,KKR,RR,BRSABV Ekana Cricket Stadium,Lucknow,KKR,bat,RR,RR won by 6 wickets
+IPL_2023_028,2023,2023-05-11,SRH,DC,M. A. Chidambaram Stadium (Chepauk),Chennai,SRH,field,DC,DC won by 12 runs
+IPL_2023_029,2023,2023-03-08,MI,DC,Sawai Mansingh Stadium,Jaipur,DC,bat,MI,MI won by 5 wickets
+IPL_2023_030,2023,2023-04-11,PBKS,SRH,Arun Jaitley Stadium,Delhi,PBKS,bat,PBKS,PBKS won by 13 runs
+IPL_2023_031,2023,2023-05-13,LSG,CSK,Sawai Mansingh Stadium,Jaipur,LSG,field,LSG,LSG won by 6 wickets
+IPL_2023_032,2023,2023-03-25,KKR,LSG,M. A. Chidambaram Stadium (Chepauk),Chennai,KKR,field,KKR,KKR won by 6 wickets
+IPL_2023_033,2023,2023-03-14,SRH,CSK,Maharaja Yadavindra Singh Stadium,Mullanpur,SRH,bat,CSK,CSK won by 5 wickets
+IPL_2023_034,2023,2023-03-21,CSK,RCB,Rajiv Gandhi International Cricket Stadium,Hyderabad,CSK,field,RCB,RCB won by 11 runs
+IPL_2023_035,2023,2023-04-28,CSK,GT,Narendra Modi Stadium,Ahmedabad,GT,bat,CSK,CSK won by 5 wickets
+IPL_2023_036,2023,2023-03-02,CSK,GT,Eden Gardens,Kolkata,CSK,field,CSK,CSK won by 4 wickets
+IPL_2023_037,2023,2023-03-22,RCB,DC,Sawai Mansingh Stadium,Jaipur,RCB,bat,DC,DC won by 5 wickets
+IPL_2023_038,2023,2023-04-25,RR,PBKS,Eden Gardens,Kolkata,RR,field,RR,RR won by 4 wickets
+IPL_2023_039,2023,2023-05-04,RCB,MI,BRSABV Ekana Cricket Stadium,Lucknow,MI,field,RCB,RCB won by 8 runs
+IPL_2023_040,2023,2023-03-26,LSG,MI,Rajiv Gandhi International Cricket Stadium,Hyderabad,LSG,field,LSG,LSG won by 4 wickets
+IPL_2023_041,2023,2023-04-04,DC,CSK,Eden Gardens,Kolkata,CSK,field,CSK,CSK won by 5 wickets
+IPL_2023_042,2023,2023-05-20,GT,RR,Eden Gardens,Kolkata,RR,field,RR,RR won by 5 wickets
+IPL_2023_043,2023,2023-04-15,LSG,PBKS,Narendra Modi Stadium,Ahmedabad,LSG,field,LSG,LSG won by 5 wickets
+IPL_2023_044,2023,2023-04-26,SRH,DC,Arun Jaitley Stadium,Delhi,DC,bat,DC,DC won by 2 runs
+IPL_2023_045,2023,2023-03-27,CSK,RCB,Narendra Modi Stadium,Ahmedabad,RCB,bat,RCB,RCB won by 2 runs
+IPL_2023_046,2023,2023-05-03,CSK,DC,M. A. Chidambaram Stadium (Chepauk),Chennai,CSK,bat,CSK,CSK won by 18 runs
+IPL_2023_047,2023,2023-05-23,DC,RCB,BRSABV Ekana Cricket Stadium,Lucknow,DC,bat,RCB,RCB won by 5 wickets
+IPL_2023_048,2023,2023-04-09,RR,GT,Eden Gardens,Kolkata,GT,field,GT,GT won by 5 wickets
+IPL_2023_049,2023,2023-05-07,DC,KKR,Rajiv Gandhi International Cricket Stadium,Hyderabad,DC,bat,KKR,KKR won by 5 wickets
+IPL_2023_050,2023,2023-05-28,RCB,GT,Narendra Modi Stadium,Ahmedabad,RCB,field,GT,GT won by 3 runs
+IPL_2023_051,2023,2023-04-11,DC,RR,M. Chinnaswamy Stadium,Bengaluru,RR,field,DC,DC won by 17 runs
+IPL_2023_052,2023,2023-04-11,SRH,LSG,Narendra Modi Stadium,Ahmedabad,LSG,bat,LSG,LSG won by 13 runs
+IPL_2023_053,2023,2023-03-13,PBKS,CSK,Narendra Modi Stadium,Ahmedabad,PBKS,bat,PBKS,PBKS won by 14 runs
+IPL_2023_054,2023,2023-03-15,GT,KKR,Maharaja Yadavindra Singh Stadium,Mullanpur,KKR,field,GT,GT won by 10 runs
+IPL_2023_055,2023,2023-03-19,GT,MI,Narendra Modi Stadium,Ahmedabad,GT,field,MI,MI won by 6 runs
+IPL_2023_056,2023,2023-05-23,RR,CSK,M. Chinnaswamy Stadium,Bengaluru,RR,field,CSK,CSK won by 30 runs
+IPL_2023_057,2023,2023-03-11,LSG,KKR,Eden Gardens,Kolkata,LSG,bat,LSG,LSG won by 6 runs
+IPL_2023_058,2023,2023-03-05,SRH,CSK,Maharaja Yadavindra Singh Stadium,Mullanpur,SRH,field,SRH,SRH won by 4 wickets
+IPL_2023_059,2023,2023-03-24,RCB,KKR,Narendra Modi Stadium,Ahmedabad,KKR,bat,KKR,KKR won by 14 runs
+IPL_2023_060,2023,2023-05-07,MI,DC,Rajiv Gandhi International Cricket Stadium,Hyderabad,MI,field,DC,DC won by 37 runs
+IPL_2023_061,2023,2023-03-19,LSG,PBKS,Maharaja Yadavindra Singh Stadium,Mullanpur,LSG,bat,LSG,LSG won by 21 runs
+IPL_2023_062,2023,2023-03-27,DC,KKR,Maharaja Yadavindra Singh Stadium,Mullanpur,DC,bat,KKR,KKR won by 5 wickets
+IPL_2023_063,2023,2023-04-23,KKR,SRH,Sawai Mansingh Stadium,Jaipur,SRH,field,SRH,SRH won via Super Over
+IPL_2023_064,2023,2023-05-04,RCB,DC,Narendra Modi Stadium,Ahmedabad,RCB,field,DC,DC won by 29 runs
+IPL_2023_065,2023,2023-05-20,KKR,RR,Maharaja Yadavindra Singh Stadium,Mullanpur,RR,bat,KKR,KKR won by 5 wickets
+IPL_2023_066,2023,2023-03-20,LSG,KKR,Arun Jaitley Stadium,Delhi,KKR,bat,LSG,LSG won by 5 wickets
+IPL_2023_067,2023,2023-04-09,KKR,LSG,M. A. Chidambaram Stadium (Chepauk),Chennai,LSG,bat,KKR,KKR won by 6 wickets
+IPL_2023_068,2023,2023-03-18,SRH,RCB,Maharaja Yadavindra Singh Stadium,Mullanpur,SRH,field,SRH,SRH won by 5 wickets
+IPL_2023_069,2023,2023-05-26,KKR,CSK,Eden Gardens,Kolkata,CSK,field,CSK,CSK won by 5 wickets
+IPL_2023_070,2023,2023-04-25,KKR,DC,Maharaja Yadavindra Singh Stadium,Mullanpur,DC,bat,DC,DC won by 9 runs
+IPL_2023_071,2023,2023-04-24,KKR,SRH,M. A. Chidambaram Stadium (Chepauk),Chennai,KKR,bat,KKR,KKR won by 19 runs
+IPL_2023_072,2023,2023-03-23,MI,KKR,Rajiv Gandhi International Cricket Stadium,Hyderabad,MI,bat,KKR,KKR won by 6 wickets
+IPL_2023_073,2023,2023-05-05,GT,LSG,Sawai Mansingh Stadium,Jaipur,GT,field,LSG,LSG won by 4 runs
+IPL_2023_074,2023,2023-04-02,RCB,RR,Narendra Modi Stadium,Ahmedabad,RR,bat,RR,RR won by 14 runs
+IPL_2024_001,2024,2024-03-15,KKR,SRH,Wankhede Stadium,Mumbai,KKR,bat,SRH,SRH won by 5 wickets
+IPL_2024_002,2024,2024-03-22,CSK,SRH,Arun Jaitley Stadium,Delhi,SRH,field,CSK,CSK won by 28 runs
+IPL_2024_003,2024,2024-05-24,MI,CSK,Arun Jaitley Stadium,Delhi,CSK,field,MI,MI won by 12 runs
+IPL_2024_004,2024,2024-04-04,GT,CSK,Sawai Mansingh Stadium,Jaipur,GT,bat,CSK,CSK won by 5 wickets
+IPL_2024_005,2024,2024-03-14,PBKS,MI,Sawai Mansingh Stadium,Jaipur,PBKS,field,PBKS,PBKS won by 5 wickets
+IPL_2024_006,2024,2024-05-22,CSK,RCB,M. A. Chidambaram Stadium (Chepauk),Chennai,RCB,field,RCB,RCB won by 6 wickets
+IPL_2024_007,2024,2024-03-21,RCB,LSG,M. Chinnaswamy Stadium,Bengaluru,RCB,field,LSG,LSG won by 28 runs
+IPL_2024_008,2024,2024-04-25,GT,RCB,Arun Jaitley Stadium,Delhi,RCB,bat,RCB,RCB won by 7 runs
+IPL_2024_009,2024,2024-05-07,LSG,CSK,Maharaja Yadavindra Singh Stadium,Mullanpur,CSK,bat,LSG,LSG won by 5 wickets
+IPL_2024_010,2024,2024-05-24,GT,KKR,Narendra Modi Stadium,Ahmedabad,KKR,bat,KKR,KKR won by 11 runs
+IPL_2024_011,2024,2024-03-10,SRH,RCB,Rajiv Gandhi International Cricket Stadium,Hyderabad,SRH,field,SRH,SRH won by 5 wickets
+IPL_2024_012,2024,2024-03-08,RR,KKR,M. A. Chidambaram Stadium (Chepauk),Chennai,KKR,field,RR,RR won by 1 runs
+IPL_2024_013,2024,2024-04-16,KKR,SRH,Narendra Modi Stadium,Ahmedabad,SRH,bat,SRH,SRH won by 20 runs
+IPL_2024_014,2024,2024-05-14,RCB,RR,BRSABV Ekana Cricket Stadium,Lucknow,RCB,field,RCB,RCB won by 6 wickets
+IPL_2024_015,2024,2024-05-15,RCB,SRH,Eden Gardens,Kolkata,RCB,bat,RCB,RCB won by 9 runs
+IPL_2024_016,2024,2024-05-07,GT,RR,Narendra Modi Stadium,Ahmedabad,RR,bat,GT,GT won by 5 wickets
+IPL_2024_017,2024,2024-05-06,PBKS,GT,M. A. Chidambaram Stadium (Chepauk),Chennai,PBKS,bat,PBKS,PBKS won by 9 runs
+IPL_2024_018,2024,2024-03-07,LSG,MI,Eden Gardens,Kolkata,LSG,field,LSG,LSG won by 6 wickets
+IPL_2024_019,2024,2024-03-12,GT,MI,Maharaja Yadavindra Singh Stadium,Mullanpur,GT,field,GT,GT won by 5 wickets
+IPL_2024_020,2024,2024-04-16,PBKS,SRH,M. Chinnaswamy Stadium,Bengaluru,SRH,field,SRH,SRH won by 6 wickets
+IPL_2024_021,2024,2024-03-14,KKR,PBKS,Narendra Modi Stadium,Ahmedabad,KKR,bat,KKR,KKR won by 14 runs
+IPL_2024_022,2024,2024-04-27,SRH,MI,Eden Gardens,Kolkata,SRH,field,MI,MI won by 11 runs
+IPL_2024_023,2024,2024-03-22,MI,SRH,BRSABV Ekana Cricket Stadium,Lucknow,MI,field,SRH,SRH won by 20 runs
+IPL_2024_024,2024,2024-05-08,PBKS,MI,Rajiv Gandhi International Cricket Stadium,Hyderabad,PBKS,field,PBKS,PBKS won by 6 wickets
+IPL_2024_025,2024,2024-03-27,RR,RCB,Arun Jaitley Stadium,Delhi,RR,field,RR,RR won by 5 wickets
+IPL_2024_026,2024,2024-03-03,MI,CSK,Sawai Mansingh Stadium,Jaipur,MI,bat,CSK,CSK won by 4 wickets
+IPL_2024_027,2024,2024-03-17,PBKS,KKR,Arun Jaitley Stadium,Delhi,KKR,field,KKR,KKR won by 6 wickets
+IPL_2024_028,2024,2024-04-23,CSK,RR,Rajiv Gandhi International Cricket Stadium,Hyderabad,RR,bat,CSK,CSK won by 6 wickets
+IPL_2024_029,2024,2024-05-16,MI,SRH,M. Chinnaswamy Stadium,Bengaluru,SRH,field,MI,MI won by 21 runs
+IPL_2024_030,2024,2024-05-21,RR,CSK,M. A. Chidambaram Stadium (Chepauk),Chennai,CSK,bat,RR,RR won by 4 wickets
+IPL_2024_031,2024,2024-05-27,LSG,RR,Eden Gardens,Kolkata,RR,bat,LSG,LSG won by 5 wickets
+IPL_2024_032,2024,2024-04-09,RR,KKR,Eden Gardens,Kolkata,RR,field,KKR,KKR won by 35 runs
+IPL_2024_033,2024,2024-05-15,MI,PBKS,Sawai Mansingh Stadium,Jaipur,MI,bat,PBKS,PBKS won by 4 wickets
+IPL_2024_034,2024,2024-04-02,RR,KKR,M. A. Chidambaram Stadium (Chepauk),Chennai,RR,bat,RR,RR won by 3 runs
+IPL_2024_035,2024,2024-04-14,PBKS,CSK,Eden Gardens,Kolkata,PBKS,field,CSK,CSK won by 24 runs
+IPL_2024_036,2024,2024-05-07,PBKS,GT,Wankhede Stadium,Mumbai,PBKS,field,GT,GT won by 5 runs
+IPL_2024_037,2024,2024-03-10,RR,SRH,M. A. Chidambaram Stadium (Chepauk),Chennai,RR,field,RR,RR won by 6 wickets
+IPL_2024_038,2024,2024-04-18,KKR,PBKS,BRSABV Ekana Cricket Stadium,Lucknow,KKR,bat,KKR,KKR won by 3 runs
+IPL_2024_039,2024,2024-05-27,DC,MI,Maharaja Yadavindra Singh Stadium,Mullanpur,DC,field,MI,MI won by 14 runs
+IPL_2024_040,2024,2024-03-20,RCB,LSG,Maharaja Yadavindra Singh Stadium,Mullanpur,LSG,field,RCB,RCB won by 14 runs
+IPL_2024_041,2024,2024-03-12,PBKS,LSG,M. A. Chidambaram Stadium (Chepauk),Chennai,LSG,field,LSG,LSG won by 5 wickets
+IPL_2024_042,2024,2024-05-01,MI,DC,Eden Gardens,Kolkata,DC,field,MI,MI won by 40 runs
+IPL_2024_043,2024,2024-04-18,DC,GT,BRSABV Ekana Cricket Stadium,Lucknow,GT,field,GT,GT won by 4 wickets
+IPL_2024_044,2024,2024-04-03,RR,DC,Wankhede Stadium,Mumbai,DC,field,RR,RR won by 19 runs
+IPL_2024_045,2024,2024-05-26,KKR,PBKS,Eden Gardens,Kolkata,KKR,bat,PBKS,PBKS won by 5 wickets
+IPL_2024_046,2024,2024-03-21,MI,CSK,Sawai Mansingh Stadium,Jaipur,CSK,bat,MI,MI won by 5 wickets
+IPL_2024_047,2024,2024-04-22,DC,KKR,Rajiv Gandhi International Cricket Stadium,Hyderabad,KKR,bat,KKR,KKR won by 30 runs
+IPL_2024_048,2024,2024-05-17,GT,RCB,Eden Gardens,Kolkata,RCB,bat,GT,GT won by 5 wickets
+IPL_2024_049,2024,2024-03-12,RR,RCB,Wankhede Stadium,Mumbai,RR,field,RR,RR won by 5 wickets
+IPL_2024_050,2024,2024-05-23,LSG,SRH,Narendra Modi Stadium,Ahmedabad,LSG,field,LSG,LSG won by 5 wickets
+IPL_2024_051,2024,2024-03-16,CSK,RR,Maharaja Yadavindra Singh Stadium,Mullanpur,CSK,field,RR,RR won by 14 runs
+IPL_2024_052,2024,2024-05-03,PBKS,SRH,Eden Gardens,Kolkata,SRH,field,SRH,SRH won by 6 wickets
+IPL_2024_053,2024,2024-04-20,RCB,RR,BRSABV Ekana Cricket Stadium,Lucknow,RR,field,RR,RR won by 4 wickets
+IPL_2024_054,2024,2024-04-23,PBKS,DC,Eden Gardens,Kolkata,PBKS,bat,DC,DC won by 5 wickets
+IPL_2024_055,2024,2024-05-17,PBKS,MI,BRSABV Ekana Cricket Stadium,Lucknow,MI,bat,PBKS,PBKS won by 4 wickets
+IPL_2024_056,2024,2024-05-11,KKR,CSK,Sawai Mansingh Stadium,Jaipur,CSK,field,KKR,KKR won by 15 runs
+IPL_2024_057,2024,2024-05-08,RR,KKR,Narendra Modi Stadium,Ahmedabad,KKR,field,RR,RR won by 2 runs
+IPL_2024_058,2024,2024-05-06,CSK,RR,Eden Gardens,Kolkata,CSK,bat,RR,RR won by 5 wickets
+IPL_2024_059,2024,2024-04-03,RCB,KKR,Maharaja Yadavindra Singh Stadium,Mullanpur,RCB,field,RCB,RCB won by 6 wickets
+IPL_2024_060,2024,2024-05-25,MI,LSG,Maharaja Yadavindra Singh Stadium,Mullanpur,LSG,field,MI,MI won by 9 runs
+IPL_2024_061,2024,2024-05-17,RCB,PBKS,M. A. Chidambaram Stadium (Chepauk),Chennai,PBKS,field,RCB,RCB won by 38 runs
+IPL_2024_062,2024,2024-05-16,PBKS,GT,Sawai Mansingh Stadium,Jaipur,PBKS,bat,PBKS,PBKS won by 5 runs
+IPL_2024_063,2024,2024-05-05,CSK,GT,Narendra Modi Stadium,Ahmedabad,CSK,field,GT,GT won by 3 runs
+IPL_2024_064,2024,2024-03-22,LSG,KKR,Narendra Modi Stadium,Ahmedabad,LSG,field,KKR,KKR won by 22 runs
+IPL_2024_065,2024,2024-05-18,DC,RR,Maharaja Yadavindra Singh Stadium,Mullanpur,RR,bat,DC,DC won by 4 wickets
+IPL_2024_066,2024,2024-04-03,RCB,DC,Narendra Modi Stadium,Ahmedabad,RCB,bat,DC,DC won by 5 wickets
+IPL_2024_067,2024,2024-03-15,MI,LSG,M. Chinnaswamy Stadium,Bengaluru,LSG,field,MI,MI won by 26 runs
+IPL_2024_068,2024,2024-04-19,LSG,KKR,Arun Jaitley Stadium,Delhi,KKR,bat,LSG,LSG won by 5 wickets
+IPL_2024_069,2024,2024-03-20,LSG,RR,Rajiv Gandhi International Cricket Stadium,Hyderabad,LSG,field,RR,RR won by 18 runs
+IPL_2024_070,2024,2024-05-21,LSG,RR,Arun Jaitley Stadium,Delhi,RR,bat,LSG,LSG won by 5 wickets
+IPL_2024_071,2024,2024-03-09,KKR,LSG,Wankhede Stadium,Mumbai,KKR,bat,LSG,LSG won by 6 wickets
+IPL_2024_072,2024,2024-04-13,SRH,KKR,BRSABV Ekana Cricket Stadium,Lucknow,SRH,field,SRH,SRH won by 4 wickets
+IPL_2024_073,2024,2024-05-22,GT,SRH,M. A. Chidambaram Stadium (Chepauk),Chennai,GT,bat,SRH,SRH won by 3 wickets
+IPL_2024_074,2024,2024-05-10,DC,KKR,Wankhede Stadium,Mumbai,DC,bat,KKR,KKR won by 6 wickets
+IPL_2025_001,2025,2025-04-07,MI,CSK,Sawai Mansingh Stadium,Jaipur,MI,field,CSK,CSK won by 6 runs
+IPL_2025_002,2025,2025-05-19,MI,KKR,Rajiv Gandhi International Cricket Stadium,Hyderabad,KKR,bat,MI,MI won by 4 wickets
+IPL_2025_003,2025,2025-03-14,RR,SRH,M. Chinnaswamy Stadium,Bengaluru,RR,bat,SRH,SRH won by 4 wickets
+IPL_2025_004,2025,2025-04-14,DC,MI,Sawai Mansingh Stadium,Jaipur,MI,field,MI,MI won by 5 wickets
+IPL_2025_005,2025,2025-04-19,SRH,KKR,Eden Gardens,Kolkata,SRH,field,KKR,KKR won by 1 runs
+IPL_2025_006,2025,2025-05-20,DC,GT,Sawai Mansingh Stadium,Jaipur,GT,bat,GT,GT won by 8 runs
+IPL_2025_007,2025,2025-03-04,DC,RR,Arun Jaitley Stadium,Delhi,DC,field,DC,DC won by 5 wickets
+IPL_2025_008,2025,2025-03-14,CSK,DC,Narendra Modi Stadium,Ahmedabad,DC,bat,CSK,CSK won by 5 wickets
+IPL_2025_009,2025,2025-05-18,PBKS,DC,M. A. Chidambaram Stadium (Chepauk),Chennai,PBKS,bat,PBKS,PBKS won by 3 runs
+IPL_2025_010,2025,2025-03-27,KKR,PBKS,Arun Jaitley Stadium,Delhi,PBKS,bat,KKR,KKR won by 5 wickets
+IPL_2025_011,2025,2025-05-13,MI,GT,M. Chinnaswamy Stadium,Bengaluru,GT,bat,MI,MI won by 5 wickets
+IPL_2025_012,2025,2025-04-13,MI,CSK,M. Chinnaswamy Stadium,Bengaluru,MI,field,MI,MI won by 6 wickets
+IPL_2025_013,2025,2025-04-19,KKR,MI,Narendra Modi Stadium,Ahmedabad,MI,bat,KKR,KKR won via Super Over
+IPL_2025_014,2025,2025-04-15,PBKS,RR,BRSABV Ekana Cricket Stadium,Lucknow,PBKS,bat,RR,RR won by 6 wickets
+IPL_2025_015,2025,2025-03-23,RR,CSK,BRSABV Ekana Cricket Stadium,Lucknow,CSK,field,CSK,CSK won by 5 wickets
+IPL_2025_016,2025,2025-05-14,SRH,KKR,Eden Gardens,Kolkata,KKR,field,KKR,KKR won by 5 wickets
+IPL_2025_017,2025,2025-04-13,MI,PBKS,Rajiv Gandhi International Cricket Stadium,Hyderabad,MI,bat,PBKS,PBKS won by 5 wickets
+IPL_2025_018,2025,2025-04-18,MI,GT,Arun Jaitley Stadium,Delhi,MI,bat,GT,GT won by 4 wickets
+IPL_2025_019,2025,2025-03-01,MI,LSG,Eden Gardens,Kolkata,MI,field,MI,MI won by 4 wickets
+IPL_2025_020,2025,2025-05-02,SRH,MI,Arun Jaitley Stadium,Delhi,MI,bat,MI,MI won by 3 runs
+IPL_2025_021,2025,2025-03-14,RCB,SRH,Wankhede Stadium,Mumbai,SRH,bat,SRH,SRH won by 9 runs
+IPL_2025_022,2025,2025-04-18,KKR,PBKS,M. Chinnaswamy Stadium,Bengaluru,KKR,bat,PBKS,PBKS won by 6 wickets
+IPL_2025_023,2025,2025-05-12,RCB,GT,Sawai Mansingh Stadium,Jaipur,GT,bat,GT,GT won by 11 runs
+IPL_2025_024,2025,2025-05-13,KKR,RR,BRSABV Ekana Cricket Stadium,Lucknow,KKR,field,RR,RR won by 1 runs
+IPL_2025_025,2025,2025-05-12,CSK,RR,Eden Gardens,Kolkata,CSK,bat,CSK,CSK won by 20 runs
+IPL_2025_026,2025,2025-05-19,DC,GT,BRSABV Ekana Cricket Stadium,Lucknow,DC,field,GT,GT won by 5 runs
+IPL_2025_027,2025,2025-03-12,RR,LSG,Narendra Modi Stadium,Ahmedabad,RR,bat,RR,RR won by 10 runs
+IPL_2025_028,2025,2025-04-03,RCB,SRH,M. A. Chidambaram Stadium (Chepauk),Chennai,RCB,field,RCB,RCB won by 6 wickets
+IPL_2025_029,2025,2025-05-11,SRH,LSG,M. A. Chidambaram Stadium (Chepauk),Chennai,LSG,field,LSG,LSG won by 4 wickets
+IPL_2025_030,2025,2025-05-20,KKR,RCB,Narendra Modi Stadium,Ahmedabad,KKR,field,RCB,RCB won by 1 runs
+IPL_2025_031,2025,2025-05-20,DC,LSG,Rajiv Gandhi International Cricket Stadium,Hyderabad,DC,field,LSG,LSG won by 21 runs
+IPL_2025_032,2025,2025-05-09,KKR,RR,M. Chinnaswamy Stadium,Bengaluru,KKR,bat,RR,RR won by 5 wickets
+IPL_2025_033,2025,2025-05-06,KKR,MI,Maharaja Yadavindra Singh Stadium,Mullanpur,KKR,field,KKR,KKR won by 6 wickets
+IPL_2025_034,2025,2025-04-24,DC,CSK,Sawai Mansingh Stadium,Jaipur,CSK,bat,CSK,CSK won by 30 runs
+IPL_2025_035,2025,2025-04-02,KKR,GT,M. Chinnaswamy Stadium,Bengaluru,KKR,bat,KKR,KKR won by 2 runs
+IPL_2025_036,2025,2025-03-18,DC,GT,Narendra Modi Stadium,Ahmedabad,DC,bat,GT,GT won by 5 wickets
+IPL_2025_037,2025,2025-05-25,GT,RR,M. A. Chidambaram Stadium (Chepauk),Chennai,RR,field,RR,RR won by 5 wickets
+IPL_2025_038,2025,2025-03-23,PBKS,RR,Narendra Modi Stadium,Ahmedabad,PBKS,field,RR,RR won by 14 runs
+IPL_2025_039,2025,2025-03-02,RR,DC,Arun Jaitley Stadium,Delhi,RR,field,RR,RR won by 5 wickets
+IPL_2025_040,2025,2025-05-03,GT,RR,Maharaja Yadavindra Singh Stadium,Mullanpur,RR,field,RR,RR won by 4 wickets
+IPL_2025_041,2025,2025-05-11,RCB,KKR,Eden Gardens,Kolkata,KKR,bat,KKR,KKR won by 13 runs
+IPL_2025_042,2025,2025-03-02,LSG,CSK,Eden Gardens,Kolkata,CSK,field,LSG,LSG won by 6 runs
+IPL_2025_043,2025,2025-04-25,PBKS,GT,Eden Gardens,Kolkata,PBKS,bat,PBKS,PBKS won by 12 runs
+IPL_2025_044,2025,2025-05-12,PBKS,GT,BRSABV Ekana Cricket Stadium,Lucknow,GT,bat,GT,GT won by 16 runs
+IPL_2025_045,2025,2025-03-03,KKR,GT,Eden Gardens,Kolkata,GT,field,KKR,KKR won by 10 runs

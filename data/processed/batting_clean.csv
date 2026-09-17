@@ -1,0 +1,2168 @@
+match_id,innings,team,player,runs,balls,fours,sixes,strike_rate,dismissal,not_out,boundary_runs,boundary_percentage,is_fifty,is_hundred
+IPL_2023_001,1,SRH,Travis Head,11,8,0,0,137.5,run out,0,0,0.0,0,0
+IPL_2023_001,1,SRH,Abhishe Sharma,18,10,0,0,180.0,b Cummins,0,0,0.0,0,0
+IPL_2023_001,1,SRH,Rahul Tripathi,58,36,5,3,161.11,c Dhoni b Bumrah,0,38,65.52,1,0
+IPL_2023_001,1,SRH,Aiden Marram,41,33,1,1,124.24,lbw b Chahal,0,10,24.39,0,0
+IPL_2023_001,1,SRH,Heinrih laasen,39,23,3,1,169.57,b Cummins,0,18,46.15,0,0
+IPL_2023_001,1,SRH,Nitish umar Reddy,15,10,0,0,150.0,b Cummins,0,0,0.0,0,0
+IPL_2023_001,2,CSK,Ruturaj Gaiad,14,8,1,0,175.0,c Dhoni b Bumrah,0,4,28.57,0,0
+IPL_2023_001,2,CSK,Rahin Ravindra,50,31,4,2,161.29,c Dhoni b Bumrah,0,28,56.0,1,0
+IPL_2023_001,2,CSK,Ajinya Rahane,27,19,2,1,142.11,run out,0,14,51.85,0,0
+IPL_2023_001,2,CSK,Daryl Mithell,56,34,3,3,164.71,c & b Narine,0,30,53.57,1,0
+IPL_2023_001,2,CSK,Shivam Dube,19,13,1,0,146.15,lbw b Chahal,0,4,21.05,0,0
+IPL_2023_001,2,CSK,Ravindra Jadeja,13,8,1,0,162.5,run out,0,4,30.77,0,0
+IPL_2023_001,2,CSK,MS Dhoni,12,7,1,0,171.43,b Cummins,0,4,33.33,0,0
+IPL_2023_002,1,LSG,L Rahul,18,15,1,1,120.0,run out,0,10,55.56,0,0
+IPL_2023_002,1,LSG,Quinton de o,16,11,1,1,145.45,b Cummins,0,10,62.5,0,0
+IPL_2023_002,1,LSG,Marus Stoinis,16,11,1,0,145.45,lbw b Chahal,0,4,25.0,0,0
+IPL_2023_002,1,LSG,Niholas Pooran,20,16,1,0,125.0,lbw b Chahal,0,4,20.0,0,0
+IPL_2023_002,1,LSG,Ayush Badoni,19,16,2,0,118.75,b Cummins,0,8,42.11,0,0
+IPL_2023_002,1,LSG,Deepa Hooda,24,18,2,1,133.33,c Dhoni b Bumrah,0,14,58.33,0,0
+IPL_2023_002,1,LSG,runal Pandya,17,10,1,0,170.0,c & b Narine,0,4,23.53,0,0
+IPL_2023_002,1,LSG,Ravi Bishnoi,21,14,2,0,150.0,b Cummins,0,8,38.1,0,0
+IPL_2023_002,1,LSG,Mohsin han,16,9,1,0,177.78,not out,1,4,25.0,0,0
+IPL_2023_002,2,DC,David arner,38,27,2,1,140.74,c & b Narine,0,14,36.84,0,0
+IPL_2023_002,2,DC,Prithvi Sha,28,24,3,0,116.67,b Cummins,0,12,42.86,0,0
+IPL_2023_002,2,DC,Jae Fraser-MGur,15,12,1,0,125.0,run out,0,4,26.67,0,0
+IPL_2023_002,2,DC,Rishabh Pant,57,36,2,3,158.33,run out,0,26,45.61,1,0
+IPL_2023_002,2,DC,Tristan Stubbs,32,21,1,1,152.38,lbw b Chahal,0,10,31.25,0,0
+IPL_2023_003,1,DC,David arner,24,14,2,0,171.43,lbw b Chahal,0,8,33.33,0,0
+IPL_2023_003,1,DC,Prithvi Sha,37,26,3,1,142.31,run out,0,18,48.65,0,0
+IPL_2023_003,1,DC,Jae Fraser-MGur,21,16,2,0,131.25,c Dhoni b Bumrah,0,8,38.1,0,0
+IPL_2023_003,1,DC,Rishabh Pant,56,35,5,1,160.0,lbw b Chahal,0,26,46.43,1,0
+IPL_2023_003,1,DC,Tristan Stubbs,14,8,1,0,175.0,c Dhoni b Bumrah,0,4,28.57,0,0
+IPL_2023_003,1,DC,Axar Patel,24,21,2,1,114.29,not out,1,14,58.33,0,0
+IPL_2023_003,2,PBKS,Shihar Dhaan,36,26,3,1,138.46,run out,0,18,50.0,0,0
+IPL_2023_003,2,PBKS,Jonny Bairsto,45,29,2,2,155.17,run out,0,20,44.44,0,0
+IPL_2023_003,2,PBKS,Prabhsimran Singh,10,8,0,0,125.0,run out,0,0,0.0,0,0
+IPL_2023_003,2,PBKS,Rilee Rossou,35,23,1,1,152.17,b Cummins,0,10,28.57,0,0
+IPL_2023_003,2,PBKS,Sam Curran,54,34,3,3,158.82,not out,1,30,55.56,1,0
+IPL_2023_004,1,SRH,Travis Head,53,29,2,2,182.76,lbw b Chahal,0,20,37.74,1,0
+IPL_2023_004,1,SRH,Abhishe Sharma,39,25,3,1,156.0,c Dhoni b Bumrah,0,18,46.15,0,0
+IPL_2023_004,1,SRH,Rahul Tripathi,18,10,2,0,180.0,b Cummins,0,8,44.44,0,0
+IPL_2023_004,1,SRH,Aiden Marram,19,11,1,0,172.73,b Cummins,0,4,21.05,0,0
+IPL_2023_004,1,SRH,Heinrih laasen,36,21,2,2,171.43,b Cummins,0,20,55.56,0,0
+IPL_2023_004,1,SRH,Nitish umar Reddy,29,17,1,1,170.59,c Dhoni b Bumrah,0,10,34.48,0,0
+IPL_2023_004,1,SRH,Abdul Samad,10,7,0,0,142.86,run out,0,0,0.0,0,0
+IPL_2023_004,2,CSK,Ruturaj Gaiad,13,8,0,0,162.5,lbw b Chahal,0,0,0.0,0,0
+IPL_2023_004,2,CSK,Rahin Ravindra,27,23,1,1,117.39,run out,0,10,37.04,0,0
+IPL_2023_004,2,CSK,Ajinya Rahane,41,35,2,1,117.14,c & b Narine,0,14,34.15,0,0
+IPL_2023_004,2,CSK,Daryl Mithell,18,11,2,0,163.64,b Cummins,0,8,44.44,0,0
+IPL_2023_004,2,CSK,Shivam Dube,16,11,2,0,145.45,c & b Narine,0,8,50.0,0,0
+IPL_2023_004,2,CSK,Ravindra Jadeja,23,20,1,0,115.0,run out,0,4,17.39,0,0
+IPL_2023_004,2,CSK,MS Dhoni,19,12,2,0,158.33,b Cummins,0,8,42.11,0,0
+IPL_2023_005,1,LSG,L Rahul,39,30,1,1,130.0,b Cummins,0,10,25.64,0,0
+IPL_2023_005,1,LSG,Quinton de o,15,10,1,0,150.0,run out,0,4,26.67,0,0
+IPL_2023_005,1,LSG,Marus Stoinis,22,16,2,0,137.5,b Cummins,0,8,36.36,0,0
+IPL_2023_005,1,LSG,Niholas Pooran,15,10,0,0,150.0,run out,0,0,0.0,0,0
+IPL_2023_005,1,LSG,Ayush Badoni,49,32,4,1,153.12,run out,0,22,44.9,0,0
+IPL_2023_005,1,LSG,Deepa Hooda,10,9,0,0,111.11,run out,0,0,0.0,0,0
+IPL_2023_005,1,LSG,runal Pandya,19,13,0,1,146.15,b Cummins,0,6,31.58,0,0
+IPL_2023_005,2,MI,Rohit Sharma,15,13,0,0,115.38,run out,0,0,0.0,0,0
+IPL_2023_005,2,MI,Ishan ishan,29,19,2,1,152.63,c & b Narine,0,14,48.28,0,0
+IPL_2023_005,2,MI,Suryaumar Yadav,19,16,2,0,118.75,lbw b Chahal,0,8,42.11,0,0
+IPL_2023_005,2,MI,Tila Varma,34,27,2,0,125.93,c & b Narine,0,8,23.53,0,0
+IPL_2023_005,2,MI,Hardi Pandya,12,10,1,0,120.0,c Dhoni b Bumrah,0,4,33.33,0,0
+IPL_2023_005,2,MI,Tim David,23,16,2,0,143.75,run out,0,8,34.78,0,0
+IPL_2023_005,2,MI,Romario Shepherd,32,19,1,1,168.42,not out,1,10,31.25,0,0
+IPL_2023_006,1,SRH,Travis Head,48,29,4,1,165.52,c & b Narine,0,22,45.83,0,0
+IPL_2023_006,1,SRH,Abhishe Sharma,23,14,1,1,164.29,lbw b Chahal,0,10,43.48,0,0
+IPL_2023_006,1,SRH,Rahul Tripathi,39,25,1,1,156.0,lbw b Chahal,0,10,25.64,0,0
+IPL_2023_006,1,SRH,Aiden Marram,58,38,5,3,152.63,b Cummins,0,38,65.52,1,0
+IPL_2023_006,1,SRH,Heinrih laasen,19,14,2,0,135.71,not out,1,8,42.11,0,0
+IPL_2023_006,2,KKR,Phil Salt,60,33,4,3,181.82,b Cummins,0,34,56.67,1,0
+IPL_2023_006,2,KKR,Sunil Narine,19,11,1,0,172.73,b Cummins,0,4,21.05,0,0
+IPL_2023_006,2,KKR,Venatesh Iyer,39,26,2,2,150.0,run out,0,20,51.28,0,0
+IPL_2023_006,2,KKR,Shreyas Iyer,30,22,1,1,136.36,c & b Narine,0,10,33.33,0,0
+IPL_2023_006,2,KKR,Rinu Singh,28,24,2,1,116.67,b Cummins,0,14,50.0,0,0
+IPL_2023_006,2,KKR,Andre Russell,6,4,0,0,150.0,not out,1,0,0.0,0,0
+IPL_2023_007,1,LSG,L Rahul,37,29,2,0,127.59,run out,0,8,21.62,0,0
+IPL_2023_007,1,LSG,Quinton de o,14,9,1,0,155.56,run out,0,4,28.57,0,0
+IPL_2023_007,1,LSG,Marus Stoinis,36,21,2,2,171.43,c Dhoni b Bumrah,0,20,55.56,0,0
+IPL_2023_007,1,LSG,Niholas Pooran,38,21,1,1,180.95,run out,0,10,26.32,0,0
+IPL_2023_007,1,LSG,Ayush Badoni,68,38,5,3,178.95,c & b Narine,0,38,55.88,1,0
+IPL_2023_007,1,LSG,Deepa Hooda,3,2,0,0,150.0,not out,1,0,0.0,0,0
+IPL_2023_007,2,DC,David arner,26,19,2,1,136.84,run out,0,14,53.85,0,0
+IPL_2023_007,2,DC,Prithvi Sha,45,38,2,2,118.42,b Cummins,0,20,44.44,0,0
+IPL_2023_007,2,DC,Jae Fraser-MGur,52,31,5,1,167.74,lbw b Chahal,0,26,50.0,1,0
+IPL_2023_007,2,DC,Rishabh Pant,36,26,3,1,138.46,run out,0,18,50.0,0,0
+IPL_2023_007,2,DC,Tristan Stubbs,10,6,0,0,166.67,not out,1,0,0.0,0,0
+IPL_2023_008,1,MI,Rohit Sharma,26,22,1,0,118.18,run out,0,4,15.38,0,0
+IPL_2023_008,1,MI,Ishan ishan,22,16,2,0,137.5,run out,0,8,36.36,0,0
+IPL_2023_008,1,MI,Suryaumar Yadav,67,38,3,4,176.32,c & b Narine,0,36,53.73,1,0
+IPL_2023_008,1,MI,Tila Varma,45,27,2,1,166.67,b Cummins,0,14,31.11,0,0
+IPL_2023_008,1,MI,Hardi Pandya,20,17,1,0,117.65,run out,0,4,20.0,0,0
+IPL_2023_008,2,CSK,Ruturaj Gaiad,40,23,3,2,173.91,run out,0,24,60.0,0,0
+IPL_2023_008,2,CSK,Rahin Ravindra,43,27,1,2,159.26,b Cummins,0,16,37.21,0,0
+IPL_2023_008,2,CSK,Ajinya Rahane,50,32,3,2,156.25,c Dhoni b Bumrah,0,24,48.0,1,0
+IPL_2023_008,2,CSK,Daryl Mithell,11,9,0,0,122.22,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_008,2,CSK,Shivam Dube,18,15,1,0,120.0,b Cummins,0,4,22.22,0,0
+IPL_2023_008,2,CSK,Ravindra Jadeja,25,14,2,1,178.57,c & b Narine,0,14,56.0,0,0
+IPL_2023_009,1,KKR,Phil Salt,19,13,2,0,146.15,lbw b Chahal,0,8,42.11,0,0
+IPL_2023_009,1,KKR,Sunil Narine,45,33,4,1,136.36,run out,0,22,48.89,0,0
+IPL_2023_009,1,KKR,Venatesh Iyer,25,16,2,0,156.25,c Dhoni b Bumrah,0,8,32.0,0,0
+IPL_2023_009,1,KKR,Shreyas Iyer,62,34,3,3,182.35,run out,0,30,48.39,1,0
+IPL_2023_009,1,KKR,Rinu Singh,39,24,4,1,162.5,lbw b Chahal,0,22,56.41,0,0
+IPL_2023_009,2,MI,Rohit Sharma,39,27,2,1,144.44,c Dhoni b Bumrah,0,14,35.9,0,0
+IPL_2023_009,2,MI,Ishan ishan,25,17,2,0,147.06,run out,0,8,32.0,0,0
+IPL_2023_009,2,MI,Suryaumar Yadav,50,32,3,2,156.25,b Cummins,0,24,48.0,1,0
+IPL_2023_009,2,MI,Tila Varma,13,9,1,0,144.44,c Dhoni b Bumrah,0,4,30.77,0,0
+IPL_2023_009,2,MI,Hardi Pandya,45,25,4,1,180.0,run out,0,22,48.89,0,0
+IPL_2023_009,2,MI,Tim David,11,10,1,0,110.0,not out,1,4,36.36,0,0
+IPL_2023_010,1,GT,Shubman Gill,20,18,0,1,111.11,b Cummins,0,6,30.0,0,0
+IPL_2023_010,1,GT,riddhiman Saha,38,28,2,0,135.71,c Dhoni b Bumrah,0,8,21.05,0,0
+IPL_2023_010,1,GT,Sai Sudharsan,34,25,3,1,136.0,lbw b Chahal,0,18,52.94,0,0
+IPL_2023_010,1,GT,David Miller,43,36,3,1,119.44,c Dhoni b Bumrah,0,18,41.86,0,0
+IPL_2023_010,1,GT,Azmatullah Omarzai,23,13,0,1,176.92,run out,0,6,26.09,0,0
+IPL_2023_010,2,KKR,Phil Salt,39,24,2,2,162.5,b Cummins,0,20,51.28,0,0
+IPL_2023_010,2,KKR,Sunil Narine,46,27,3,2,170.37,c Dhoni b Bumrah,0,24,52.17,0,0
+IPL_2023_010,2,KKR,Venatesh Iyer,29,19,2,1,152.63,run out,0,14,48.28,0,0
+IPL_2023_010,2,KKR,Shreyas Iyer,47,29,3,2,162.07,c & b Narine,0,24,51.06,0,0
+IPL_2023_011,1,RR,Yashasvi Jaisal,51,34,2,2,150.0,lbw b Chahal,0,20,39.22,1,0
+IPL_2023_011,1,RR,Jos Buttler,21,16,1,1,131.25,lbw b Chahal,0,10,47.62,0,0
+IPL_2023_011,1,RR,Sanju Samson,56,34,2,2,164.71,lbw b Chahal,0,20,35.71,1,0
+IPL_2023_011,1,RR,Riyan Parag,49,31,2,3,158.06,lbw b Chahal,0,26,53.06,0,0
+IPL_2023_011,1,RR,Dhruv Jurel,9,5,0,0,180.0,c & b Narine,0,0,0.0,0,0
+IPL_2023_011,2,MI,Rohit Sharma,19,16,2,0,118.75,run out,0,8,42.11,0,0
+IPL_2023_011,2,MI,Ishan ishan,61,36,3,3,169.44,run out,0,30,49.18,1,0
+IPL_2023_011,2,MI,Suryaumar Yadav,46,29,1,2,158.62,c & b Narine,0,16,34.78,0,0
+IPL_2023_011,2,MI,Tila Varma,53,34,3,3,155.88,c Dhoni b Bumrah,0,30,56.6,1,0
+IPL_2023_011,2,MI,Hardi Pandya,6,5,0,0,120.0,b Cummins,0,0,0.0,0,0
+IPL_2023_012,1,LSG,L Rahul,57,35,2,2,162.86,c Dhoni b Bumrah,0,20,35.09,1,0
+IPL_2023_012,1,LSG,Quinton de o,36,28,2,1,128.57,c Dhoni b Bumrah,0,14,38.89,0,0
+IPL_2023_012,1,LSG,Marus Stoinis,51,34,4,2,150.0,b Cummins,0,28,54.9,1,0
+IPL_2023_012,1,LSG,Niholas Pooran,32,18,3,1,177.78,b Cummins,0,18,56.25,0,0
+IPL_2023_012,1,LSG,Ayush Badoni,7,5,0,0,140.0,not out,1,0,0.0,0,0
+IPL_2023_012,2,CSK,Ruturaj Gaiad,51,37,3,2,137.84,b Cummins,0,24,47.06,1,0
+IPL_2023_012,2,CSK,Rahin Ravindra,18,12,1,0,150.0,lbw b Chahal,0,4,22.22,0,0
+IPL_2023_012,2,CSK,Ajinya Rahane,57,33,4,1,172.73,c & b Narine,0,22,38.6,1,0
+IPL_2023_012,2,CSK,Daryl Mithell,43,24,1,2,179.17,c & b Narine,0,16,37.21,0,0
+IPL_2023_012,2,CSK,Shivam Dube,16,14,0,0,114.29,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_013,1,RCB,Faf du Plessis,14,12,1,0,116.67,c & b Narine,0,4,28.57,0,0
+IPL_2023_013,1,RCB,Virat ohli,46,30,3,2,153.33,c Dhoni b Bumrah,0,24,52.17,0,0
+IPL_2023_013,1,RCB,ill Jas,20,13,1,1,153.85,c & b Narine,0,10,50.0,0,0
+IPL_2023_013,1,RCB,Rajat Patidar,38,21,1,2,180.95,c Dhoni b Bumrah,0,16,42.11,0,0
+IPL_2023_013,1,RCB,Glenn Maxell,12,9,1,0,133.33,run out,0,4,33.33,0,0
+IPL_2023_013,1,RCB,Cameron Green,38,22,1,2,172.73,run out,0,16,42.11,0,0
+IPL_2023_013,1,RCB,Dinesh arthi,23,13,1,0,176.92,not out,1,4,17.39,0,0
+IPL_2023_013,2,SRH,Travis Head,47,32,2,2,146.88,b Cummins,0,20,42.55,0,0
+IPL_2023_013,2,SRH,Abhishe Sharma,60,37,5,1,162.16,run out,0,26,43.33,1,0
+IPL_2023_013,2,SRH,Rahul Tripathi,46,38,1,3,121.05,c Dhoni b Bumrah,0,22,47.83,0,0
+IPL_2023_013,2,SRH,Aiden Marram,15,13,1,0,115.38,b Cummins,0,4,26.67,0,0
+IPL_2023_014,1,PBKS,Shihar Dhaan,26,18,3,0,144.44,lbw b Chahal,0,12,46.15,0,0
+IPL_2023_014,1,PBKS,Jonny Bairsto,30,18,1,1,166.67,run out,0,10,33.33,0,0
+IPL_2023_014,1,PBKS,Prabhsimran Singh,53,36,5,1,147.22,c & b Narine,0,26,49.06,1,0
+IPL_2023_014,1,PBKS,Rilee Rossou,36,25,2,1,144.0,run out,0,14,38.89,0,0
+IPL_2023_014,1,PBKS,Sam Curran,25,17,2,1,147.06,lbw b Chahal,0,14,56.0,0,0
+IPL_2023_014,1,PBKS,Jitesh Sharma,9,6,1,0,150.0,not out,1,4,44.44,0,0
+IPL_2023_014,2,MI,Rohit Sharma,35,28,1,2,125.0,b Cummins,0,16,45.71,0,0
+IPL_2023_014,2,MI,Ishan ishan,50,30,3,2,166.67,c Dhoni b Bumrah,0,24,48.0,1,0
+IPL_2023_014,2,MI,Suryaumar Yadav,47,33,2,2,142.42,b Cummins,0,20,42.55,0,0
+IPL_2023_014,2,MI,Tila Varma,19,13,0,1,146.15,b Cummins,0,6,31.58,0,0
+IPL_2023_014,2,MI,Hardi Pandya,20,13,2,0,153.85,b Cummins,0,8,40.0,0,0
+IPL_2023_014,2,MI,Tim David,4,3,0,0,133.33,not out,1,0,0.0,0,0
+IPL_2023_015,1,LSG,L Rahul,22,15,2,0,146.67,b Cummins,0,8,36.36,0,0
+IPL_2023_015,1,LSG,Quinton de o,46,31,2,1,148.39,c Dhoni b Bumrah,0,14,30.43,0,0
+IPL_2023_015,1,LSG,Marus Stoinis,22,16,1,1,137.5,c Dhoni b Bumrah,0,10,45.45,0,0
+IPL_2023_015,1,LSG,Niholas Pooran,22,17,0,1,129.41,c Dhoni b Bumrah,0,6,27.27,0,0
+IPL_2023_015,1,LSG,Ayush Badoni,33,22,1,1,150.0,b Cummins,0,10,30.3,0,0
+IPL_2023_015,1,LSG,Deepa Hooda,25,19,2,0,131.58,c & b Narine,0,8,32.0,0,0
+IPL_2023_015,2,SRH,Travis Head,49,38,4,1,128.95,c & b Narine,0,22,44.9,0,0
+IPL_2023_015,2,SRH,Abhishe Sharma,57,37,2,2,154.05,b Cummins,0,20,35.09,1,0
+IPL_2023_015,2,SRH,Rahul Tripathi,31,26,2,1,119.23,lbw b Chahal,0,14,45.16,0,0
+IPL_2023_015,2,SRH,Aiden Marram,29,19,2,1,152.63,c Dhoni b Bumrah,0,14,48.28,0,0
+IPL_2023_016,1,DC,David arner,23,17,2,0,135.29,b Cummins,0,8,34.78,0,0
+IPL_2023_016,1,DC,Prithvi Sha,34,26,2,0,130.77,lbw b Chahal,0,8,23.53,0,0
+IPL_2023_016,1,DC,Jae Fraser-MGur,42,25,2,1,168.0,c & b Narine,0,14,33.33,0,0
+IPL_2023_016,1,DC,Rishabh Pant,12,10,0,0,120.0,lbw b Chahal,0,0,0.0,0,0
+IPL_2023_016,1,DC,Tristan Stubbs,14,11,1,0,127.27,b Cummins,0,4,28.57,0,0
+IPL_2023_016,1,DC,Axar Patel,48,31,3,2,154.84,not out,1,24,50.0,0,0
+IPL_2023_016,2,CSK,Ruturaj Gaiad,15,9,1,0,166.67,c Dhoni b Bumrah,0,4,26.67,0,0
+IPL_2023_016,2,CSK,Rahin Ravindra,63,38,5,3,165.79,c & b Narine,0,38,60.32,1,0
+IPL_2023_016,2,CSK,Ajinya Rahane,29,20,2,0,145.0,c & b Narine,0,8,27.59,0,0
+IPL_2023_016,2,CSK,Daryl Mithell,36,32,1,2,112.5,lbw b Chahal,0,16,44.44,0,0
+IPL_2023_016,2,CSK,Shivam Dube,14,12,1,0,116.67,lbw b Chahal,0,4,28.57,0,0
+IPL_2023_016,2,CSK,Ravindra Jadeja,13,9,1,0,144.44,b Cummins,0,4,30.77,0,0
+IPL_2023_017,1,MI,Rohit Sharma,61,35,3,3,174.29,c Dhoni b Bumrah,0,30,49.18,1,0
+IPL_2023_017,1,MI,Ishan ishan,16,12,1,0,133.33,b Cummins,0,4,25.0,0,0
+IPL_2023_017,1,MI,Suryaumar Yadav,22,19,2,0,115.79,c Dhoni b Bumrah,0,8,36.36,0,0
+IPL_2023_017,1,MI,Tila Varma,16,14,0,0,114.29,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_017,1,MI,Hardi Pandya,45,28,4,1,160.71,c Dhoni b Bumrah,0,22,48.89,0,0
+IPL_2023_017,1,MI,Tim David,21,12,1,1,175.0,not out,1,10,47.62,0,0
+IPL_2023_017,2,RCB,Faf du Plessis,40,24,3,1,166.67,lbw b Chahal,0,18,45.0,0,0
+IPL_2023_017,2,RCB,Virat ohli,42,32,2,2,131.25,lbw b Chahal,0,20,47.62,0,0
+IPL_2023_017,2,RCB,ill Jas,41,30,2,2,136.67,lbw b Chahal,0,20,48.78,0,0
+IPL_2023_017,2,RCB,Rajat Patidar,11,9,1,0,122.22,c Dhoni b Bumrah,0,4,36.36,0,0
+IPL_2023_017,2,RCB,Glenn Maxell,34,22,2,2,154.55,b Cummins,0,20,58.82,0,0
+IPL_2023_017,2,RCB,Cameron Green,3,3,0,0,100.0,not out,1,0,0.0,0,0
+IPL_2023_018,1,LSG,L Rahul,19,12,1,0,158.33,run out,0,4,21.05,0,0
+IPL_2023_018,1,LSG,Quinton de o,24,17,1,1,141.18,run out,0,10,41.67,0,0
+IPL_2023_018,1,LSG,Marus Stoinis,32,21,1,1,152.38,b Cummins,0,10,31.25,0,0
+IPL_2023_018,1,LSG,Niholas Pooran,46,37,2,2,124.32,run out,0,20,43.48,0,0
+IPL_2023_018,1,LSG,Ayush Badoni,15,9,2,0,166.67,c Dhoni b Bumrah,0,8,53.33,0,0
+IPL_2023_018,1,LSG,Deepa Hooda,31,23,1,1,134.78,run out,0,10,32.26,0,0
+IPL_2023_018,1,LSG,runal Pandya,1,1,0,0,100.0,not out,1,0,0.0,0,0
+IPL_2023_018,2,GT,Shubman Gill,36,21,2,0,171.43,run out,0,8,22.22,0,0
+IPL_2023_018,2,GT,riddhiman Saha,34,21,3,1,161.9,c & b Narine,0,18,52.94,0,0
+IPL_2023_018,2,GT,Sai Sudharsan,60,37,3,2,162.16,lbw b Chahal,0,24,40.0,1,0
+IPL_2023_018,2,GT,David Miller,41,27,4,1,151.85,c Dhoni b Bumrah,0,22,53.66,0,0
+IPL_2023_019,1,RR,Yashasvi Jaisal,56,35,5,1,160.0,b Cummins,0,26,46.43,1,0
+IPL_2023_019,1,RR,Jos Buttler,16,13,0,1,123.08,run out,0,6,37.5,0,0
+IPL_2023_019,1,RR,Sanju Samson,51,33,2,1,154.55,lbw b Chahal,0,14,27.45,1,0
+IPL_2023_019,1,RR,Riyan Parag,13,8,1,0,162.5,b Cummins,0,4,30.77,0,0
+IPL_2023_019,1,RR,Dhruv Jurel,21,12,1,1,175.0,lbw b Chahal,0,10,47.62,0,0
+IPL_2023_019,1,RR,Shimron Hetmyer,27,19,2,1,142.11,c & b Narine,0,14,51.85,0,0
+IPL_2023_019,2,KKR,Phil Salt,23,15,2,0,153.33,c Dhoni b Bumrah,0,8,34.78,0,0
+IPL_2023_019,2,KKR,Sunil Narine,39,28,3,2,139.29,run out,0,24,61.54,0,0
+IPL_2023_019,2,KKR,Venatesh Iyer,22,17,2,0,129.41,lbw b Chahal,0,8,36.36,0,0
+IPL_2023_019,2,KKR,Shreyas Iyer,41,29,3,1,141.38,lbw b Chahal,0,18,43.9,0,0
+IPL_2023_019,2,KKR,Rinu Singh,34,22,3,1,154.55,b Cummins,0,18,52.94,0,0
+IPL_2023_019,2,KKR,Andre Russell,16,9,1,0,177.78,c Dhoni b Bumrah,0,4,25.0,0,0
+IPL_2023_020,1,GT,Shubman Gill,41,35,2,2,117.14,lbw b Chahal,0,20,48.78,0,0
+IPL_2023_020,1,GT,riddhiman Saha,61,36,6,2,169.44,b Cummins,0,36,59.02,1,0
+IPL_2023_020,1,GT,Sai Sudharsan,29,16,2,1,181.25,lbw b Chahal,0,14,48.28,0,0
+IPL_2023_020,1,GT,David Miller,49,30,4,2,163.33,b Cummins,0,28,57.14,0,0
+IPL_2023_020,1,GT,Azmatullah Omarzai,4,3,0,0,133.33,c & b Narine,0,0,0.0,0,0
+IPL_2023_020,2,KKR,Phil Salt,50,38,2,3,131.58,c Dhoni b Bumrah,0,26,52.0,1,0
+IPL_2023_020,2,KKR,Sunil Narine,47,33,5,1,142.42,b Cummins,0,26,55.32,0,0
+IPL_2023_020,2,KKR,Venatesh Iyer,59,33,4,3,178.79,c & b Narine,0,34,57.63,1,0
+IPL_2023_020,2,KKR,Shreyas Iyer,9,8,0,0,112.5,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_020,2,KKR,Rinu Singh,11,8,1,0,137.5,run out,0,4,36.36,0,0
+IPL_2023_021,1,KKR,Phil Salt,30,21,3,0,142.86,c & b Narine,0,12,40.0,0,0
+IPL_2023_021,1,KKR,Sunil Narine,61,34,5,1,179.41,lbw b Chahal,0,26,42.62,1,0
+IPL_2023_021,1,KKR,Venatesh Iyer,36,31,3,1,116.13,b Cummins,0,18,50.0,0,0
+IPL_2023_021,1,KKR,Shreyas Iyer,21,16,1,1,131.25,c & b Narine,0,10,47.62,0,0
+IPL_2023_021,1,KKR,Rinu Singh,23,18,1,1,127.78,b Cummins,0,10,43.48,0,0
+IPL_2023_021,2,PBKS,Shihar Dhaan,39,30,2,1,130.0,b Cummins,0,14,35.9,0,0
+IPL_2023_021,2,PBKS,Jonny Bairsto,23,15,2,0,153.33,b Cummins,0,8,34.78,0,0
+IPL_2023_021,2,PBKS,Prabhsimran Singh,27,15,2,1,180.0,c Dhoni b Bumrah,0,14,51.85,0,0
+IPL_2023_021,2,PBKS,Rilee Rossou,48,33,3,1,145.45,run out,0,18,37.5,0,0
+IPL_2023_021,2,PBKS,Sam Curran,17,10,0,1,170.0,lbw b Chahal,0,6,35.29,0,0
+IPL_2023_021,2,PBKS,Jitesh Sharma,26,17,2,1,152.94,not out,1,14,53.85,0,0
+IPL_2023_022,1,CSK,Ruturaj Gaiad,30,23,3,1,130.43,lbw b Chahal,0,18,60.0,0,0
+IPL_2023_022,1,CSK,Rahin Ravindra,15,9,0,0,166.67,run out,0,0,0.0,0,0
+IPL_2023_022,1,CSK,Ajinya Rahane,34,29,3,1,117.24,lbw b Chahal,0,18,52.94,0,0
+IPL_2023_022,1,CSK,Daryl Mithell,18,13,1,0,138.46,c Dhoni b Bumrah,0,4,22.22,0,0
+IPL_2023_022,1,CSK,Shivam Dube,25,21,1,1,119.05,c Dhoni b Bumrah,0,10,40.0,0,0
+IPL_2023_022,1,CSK,Ravindra Jadeja,42,25,3,2,168.0,c Dhoni b Bumrah,0,24,57.14,0,0
+IPL_2023_022,2,MI,Rohit Sharma,37,28,2,1,132.14,lbw b Chahal,0,14,37.84,0,0
+IPL_2023_022,2,MI,Ishan ishan,10,9,1,0,111.11,lbw b Chahal,0,4,40.0,0,0
+IPL_2023_022,2,MI,Suryaumar Yadav,28,24,2,1,116.67,c Dhoni b Bumrah,0,14,50.0,0,0
+IPL_2023_022,2,MI,Tila Varma,27,22,1,1,122.73,c & b Narine,0,10,37.04,0,0
+IPL_2023_022,2,MI,Hardi Pandya,21,18,2,1,116.67,c Dhoni b Bumrah,0,14,66.67,0,0
+IPL_2023_022,2,MI,Tim David,26,19,1,1,136.84,not out,1,10,38.46,0,0
+IPL_2023_023,1,SRH,Travis Head,44,32,1,2,137.5,c Dhoni b Bumrah,0,16,36.36,0,0
+IPL_2023_023,1,SRH,Abhishe Sharma,24,13,2,1,184.62,b Cummins,0,14,58.33,0,0
+IPL_2023_023,1,SRH,Rahul Tripathi,21,17,1,0,123.53,c Dhoni b Bumrah,0,4,19.05,0,0
+IPL_2023_023,1,SRH,Aiden Marram,18,11,2,0,163.64,c Dhoni b Bumrah,0,8,44.44,0,0
+IPL_2023_023,1,SRH,Heinrih laasen,33,21,2,1,157.14,c & b Narine,0,14,42.42,0,0
+IPL_2023_023,1,SRH,Nitish umar Reddy,37,22,3,2,168.18,b Cummins,0,24,64.86,0,0
+IPL_2023_023,1,SRH,Abdul Samad,7,4,0,0,175.0,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_023,2,PBKS,Shihar Dhaan,14,9,1,0,155.56,c & b Narine,0,4,28.57,0,0
+IPL_2023_023,2,PBKS,Jonny Bairsto,40,31,2,2,129.03,lbw b Chahal,0,20,50.0,0,0
+IPL_2023_023,2,PBKS,Prabhsimran Singh,58,33,2,3,175.76,lbw b Chahal,0,26,44.83,1,0
+IPL_2023_023,2,PBKS,Rilee Rossou,18,13,1,0,138.46,run out,0,4,22.22,0,0
+IPL_2023_023,2,PBKS,Sam Curran,33,25,2,2,132.0,b Cummins,0,20,60.61,0,0
+IPL_2023_023,2,PBKS,Jitesh Sharma,11,9,1,0,122.22,c Dhoni b Bumrah,0,4,36.36,0,0
+IPL_2023_024,1,MI,Rohit Sharma,35,22,3,1,159.09,b Cummins,0,18,51.43,0,0
+IPL_2023_024,1,MI,Ishan ishan,64,38,4,3,168.42,lbw b Chahal,0,34,53.12,1,0
+IPL_2023_024,1,MI,Suryaumar Yadav,59,33,3,2,178.79,c Dhoni b Bumrah,0,24,40.68,1,0
+IPL_2023_024,1,MI,Tila Varma,20,17,2,0,117.65,c & b Narine,0,8,40.0,0,0
+IPL_2023_024,1,MI,Hardi Pandya,13,10,1,0,130.0,run out,0,4,30.77,0,0
+IPL_2023_024,2,DC,David arner,16,10,2,0,160.0,c & b Narine,0,8,50.0,0,0
+IPL_2023_024,2,DC,Prithvi Sha,25,14,1,0,178.57,c Dhoni b Bumrah,0,4,16.0,0,0
+IPL_2023_024,2,DC,Jae Fraser-MGur,55,33,2,3,166.67,lbw b Chahal,0,26,47.27,1,0
+IPL_2023_024,2,DC,Rishabh Pant,44,34,4,2,129.41,c Dhoni b Bumrah,0,28,63.64,0,0
+IPL_2023_024,2,DC,Tristan Stubbs,44,29,3,2,151.72,c & b Narine,0,24,54.55,0,0
+IPL_2023_025,1,PBKS,Shihar Dhaan,58,33,5,2,175.76,b Cummins,0,32,55.17,1,0
+IPL_2023_025,1,PBKS,Jonny Bairsto,26,16,2,1,162.5,lbw b Chahal,0,14,53.85,0,0
+IPL_2023_025,1,PBKS,Prabhsimran Singh,48,32,3,1,150.0,b Cummins,0,18,37.5,0,0
+IPL_2023_025,1,PBKS,Rilee Rossou,36,22,2,2,163.64,c Dhoni b Bumrah,0,20,55.56,0,0
+IPL_2023_025,1,PBKS,Sam Curran,19,17,1,0,111.76,not out,1,4,21.05,0,0
+IPL_2023_025,2,RCB,Faf du Plessis,9,8,0,0,112.5,c & b Narine,0,0,0.0,0,0
+IPL_2023_025,2,RCB,Virat ohli,38,24,4,1,158.33,b Cummins,0,22,57.89,0,0
+IPL_2023_025,2,RCB,ill Jas,22,16,1,1,137.5,lbw b Chahal,0,10,45.45,0,0
+IPL_2023_025,2,RCB,Rajat Patidar,57,36,4,2,158.33,c & b Narine,0,28,49.12,1,0
+IPL_2023_025,2,RCB,Glenn Maxell,46,30,2,1,153.33,c Dhoni b Bumrah,0,14,30.43,0,0
+IPL_2023_025,2,RCB,Cameron Green,9,6,0,0,150.0,b Cummins,0,0,0.0,0,0
+IPL_2023_026,1,GT,Shubman Gill,14,8,1,0,175.0,lbw b Chahal,0,4,28.57,0,0
+IPL_2023_026,1,GT,riddhiman Saha,40,29,4,1,137.93,b Cummins,0,22,55.0,0,0
+IPL_2023_026,1,GT,Sai Sudharsan,27,24,1,1,112.5,c Dhoni b Bumrah,0,10,37.04,0,0
+IPL_2023_026,1,GT,David Miller,13,10,1,0,130.0,c Dhoni b Bumrah,0,4,30.77,0,0
+IPL_2023_026,1,GT,Azmatullah Omarzai,18,15,1,1,120.0,b Cummins,0,10,55.56,0,0
+IPL_2023_026,1,GT,Rahul Teatia,31,20,2,1,155.0,b Cummins,0,14,45.16,0,0
+IPL_2023_026,1,GT,Rashid han,20,14,2,0,142.86,b Cummins,0,8,40.0,0,0
+IPL_2023_026,2,CSK,Ruturaj Gaiad,28,22,1,1,127.27,c Dhoni b Bumrah,0,10,35.71,0,0
+IPL_2023_026,2,CSK,Rahin Ravindra,19,17,1,0,111.76,run out,0,4,21.05,0,0
+IPL_2023_026,2,CSK,Ajinya Rahane,11,10,0,0,110.0,b Cummins,0,0,0.0,0,0
+IPL_2023_026,2,CSK,Daryl Mithell,33,21,2,0,157.14,lbw b Chahal,0,8,24.24,0,0
+IPL_2023_026,2,CSK,Shivam Dube,31,26,2,1,119.23,lbw b Chahal,0,14,45.16,0,0
+IPL_2023_026,2,CSK,Ravindra Jadeja,35,24,1,1,145.83,not out,1,10,28.57,0,0
+IPL_2023_027,1,KKR,Phil Salt,20,14,1,0,142.86,c Dhoni b Bumrah,0,4,20.0,0,0
+IPL_2023_027,1,KKR,Sunil Narine,31,19,3,1,163.16,lbw b Chahal,0,18,58.06,0,0
+IPL_2023_027,1,KKR,Venatesh Iyer,14,9,1,0,155.56,lbw b Chahal,0,4,28.57,0,0
+IPL_2023_027,1,KKR,Shreyas Iyer,53,36,2,2,147.22,c & b Narine,0,20,37.74,1,0
+IPL_2023_027,1,KKR,Rinu Singh,11,9,0,0,122.22,c & b Narine,0,0,0.0,0,0
+IPL_2023_027,1,KKR,Andre Russell,42,33,2,1,127.27,not out,1,14,33.33,0,0
+IPL_2023_027,2,RR,Yashasvi Jaisal,57,38,3,1,150.0,c & b Narine,0,18,31.58,1,0
+IPL_2023_027,2,RR,Jos Buttler,54,37,2,2,145.95,lbw b Chahal,0,20,37.04,1,0
+IPL_2023_027,2,RR,Sanju Samson,46,26,2,3,176.92,run out,0,26,56.52,0,0
+IPL_2023_027,2,RR,Riyan Parag,31,19,3,1,163.16,c Dhoni b Bumrah,0,18,58.06,0,0
+IPL_2023_028,1,DC,David arner,13,8,0,0,162.5,lbw b Chahal,0,0,0.0,0,0
+IPL_2023_028,1,DC,Prithvi Sha,68,38,6,3,178.95,c Dhoni b Bumrah,0,42,61.76,1,0
+IPL_2023_028,1,DC,Jae Fraser-MGur,55,37,2,3,148.65,b Cummins,0,26,47.27,1,0
+IPL_2023_028,1,DC,Rishabh Pant,21,14,1,0,150.0,run out,0,4,19.05,0,0
+IPL_2023_028,1,DC,Tristan Stubbs,39,23,2,2,169.57,not out,1,20,51.28,0,0
+IPL_2023_028,2,SRH,Travis Head,31,20,1,1,155.0,c Dhoni b Bumrah,0,10,32.26,0,0
+IPL_2023_028,2,SRH,Abhishe Sharma,58,36,4,3,161.11,lbw b Chahal,0,34,58.62,1,0
+IPL_2023_028,2,SRH,Rahul Tripathi,17,10,0,1,170.0,run out,0,6,35.29,0,0
+IPL_2023_028,2,SRH,Aiden Marram,40,30,1,1,133.33,run out,0,10,25.0,0,0
+IPL_2023_028,2,SRH,Heinrih laasen,29,17,2,1,170.59,c & b Narine,0,14,48.28,0,0
+IPL_2023_028,2,SRH,Nitish umar Reddy,9,7,1,0,128.57,run out,0,4,44.44,0,0
+IPL_2023_029,1,DC,David arner,28,18,1,1,155.56,lbw b Chahal,0,10,35.71,0,0
+IPL_2023_029,1,DC,Prithvi Sha,26,21,2,0,123.81,b Cummins,0,8,30.77,0,0
+IPL_2023_029,1,DC,Jae Fraser-MGur,21,14,1,0,150.0,b Cummins,0,4,19.05,0,0
+IPL_2023_029,1,DC,Rishabh Pant,23,16,1,0,143.75,b Cummins,0,4,17.39,0,0
+IPL_2023_029,1,DC,Tristan Stubbs,40,27,2,2,148.15,b Cummins,0,20,50.0,0,0
+IPL_2023_029,1,DC,Axar Patel,36,24,4,1,150.0,not out,1,22,61.11,0,0
+IPL_2023_029,2,MI,Rohit Sharma,19,14,0,1,135.71,c & b Narine,0,6,31.58,0,0
+IPL_2023_029,2,MI,Ishan ishan,59,33,2,3,178.79,b Cummins,0,26,44.07,1,0
+IPL_2023_029,2,MI,Suryaumar Yadav,37,31,3,1,119.35,lbw b Chahal,0,18,48.65,0,0
+IPL_2023_029,2,MI,Tila Varma,26,16,2,1,162.5,b Cummins,0,14,53.85,0,0
+IPL_2023_029,2,MI,Hardi Pandya,26,18,2,0,144.44,c Dhoni b Bumrah,0,8,30.77,0,0
+IPL_2023_029,2,MI,Tim David,9,8,0,0,112.5,not out,1,0,0.0,0,0
+IPL_2023_030,1,PBKS,Shihar Dhaan,46,34,4,2,135.29,run out,0,28,60.87,0,0
+IPL_2023_030,1,PBKS,Jonny Bairsto,40,30,2,1,133.33,c Dhoni b Bumrah,0,14,35.0,0,0
+IPL_2023_030,1,PBKS,Prabhsimran Singh,29,19,2,1,152.63,run out,0,14,48.28,0,0
+IPL_2023_030,1,PBKS,Rilee Rossou,41,25,3,2,164.0,run out,0,24,58.54,0,0
+IPL_2023_030,1,PBKS,Sam Curran,18,12,2,0,150.0,c Dhoni b Bumrah,0,8,44.44,0,0
+IPL_2023_030,2,SRH,Travis Head,29,19,3,1,152.63,lbw b Chahal,0,18,62.07,0,0
+IPL_2023_030,2,SRH,Abhishe Sharma,48,37,5,1,129.73,run out,0,26,54.17,0,0
+IPL_2023_030,2,SRH,Rahul Tripathi,36,29,3,2,124.14,c Dhoni b Bumrah,0,24,66.67,0,0
+IPL_2023_030,2,SRH,Aiden Marram,18,12,0,1,150.0,c Dhoni b Bumrah,0,6,33.33,0,0
+IPL_2023_030,2,SRH,Heinrih laasen,21,15,1,0,140.0,lbw b Chahal,0,4,19.05,0,0
+IPL_2023_030,2,SRH,Nitish umar Reddy,9,8,1,0,112.5,not out,1,4,44.44,0,0
+IPL_2023_031,1,CSK,Ruturaj Gaiad,39,29,3,1,134.48,b Cummins,0,18,46.15,0,0
+IPL_2023_031,1,CSK,Rahin Ravindra,49,35,3,3,140.0,c & b Narine,0,30,61.22,0,0
+IPL_2023_031,1,CSK,Ajinya Rahane,23,19,1,1,121.05,c & b Narine,0,10,43.48,0,0
+IPL_2023_031,1,CSK,Daryl Mithell,41,26,4,1,157.69,c & b Narine,0,22,53.66,0,0
+IPL_2023_031,1,CSK,Shivam Dube,16,11,1,0,145.45,c & b Narine,0,4,25.0,0,0
+IPL_2023_031,2,LSG,L Rahul,57,34,4,1,167.65,run out,0,22,38.6,1,0
+IPL_2023_031,2,LSG,Quinton de o,26,21,2,1,123.81,lbw b Chahal,0,14,53.85,0,0
+IPL_2023_031,2,LSG,Marus Stoinis,34,23,1,2,147.83,c Dhoni b Bumrah,0,16,47.06,0,0
+IPL_2023_031,2,LSG,Niholas Pooran,16,10,1,0,160.0,run out,0,4,25.0,0,0
+IPL_2023_031,2,LSG,Ayush Badoni,46,26,2,2,176.92,not out,1,20,43.48,0,0
+IPL_2023_032,1,LSG,L Rahul,14,11,1,0,127.27,c & b Narine,0,4,28.57,0,0
+IPL_2023_032,1,LSG,Quinton de o,35,30,3,0,116.67,b Cummins,0,12,34.29,0,0
+IPL_2023_032,1,LSG,Marus Stoinis,36,29,1,1,124.14,c Dhoni b Bumrah,0,10,27.78,0,0
+IPL_2023_032,1,LSG,Niholas Pooran,13,9,0,0,144.44,c & b Narine,0,0,0.0,0,0
+IPL_2023_032,1,LSG,Ayush Badoni,55,32,2,2,171.88,b Cummins,0,20,36.36,1,0
+IPL_2023_032,1,LSG,Deepa Hooda,15,9,2,0,166.67,not out,1,8,53.33,0,0
+IPL_2023_032,2,KKR,Phil Salt,35,24,2,2,145.83,b Cummins,0,20,57.14,0,0
+IPL_2023_032,2,KKR,Sunil Narine,56,31,4,1,180.65,lbw b Chahal,0,22,39.29,1,0
+IPL_2023_032,2,KKR,Venatesh Iyer,24,17,1,1,141.18,c Dhoni b Bumrah,0,10,41.67,0,0
+IPL_2023_032,2,KKR,Shreyas Iyer,35,29,1,2,120.69,lbw b Chahal,0,16,45.71,0,0
+IPL_2023_032,2,KKR,Rinu Singh,31,19,3,1,163.16,not out,1,18,58.06,0,0
+IPL_2023_033,1,SRH,Travis Head,51,30,3,2,170.0,c Dhoni b Bumrah,0,24,47.06,1,0
+IPL_2023_033,1,SRH,Abhishe Sharma,42,30,4,1,140.0,b Cummins,0,22,52.38,0,0
+IPL_2023_033,1,SRH,Rahul Tripathi,18,16,1,1,112.5,run out,0,10,55.56,0,0
+IPL_2023_033,1,SRH,Aiden Marram,20,13,1,1,153.85,c Dhoni b Bumrah,0,10,50.0,0,0
+IPL_2023_033,1,SRH,Heinrih laasen,19,15,1,0,126.67,c & b Narine,0,4,21.05,0,0
+IPL_2023_033,1,SRH,Nitish umar Reddy,20,15,1,0,133.33,c & b Narine,0,4,20.0,0,0
+IPL_2023_033,1,SRH,Abdul Samad,1,1,0,0,100.0,not out,1,0,0.0,0,0
+IPL_2023_033,2,CSK,Ruturaj Gaiad,13,11,1,0,118.18,c & b Narine,0,4,30.77,0,0
+IPL_2023_033,2,CSK,Rahin Ravindra,14,8,1,0,175.0,c Dhoni b Bumrah,0,4,28.57,0,0
+IPL_2023_033,2,CSK,Ajinya Rahane,26,21,1,1,123.81,b Cummins,0,10,38.46,0,0
+IPL_2023_033,2,CSK,Daryl Mithell,52,29,3,2,179.31,lbw b Chahal,0,24,46.15,1,0
+IPL_2023_033,2,CSK,Shivam Dube,54,36,3,3,150.0,run out,0,30,55.56,1,0
+IPL_2023_033,2,CSK,Ravindra Jadeja,25,15,1,1,166.67,not out,1,10,40.0,0,0
+IPL_2023_034,1,RCB,Faf du Plessis,40,25,2,1,160.0,c Dhoni b Bumrah,0,14,35.0,0,0
+IPL_2023_034,1,RCB,Virat ohli,24,20,1,1,120.0,b Cummins,0,10,41.67,0,0
+IPL_2023_034,1,RCB,ill Jas,44,33,4,1,133.33,c Dhoni b Bumrah,0,22,50.0,0,0
+IPL_2023_034,1,RCB,Rajat Patidar,63,36,3,1,175.0,b Cummins,0,18,28.57,1,0
+IPL_2023_034,1,RCB,Glenn Maxell,9,6,0,0,150.0,b Cummins,0,0,0.0,0,0
+IPL_2023_034,2,CSK,Ruturaj Gaiad,53,37,3,3,143.24,b Cummins,0,30,56.6,1,0
+IPL_2023_034,2,CSK,Rahin Ravindra,36,26,2,1,138.46,c Dhoni b Bumrah,0,14,38.89,0,0
+IPL_2023_034,2,CSK,Ajinya Rahane,56,36,5,2,155.56,c & b Narine,0,32,57.14,1,0
+IPL_2023_034,2,CSK,Daryl Mithell,24,21,1,1,114.29,c & b Narine,0,10,41.67,0,0
+IPL_2023_035,1,GT,Shubman Gill,33,22,4,0,150.0,lbw b Chahal,0,16,48.48,0,0
+IPL_2023_035,1,GT,riddhiman Saha,36,22,3,1,163.64,run out,0,18,50.0,0,0
+IPL_2023_035,1,GT,Sai Sudharsan,18,13,1,0,138.46,c & b Narine,0,4,22.22,0,0
+IPL_2023_035,1,GT,David Miller,22,14,1,0,157.14,b Cummins,0,4,18.18,0,0
+IPL_2023_035,1,GT,Azmatullah Omarzai,15,9,1,0,166.67,b Cummins,0,4,26.67,0,0
+IPL_2023_035,1,GT,Rahul Teatia,38,31,4,1,122.58,b Cummins,0,22,57.89,0,0
+IPL_2023_035,1,GT,Rashid han,13,9,1,0,144.44,not out,1,4,30.77,0,0
+IPL_2023_035,2,CSK,Ruturaj Gaiad,10,8,0,0,125.0,b Cummins,0,0,0.0,0,0
+IPL_2023_035,2,CSK,Rahin Ravindra,46,30,1,3,153.33,c & b Narine,0,22,47.83,0,0
+IPL_2023_035,2,CSK,Ajinya Rahane,45,38,5,1,118.42,b Cummins,0,26,57.78,0,0
+IPL_2023_035,2,CSK,Daryl Mithell,44,26,2,1,169.23,c Dhoni b Bumrah,0,14,31.82,0,0
+IPL_2023_035,2,CSK,Shivam Dube,31,18,3,1,172.22,b Cummins,0,18,58.06,0,0
+IPL_2023_036,1,GT,Shubman Gill,18,15,1,0,120.0,lbw b Chahal,0,4,22.22,0,0
+IPL_2023_036,1,GT,riddhiman Saha,33,28,2,1,117.86,lbw b Chahal,0,14,42.42,0,0
+IPL_2023_036,1,GT,Sai Sudharsan,19,15,1,0,126.67,c & b Narine,0,4,21.05,0,0
+IPL_2023_036,1,GT,David Miller,56,32,3,3,175.0,c Dhoni b Bumrah,0,30,53.57,1,0
+IPL_2023_036,1,GT,Azmatullah Omarzai,29,19,1,0,152.63,c Dhoni b Bumrah,0,4,13.79,0,0
+IPL_2023_036,1,GT,Rahul Teatia,13,11,0,0,118.18,not out,1,0,0.0,0,0
+IPL_2023_036,2,CSK,Ruturaj Gaiad,43,27,4,1,159.26,lbw b Chahal,0,22,51.16,0,0
+IPL_2023_036,2,CSK,Rahin Ravindra,26,18,1,1,144.44,b Cummins,0,10,38.46,0,0
+IPL_2023_036,2,CSK,Ajinya Rahane,25,18,1,1,138.89,run out,0,10,40.0,0,0
+IPL_2023_036,2,CSK,Daryl Mithell,16,10,1,0,160.0,b Cummins,0,4,25.0,0,0
+IPL_2023_036,2,CSK,Shivam Dube,44,28,2,1,157.14,c & b Narine,0,14,31.82,0,0
+IPL_2023_036,2,CSK,Ravindra Jadeja,34,19,1,2,178.95,b Cummins,0,16,47.06,0,0
+IPL_2023_037,1,RCB,Faf du Plessis,40,31,2,2,129.03,b Cummins,0,20,50.0,0,0
+IPL_2023_037,1,RCB,Virat ohli,45,25,4,2,180.0,lbw b Chahal,0,28,62.22,0,0
+IPL_2023_037,1,RCB,ill Jas,46,32,2,1,143.75,b Cummins,0,14,30.43,0,0
+IPL_2023_037,1,RCB,Rajat Patidar,47,31,2,2,151.61,c & b Narine,0,20,42.55,0,0
+IPL_2023_037,1,RCB,Glenn Maxell,1,1,0,0,100.0,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_037,2,DC,David arner,59,36,4,3,163.89,lbw b Chahal,0,34,57.63,1,0
+IPL_2023_037,2,DC,Prithvi Sha,33,20,3,1,165.0,b Cummins,0,18,54.55,0,0
+IPL_2023_037,2,DC,Jae Fraser-MGur,32,22,3,0,145.45,c & b Narine,0,12,37.5,0,0
+IPL_2023_037,2,DC,Rishabh Pant,42,25,2,1,168.0,lbw b Chahal,0,14,33.33,0,0
+IPL_2023_037,2,DC,Tristan Stubbs,21,17,1,1,123.53,c Dhoni b Bumrah,0,10,47.62,0,0
+IPL_2023_038,1,PBKS,Shihar Dhaan,40,32,4,1,125.0,lbw b Chahal,0,22,55.0,0,0
+IPL_2023_038,1,PBKS,Jonny Bairsto,11,8,1,0,137.5,run out,0,4,36.36,0,0
+IPL_2023_038,1,PBKS,Prabhsimran Singh,43,27,4,2,159.26,run out,0,28,65.12,0,0
+IPL_2023_038,1,PBKS,Rilee Rossou,47,32,3,2,146.88,b Cummins,0,24,51.06,0,0
+IPL_2023_038,1,PBKS,Sam Curran,37,21,2,2,176.19,run out,0,20,54.05,0,0
+IPL_2023_038,2,RR,Yashasvi Jaisal,17,15,1,1,113.33,b Cummins,0,10,58.82,0,0
+IPL_2023_038,2,RR,Jos Buttler,15,13,1,0,115.38,c & b Narine,0,4,26.67,0,0
+IPL_2023_038,2,RR,Sanju Samson,19,13,1,0,146.15,c Dhoni b Bumrah,0,4,21.05,0,0
+IPL_2023_038,2,RR,Riyan Parag,25,14,2,0,178.57,c Dhoni b Bumrah,0,8,32.0,0,0
+IPL_2023_038,2,RR,Dhruv Jurel,51,28,4,2,182.14,c Dhoni b Bumrah,0,28,54.9,1,0
+IPL_2023_038,2,RR,Shimron Hetmyer,24,16,2,0,150.0,b Cummins,0,8,33.33,0,0
+IPL_2023_038,2,RR,Rovman Poell,31,21,2,1,147.62,not out,1,14,45.16,0,0
+IPL_2023_039,1,RCB,Faf du Plessis,61,36,4,2,169.44,lbw b Chahal,0,28,45.9,1,0
+IPL_2023_039,1,RCB,Virat ohli,62,38,6,2,163.16,lbw b Chahal,0,36,58.06,1,0
+IPL_2023_039,1,RCB,ill Jas,29,19,2,1,152.63,c & b Narine,0,14,48.28,0,0
+IPL_2023_039,1,RCB,Rajat Patidar,16,12,0,0,133.33,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_039,1,RCB,Glenn Maxell,12,8,1,0,150.0,run out,0,4,33.33,0,0
+IPL_2023_039,1,RCB,Cameron Green,8,7,0,0,114.29,not out,1,0,0.0,0,0
+IPL_2023_039,2,MI,Rohit Sharma,19,16,1,0,118.75,b Cummins,0,4,21.05,0,0
+IPL_2023_039,2,MI,Ishan ishan,20,16,0,1,125.0,lbw b Chahal,0,6,30.0,0,0
+IPL_2023_039,2,MI,Suryaumar Yadav,34,27,2,1,125.93,b Cummins,0,14,41.18,0,0
+IPL_2023_039,2,MI,Tila Varma,67,37,3,4,181.08,lbw b Chahal,0,36,53.73,1,0
+IPL_2023_039,2,MI,Hardi Pandya,16,9,1,0,177.78,run out,0,4,25.0,0,0
+IPL_2023_039,2,MI,Tim David,24,15,1,1,160.0,run out,0,10,41.67,0,0
+IPL_2023_040,1,MI,Rohit Sharma,35,29,1,1,120.69,run out,0,10,28.57,0,0
+IPL_2023_040,1,MI,Ishan ishan,50,36,3,1,138.89,b Cummins,0,18,36.0,1,0
+IPL_2023_040,1,MI,Suryaumar Yadav,42,28,4,2,150.0,c Dhoni b Bumrah,0,28,66.67,0,0
+IPL_2023_040,1,MI,Tila Varma,34,25,2,1,136.0,c & b Narine,0,14,41.18,0,0
+IPL_2023_040,1,MI,Hardi Pandya,3,2,0,0,150.0,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_040,2,LSG,L Rahul,47,33,2,2,142.42,c & b Narine,0,20,42.55,0,0
+IPL_2023_040,2,LSG,Quinton de o,34,21,2,1,161.9,run out,0,14,41.18,0,0
+IPL_2023_040,2,LSG,Marus Stoinis,21,19,1,0,110.53,run out,0,4,19.05,0,0
+IPL_2023_040,2,LSG,Niholas Pooran,15,11,1,0,136.36,c & b Narine,0,4,26.67,0,0
+IPL_2023_040,2,LSG,Ayush Badoni,46,26,3,1,176.92,b Cummins,0,18,39.13,0,0
+IPL_2023_040,2,LSG,Deepa Hooda,16,10,1,0,160.0,lbw b Chahal,0,4,25.0,0,0
+IPL_2023_041,1,DC,David arner,12,10,0,0,120.0,lbw b Chahal,0,0,0.0,0,0
+IPL_2023_041,1,DC,Prithvi Sha,40,24,2,2,166.67,lbw b Chahal,0,20,50.0,0,0
+IPL_2023_041,1,DC,Jae Fraser-MGur,16,9,1,0,177.78,c & b Narine,0,4,25.0,0,0
+IPL_2023_041,1,DC,Rishabh Pant,43,29,4,1,148.28,lbw b Chahal,0,22,51.16,0,0
+IPL_2023_041,1,DC,Tristan Stubbs,18,15,1,0,120.0,c Dhoni b Bumrah,0,4,22.22,0,0
+IPL_2023_041,1,DC,Axar Patel,51,33,2,1,154.55,not out,1,14,27.45,1,0
+IPL_2023_041,2,CSK,Ruturaj Gaiad,33,22,1,1,150.0,lbw b Chahal,0,10,30.3,0,0
+IPL_2023_041,2,CSK,Rahin Ravindra,52,32,3,2,162.5,b Cummins,0,24,46.15,1,0
+IPL_2023_041,2,CSK,Ajinya Rahane,10,9,0,0,111.11,c & b Narine,0,0,0.0,0,0
+IPL_2023_041,2,CSK,Daryl Mithell,54,36,2,3,150.0,run out,0,26,48.15,1,0
+IPL_2023_041,2,CSK,Shivam Dube,33,21,2,1,157.14,c & b Narine,0,14,42.42,0,0
+IPL_2023_042,1,GT,Shubman Gill,41,36,2,2,113.89,c Dhoni b Bumrah,0,20,48.78,0,0
+IPL_2023_042,1,GT,riddhiman Saha,23,20,1,1,115.0,c & b Narine,0,10,43.48,0,0
+IPL_2023_042,1,GT,Sai Sudharsan,26,16,2,1,162.5,c Dhoni b Bumrah,0,14,53.85,0,0
+IPL_2023_042,1,GT,David Miller,21,18,1,0,116.67,run out,0,4,19.05,0,0
+IPL_2023_042,1,GT,Azmatullah Omarzai,40,27,2,1,148.15,b Cummins,0,14,35.0,0,0
+IPL_2023_042,1,GT,Rahul Teatia,5,3,0,0,166.67,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_042,2,RR,Yashasvi Jaisal,22,14,2,1,157.14,c Dhoni b Bumrah,0,14,63.64,0,0
+IPL_2023_042,2,RR,Jos Buttler,55,31,3,3,177.42,run out,0,30,54.55,1,0
+IPL_2023_042,2,RR,Sanju Samson,34,26,3,1,130.77,c & b Narine,0,18,52.94,0,0
+IPL_2023_042,2,RR,Riyan Parag,31,26,1,1,119.23,run out,0,10,32.26,0,0
+IPL_2023_042,2,RR,Dhruv Jurel,39,23,3,2,169.57,c & b Narine,0,24,61.54,0,0
+IPL_2023_043,1,PBKS,Shihar Dhaan,29,16,1,1,181.25,lbw b Chahal,0,10,34.48,0,0
+IPL_2023_043,1,PBKS,Jonny Bairsto,42,36,4,1,116.67,lbw b Chahal,0,22,52.38,0,0
+IPL_2023_043,1,PBKS,Prabhsimran Singh,22,14,2,0,157.14,c Dhoni b Bumrah,0,8,36.36,0,0
+IPL_2023_043,1,PBKS,Rilee Rossou,15,9,2,0,166.67,c Dhoni b Bumrah,0,8,53.33,0,0
+IPL_2023_043,1,PBKS,Sam Curran,21,15,2,0,140.0,b Cummins,0,8,38.1,0,0
+IPL_2023_043,1,PBKS,Jitesh Sharma,38,30,2,2,126.67,not out,1,20,52.63,0,0
+IPL_2023_043,2,LSG,L Rahul,27,22,1,1,122.73,c Dhoni b Bumrah,0,10,37.04,0,0
+IPL_2023_043,2,LSG,Quinton de o,21,12,2,0,175.0,c Dhoni b Bumrah,0,8,38.1,0,0
+IPL_2023_043,2,LSG,Marus Stoinis,51,32,4,1,159.38,run out,0,22,43.14,1,0
+IPL_2023_043,2,LSG,Niholas Pooran,54,35,4,1,154.29,run out,0,22,40.74,1,0
+IPL_2023_043,2,LSG,Ayush Badoni,13,9,0,0,144.44,c & b Narine,0,0,0.0,0,0
+IPL_2023_043,2,LSG,Deepa Hooda,17,10,1,0,170.0,not out,1,4,23.53,0,0
+IPL_2023_044,1,DC,David arner,34,23,2,1,147.83,b Cummins,0,14,41.18,0,0
+IPL_2023_044,1,DC,Prithvi Sha,17,10,1,0,170.0,b Cummins,0,4,23.53,0,0
+IPL_2023_044,1,DC,Jae Fraser-MGur,23,14,0,1,164.29,c Dhoni b Bumrah,0,6,26.09,0,0
+IPL_2023_044,1,DC,Rishabh Pant,50,32,1,2,156.25,b Cummins,0,16,32.0,1,0
+IPL_2023_044,1,DC,Tristan Stubbs,37,30,2,1,123.33,run out,0,14,37.84,0,0
+IPL_2023_044,1,DC,Axar Patel,18,11,2,0,163.64,not out,1,8,44.44,0,0
+IPL_2023_044,2,SRH,Travis Head,33,25,2,1,132.0,c & b Narine,0,14,42.42,0,0
+IPL_2023_044,2,SRH,Abhishe Sharma,21,13,2,0,161.54,b Cummins,0,8,38.1,0,0
+IPL_2023_044,2,SRH,Rahul Tripathi,55,38,4,2,144.74,c Dhoni b Bumrah,0,28,50.91,1,0
+IPL_2023_044,2,SRH,Aiden Marram,13,8,1,0,162.5,c Dhoni b Bumrah,0,4,30.77,0,0
+IPL_2023_044,2,SRH,Heinrih laasen,22,16,2,0,137.5,run out,0,8,36.36,0,0
+IPL_2023_044,2,SRH,Nitish umar Reddy,33,20,1,2,165.0,not out,1,16,48.48,0,0
+IPL_2023_045,1,RCB,Faf du Plessis,19,11,1,0,172.73,c Dhoni b Bumrah,0,4,21.05,0,0
+IPL_2023_045,1,RCB,Virat ohli,13,8,1,0,162.5,run out,0,4,30.77,0,0
+IPL_2023_045,1,RCB,ill Jas,57,33,3,3,172.73,run out,0,30,52.63,1,0
+IPL_2023_045,1,RCB,Rajat Patidar,44,38,3,1,115.79,run out,0,18,40.91,0,0
+IPL_2023_045,1,RCB,Glenn Maxell,35,24,1,2,145.83,lbw b Chahal,0,16,45.71,0,0
+IPL_2023_045,1,RCB,Cameron Green,7,6,0,0,116.67,not out,1,0,0.0,0,0
+IPL_2023_045,2,CSK,Ruturaj Gaiad,33,19,2,2,173.68,c Dhoni b Bumrah,0,20,60.61,0,0
+IPL_2023_045,2,CSK,Rahin Ravindra,48,36,3,1,133.33,lbw b Chahal,0,18,37.5,0,0
+IPL_2023_045,2,CSK,Ajinya Rahane,27,23,1,1,117.39,lbw b Chahal,0,10,37.04,0,0
+IPL_2023_045,2,CSK,Daryl Mithell,15,9,1,0,166.67,run out,0,4,26.67,0,0
+IPL_2023_045,2,CSK,Shivam Dube,27,19,2,1,142.11,run out,0,14,51.85,0,0
+IPL_2023_045,2,CSK,Ravindra Jadeja,23,14,1,1,164.29,not out,1,10,43.48,0,0
+IPL_2023_046,1,CSK,Ruturaj Gaiad,16,10,0,0,160.0,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_046,1,CSK,Rahin Ravindra,58,38,3,3,152.63,c Dhoni b Bumrah,0,30,51.72,1,0
+IPL_2023_046,1,CSK,Ajinya Rahane,53,37,4,2,143.24,b Cummins,0,28,52.83,1,0
+IPL_2023_046,1,CSK,Daryl Mithell,41,25,3,2,164.0,run out,0,24,58.54,0,0
+IPL_2023_046,1,CSK,Shivam Dube,16,10,1,0,160.0,c & b Narine,0,4,25.0,0,0
+IPL_2023_046,2,DC,David arner,21,16,1,1,131.25,lbw b Chahal,0,10,47.62,0,0
+IPL_2023_046,2,DC,Prithvi Sha,32,24,1,1,133.33,c Dhoni b Bumrah,0,10,31.25,0,0
+IPL_2023_046,2,DC,Jae Fraser-MGur,21,12,2,0,175.0,run out,0,8,38.1,0,0
+IPL_2023_046,2,DC,Rishabh Pant,24,18,3,0,133.33,lbw b Chahal,0,12,50.0,0,0
+IPL_2023_046,2,DC,Tristan Stubbs,12,11,1,0,109.09,lbw b Chahal,0,4,33.33,0,0
+IPL_2023_046,2,DC,Axar Patel,21,13,1,0,161.54,c Dhoni b Bumrah,0,4,19.05,0,0
+IPL_2023_046,2,DC,Abishe Porel,22,18,1,0,122.22,run out,0,4,18.18,0,0
+IPL_2023_046,2,DC,uldeep Yadav,13,8,1,0,162.5,not out,1,4,30.77,0,0
+IPL_2023_047,1,DC,David arner,26,20,1,1,130.0,c Dhoni b Bumrah,0,10,38.46,0,0
+IPL_2023_047,1,DC,Prithvi Sha,23,16,3,0,143.75,b Cummins,0,12,52.17,0,0
+IPL_2023_047,1,DC,Jae Fraser-MGur,23,16,1,1,143.75,run out,0,10,43.48,0,0
+IPL_2023_047,1,DC,Rishabh Pant,17,12,1,1,141.67,b Cummins,0,10,58.82,0,0
+IPL_2023_047,1,DC,Tristan Stubbs,44,28,2,2,157.14,run out,0,20,45.45,0,0
+IPL_2023_047,1,DC,Axar Patel,33,28,3,1,117.86,not out,1,18,54.55,0,0
+IPL_2023_047,2,RCB,Faf du Plessis,44,25,3,1,176.0,c & b Narine,0,18,40.91,0,0
+IPL_2023_047,2,RCB,Virat ohli,23,16,1,1,143.75,c Dhoni b Bumrah,0,10,43.48,0,0
+IPL_2023_047,2,RCB,ill Jas,40,33,2,2,121.21,b Cummins,0,20,50.0,0,0
+IPL_2023_047,2,RCB,Rajat Patidar,21,16,2,1,131.25,run out,0,14,66.67,0,0
+IPL_2023_047,2,RCB,Glenn Maxell,40,30,1,1,133.33,c Dhoni b Bumrah,0,10,25.0,0,0
+IPL_2023_048,1,RR,Yashasvi Jaisal,41,30,3,1,136.67,run out,0,18,43.9,0,0
+IPL_2023_048,1,RR,Jos Buttler,27,16,1,1,168.75,b Cummins,0,10,37.04,0,0
+IPL_2023_048,1,RR,Sanju Samson,41,33,3,2,124.24,lbw b Chahal,0,24,58.54,0,0
+IPL_2023_048,1,RR,Riyan Parag,56,33,3,1,169.7,run out,0,18,32.14,1,0
+IPL_2023_048,1,RR,Dhruv Jurel,12,8,1,0,150.0,lbw b Chahal,0,4,33.33,0,0
+IPL_2023_048,2,GT,Shubman Gill,35,23,3,1,152.17,lbw b Chahal,0,18,51.43,0,0
+IPL_2023_048,2,GT,riddhiman Saha,25,17,1,1,147.06,c & b Narine,0,10,40.0,0,0
+IPL_2023_048,2,GT,Sai Sudharsan,24,14,0,1,171.43,b Cummins,0,6,25.0,0,0
+IPL_2023_048,2,GT,David Miller,45,26,5,1,173.08,c & b Narine,0,26,57.78,0,0
+IPL_2023_048,2,GT,Azmatullah Omarzai,26,16,2,1,162.5,run out,0,14,53.85,0,0
+IPL_2023_048,2,GT,Rahul Teatia,29,24,1,1,120.83,not out,1,10,34.48,0,0
+IPL_2023_049,1,DC,David arner,21,18,2,0,116.67,run out,0,8,38.1,0,0
+IPL_2023_049,1,DC,Prithvi Sha,41,31,3,2,132.26,lbw b Chahal,0,24,58.54,0,0
+IPL_2023_049,1,DC,Jae Fraser-MGur,40,32,2,1,125.0,c Dhoni b Bumrah,0,14,35.0,0,0
+IPL_2023_049,1,DC,Rishabh Pant,34,27,1,1,125.93,run out,0,10,29.41,0,0
+IPL_2023_049,1,DC,Tristan Stubbs,17,12,2,0,141.67,run out,0,8,47.06,0,0
+IPL_2023_049,2,KKR,Phil Salt,14,8,1,0,175.0,c Dhoni b Bumrah,0,4,28.57,0,0
+IPL_2023_049,2,KKR,Sunil Narine,18,12,1,1,150.0,lbw b Chahal,0,10,55.56,0,0
+IPL_2023_049,2,KKR,Venatesh Iyer,35,24,1,1,145.83,b Cummins,0,10,28.57,0,0
+IPL_2023_049,2,KKR,Shreyas Iyer,25,16,2,0,156.25,c Dhoni b Bumrah,0,8,32.0,0,0
+IPL_2023_049,2,KKR,Rinu Singh,51,36,4,2,141.67,lbw b Chahal,0,28,54.9,1,0
+IPL_2023_049,2,KKR,Andre Russell,40,24,2,1,166.67,not out,1,14,35.0,0,0
+IPL_2023_050,1,GT,Shubman Gill,42,34,3,2,123.53,lbw b Chahal,0,24,57.14,0,0
+IPL_2023_050,1,GT,riddhiman Saha,25,14,2,1,178.57,b Cummins,0,14,56.0,0,0
+IPL_2023_050,1,GT,Sai Sudharsan,21,14,1,0,150.0,lbw b Chahal,0,4,19.05,0,0
+IPL_2023_050,1,GT,David Miller,41,30,3,2,136.67,c Dhoni b Bumrah,0,24,58.54,0,0
+IPL_2023_050,1,GT,Azmatullah Omarzai,43,28,1,1,153.57,not out,1,10,23.26,0,0
+IPL_2023_050,2,RCB,Faf du Plessis,33,22,3,1,150.0,b Cummins,0,18,54.55,0,0
+IPL_2023_050,2,RCB,Virat ohli,40,31,3,2,129.03,lbw b Chahal,0,24,60.0,0,0
+IPL_2023_050,2,RCB,ill Jas,14,11,1,0,127.27,b Cummins,0,4,28.57,0,0
+IPL_2023_050,2,RCB,Rajat Patidar,44,31,2,2,141.94,b Cummins,0,20,45.45,0,0
+IPL_2023_050,2,RCB,Glenn Maxell,21,14,1,1,150.0,c & b Narine,0,10,47.62,0,0
+IPL_2023_050,2,RCB,Cameron Green,17,11,1,0,154.55,not out,1,4,23.53,0,0
+IPL_2023_051,1,DC,David arner,12,10,1,0,120.0,lbw b Chahal,0,4,33.33,0,0
+IPL_2023_051,1,DC,Prithvi Sha,32,23,1,1,139.13,c Dhoni b Bumrah,0,10,31.25,0,0
+IPL_2023_051,1,DC,Jae Fraser-MGur,59,37,4,3,159.46,lbw b Chahal,0,34,57.63,1,0
+IPL_2023_051,1,DC,Rishabh Pant,46,25,2,2,184.0,lbw b Chahal,0,20,43.48,0,0
+IPL_2023_051,1,DC,Tristan Stubbs,30,21,1,1,142.86,lbw b Chahal,0,10,33.33,0,0
+IPL_2023_051,1,DC,Axar Patel,5,4,0,0,125.0,lbw b Chahal,0,0,0.0,0,0
+IPL_2023_051,2,RR,Yashasvi Jaisal,22,18,1,0,122.22,lbw b Chahal,0,4,18.18,0,0
+IPL_2023_051,2,RR,Jos Buttler,17,14,0,0,121.43,b Cummins,0,0,0.0,0,0
+IPL_2023_051,2,RR,Sanju Samson,18,14,1,0,128.57,c Dhoni b Bumrah,0,4,22.22,0,0
+IPL_2023_051,2,RR,Riyan Parag,21,17,1,1,123.53,c Dhoni b Bumrah,0,10,47.62,0,0
+IPL_2023_051,2,RR,Dhruv Jurel,65,37,2,4,175.68,run out,0,32,49.23,1,0
+IPL_2023_051,2,RR,Shimron Hetmyer,24,20,1,0,120.0,c Dhoni b Bumrah,0,4,16.67,0,0
+IPL_2023_052,1,LSG,L Rahul,12,10,1,0,120.0,c Dhoni b Bumrah,0,4,33.33,0,0
+IPL_2023_052,1,LSG,Quinton de o,25,14,2,0,178.57,b Cummins,0,8,32.0,0,0
+IPL_2023_052,1,LSG,Marus Stoinis,40,23,1,1,173.91,c Dhoni b Bumrah,0,10,25.0,0,0
+IPL_2023_052,1,LSG,Niholas Pooran,28,16,1,0,175.0,run out,0,4,14.29,0,0
+IPL_2023_052,1,LSG,Ayush Badoni,42,30,1,1,140.0,c & b Narine,0,10,23.81,0,0
+IPL_2023_052,1,LSG,Deepa Hooda,38,27,3,1,140.74,not out,1,18,47.37,0,0
+IPL_2023_052,2,SRH,Travis Head,28,22,2,1,127.27,b Cummins,0,14,50.0,0,0
+IPL_2023_052,2,SRH,Abhishe Sharma,43,31,4,1,138.71,c & b Narine,0,22,51.16,0,0
+IPL_2023_052,2,SRH,Rahul Tripathi,59,37,4,2,159.46,b Cummins,0,28,47.46,1,0
+IPL_2023_052,2,SRH,Aiden Marram,20,15,1,0,133.33,run out,0,4,20.0,0,0
+IPL_2023_052,2,SRH,Heinrih laasen,11,8,0,0,137.5,c & b Narine,0,0,0.0,0,0
+IPL_2023_052,2,SRH,Nitish umar Reddy,11,7,1,0,157.14,not out,1,4,36.36,0,0
+IPL_2023_053,1,PBKS,Shihar Dhaan,56,35,5,3,160.0,run out,0,38,67.86,1,0
+IPL_2023_053,1,PBKS,Jonny Bairsto,15,11,1,0,136.36,b Cummins,0,4,26.67,0,0
+IPL_2023_053,1,PBKS,Prabhsimran Singh,16,9,1,0,177.78,b Cummins,0,4,25.0,0,0
+IPL_2023_053,1,PBKS,Rilee Rossou,47,33,4,1,142.42,run out,0,22,46.81,0,0
+IPL_2023_053,1,PBKS,Sam Curran,44,26,2,1,169.23,b Cummins,0,14,31.82,0,0
+IPL_2023_053,1,PBKS,Jitesh Sharma,9,6,0,0,150.0,run out,0,0,0.0,0,0
+IPL_2023_053,2,CSK,Ruturaj Gaiad,30,25,2,1,120.0,run out,0,14,46.67,0,0
+IPL_2023_053,2,CSK,Rahin Ravindra,20,16,1,0,125.0,c & b Narine,0,4,20.0,0,0
+IPL_2023_053,2,CSK,Ajinya Rahane,11,8,1,0,137.5,c & b Narine,0,4,36.36,0,0
+IPL_2023_053,2,CSK,Daryl Mithell,49,27,3,1,181.48,lbw b Chahal,0,18,36.73,0,0
+IPL_2023_053,2,CSK,Shivam Dube,16,12,0,0,133.33,b Cummins,0,0,0.0,0,0
+IPL_2023_053,2,CSK,Ravindra Jadeja,26,19,1,1,136.84,run out,0,10,38.46,0,0
+IPL_2023_053,2,CSK,MS Dhoni,21,13,1,0,161.54,not out,1,4,19.05,0,0
+IPL_2023_054,1,GT,Shubman Gill,37,24,2,1,154.17,c Dhoni b Bumrah,0,14,37.84,0,0
+IPL_2023_054,1,GT,riddhiman Saha,49,29,2,2,168.97,run out,0,20,40.82,0,0
+IPL_2023_054,1,GT,Sai Sudharsan,55,33,3,3,166.67,c Dhoni b Bumrah,0,30,54.55,1,0
+IPL_2023_054,1,GT,David Miller,20,12,0,1,166.67,c Dhoni b Bumrah,0,6,30.0,0,0
+IPL_2023_054,1,GT,Azmatullah Omarzai,38,22,2,1,172.73,not out,1,14,36.84,0,0
+IPL_2023_054,2,KKR,Phil Salt,31,20,1,1,155.0,c & b Narine,0,10,32.26,0,0
+IPL_2023_054,2,KKR,Sunil Narine,57,38,5,2,150.0,c Dhoni b Bumrah,0,32,56.14,1,0
+IPL_2023_054,2,KKR,Venatesh Iyer,50,32,2,1,156.25,lbw b Chahal,0,14,28.0,1,0
+IPL_2023_054,2,KKR,Shreyas Iyer,51,30,5,1,170.0,lbw b Chahal,0,26,50.98,1,0
+IPL_2023_055,1,MI,Rohit Sharma,44,27,2,1,162.96,b Cummins,0,14,31.82,0,0
+IPL_2023_055,1,MI,Ishan ishan,38,23,2,1,165.22,c & b Narine,0,14,36.84,0,0
+IPL_2023_055,1,MI,Suryaumar Yadav,43,27,2,1,159.26,c Dhoni b Bumrah,0,14,32.56,0,0
+IPL_2023_055,1,MI,Tila Varma,48,36,4,1,133.33,c & b Narine,0,22,45.83,0,0
+IPL_2023_055,1,MI,Hardi Pandya,12,7,1,0,171.43,run out,0,4,33.33,0,0
+IPL_2023_055,2,GT,Shubman Gill,20,16,0,1,125.0,lbw b Chahal,0,6,30.0,0,0
+IPL_2023_055,2,GT,riddhiman Saha,41,23,3,1,178.26,run out,0,18,43.9,0,0
+IPL_2023_055,2,GT,Sai Sudharsan,15,12,0,0,125.0,b Cummins,0,0,0.0,0,0
+IPL_2023_055,2,GT,David Miller,46,28,2,2,164.29,c & b Narine,0,20,43.48,0,0
+IPL_2023_055,2,GT,Azmatullah Omarzai,44,33,4,1,133.33,c Dhoni b Bumrah,0,22,50.0,0,0
+IPL_2023_055,2,GT,Rahul Teatia,13,8,1,0,162.5,not out,1,4,30.77,0,0
+IPL_2023_056,1,CSK,Ruturaj Gaiad,60,33,5,3,181.82,run out,0,38,63.33,1,0
+IPL_2023_056,1,CSK,Rahin Ravindra,24,16,1,1,150.0,b Cummins,0,10,41.67,0,0
+IPL_2023_056,1,CSK,Ajinya Rahane,64,37,3,1,172.97,run out,0,18,28.12,1,0
+IPL_2023_056,1,CSK,Daryl Mithell,48,31,3,2,154.84,run out,0,24,50.0,0,0
+IPL_2023_056,1,CSK,Shivam Dube,4,3,0,0,133.33,run out,0,0,0.0,0,0
+IPL_2023_056,2,RR,Yashasvi Jaisal,22,19,1,1,115.79,c Dhoni b Bumrah,0,10,45.45,0,0
+IPL_2023_056,2,RR,Jos Buttler,22,16,1,1,137.5,b Cummins,0,10,45.45,0,0
+IPL_2023_056,2,RR,Sanju Samson,14,10,1,0,140.0,lbw b Chahal,0,4,28.57,0,0
+IPL_2023_056,2,RR,Riyan Parag,49,34,3,1,144.12,run out,0,18,36.73,0,0
+IPL_2023_056,2,RR,Dhruv Jurel,19,11,2,0,172.73,c Dhoni b Bumrah,0,8,42.11,0,0
+IPL_2023_056,2,RR,Shimron Hetmyer,23,16,1,1,143.75,c Dhoni b Bumrah,0,10,43.48,0,0
+IPL_2023_056,2,RR,Rovman Poell,21,14,1,1,150.0,not out,1,10,47.62,0,0
+IPL_2023_057,1,LSG,L Rahul,35,25,1,1,140.0,lbw b Chahal,0,10,28.57,0,0
+IPL_2023_057,1,LSG,Quinton de o,28,17,2,0,164.71,c Dhoni b Bumrah,0,8,28.57,0,0
+IPL_2023_057,1,LSG,Marus Stoinis,46,29,3,2,158.62,c & b Narine,0,24,52.17,0,0
+IPL_2023_057,1,LSG,Niholas Pooran,40,33,2,1,121.21,c & b Narine,0,14,35.0,0,0
+IPL_2023_057,1,LSG,Ayush Badoni,13,11,0,0,118.18,run out,0,0,0.0,0,0
+IPL_2023_057,1,LSG,Deepa Hooda,7,5,0,0,140.0,b Cummins,0,0,0.0,0,0
+IPL_2023_057,2,KKR,Phil Salt,37,29,3,1,127.59,run out,0,18,48.65,0,0
+IPL_2023_057,2,KKR,Sunil Narine,11,10,0,0,110.0,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_057,2,KKR,Venatesh Iyer,30,23,2,1,130.43,c Dhoni b Bumrah,0,14,46.67,0,0
+IPL_2023_057,2,KKR,Shreyas Iyer,32,18,3,1,177.78,c Dhoni b Bumrah,0,18,56.25,0,0
+IPL_2023_057,2,KKR,Rinu Singh,23,17,1,1,135.29,c Dhoni b Bumrah,0,10,43.48,0,0
+IPL_2023_057,2,KKR,Andre Russell,30,23,3,0,130.43,not out,1,12,40.0,0,0
+IPL_2023_058,1,CSK,Ruturaj Gaiad,31,25,2,1,124.0,lbw b Chahal,0,14,45.16,0,0
+IPL_2023_058,1,CSK,Rahin Ravindra,30,22,2,0,136.36,lbw b Chahal,0,8,26.67,0,0
+IPL_2023_058,1,CSK,Ajinya Rahane,53,34,3,3,155.88,lbw b Chahal,0,30,56.6,1,0
+IPL_2023_058,1,CSK,Daryl Mithell,55,33,3,3,166.67,lbw b Chahal,0,30,54.55,1,0
+IPL_2023_058,1,CSK,Shivam Dube,10,6,0,0,166.67,not out,1,0,0.0,0,0
+IPL_2023_058,2,SRH,Travis Head,39,23,2,2,169.57,b Cummins,0,20,51.28,0,0
+IPL_2023_058,2,SRH,Abhishe Sharma,13,9,0,0,144.44,lbw b Chahal,0,0,0.0,0,0
+IPL_2023_058,2,SRH,Rahul Tripathi,12,8,1,0,150.0,lbw b Chahal,0,4,33.33,0,0
+IPL_2023_058,2,SRH,Aiden Marram,25,14,1,0,178.57,c & b Narine,0,4,16.0,0,0
+IPL_2023_058,2,SRH,Heinrih laasen,57,36,5,2,158.33,b Cummins,0,32,56.14,1,0
+IPL_2023_058,2,SRH,Nitish umar Reddy,46,30,1,2,153.33,b Cummins,0,16,34.78,0,0
+IPL_2023_059,1,KKR,Phil Salt,52,29,2,1,179.31,lbw b Chahal,0,14,26.92,1,0
+IPL_2023_059,1,KKR,Sunil Narine,41,24,2,2,170.83,run out,0,20,48.78,0,0
+IPL_2023_059,1,KKR,Venatesh Iyer,32,26,1,1,123.08,c & b Narine,0,10,31.25,0,0
+IPL_2023_059,1,KKR,Shreyas Iyer,14,10,1,0,140.0,c & b Narine,0,4,28.57,0,0
+IPL_2023_059,1,KKR,Rinu Singh,23,19,1,1,121.05,run out,0,10,43.48,0,0
+IPL_2023_059,1,KKR,Andre Russell,20,12,2,0,166.67,not out,1,8,40.0,0,0
+IPL_2023_059,2,RCB,Faf du Plessis,41,23,4,1,178.26,c & b Narine,0,22,53.66,0,0
+IPL_2023_059,2,RCB,Virat ohli,14,13,1,0,107.69,c Dhoni b Bumrah,0,4,28.57,0,0
+IPL_2023_059,2,RCB,ill Jas,11,10,1,0,110.0,lbw b Chahal,0,4,36.36,0,0
+IPL_2023_059,2,RCB,Rajat Patidar,39,24,3,1,162.5,run out,0,18,46.15,0,0
+IPL_2023_059,2,RCB,Glenn Maxell,48,37,2,1,129.73,c Dhoni b Bumrah,0,14,29.17,0,0
+IPL_2023_059,2,RCB,Cameron Green,15,13,1,0,115.38,b Cummins,0,4,26.67,0,0
+IPL_2023_060,1,DC,David arner,33,19,1,1,173.68,lbw b Chahal,0,10,30.3,0,0
+IPL_2023_060,1,DC,Prithvi Sha,16,9,1,0,177.78,c & b Narine,0,4,25.0,0,0
+IPL_2023_060,1,DC,Jae Fraser-MGur,42,26,2,1,161.54,run out,0,14,33.33,0,0
+IPL_2023_060,1,DC,Rishabh Pant,15,11,0,0,136.36,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_060,1,DC,Tristan Stubbs,57,35,3,3,162.86,c & b Narine,0,30,52.63,1,0
+IPL_2023_060,1,DC,Axar Patel,34,20,2,1,170.0,c & b Narine,0,14,41.18,0,0
+IPL_2023_060,2,MI,Rohit Sharma,25,20,2,0,125.0,c & b Narine,0,8,32.0,0,0
+IPL_2023_060,2,MI,Ishan ishan,14,11,1,0,127.27,lbw b Chahal,0,4,28.57,0,0
+IPL_2023_060,2,MI,Suryaumar Yadav,25,18,2,0,138.89,lbw b Chahal,0,8,32.0,0,0
+IPL_2023_060,2,MI,Tila Varma,45,37,4,1,121.62,b Cummins,0,22,48.89,0,0
+IPL_2023_060,2,MI,Hardi Pandya,36,23,3,1,156.52,b Cummins,0,18,50.0,0,0
+IPL_2023_060,2,MI,Tim David,15,11,1,0,136.36,run out,0,4,26.67,0,0
+IPL_2023_061,1,LSG,L Rahul,14,8,1,0,175.0,c & b Narine,0,4,28.57,0,0
+IPL_2023_061,1,LSG,Quinton de o,26,19,2,1,136.84,c Dhoni b Bumrah,0,14,53.85,0,0
+IPL_2023_061,1,LSG,Marus Stoinis,40,25,2,2,160.0,b Cummins,0,20,50.0,0,0
+IPL_2023_061,1,LSG,Niholas Pooran,26,17,2,1,152.94,b Cummins,0,14,53.85,0,0
+IPL_2023_061,1,LSG,Ayush Badoni,29,20,3,0,145.0,c & b Narine,0,12,41.38,0,0
+IPL_2023_061,1,LSG,Deepa Hooda,33,18,1,1,183.33,run out,0,10,30.3,0,0
+IPL_2023_061,1,LSG,runal Pandya,23,13,2,0,176.92,not out,1,8,34.78,0,0
+IPL_2023_061,2,PBKS,Shihar Dhaan,53,32,4,2,165.62,b Cummins,0,28,52.83,1,0
+IPL_2023_061,2,PBKS,Jonny Bairsto,19,17,1,0,111.76,c Dhoni b Bumrah,0,4,21.05,0,0
+IPL_2023_061,2,PBKS,Prabhsimran Singh,33,25,3,1,132.0,b Cummins,0,18,54.55,0,0
+IPL_2023_061,2,PBKS,Rilee Rossou,20,16,1,0,125.0,b Cummins,0,4,20.0,0,0
+IPL_2023_061,2,PBKS,Sam Curran,19,15,1,0,126.67,b Cummins,0,4,21.05,0,0
+IPL_2023_061,2,PBKS,Jitesh Sharma,26,15,3,0,173.33,not out,1,12,46.15,0,0
+IPL_2023_062,1,DC,David arner,22,12,1,1,183.33,run out,0,10,45.45,0,0
+IPL_2023_062,1,DC,Prithvi Sha,20,12,1,0,166.67,b Cummins,0,4,20.0,0,0
+IPL_2023_062,1,DC,Jae Fraser-MGur,37,30,4,0,123.33,c Dhoni b Bumrah,0,16,43.24,0,0
+IPL_2023_062,1,DC,Rishabh Pant,21,16,1,1,131.25,c & b Narine,0,10,47.62,0,0
+IPL_2023_062,1,DC,Tristan Stubbs,33,27,1,1,122.22,lbw b Chahal,0,10,30.3,0,0
+IPL_2023_062,1,DC,Axar Patel,27,23,1,1,117.39,not out,1,10,37.04,0,0
+IPL_2023_062,2,KKR,Phil Salt,54,36,4,1,150.0,c & b Narine,0,22,40.74,1,0
+IPL_2023_062,2,KKR,Sunil Narine,36,24,3,1,150.0,lbw b Chahal,0,18,50.0,0,0
+IPL_2023_062,2,KKR,Venatesh Iyer,16,14,1,0,114.29,c Dhoni b Bumrah,0,4,25.0,0,0
+IPL_2023_062,2,KKR,Shreyas Iyer,22,15,2,0,146.67,b Cummins,0,8,36.36,0,0
+IPL_2023_062,2,KKR,Rinu Singh,45,31,4,1,145.16,c & b Narine,0,22,48.89,0,0
+IPL_2023_063,1,KKR,Phil Salt,41,31,3,1,132.26,c Dhoni b Bumrah,0,18,43.9,0,0
+IPL_2023_063,1,KKR,Sunil Narine,52,37,3,1,140.54,c Dhoni b Bumrah,0,18,34.62,1,0
+IPL_2023_063,1,KKR,Venatesh Iyer,54,35,4,3,154.29,lbw b Chahal,0,34,62.96,1,0
+IPL_2023_063,1,KKR,Shreyas Iyer,15,10,0,0,150.0,run out,0,0,0.0,0,0
+IPL_2023_063,1,KKR,Rinu Singh,9,7,0,0,128.57,c & b Narine,0,0,0.0,0,0
+IPL_2023_063,2,SRH,Travis Head,21,14,1,1,150.0,b Cummins,0,10,47.62,0,0
+IPL_2023_063,2,SRH,Abhishe Sharma,45,37,3,2,121.62,b Cummins,0,24,53.33,0,0
+IPL_2023_063,2,SRH,Rahul Tripathi,51,32,2,2,159.38,b Cummins,0,20,39.22,1,0
+IPL_2023_063,2,SRH,Aiden Marram,11,9,1,0,122.22,run out,0,4,36.36,0,0
+IPL_2023_063,2,SRH,Heinrih laasen,25,17,1,1,147.06,b Cummins,0,10,40.0,0,0
+IPL_2023_063,2,SRH,Nitish umar Reddy,18,11,1,1,163.64,lbw b Chahal,0,10,55.56,0,0
+IPL_2023_064,1,DC,David arner,48,29,4,2,165.52,c & b Narine,0,28,58.33,0,0
+IPL_2023_064,1,DC,Prithvi Sha,16,14,2,0,114.29,run out,0,8,50.0,0,0
+IPL_2023_064,1,DC,Jae Fraser-MGur,34,23,2,2,147.83,c & b Narine,0,20,58.82,0,0
+IPL_2023_064,1,DC,Rishabh Pant,52,31,4,2,167.74,b Cummins,0,28,53.85,1,0
+IPL_2023_064,1,DC,Tristan Stubbs,38,23,2,1,165.22,run out,0,14,36.84,0,0
+IPL_2023_064,2,RCB,Faf du Plessis,32,28,1,2,114.29,lbw b Chahal,0,16,50.0,0,0
+IPL_2023_064,2,RCB,Virat ohli,22,18,0,1,122.22,b Cummins,0,6,27.27,0,0
+IPL_2023_064,2,RCB,ill Jas,21,14,2,1,150.0,c Dhoni b Bumrah,0,14,66.67,0,0
+IPL_2023_064,2,RCB,Rajat Patidar,24,19,2,0,126.32,run out,0,8,33.33,0,0
+IPL_2023_064,2,RCB,Glenn Maxell,20,14,2,0,142.86,c Dhoni b Bumrah,0,8,40.0,0,0
+IPL_2023_064,2,RCB,Cameron Green,34,22,1,2,154.55,lbw b Chahal,0,16,47.06,0,0
+IPL_2023_064,2,RCB,Dinesh arthi,6,5,0,0,120.0,run out,0,0,0.0,0,0
+IPL_2023_065,1,RR,Yashasvi Jaisal,22,18,0,1,122.22,lbw b Chahal,0,6,27.27,0,0
+IPL_2023_065,1,RR,Jos Buttler,12,10,1,0,120.0,run out,0,4,33.33,0,0
+IPL_2023_065,1,RR,Sanju Samson,35,21,1,1,166.67,lbw b Chahal,0,10,28.57,0,0
+IPL_2023_065,1,RR,Riyan Parag,24,20,2,0,120.0,run out,0,8,33.33,0,0
+IPL_2023_065,1,RR,Dhruv Jurel,36,23,3,2,156.52,run out,0,24,66.67,0,0
+IPL_2023_065,1,RR,Shimron Hetmyer,44,28,3,2,157.14,c & b Narine,0,24,54.55,0,0
+IPL_2023_065,2,KKR,Phil Salt,14,11,1,0,127.27,c Dhoni b Bumrah,0,4,28.57,0,0
+IPL_2023_065,2,KKR,Sunil Narine,33,21,2,1,157.14,b Cummins,0,14,42.42,0,0
+IPL_2023_065,2,KKR,Venatesh Iyer,60,33,3,3,181.82,c & b Narine,0,30,50.0,1,0
+IPL_2023_065,2,KKR,Shreyas Iyer,27,18,2,1,150.0,run out,0,14,51.85,0,0
+IPL_2023_065,2,KKR,Rinu Singh,43,37,3,2,116.22,run out,0,24,55.81,0,0
+IPL_2023_066,1,KKR,Phil Salt,29,24,3,0,120.83,lbw b Chahal,0,12,41.38,0,0
+IPL_2023_066,1,KKR,Sunil Narine,42,29,2,2,144.83,lbw b Chahal,0,20,47.62,0,0
+IPL_2023_066,1,KKR,Venatesh Iyer,42,31,2,2,135.48,lbw b Chahal,0,20,47.62,0,0
+IPL_2023_066,1,KKR,Shreyas Iyer,54,35,3,3,154.29,lbw b Chahal,0,30,55.56,1,0
+IPL_2023_066,1,KKR,Rinu Singh,1,1,0,0,100.0,lbw b Chahal,0,0,0.0,0,0
+IPL_2023_066,2,LSG,L Rahul,52,32,2,1,162.5,b Cummins,0,14,26.92,1,0
+IPL_2023_066,2,LSG,Quinton de o,56,37,2,1,151.35,run out,0,14,25.0,1,0
+IPL_2023_066,2,LSG,Marus Stoinis,14,12,1,0,116.67,run out,0,4,28.57,0,0
+IPL_2023_066,2,LSG,Niholas Pooran,18,16,0,1,112.5,b Cummins,0,6,33.33,0,0
+IPL_2023_066,2,LSG,Ayush Badoni,30,23,3,1,130.43,c & b Narine,0,18,60.0,0,0
+IPL_2023_067,1,LSG,L Rahul,29,20,1,1,145.0,c Dhoni b Bumrah,0,10,34.48,0,0
+IPL_2023_067,1,LSG,Quinton de o,20,13,1,0,153.85,c & b Narine,0,4,20.0,0,0
+IPL_2023_067,1,LSG,Marus Stoinis,33,23,3,1,143.48,run out,0,18,54.55,0,0
+IPL_2023_067,1,LSG,Niholas Pooran,15,11,1,0,136.36,lbw b Chahal,0,4,26.67,0,0
+IPL_2023_067,1,LSG,Ayush Badoni,11,8,1,0,137.5,run out,0,4,36.36,0,0
+IPL_2023_067,1,LSG,Deepa Hooda,20,18,2,0,111.11,c & b Narine,0,8,40.0,0,0
+IPL_2023_067,1,LSG,runal Pandya,18,11,1,0,163.64,b Cummins,0,4,22.22,0,0
+IPL_2023_067,1,LSG,Ravi Bishnoi,21,16,1,1,131.25,not out,1,10,47.62,0,0
+IPL_2023_067,2,KKR,Phil Salt,54,34,4,2,158.82,c & b Narine,0,28,51.85,1,0
+IPL_2023_067,2,KKR,Sunil Narine,27,19,1,1,142.11,c & b Narine,0,10,37.04,0,0
+IPL_2023_067,2,KKR,Venatesh Iyer,48,33,4,1,145.45,c & b Narine,0,22,45.83,0,0
+IPL_2023_067,2,KKR,Shreyas Iyer,54,34,3,2,158.82,c Dhoni b Bumrah,0,24,44.44,1,0
+IPL_2023_068,1,RCB,Faf du Plessis,49,29,3,2,168.97,b Cummins,0,24,48.98,0,0
+IPL_2023_068,1,RCB,Virat ohli,28,17,1,1,164.71,c Dhoni b Bumrah,0,10,35.71,0,0
+IPL_2023_068,1,RCB,ill Jas,34,29,2,1,117.24,b Cummins,0,14,41.18,0,0
+IPL_2023_068,1,RCB,Rajat Patidar,27,23,3,0,117.39,lbw b Chahal,0,12,44.44,0,0
+IPL_2023_068,1,RCB,Glenn Maxell,36,22,3,0,163.64,not out,1,12,33.33,0,0
+IPL_2023_068,2,SRH,Travis Head,21,12,2,0,175.0,lbw b Chahal,0,8,38.1,0,0
+IPL_2023_068,2,SRH,Abhishe Sharma,37,22,1,1,168.18,lbw b Chahal,0,10,27.03,0,0
+IPL_2023_068,2,SRH,Rahul Tripathi,39,29,2,2,134.48,run out,0,20,51.28,0,0
+IPL_2023_068,2,SRH,Aiden Marram,44,25,4,2,176.0,b Cummins,0,28,63.64,0,0
+IPL_2023_068,2,SRH,Heinrih laasen,51,31,4,3,164.52,run out,0,34,66.67,1,0
+IPL_2023_069,1,KKR,Phil Salt,14,9,1,0,155.56,c Dhoni b Bumrah,0,4,28.57,0,0
+IPL_2023_069,1,KKR,Sunil Narine,40,33,2,1,121.21,run out,0,14,35.0,0,0
+IPL_2023_069,1,KKR,Venatesh Iyer,32,18,3,1,177.78,lbw b Chahal,0,18,56.25,0,0
+IPL_2023_069,1,KKR,Shreyas Iyer,46,38,1,3,121.05,run out,0,22,47.83,0,0
+IPL_2023_069,1,KKR,Rinu Singh,21,12,0,1,175.0,lbw b Chahal,0,6,28.57,0,0
+IPL_2023_069,1,KKR,Andre Russell,15,10,1,0,150.0,c Dhoni b Bumrah,0,4,26.67,0,0
+IPL_2023_069,2,CSK,Ruturaj Gaiad,10,9,0,0,111.11,lbw b Chahal,0,0,0.0,0,0
+IPL_2023_069,2,CSK,Rahin Ravindra,49,32,3,2,153.12,c & b Narine,0,24,48.98,0,0
+IPL_2023_069,2,CSK,Ajinya Rahane,49,30,2,3,163.33,c & b Narine,0,26,53.06,0,0
+IPL_2023_069,2,CSK,Daryl Mithell,49,33,4,2,148.48,c Dhoni b Bumrah,0,28,57.14,0,0
+IPL_2023_069,2,CSK,Shivam Dube,27,16,2,1,168.75,c Dhoni b Bumrah,0,14,51.85,0,0
+IPL_2023_070,1,DC,David arner,21,12,2,0,175.0,b Cummins,0,8,38.1,0,0
+IPL_2023_070,1,DC,Prithvi Sha,24,14,1,1,171.43,lbw b Chahal,0,10,41.67,0,0
+IPL_2023_070,1,DC,Jae Fraser-MGur,53,33,3,3,160.61,c Dhoni b Bumrah,0,30,56.6,1,0
+IPL_2023_070,1,DC,Rishabh Pant,59,34,4,3,173.53,lbw b Chahal,0,34,57.63,1,0
+IPL_2023_070,1,DC,Tristan Stubbs,22,15,1,0,146.67,c & b Narine,0,4,18.18,0,0
+IPL_2023_070,1,DC,Axar Patel,16,12,1,0,133.33,not out,1,4,25.0,0,0
+IPL_2023_070,2,KKR,Phil Salt,26,17,1,1,152.94,run out,0,10,38.46,0,0
+IPL_2023_070,2,KKR,Sunil Narine,59,34,3,1,173.53,c & b Narine,0,18,30.51,1,0
+IPL_2023_070,2,KKR,Venatesh Iyer,50,35,3,2,142.86,c Dhoni b Bumrah,0,24,48.0,1,0
+IPL_2023_070,2,KKR,Shreyas Iyer,30,22,4,0,136.36,c & b Narine,0,16,53.33,0,0
+IPL_2023_070,2,KKR,Rinu Singh,21,12,1,1,175.0,b Cummins,0,10,47.62,0,0
+IPL_2023_071,1,KKR,Phil Salt,23,19,0,1,121.05,run out,0,6,26.09,0,0
+IPL_2023_071,1,KKR,Sunil Narine,53,34,3,3,155.88,c & b Narine,0,30,56.6,1,0
+IPL_2023_071,1,KKR,Venatesh Iyer,30,22,3,0,136.36,run out,0,12,40.0,0,0
+IPL_2023_071,1,KKR,Shreyas Iyer,46,28,2,1,164.29,c Dhoni b Bumrah,0,14,30.43,0,0
+IPL_2023_071,1,KKR,Rinu Singh,26,17,2,1,152.94,not out,1,14,53.85,0,0
+IPL_2023_071,2,SRH,Travis Head,46,38,3,1,121.05,lbw b Chahal,0,18,39.13,0,0
+IPL_2023_071,2,SRH,Abhishe Sharma,28,17,2,1,164.71,lbw b Chahal,0,14,50.0,0,0
+IPL_2023_071,2,SRH,Rahul Tripathi,12,9,0,0,133.33,lbw b Chahal,0,0,0.0,0,0
+IPL_2023_071,2,SRH,Aiden Marram,29,20,1,1,145.0,b Cummins,0,10,34.48,0,0
+IPL_2023_071,2,SRH,Heinrih laasen,25,21,3,0,119.05,c & b Narine,0,12,48.0,0,0
+IPL_2023_071,2,SRH,Nitish umar Reddy,19,15,2,0,126.67,not out,1,8,42.11,0,0
+IPL_2023_072,1,MI,Rohit Sharma,21,12,1,0,175.0,c Dhoni b Bumrah,0,4,19.05,0,0
+IPL_2023_072,1,MI,Ishan ishan,40,33,4,1,121.21,c & b Narine,0,22,55.0,0,0
+IPL_2023_072,1,MI,Suryaumar Yadav,36,29,2,1,124.14,b Cummins,0,14,38.89,0,0
+IPL_2023_072,1,MI,Tila Varma,40,23,2,1,173.91,lbw b Chahal,0,14,35.0,0,0
+IPL_2023_072,1,MI,Hardi Pandya,29,17,2,0,170.59,c & b Narine,0,8,27.59,0,0
+IPL_2023_072,1,MI,Tim David,10,6,0,0,166.67,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2023_072,2,KKR,Phil Salt,51,32,4,2,159.38,c Dhoni b Bumrah,0,28,54.9,1,0
+IPL_2023_072,2,KKR,Sunil Narine,32,22,3,1,145.45,c & b Narine,0,18,56.25,0,0
+IPL_2023_072,2,KKR,Venatesh Iyer,62,36,6,1,172.22,c Dhoni b Bumrah,0,30,48.39,1,0
+IPL_2023_072,2,KKR,Shreyas Iyer,16,12,0,1,133.33,c Dhoni b Bumrah,0,6,37.5,0,0
+IPL_2023_072,2,KKR,Rinu Singh,27,18,2,0,150.0,not out,1,8,29.63,0,0
+IPL_2023_073,1,LSG,L Rahul,21,18,2,0,116.67,c & b Narine,0,8,38.1,0,0
+IPL_2023_073,1,LSG,Quinton de o,13,8,1,0,162.5,lbw b Chahal,0,4,30.77,0,0
+IPL_2023_073,1,LSG,Marus Stoinis,22,16,1,0,137.5,c Dhoni b Bumrah,0,4,18.18,0,0
+IPL_2023_073,1,LSG,Niholas Pooran,17,11,1,1,154.55,c Dhoni b Bumrah,0,10,58.82,0,0
+IPL_2023_073,1,LSG,Ayush Badoni,56,34,2,2,164.71,run out,0,20,35.71,1,0
+IPL_2023_073,1,LSG,Deepa Hooda,31,21,2,1,147.62,c Dhoni b Bumrah,0,14,45.16,0,0
+IPL_2023_073,1,LSG,runal Pandya,16,12,1,0,133.33,not out,1,4,25.0,0,0
+IPL_2023_073,2,GT,Shubman Gill,39,27,2,2,144.44,c & b Narine,0,20,51.28,0,0
+IPL_2023_073,2,GT,riddhiman Saha,16,12,1,0,133.33,run out,0,4,25.0,0,0
+IPL_2023_073,2,GT,Sai Sudharsan,27,16,1,1,168.75,run out,0,10,37.04,0,0
+IPL_2023_073,2,GT,David Miller,36,29,4,1,124.14,lbw b Chahal,0,22,61.11,0,0
+IPL_2023_073,2,GT,Azmatullah Omarzai,21,15,1,1,140.0,b Cummins,0,10,47.62,0,0
+IPL_2023_073,2,GT,Rahul Teatia,22,12,1,1,183.33,run out,0,10,45.45,0,0
+IPL_2023_073,2,GT,Rashid han,11,9,0,0,122.22,lbw b Chahal,0,0,0.0,0,0
+IPL_2023_074,1,RR,Yashasvi Jaisal,35,21,1,2,166.67,run out,0,16,45.71,0,0
+IPL_2023_074,1,RR,Jos Buttler,41,24,2,2,170.83,c & b Narine,0,20,48.78,0,0
+IPL_2023_074,1,RR,Sanju Samson,37,25,2,2,148.0,lbw b Chahal,0,20,54.05,0,0
+IPL_2023_074,1,RR,Riyan Parag,38,26,2,1,146.15,b Cummins,0,14,36.84,0,0
+IPL_2023_074,1,RR,Dhruv Jurel,11,8,0,0,137.5,b Cummins,0,0,0.0,0,0
+IPL_2023_074,1,RR,Shimron Hetmyer,27,16,2,1,168.75,c Dhoni b Bumrah,0,14,51.85,0,0
+IPL_2023_074,2,RCB,Faf du Plessis,39,24,4,1,162.5,lbw b Chahal,0,22,56.41,0,0
+IPL_2023_074,2,RCB,Virat ohli,29,21,1,1,138.1,c & b Narine,0,10,34.48,0,0
+IPL_2023_074,2,RCB,ill Jas,43,35,4,1,122.86,lbw b Chahal,0,22,51.16,0,0
+IPL_2023_074,2,RCB,Rajat Patidar,37,21,2,2,176.19,run out,0,20,54.05,0,0
+IPL_2023_074,2,RCB,Glenn Maxell,27,19,1,1,142.11,run out,0,10,37.04,0,0
+IPL_2024_001,1,KKR,Phil Salt,28,21,1,1,133.33,b Cummins,0,10,35.71,0,0
+IPL_2024_001,1,KKR,Sunil Narine,30,21,1,1,142.86,c Dhoni b Bumrah,0,10,33.33,0,0
+IPL_2024_001,1,KKR,Venatesh Iyer,48,37,4,2,129.73,run out,0,28,58.33,0,0
+IPL_2024_001,1,KKR,Shreyas Iyer,50,38,5,1,131.58,lbw b Chahal,0,26,52.0,1,0
+IPL_2024_001,1,KKR,Rinu Singh,4,3,0,0,133.33,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_001,2,SRH,Travis Head,39,26,2,1,150.0,b Cummins,0,14,35.9,0,0
+IPL_2024_001,2,SRH,Abhishe Sharma,12,9,1,0,133.33,run out,0,4,33.33,0,0
+IPL_2024_001,2,SRH,Rahul Tripathi,19,15,1,0,126.67,b Cummins,0,4,21.05,0,0
+IPL_2024_001,2,SRH,Aiden Marram,21,12,1,0,175.0,c Dhoni b Bumrah,0,4,19.05,0,0
+IPL_2024_001,2,SRH,Heinrih laasen,63,36,2,3,175.0,lbw b Chahal,0,26,41.27,1,0
+IPL_2024_001,2,SRH,Nitish umar Reddy,19,13,1,0,146.15,not out,1,4,21.05,0,0
+IPL_2024_002,1,CSK,Ruturaj Gaiad,55,35,2,2,157.14,b Cummins,0,20,36.36,1,0
+IPL_2024_002,1,CSK,Rahin Ravindra,58,35,3,2,165.71,lbw b Chahal,0,24,41.38,1,0
+IPL_2024_002,1,CSK,Ajinya Rahane,27,21,2,1,128.57,lbw b Chahal,0,14,51.85,0,0
+IPL_2024_002,1,CSK,Daryl Mithell,52,29,4,3,179.31,b Cummins,0,34,65.38,1,0
+IPL_2024_002,2,SRH,Travis Head,28,24,2,1,116.67,c & b Narine,0,14,50.0,0,0
+IPL_2024_002,2,SRH,Abhishe Sharma,30,23,2,1,130.43,c Dhoni b Bumrah,0,14,46.67,0,0
+IPL_2024_002,2,SRH,Rahul Tripathi,63,37,6,2,170.27,c Dhoni b Bumrah,0,36,57.14,1,0
+IPL_2024_002,2,SRH,Aiden Marram,43,36,1,2,119.44,c & b Narine,0,16,37.21,0,0
+IPL_2024_003,1,MI,Rohit Sharma,49,34,3,1,144.12,run out,0,18,36.73,0,0
+IPL_2024_003,1,MI,Ishan ishan,18,16,1,0,112.5,lbw b Chahal,0,4,22.22,0,0
+IPL_2024_003,1,MI,Suryaumar Yadav,38,21,2,1,180.95,b Cummins,0,14,36.84,0,0
+IPL_2024_003,1,MI,Tila Varma,17,14,1,0,121.43,c & b Narine,0,4,23.53,0,0
+IPL_2024_003,1,MI,Hardi Pandya,28,22,1,1,127.27,b Cummins,0,10,35.71,0,0
+IPL_2024_003,1,MI,Tim David,24,13,2,0,184.62,not out,1,8,33.33,0,0
+IPL_2024_003,2,CSK,Ruturaj Gaiad,30,25,2,1,120.0,run out,0,14,46.67,0,0
+IPL_2024_003,2,CSK,Rahin Ravindra,37,21,2,2,176.19,c Dhoni b Bumrah,0,20,54.05,0,0
+IPL_2024_003,2,CSK,Ajinya Rahane,25,21,2,0,119.05,c Dhoni b Bumrah,0,8,32.0,0,0
+IPL_2024_003,2,CSK,Daryl Mithell,41,31,2,2,132.26,c & b Narine,0,20,48.78,0,0
+IPL_2024_003,2,CSK,Shivam Dube,18,14,1,0,128.57,run out,0,4,22.22,0,0
+IPL_2024_003,2,CSK,Ravindra Jadeja,11,8,0,0,137.5,b Cummins,0,0,0.0,0,0
+IPL_2024_004,1,GT,Shubman Gill,22,17,2,0,129.41,b Cummins,0,8,36.36,0,0
+IPL_2024_004,1,GT,riddhiman Saha,37,29,3,1,127.59,run out,0,18,48.65,0,0
+IPL_2024_004,1,GT,Sai Sudharsan,16,14,2,0,114.29,lbw b Chahal,0,8,50.0,0,0
+IPL_2024_004,1,GT,David Miller,15,10,1,0,150.0,run out,0,4,26.67,0,0
+IPL_2024_004,1,GT,Azmatullah Omarzai,13,8,1,0,162.5,lbw b Chahal,0,4,30.77,0,0
+IPL_2024_004,1,GT,Rahul Teatia,37,31,1,1,119.35,run out,0,10,27.03,0,0
+IPL_2024_004,1,GT,Rashid han,18,11,1,0,163.64,lbw b Chahal,0,4,22.22,0,0
+IPL_2024_004,2,CSK,Ruturaj Gaiad,33,26,2,2,126.92,run out,0,20,60.61,0,0
+IPL_2024_004,2,CSK,Rahin Ravindra,28,18,2,1,155.56,lbw b Chahal,0,14,50.0,0,0
+IPL_2024_004,2,CSK,Ajinya Rahane,58,37,3,3,156.76,c & b Narine,0,30,51.72,1,0
+IPL_2024_004,2,CSK,Daryl Mithell,27,23,2,1,117.39,c Dhoni b Bumrah,0,14,51.85,0,0
+IPL_2024_004,2,CSK,Shivam Dube,27,16,2,1,168.75,run out,0,14,51.85,0,0
+IPL_2024_005,1,MI,Rohit Sharma,23,13,1,0,176.92,run out,0,4,17.39,0,0
+IPL_2024_005,1,MI,Ishan ishan,43,38,3,1,113.16,b Cummins,0,18,41.86,0,0
+IPL_2024_005,1,MI,Suryaumar Yadav,47,38,2,2,123.68,b Cummins,0,20,42.55,0,0
+IPL_2024_005,1,MI,Tila Varma,31,18,1,1,172.22,c Dhoni b Bumrah,0,10,32.26,0,0
+IPL_2024_005,1,MI,Hardi Pandya,20,13,2,0,153.85,run out,0,8,40.0,0,0
+IPL_2024_005,2,PBKS,Shihar Dhaan,44,26,2,2,169.23,c & b Narine,0,20,45.45,0,0
+IPL_2024_005,2,PBKS,Jonny Bairsto,46,25,2,1,184.0,b Cummins,0,14,30.43,0,0
+IPL_2024_005,2,PBKS,Prabhsimran Singh,27,16,1,1,168.75,run out,0,10,37.04,0,0
+IPL_2024_005,2,PBKS,Rilee Rossou,41,36,3,2,113.89,run out,0,24,58.54,0,0
+IPL_2024_005,2,PBKS,Sam Curran,23,17,1,1,135.29,c Dhoni b Bumrah,0,10,43.48,0,0
+IPL_2024_006,1,CSK,Ruturaj Gaiad,40,25,2,1,160.0,lbw b Chahal,0,14,35.0,0,0
+IPL_2024_006,1,CSK,Rahin Ravindra,56,34,3,3,164.71,run out,0,30,53.57,1,0
+IPL_2024_006,1,CSK,Ajinya Rahane,23,13,1,1,176.92,c Dhoni b Bumrah,0,10,43.48,0,0
+IPL_2024_006,1,CSK,Daryl Mithell,27,23,2,1,117.39,c Dhoni b Bumrah,0,14,51.85,0,0
+IPL_2024_006,1,CSK,Shivam Dube,45,25,2,2,180.0,run out,0,20,44.44,0,0
+IPL_2024_006,2,RCB,Faf du Plessis,45,30,3,1,150.0,run out,0,18,40.0,0,0
+IPL_2024_006,2,RCB,Virat ohli,53,32,3,1,165.62,lbw b Chahal,0,18,33.96,1,0
+IPL_2024_006,2,RCB,ill Jas,53,31,4,1,170.97,run out,0,22,41.51,1,0
+IPL_2024_006,2,RCB,Rajat Patidar,44,27,2,1,162.96,run out,0,14,31.82,0,0
+IPL_2024_007,1,LSG,L Rahul,66,38,2,3,173.68,c Dhoni b Bumrah,0,26,39.39,1,0
+IPL_2024_007,1,LSG,Quinton de o,38,24,2,2,158.33,b Cummins,0,20,52.63,0,0
+IPL_2024_007,1,LSG,Marus Stoinis,38,25,3,1,152.0,c & b Narine,0,18,47.37,0,0
+IPL_2024_007,1,LSG,Niholas Pooran,18,11,1,1,163.64,b Cummins,0,10,55.56,0,0
+IPL_2024_007,1,LSG,Ayush Badoni,33,20,2,1,165.0,run out,0,14,42.42,0,0
+IPL_2024_007,1,LSG,Deepa Hooda,3,2,0,0,150.0,run out,0,0,0.0,0,0
+IPL_2024_007,2,RCB,Faf du Plessis,20,12,1,0,166.67,c Dhoni b Bumrah,0,4,20.0,0,0
+IPL_2024_007,2,RCB,Virat ohli,26,15,2,1,173.33,c & b Narine,0,14,53.85,0,0
+IPL_2024_007,2,RCB,ill Jas,13,10,1,0,130.0,lbw b Chahal,0,4,30.77,0,0
+IPL_2024_007,2,RCB,Rajat Patidar,54,37,2,2,145.95,lbw b Chahal,0,20,37.04,1,0
+IPL_2024_007,2,RCB,Glenn Maxell,17,15,2,0,113.33,run out,0,8,47.06,0,0
+IPL_2024_007,2,RCB,Cameron Green,38,31,3,1,122.58,not out,1,18,47.37,0,0
+IPL_2024_008,1,RCB,Faf du Plessis,34,23,1,1,147.83,run out,0,10,29.41,0,0
+IPL_2024_008,1,RCB,Virat ohli,60,38,3,1,157.89,run out,0,18,30.0,1,0
+IPL_2024_008,1,RCB,ill Jas,49,28,2,2,175.0,lbw b Chahal,0,20,40.82,0,0
+IPL_2024_008,1,RCB,Rajat Patidar,38,25,4,0,152.0,run out,0,16,42.11,0,0
+IPL_2024_008,1,RCB,Glenn Maxell,8,6,1,0,133.33,b Cummins,0,4,50.0,0,0
+IPL_2024_008,2,GT,Shubman Gill,18,12,1,0,150.0,run out,0,4,22.22,0,0
+IPL_2024_008,2,GT,riddhiman Saha,13,9,1,0,144.44,lbw b Chahal,0,4,30.77,0,0
+IPL_2024_008,2,GT,Sai Sudharsan,39,24,2,2,162.5,lbw b Chahal,0,20,51.28,0,0
+IPL_2024_008,2,GT,David Miller,41,33,3,2,124.24,c Dhoni b Bumrah,0,24,58.54,0,0
+IPL_2024_008,2,GT,Azmatullah Omarzai,53,30,4,3,176.67,c Dhoni b Bumrah,0,34,64.15,1,0
+IPL_2024_008,2,GT,Rahul Teatia,18,12,2,0,150.0,not out,1,8,44.44,0,0
+IPL_2024_009,1,CSK,Ruturaj Gaiad,37,29,1,2,127.59,c & b Narine,0,16,43.24,0,0
+IPL_2024_009,1,CSK,Rahin Ravindra,57,35,3,3,162.86,c & b Narine,0,30,52.63,1,0
+IPL_2024_009,1,CSK,Ajinya Rahane,24,20,1,1,120.0,b Cummins,0,10,41.67,0,0
+IPL_2024_009,1,CSK,Daryl Mithell,39,26,3,2,150.0,run out,0,24,61.54,0,0
+IPL_2024_009,1,CSK,Shivam Dube,12,10,1,0,120.0,c Dhoni b Bumrah,0,4,33.33,0,0
+IPL_2024_009,2,LSG,L Rahul,45,31,2,2,145.16,lbw b Chahal,0,20,44.44,0,0
+IPL_2024_009,2,LSG,Quinton de o,58,33,3,1,175.76,lbw b Chahal,0,18,31.03,1,0
+IPL_2024_009,2,LSG,Marus Stoinis,32,24,3,1,133.33,c Dhoni b Bumrah,0,18,56.25,0,0
+IPL_2024_009,2,LSG,Niholas Pooran,13,8,0,0,162.5,run out,0,0,0.0,0,0
+IPL_2024_009,2,LSG,Ayush Badoni,38,24,4,1,158.33,run out,0,22,57.89,0,0
+IPL_2024_010,1,KKR,Phil Salt,24,16,1,0,150.0,c Dhoni b Bumrah,0,4,16.67,0,0
+IPL_2024_010,1,KKR,Sunil Narine,56,35,3,3,160.0,run out,0,30,53.57,1,0
+IPL_2024_010,1,KKR,Venatesh Iyer,41,32,3,2,128.12,c & b Narine,0,24,58.54,0,0
+IPL_2024_010,1,KKR,Shreyas Iyer,17,11,0,1,154.55,c & b Narine,0,6,35.29,0,0
+IPL_2024_010,1,KKR,Rinu Singh,46,26,2,1,176.92,c Dhoni b Bumrah,0,14,30.43,0,0
+IPL_2024_010,2,GT,Shubman Gill,41,23,2,1,178.26,b Cummins,0,14,34.15,0,0
+IPL_2024_010,2,GT,riddhiman Saha,40,33,2,1,121.21,run out,0,14,35.0,0,0
+IPL_2024_010,2,GT,Sai Sudharsan,49,36,4,2,136.11,lbw b Chahal,0,28,57.14,0,0
+IPL_2024_010,2,GT,David Miller,13,10,1,0,130.0,c & b Narine,0,4,30.77,0,0
+IPL_2024_010,2,GT,Azmatullah Omarzai,30,18,2,1,166.67,b Cummins,0,14,46.67,0,0
+IPL_2024_011,1,RCB,Faf du Plessis,47,28,4,1,167.86,lbw b Chahal,0,22,46.81,0,0
+IPL_2024_011,1,RCB,Virat ohli,24,18,1,0,133.33,c Dhoni b Bumrah,0,4,16.67,0,0
+IPL_2024_011,1,RCB,ill Jas,30,18,2,0,166.67,c Dhoni b Bumrah,0,8,26.67,0,0
+IPL_2024_011,1,RCB,Rajat Patidar,54,31,3,1,174.19,c Dhoni b Bumrah,0,18,33.33,1,0
+IPL_2024_011,1,RCB,Glenn Maxell,28,22,2,1,127.27,b Cummins,0,14,50.0,0,0
+IPL_2024_011,1,RCB,Cameron Green,3,3,0,0,100.0,b Cummins,0,0,0.0,0,0
+IPL_2024_011,2,SRH,Travis Head,51,31,3,2,164.52,c & b Narine,0,24,47.06,1,0
+IPL_2024_011,2,SRH,Abhishe Sharma,18,11,2,0,163.64,b Cummins,0,8,44.44,0,0
+IPL_2024_011,2,SRH,Rahul Tripathi,59,38,2,3,155.26,c Dhoni b Bumrah,0,26,44.07,1,0
+IPL_2024_011,2,SRH,Aiden Marram,57,36,3,1,158.33,lbw b Chahal,0,18,31.58,1,0
+IPL_2024_011,2,SRH,Heinrih laasen,7,4,0,0,175.0,c & b Narine,0,0,0.0,0,0
+IPL_2024_012,1,RR,Yashasvi Jaisal,23,13,2,0,176.92,c & b Narine,0,8,34.78,0,0
+IPL_2024_012,1,RR,Jos Buttler,12,8,1,0,150.0,lbw b Chahal,0,4,33.33,0,0
+IPL_2024_012,1,RR,Sanju Samson,30,26,2,1,115.38,lbw b Chahal,0,14,46.67,0,0
+IPL_2024_012,1,RR,Riyan Parag,19,16,2,0,118.75,b Cummins,0,8,42.11,0,0
+IPL_2024_012,1,RR,Dhruv Jurel,50,33,4,1,151.52,run out,0,22,44.0,1,0
+IPL_2024_012,1,RR,Shimron Hetmyer,41,24,3,2,170.83,not out,1,24,58.54,0,0
+IPL_2024_012,2,KKR,Phil Salt,38,23,2,1,165.22,lbw b Chahal,0,14,36.84,0,0
+IPL_2024_012,2,KKR,Sunil Narine,42,26,4,2,161.54,lbw b Chahal,0,28,66.67,0,0
+IPL_2024_012,2,KKR,Venatesh Iyer,46,34,3,2,135.29,b Cummins,0,24,52.17,0,0
+IPL_2024_012,2,KKR,Shreyas Iyer,19,16,1,1,118.75,lbw b Chahal,0,10,52.63,0,0
+IPL_2024_012,2,KKR,Rinu Singh,29,21,1,1,138.1,lbw b Chahal,0,10,34.48,0,0
+IPL_2024_013,1,SRH,Travis Head,34,21,1,2,161.9,c Dhoni b Bumrah,0,16,47.06,0,0
+IPL_2024_013,1,SRH,Abhishe Sharma,48,33,2,2,145.45,lbw b Chahal,0,20,41.67,0,0
+IPL_2024_013,1,SRH,Rahul Tripathi,37,22,2,2,168.18,run out,0,20,54.05,0,0
+IPL_2024_013,1,SRH,Aiden Marram,17,12,2,0,141.67,c Dhoni b Bumrah,0,8,47.06,0,0
+IPL_2024_013,1,SRH,Heinrih laasen,35,20,2,1,175.0,b Cummins,0,14,40.0,0,0
+IPL_2024_013,1,SRH,Nitish umar Reddy,15,12,1,0,125.0,not out,1,4,26.67,0,0
+IPL_2024_013,2,KKR,Phil Salt,26,20,2,0,130.0,lbw b Chahal,0,8,30.77,0,0
+IPL_2024_013,2,KKR,Sunil Narine,46,28,4,2,164.29,c Dhoni b Bumrah,0,28,60.87,0,0
+IPL_2024_013,2,KKR,Venatesh Iyer,20,13,1,1,153.85,c Dhoni b Bumrah,0,10,50.0,0,0
+IPL_2024_013,2,KKR,Shreyas Iyer,45,35,2,1,128.57,run out,0,14,31.11,0,0
+IPL_2024_013,2,KKR,Rinu Singh,29,24,2,0,120.83,lbw b Chahal,0,8,27.59,0,0
+IPL_2024_014,1,RR,Yashasvi Jaisal,31,19,3,1,163.16,lbw b Chahal,0,18,58.06,0,0
+IPL_2024_014,1,RR,Jos Buttler,17,11,1,0,154.55,c Dhoni b Bumrah,0,4,23.53,0,0
+IPL_2024_014,1,RR,Sanju Samson,45,36,3,1,125.0,b Cummins,0,18,40.0,0,0
+IPL_2024_014,1,RR,Riyan Parag,32,21,1,1,152.38,b Cummins,0,10,31.25,0,0
+IPL_2024_014,1,RR,Dhruv Jurel,33,27,2,1,122.22,lbw b Chahal,0,14,42.42,0,0
+IPL_2024_014,1,RR,Shimron Hetmyer,7,6,0,0,116.67,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2024_014,2,RCB,Faf du Plessis,18,12,1,1,150.0,c & b Narine,0,10,55.56,0,0
+IPL_2024_014,2,RCB,Virat ohli,52,37,3,2,140.54,c & b Narine,0,24,46.15,1,0
+IPL_2024_014,2,RCB,ill Jas,59,33,5,2,178.79,b Cummins,0,32,54.24,1,0
+IPL_2024_014,2,RCB,Rajat Patidar,43,30,1,2,143.33,c Dhoni b Bumrah,0,16,37.21,0,0
+IPL_2024_015,1,RCB,Faf du Plessis,19,12,1,1,158.33,run out,0,10,52.63,0,0
+IPL_2024_015,1,RCB,Virat ohli,37,27,2,1,137.04,c & b Narine,0,14,37.84,0,0
+IPL_2024_015,1,RCB,ill Jas,40,22,1,2,181.82,c & b Narine,0,16,40.0,0,0
+IPL_2024_015,1,RCB,Rajat Patidar,45,31,4,2,145.16,b Cummins,0,28,62.22,0,0
+IPL_2024_015,1,RCB,Glenn Maxell,24,17,1,0,141.18,c Dhoni b Bumrah,0,4,16.67,0,0
+IPL_2024_015,1,RCB,Cameron Green,17,11,1,1,154.55,not out,1,10,58.82,0,0
+IPL_2024_015,2,SRH,Travis Head,48,33,4,2,145.45,lbw b Chahal,0,28,58.33,0,0
+IPL_2024_015,2,SRH,Abhishe Sharma,25,18,3,0,138.89,b Cummins,0,12,48.0,0,0
+IPL_2024_015,2,SRH,Rahul Tripathi,18,12,2,0,150.0,b Cummins,0,8,44.44,0,0
+IPL_2024_015,2,SRH,Aiden Marram,45,32,2,2,140.62,c & b Narine,0,20,44.44,0,0
+IPL_2024_015,2,SRH,Heinrih laasen,34,22,2,1,154.55,lbw b Chahal,0,14,41.18,0,0
+IPL_2024_015,2,SRH,Nitish umar Reddy,3,3,0,0,100.0,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2024_016,1,RR,Yashasvi Jaisal,52,37,1,3,140.54,lbw b Chahal,0,22,42.31,1,0
+IPL_2024_016,1,RR,Jos Buttler,38,23,2,2,165.22,c & b Narine,0,20,52.63,0,0
+IPL_2024_016,1,RR,Sanju Samson,46,33,4,1,139.39,c Dhoni b Bumrah,0,22,47.83,0,0
+IPL_2024_016,1,RR,Riyan Parag,22,18,1,0,122.22,c Dhoni b Bumrah,0,4,18.18,0,0
+IPL_2024_016,1,RR,Dhruv Jurel,12,9,1,0,133.33,c Dhoni b Bumrah,0,4,33.33,0,0
+IPL_2024_016,2,GT,Shubman Gill,26,16,2,1,162.5,c & b Narine,0,14,53.85,0,0
+IPL_2024_016,2,GT,riddhiman Saha,21,13,1,0,161.54,c & b Narine,0,4,19.05,0,0
+IPL_2024_016,2,GT,Sai Sudharsan,21,15,2,0,140.0,run out,0,8,38.1,0,0
+IPL_2024_016,2,GT,David Miller,37,31,2,2,119.35,lbw b Chahal,0,20,54.05,0,0
+IPL_2024_016,2,GT,Azmatullah Omarzai,22,13,1,1,169.23,c Dhoni b Bumrah,0,10,45.45,0,0
+IPL_2024_016,2,GT,Rahul Teatia,58,32,2,3,181.25,not out,1,26,44.83,1,0
+IPL_2024_017,1,PBKS,Shihar Dhaan,57,34,3,1,167.65,b Cummins,0,18,31.58,1,0
+IPL_2024_017,1,PBKS,Jonny Bairsto,37,31,1,1,119.35,b Cummins,0,10,27.03,0,0
+IPL_2024_017,1,PBKS,Prabhsimran Singh,15,10,0,0,150.0,c & b Narine,0,0,0.0,0,0
+IPL_2024_017,1,PBKS,Rilee Rossou,44,24,3,2,183.33,b Cummins,0,24,54.55,0,0
+IPL_2024_017,1,PBKS,Sam Curran,28,19,3,0,147.37,b Cummins,0,12,42.86,0,0
+IPL_2024_017,1,PBKS,Jitesh Sharma,3,2,0,0,150.0,not out,1,0,0.0,0,0
+IPL_2024_017,2,GT,Shubman Gill,53,32,4,2,165.62,run out,0,28,52.83,1,0
+IPL_2024_017,2,GT,riddhiman Saha,34,24,2,1,141.67,run out,0,14,41.18,0,0
+IPL_2024_017,2,GT,Sai Sudharsan,23,17,1,0,135.29,c & b Narine,0,4,17.39,0,0
+IPL_2024_017,2,GT,David Miller,36,24,2,0,150.0,lbw b Chahal,0,8,22.22,0,0
+IPL_2024_017,2,GT,Azmatullah Omarzai,11,9,0,0,122.22,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2024_017,2,GT,Rahul Teatia,18,14,0,1,128.57,c Dhoni b Bumrah,0,6,33.33,0,0
+IPL_2024_018,1,MI,Rohit Sharma,19,11,1,0,172.73,lbw b Chahal,0,4,21.05,0,0
+IPL_2024_018,1,MI,Ishan ishan,47,37,1,2,127.03,c Dhoni b Bumrah,0,16,34.04,0,0
+IPL_2024_018,1,MI,Suryaumar Yadav,56,36,3,2,155.56,c & b Narine,0,24,42.86,1,0
+IPL_2024_018,1,MI,Tila Varma,33,25,1,2,132.0,run out,0,16,48.48,0,0
+IPL_2024_018,1,MI,Hardi Pandya,12,9,1,0,133.33,c & b Narine,0,4,33.33,0,0
+IPL_2024_018,1,MI,Tim David,2,2,0,0,100.0,run out,0,0,0.0,0,0
+IPL_2024_018,2,LSG,L Rahul,31,21,2,1,147.62,run out,0,14,45.16,0,0
+IPL_2024_018,2,LSG,Quinton de o,58,32,2,3,181.25,c Dhoni b Bumrah,0,26,44.83,1,0
+IPL_2024_018,2,LSG,Marus Stoinis,48,28,4,2,171.43,lbw b Chahal,0,28,58.33,0,0
+IPL_2024_018,2,LSG,Niholas Pooran,15,13,1,0,115.38,c & b Narine,0,4,26.67,0,0
+IPL_2024_018,2,LSG,Ayush Badoni,43,26,4,1,165.38,not out,1,22,51.16,0,0
+IPL_2024_019,1,MI,Rohit Sharma,33,26,3,1,126.92,lbw b Chahal,0,18,54.55,0,0
+IPL_2024_019,1,MI,Ishan ishan,42,29,2,1,144.83,run out,0,14,33.33,0,0
+IPL_2024_019,1,MI,Suryaumar Yadav,51,33,1,2,154.55,c & b Narine,0,16,31.37,1,0
+IPL_2024_019,1,MI,Tila Varma,41,27,3,2,151.85,c Dhoni b Bumrah,0,24,58.54,0,0
+IPL_2024_019,1,MI,Hardi Pandya,7,5,0,0,140.0,not out,1,0,0.0,0,0
+IPL_2024_019,2,GT,Shubman Gill,34,24,3,1,141.67,c & b Narine,0,18,52.94,0,0
+IPL_2024_019,2,GT,riddhiman Saha,27,17,2,0,158.82,c & b Narine,0,8,29.63,0,0
+IPL_2024_019,2,GT,Sai Sudharsan,41,29,4,1,141.38,run out,0,22,53.66,0,0
+IPL_2024_019,2,GT,David Miller,58,33,5,3,175.76,c Dhoni b Bumrah,0,38,65.52,1,0
+IPL_2024_019,2,GT,Azmatullah Omarzai,29,17,2,1,170.59,c Dhoni b Bumrah,0,14,48.28,0,0
+IPL_2024_020,1,PBKS,Shihar Dhaan,19,15,1,1,126.67,run out,0,10,52.63,0,0
+IPL_2024_020,1,PBKS,Jonny Bairsto,19,16,1,1,118.75,c Dhoni b Bumrah,0,10,52.63,0,0
+IPL_2024_020,1,PBKS,Prabhsimran Singh,53,30,3,1,176.67,c Dhoni b Bumrah,0,18,33.96,1,0
+IPL_2024_020,1,PBKS,Rilee Rossou,29,16,3,0,181.25,run out,0,12,41.38,0,0
+IPL_2024_020,1,PBKS,Sam Curran,50,37,5,1,135.14,b Cummins,0,26,52.0,1,0
+IPL_2024_020,1,PBKS,Jitesh Sharma,8,6,0,0,133.33,c & b Narine,0,0,0.0,0,0
+IPL_2024_020,2,SRH,Travis Head,42,29,2,2,144.83,lbw b Chahal,0,20,47.62,0,0
+IPL_2024_020,2,SRH,Abhishe Sharma,51,32,4,1,159.38,b Cummins,0,22,43.14,1,0
+IPL_2024_020,2,SRH,Rahul Tripathi,48,31,3,1,154.84,b Cummins,0,18,37.5,0,0
+IPL_2024_020,2,SRH,Aiden Marram,42,28,3,1,150.0,c & b Narine,0,18,42.86,0,0
+IPL_2024_021,1,KKR,Phil Salt,26,18,2,1,144.44,b Cummins,0,14,53.85,0,0
+IPL_2024_021,1,KKR,Sunil Narine,15,9,1,0,166.67,c & b Narine,0,4,26.67,0,0
+IPL_2024_021,1,KKR,Venatesh Iyer,37,26,1,1,142.31,b Cummins,0,10,27.03,0,0
+IPL_2024_021,1,KKR,Shreyas Iyer,29,18,1,1,161.11,lbw b Chahal,0,10,34.48,0,0
+IPL_2024_021,1,KKR,Rinu Singh,32,23,3,1,139.13,lbw b Chahal,0,18,56.25,0,0
+IPL_2024_021,1,KKR,Andre Russell,31,26,1,1,119.23,not out,1,10,32.26,0,0
+IPL_2024_021,2,PBKS,Shihar Dhaan,34,27,3,1,125.93,c & b Narine,0,18,52.94,0,0
+IPL_2024_021,2,PBKS,Jonny Bairsto,45,33,3,2,136.36,b Cummins,0,24,53.33,0,0
+IPL_2024_021,2,PBKS,Prabhsimran Singh,12,8,1,0,150.0,c Dhoni b Bumrah,0,4,33.33,0,0
+IPL_2024_021,2,PBKS,Rilee Rossou,43,33,2,1,130.3,lbw b Chahal,0,14,32.56,0,0
+IPL_2024_021,2,PBKS,Sam Curran,12,10,0,0,120.0,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_021,2,PBKS,Jitesh Sharma,10,9,0,0,111.11,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_022,1,MI,Rohit Sharma,14,8,1,0,175.0,c & b Narine,0,4,28.57,0,0
+IPL_2024_022,1,MI,Ishan ishan,39,32,3,1,121.88,run out,0,18,46.15,0,0
+IPL_2024_022,1,MI,Suryaumar Yadav,47,31,4,2,151.61,c & b Narine,0,28,59.57,0,0
+IPL_2024_022,1,MI,Tila Varma,13,9,0,0,144.44,b Cummins,0,0,0.0,0,0
+IPL_2024_022,1,MI,Hardi Pandya,57,33,3,3,172.73,run out,0,30,52.63,1,0
+IPL_2024_022,1,MI,Tim David,11,7,1,0,157.14,not out,1,4,36.36,0,0
+IPL_2024_022,2,SRH,Travis Head,32,24,2,1,133.33,c & b Narine,0,14,43.75,0,0
+IPL_2024_022,2,SRH,Abhishe Sharma,48,31,3,1,154.84,c Dhoni b Bumrah,0,18,37.5,0,0
+IPL_2024_022,2,SRH,Rahul Tripathi,15,11,1,0,136.36,run out,0,4,26.67,0,0
+IPL_2024_022,2,SRH,Aiden Marram,36,23,2,2,156.52,c Dhoni b Bumrah,0,20,55.56,0,0
+IPL_2024_022,2,SRH,Heinrih laasen,39,31,3,1,125.81,c Dhoni b Bumrah,0,18,46.15,0,0
+IPL_2024_023,1,SRH,Travis Head,29,21,2,0,138.1,b Cummins,0,8,27.59,0,0
+IPL_2024_023,1,SRH,Abhishe Sharma,33,19,1,1,173.68,b Cummins,0,10,30.3,0,0
+IPL_2024_023,1,SRH,Rahul Tripathi,28,16,1,1,175.0,lbw b Chahal,0,10,35.71,0,0
+IPL_2024_023,1,SRH,Aiden Marram,40,29,3,2,137.93,c Dhoni b Bumrah,0,24,60.0,0,0
+IPL_2024_023,1,SRH,Heinrih laasen,32,27,2,1,118.52,c & b Narine,0,14,43.75,0,0
+IPL_2024_023,1,SRH,Nitish umar Reddy,14,8,0,0,175.0,not out,1,0,0.0,0,0
+IPL_2024_023,2,MI,Rohit Sharma,33,27,2,1,122.22,c & b Narine,0,14,42.42,0,0
+IPL_2024_023,2,MI,Ishan ishan,9,8,0,0,112.5,b Cummins,0,0,0.0,0,0
+IPL_2024_023,2,MI,Suryaumar Yadav,23,14,2,1,164.29,c Dhoni b Bumrah,0,14,60.87,0,0
+IPL_2024_023,2,MI,Tila Varma,50,36,5,2,138.89,lbw b Chahal,0,32,64.0,1,0
+IPL_2024_023,2,MI,Hardi Pandya,40,34,2,2,117.65,c & b Narine,0,20,50.0,0,0
+IPL_2024_023,2,MI,Tim David,1,1,0,0,100.0,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_024,1,MI,Rohit Sharma,52,36,3,2,144.44,b Cummins,0,24,46.15,1,0
+IPL_2024_024,1,MI,Ishan ishan,37,23,1,2,160.87,c & b Narine,0,16,43.24,0,0
+IPL_2024_024,1,MI,Suryaumar Yadav,10,8,1,0,125.0,lbw b Chahal,0,4,40.0,0,0
+IPL_2024_024,1,MI,Tila Varma,16,14,1,0,114.29,b Cummins,0,4,25.0,0,0
+IPL_2024_024,1,MI,Hardi Pandya,27,19,2,1,142.11,run out,0,14,51.85,0,0
+IPL_2024_024,1,MI,Tim David,24,20,1,1,120.0,not out,1,10,41.67,0,0
+IPL_2024_024,2,PBKS,Shihar Dhaan,43,30,1,2,143.33,c & b Narine,0,16,37.21,0,0
+IPL_2024_024,2,PBKS,Jonny Bairsto,38,27,2,1,140.74,run out,0,14,36.84,0,0
+IPL_2024_024,2,PBKS,Prabhsimran Singh,61,37,2,2,164.86,lbw b Chahal,0,20,32.79,1,0
+IPL_2024_024,2,PBKS,Rilee Rossou,37,23,1,2,160.87,lbw b Chahal,0,16,43.24,0,0
+IPL_2024_025,1,RCB,Faf du Plessis,49,38,4,2,128.95,run out,0,28,57.14,0,0
+IPL_2024_025,1,RCB,Virat ohli,38,33,2,2,115.15,lbw b Chahal,0,20,52.63,0,0
+IPL_2024_025,1,RCB,ill Jas,43,32,1,2,134.38,lbw b Chahal,0,16,37.21,0,0
+IPL_2024_025,1,RCB,Rajat Patidar,28,17,2,1,164.71,c Dhoni b Bumrah,0,14,50.0,0,0
+IPL_2024_025,2,RR,Yashasvi Jaisal,52,32,4,1,162.5,run out,0,22,42.31,1,0
+IPL_2024_025,2,RR,Jos Buttler,38,24,2,1,158.33,b Cummins,0,14,36.84,0,0
+IPL_2024_025,2,RR,Sanju Samson,23,18,1,1,127.78,c Dhoni b Bumrah,0,10,43.48,0,0
+IPL_2024_025,2,RR,Riyan Parag,29,22,3,0,131.82,lbw b Chahal,0,12,41.38,0,0
+IPL_2024_025,2,RR,Dhruv Jurel,34,24,4,0,141.67,b Cummins,0,16,47.06,0,0
+IPL_2024_026,1,MI,Rohit Sharma,44,26,3,2,169.23,run out,0,24,54.55,0,0
+IPL_2024_026,1,MI,Ishan ishan,25,21,2,0,119.05,run out,0,8,32.0,0,0
+IPL_2024_026,1,MI,Suryaumar Yadav,35,31,2,2,112.9,lbw b Chahal,0,20,57.14,0,0
+IPL_2024_026,1,MI,Tila Varma,24,21,1,0,114.29,c & b Narine,0,4,16.67,0,0
+IPL_2024_026,1,MI,Hardi Pandya,24,21,2,1,114.29,b Cummins,0,14,58.33,0,0
+IPL_2024_026,2,CSK,Ruturaj Gaiad,34,24,3,0,141.67,b Cummins,0,12,35.29,0,0
+IPL_2024_026,2,CSK,Rahin Ravindra,21,18,0,1,116.67,c & b Narine,0,6,28.57,0,0
+IPL_2024_026,2,CSK,Ajinya Rahane,25,15,2,1,166.67,run out,0,14,56.0,0,0
+IPL_2024_026,2,CSK,Daryl Mithell,17,10,2,0,170.0,c & b Narine,0,8,47.06,0,0
+IPL_2024_026,2,CSK,Shivam Dube,51,29,4,2,175.86,c & b Narine,0,28,54.9,1,0
+IPL_2024_026,2,CSK,Ravindra Jadeja,11,8,1,0,137.5,c Dhoni b Bumrah,0,4,36.36,0,0
+IPL_2024_027,1,PBKS,Shihar Dhaan,32,20,2,1,160.0,run out,0,14,43.75,0,0
+IPL_2024_027,1,PBKS,Jonny Bairsto,14,11,1,0,127.27,c & b Narine,0,4,28.57,0,0
+IPL_2024_027,1,PBKS,Prabhsimran Singh,51,38,3,3,134.21,b Cummins,0,30,58.82,1,0
+IPL_2024_027,1,PBKS,Rilee Rossou,53,35,3,2,151.43,b Cummins,0,24,45.28,1,0
+IPL_2024_027,1,PBKS,Sam Curran,20,16,1,1,125.0,b Cummins,0,10,50.0,0,0
+IPL_2024_027,2,KKR,Phil Salt,18,13,1,0,138.46,c & b Narine,0,4,22.22,0,0
+IPL_2024_027,2,KKR,Sunil Narine,53,32,6,1,165.62,lbw b Chahal,0,30,56.6,1,0
+IPL_2024_027,2,KKR,Venatesh Iyer,51,34,3,1,150.0,run out,0,18,35.29,1,0
+IPL_2024_027,2,KKR,Shreyas Iyer,62,35,4,2,177.14,c Dhoni b Bumrah,0,28,45.16,1,0
+IPL_2024_028,1,RR,Yashasvi Jaisal,31,20,1,1,155.0,lbw b Chahal,0,10,32.26,0,0
+IPL_2024_028,1,RR,Jos Buttler,43,26,3,1,165.38,c & b Narine,0,18,41.86,0,0
+IPL_2024_028,1,RR,Sanju Samson,28,17,3,0,164.71,c & b Narine,0,12,42.86,0,0
+IPL_2024_028,1,RR,Riyan Parag,17,13,0,1,130.77,b Cummins,0,6,35.29,0,0
+IPL_2024_028,1,RR,Dhruv Jurel,51,31,3,2,164.52,c Dhoni b Bumrah,0,24,47.06,1,0
+IPL_2024_028,1,RR,Shimron Hetmyer,16,13,1,0,123.08,b Cummins,0,4,25.0,0,0
+IPL_2024_028,2,CSK,Ruturaj Gaiad,67,37,4,2,181.08,c & b Narine,0,28,41.79,1,0
+IPL_2024_028,2,CSK,Rahin Ravindra,51,33,4,3,154.55,c Dhoni b Bumrah,0,34,66.67,1,0
+IPL_2024_028,2,CSK,Ajinya Rahane,42,25,1,2,168.0,b Cummins,0,16,38.1,0,0
+IPL_2024_028,2,CSK,Daryl Mithell,40,25,2,2,160.0,c Dhoni b Bumrah,0,20,50.0,0,0
+IPL_2024_029,1,MI,Rohit Sharma,23,15,1,1,153.33,c & b Narine,0,10,43.48,0,0
+IPL_2024_029,1,MI,Ishan ishan,36,24,1,1,150.0,b Cummins,0,10,27.78,0,0
+IPL_2024_029,1,MI,Suryaumar Yadav,62,35,3,2,177.14,lbw b Chahal,0,24,38.71,1,0
+IPL_2024_029,1,MI,Tila Varma,24,14,2,0,171.43,c Dhoni b Bumrah,0,8,33.33,0,0
+IPL_2024_029,1,MI,Hardi Pandya,17,11,0,1,154.55,c & b Narine,0,6,35.29,0,0
+IPL_2024_029,1,MI,Tim David,16,13,1,0,123.08,c & b Narine,0,4,25.0,0,0
+IPL_2024_029,1,MI,Romario Shepherd,9,8,0,0,112.5,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_029,2,SRH,Travis Head,14,11,0,0,127.27,c & b Narine,0,0,0.0,0,0
+IPL_2024_029,2,SRH,Abhishe Sharma,31,27,2,1,114.81,lbw b Chahal,0,14,45.16,0,0
+IPL_2024_029,2,SRH,Rahul Tripathi,35,22,3,1,159.09,c Dhoni b Bumrah,0,18,51.43,0,0
+IPL_2024_029,2,SRH,Aiden Marram,37,27,1,1,137.04,lbw b Chahal,0,10,27.03,0,0
+IPL_2024_029,2,SRH,Heinrih laasen,48,32,5,1,150.0,c Dhoni b Bumrah,0,26,54.17,0,0
+IPL_2024_029,2,SRH,Nitish umar Reddy,1,1,0,0,100.0,not out,1,0,0.0,0,0
+IPL_2024_030,1,CSK,Ruturaj Gaiad,51,34,2,3,150.0,c & b Narine,0,26,50.98,1,0
+IPL_2024_030,1,CSK,Rahin Ravindra,16,9,1,0,177.78,run out,0,4,25.0,0,0
+IPL_2024_030,1,CSK,Ajinya Rahane,12,8,1,0,150.0,c Dhoni b Bumrah,0,4,33.33,0,0
+IPL_2024_030,1,CSK,Daryl Mithell,17,10,2,0,170.0,c Dhoni b Bumrah,0,8,47.06,0,0
+IPL_2024_030,1,CSK,Shivam Dube,23,17,1,1,135.29,lbw b Chahal,0,10,43.48,0,0
+IPL_2024_030,1,CSK,Ravindra Jadeja,26,20,2,0,130.0,c Dhoni b Bumrah,0,8,30.77,0,0
+IPL_2024_030,1,CSK,MS Dhoni,27,22,2,1,122.73,b Cummins,0,14,51.85,0,0
+IPL_2024_030,2,RR,Yashasvi Jaisal,13,12,0,0,108.33,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_030,2,RR,Jos Buttler,36,20,2,1,180.0,run out,0,14,38.89,0,0
+IPL_2024_030,2,RR,Sanju Samson,44,26,3,2,169.23,run out,0,24,54.55,0,0
+IPL_2024_030,2,RR,Riyan Parag,49,28,3,3,175.0,c & b Narine,0,30,61.22,0,0
+IPL_2024_030,2,RR,Dhruv Jurel,16,14,1,0,114.29,lbw b Chahal,0,4,25.0,0,0
+IPL_2024_030,2,RR,Shimron Hetmyer,32,20,2,1,160.0,c & b Narine,0,14,43.75,0,0
+IPL_2024_031,1,RR,Yashasvi Jaisal,11,9,1,0,122.22,c & b Narine,0,4,36.36,0,0
+IPL_2024_031,1,RR,Jos Buttler,47,38,1,3,123.68,run out,0,22,46.81,0,0
+IPL_2024_031,1,RR,Sanju Samson,46,35,1,2,131.43,lbw b Chahal,0,16,34.78,0,0
+IPL_2024_031,1,RR,Riyan Parag,33,23,3,1,143.48,c & b Narine,0,18,54.55,0,0
+IPL_2024_031,1,RR,Dhruv Jurel,17,11,1,0,154.55,run out,0,4,23.53,0,0
+IPL_2024_031,1,RR,Shimron Hetmyer,7,4,0,0,175.0,not out,1,0,0.0,0,0
+IPL_2024_031,2,LSG,L Rahul,41,32,2,2,128.12,run out,0,20,48.78,0,0
+IPL_2024_031,2,LSG,Quinton de o,38,28,3,1,135.71,run out,0,18,47.37,0,0
+IPL_2024_031,2,LSG,Marus Stoinis,32,19,3,1,168.42,b Cummins,0,18,56.25,0,0
+IPL_2024_031,2,LSG,Niholas Pooran,49,27,3,2,181.48,b Cummins,0,24,48.98,0,0
+IPL_2024_031,2,LSG,Ayush Badoni,24,14,2,1,171.43,run out,0,14,58.33,0,0
+IPL_2024_032,1,KKR,Phil Salt,40,25,4,1,160.0,run out,0,22,55.0,0,0
+IPL_2024_032,1,KKR,Sunil Narine,48,30,3,1,160.0,c Dhoni b Bumrah,0,18,37.5,0,0
+IPL_2024_032,1,KKR,Venatesh Iyer,50,29,3,1,172.41,c Dhoni b Bumrah,0,18,36.0,1,0
+IPL_2024_032,1,KKR,Shreyas Iyer,59,33,6,1,178.79,run out,0,30,50.85,1,0
+IPL_2024_032,1,KKR,Rinu Singh,5,3,0,0,166.67,c & b Narine,0,0,0.0,0,0
+IPL_2024_032,2,RR,Yashasvi Jaisal,12,10,0,0,120.0,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_032,2,RR,Jos Buttler,55,33,3,2,166.67,c & b Narine,0,24,43.64,1,0
+IPL_2024_032,2,RR,Sanju Samson,42,32,4,1,131.25,run out,0,22,52.38,0,0
+IPL_2024_032,2,RR,Riyan Parag,10,9,1,0,111.11,b Cummins,0,4,40.0,0,0
+IPL_2024_032,2,RR,Dhruv Jurel,14,11,1,0,127.27,c Dhoni b Bumrah,0,4,28.57,0,0
+IPL_2024_032,2,RR,Shimron Hetmyer,14,12,1,0,116.67,c & b Narine,0,4,28.57,0,0
+IPL_2024_032,2,RR,Rovman Poell,20,13,2,0,153.85,c Dhoni b Bumrah,0,8,40.0,0,0
+IPL_2024_033,1,MI,Rohit Sharma,23,16,1,1,143.75,b Cummins,0,10,43.48,0,0
+IPL_2024_033,1,MI,Ishan ishan,19,13,1,1,146.15,c & b Narine,0,10,52.63,0,0
+IPL_2024_033,1,MI,Suryaumar Yadav,48,27,3,1,177.78,run out,0,18,37.5,0,0
+IPL_2024_033,1,MI,Tila Varma,44,29,4,1,151.72,b Cummins,0,22,50.0,0,0
+IPL_2024_033,1,MI,Hardi Pandya,51,32,4,1,159.38,c & b Narine,0,22,43.14,1,0
+IPL_2024_033,1,MI,Tim David,4,3,0,0,133.33,not out,1,0,0.0,0,0
+IPL_2024_033,2,PBKS,Shihar Dhaan,52,29,3,2,179.31,run out,0,24,46.15,1,0
+IPL_2024_033,2,PBKS,Jonny Bairsto,49,28,2,1,175.0,run out,0,14,28.57,0,0
+IPL_2024_033,2,PBKS,Prabhsimran Singh,36,22,1,2,163.64,lbw b Chahal,0,16,44.44,0,0
+IPL_2024_033,2,PBKS,Rilee Rossou,18,11,1,0,163.64,b Cummins,0,4,22.22,0,0
+IPL_2024_033,2,PBKS,Sam Curran,21,13,1,1,161.54,run out,0,10,47.62,0,0
+IPL_2024_033,2,PBKS,Jitesh Sharma,24,17,1,1,141.18,b Cummins,0,10,41.67,0,0
+IPL_2024_034,1,RR,Yashasvi Jaisal,19,16,2,0,118.75,lbw b Chahal,0,8,42.11,0,0
+IPL_2024_034,1,RR,Jos Buttler,32,23,3,1,139.13,b Cummins,0,18,56.25,0,0
+IPL_2024_034,1,RR,Sanju Samson,30,26,3,1,115.38,c & b Narine,0,18,60.0,0,0
+IPL_2024_034,1,RR,Riyan Parag,15,11,1,0,136.36,run out,0,4,26.67,0,0
+IPL_2024_034,1,RR,Dhruv Jurel,12,9,1,0,133.33,lbw b Chahal,0,4,33.33,0,0
+IPL_2024_034,1,RR,Shimron Hetmyer,31,20,3,1,155.0,c Dhoni b Bumrah,0,18,58.06,0,0
+IPL_2024_034,1,RR,Rovman Poell,22,15,2,0,146.67,c & b Narine,0,8,36.36,0,0
+IPL_2024_034,2,KKR,Phil Salt,30,21,2,1,142.86,b Cummins,0,14,46.67,0,0
+IPL_2024_034,2,KKR,Sunil Narine,32,19,3,0,168.42,b Cummins,0,12,37.5,0,0
+IPL_2024_034,2,KKR,Venatesh Iyer,18,15,2,0,120.0,lbw b Chahal,0,8,44.44,0,0
+IPL_2024_034,2,KKR,Shreyas Iyer,30,24,3,1,125.0,c Dhoni b Bumrah,0,18,60.0,0,0
+IPL_2024_034,2,KKR,Rinu Singh,19,16,0,1,118.75,c Dhoni b Bumrah,0,6,31.58,0,0
+IPL_2024_034,2,KKR,Andre Russell,25,22,0,1,113.64,run out,0,6,24.0,0,0
+IPL_2024_034,2,KKR,Ramandeep Singh,4,3,0,0,133.33,not out,1,0,0.0,0,0
+IPL_2024_035,1,CSK,Ruturaj Gaiad,40,29,2,2,137.93,c Dhoni b Bumrah,0,20,50.0,0,0
+IPL_2024_035,1,CSK,Rahin Ravindra,21,16,0,1,131.25,run out,0,6,28.57,0,0
+IPL_2024_035,1,CSK,Ajinya Rahane,30,20,2,1,150.0,c Dhoni b Bumrah,0,14,46.67,0,0
+IPL_2024_035,1,CSK,Daryl Mithell,11,8,1,0,137.5,run out,0,4,36.36,0,0
+IPL_2024_035,1,CSK,Shivam Dube,59,34,3,3,173.53,c Dhoni b Bumrah,0,30,50.85,1,0
+IPL_2024_035,1,CSK,Ravindra Jadeja,23,13,1,0,176.92,b Cummins,0,4,17.39,0,0
+IPL_2024_035,2,PBKS,Shihar Dhaan,42,29,2,2,144.83,c Dhoni b Bumrah,0,20,47.62,0,0
+IPL_2024_035,2,PBKS,Jonny Bairsto,47,36,5,1,130.56,c & b Narine,0,26,55.32,0,0
+IPL_2024_035,2,PBKS,Prabhsimran Singh,16,11,1,0,145.45,c & b Narine,0,4,25.0,0,0
+IPL_2024_035,2,PBKS,Rilee Rossou,33,26,3,0,126.92,c Dhoni b Bumrah,0,12,36.36,0,0
+IPL_2024_035,2,PBKS,Sam Curran,22,18,1,1,122.22,not out,1,10,45.45,0,0
+IPL_2024_036,1,GT,Shubman Gill,46,28,2,2,164.29,c & b Narine,0,20,43.48,0,0
+IPL_2024_036,1,GT,riddhiman Saha,26,15,2,1,173.33,c Dhoni b Bumrah,0,14,53.85,0,0
+IPL_2024_036,1,GT,Sai Sudharsan,63,35,2,2,180.0,run out,0,20,31.75,1,0
+IPL_2024_036,1,GT,David Miller,42,36,4,1,116.67,run out,0,22,52.38,0,0
+IPL_2024_036,1,GT,Azmatullah Omarzai,10,6,0,0,166.67,not out,1,0,0.0,0,0
+IPL_2024_036,2,PBKS,Shihar Dhaan,42,28,2,1,150.0,c & b Narine,0,14,33.33,0,0
+IPL_2024_036,2,PBKS,Jonny Bairsto,47,29,5,1,162.07,lbw b Chahal,0,26,55.32,0,0
+IPL_2024_036,2,PBKS,Prabhsimran Singh,48,28,2,2,171.43,c & b Narine,0,20,41.67,0,0
+IPL_2024_036,2,PBKS,Rilee Rossou,32,27,2,0,118.52,b Cummins,0,8,25.0,0,0
+IPL_2024_036,2,PBKS,Sam Curran,13,8,1,0,162.5,run out,0,4,30.77,0,0
+IPL_2024_037,1,SRH,Travis Head,20,12,1,0,166.67,run out,0,4,20.0,0,0
+IPL_2024_037,1,SRH,Abhishe Sharma,52,29,4,3,179.31,c & b Narine,0,34,65.38,1,0
+IPL_2024_037,1,SRH,Rahul Tripathi,13,10,1,0,130.0,c & b Narine,0,4,30.77,0,0
+IPL_2024_037,1,SRH,Aiden Marram,32,26,3,0,123.08,lbw b Chahal,0,12,37.5,0,0
+IPL_2024_037,1,SRH,Heinrih laasen,33,24,1,1,137.5,c Dhoni b Bumrah,0,10,30.3,0,0
+IPL_2024_037,1,SRH,Nitish umar Reddy,24,14,1,0,171.43,run out,0,4,16.67,0,0
+IPL_2024_037,1,SRH,Abdul Samad,5,5,0,0,100.0,not out,1,0,0.0,0,0
+IPL_2024_037,2,RR,Yashasvi Jaisal,41,24,3,2,170.83,lbw b Chahal,0,24,58.54,0,0
+IPL_2024_037,2,RR,Jos Buttler,61,36,3,3,169.44,run out,0,30,49.18,1,0
+IPL_2024_037,2,RR,Sanju Samson,61,34,5,2,179.41,run out,0,32,52.46,1,0
+IPL_2024_037,2,RR,Riyan Parag,45,26,2,2,173.08,c Dhoni b Bumrah,0,20,44.44,0,0
+IPL_2024_038,1,KKR,Phil Salt,33,20,2,1,165.0,c Dhoni b Bumrah,0,14,42.42,0,0
+IPL_2024_038,1,KKR,Sunil Narine,16,14,1,0,114.29,b Cummins,0,4,25.0,0,0
+IPL_2024_038,1,KKR,Venatesh Iyer,22,17,0,1,129.41,run out,0,6,27.27,0,0
+IPL_2024_038,1,KKR,Shreyas Iyer,40,25,3,2,160.0,b Cummins,0,24,60.0,0,0
+IPL_2024_038,1,KKR,Rinu Singh,34,25,1,2,136.0,c Dhoni b Bumrah,0,16,47.06,0,0
+IPL_2024_038,1,KKR,Andre Russell,30,19,3,1,157.89,lbw b Chahal,0,18,60.0,0,0
+IPL_2024_038,2,PBKS,Shihar Dhaan,36,22,2,0,163.64,c & b Narine,0,8,22.22,0,0
+IPL_2024_038,2,PBKS,Jonny Bairsto,43,35,4,1,122.86,lbw b Chahal,0,22,51.16,0,0
+IPL_2024_038,2,PBKS,Prabhsimran Singh,20,13,1,0,153.85,c & b Narine,0,4,20.0,0,0
+IPL_2024_038,2,PBKS,Rilee Rossou,28,18,2,0,155.56,lbw b Chahal,0,8,28.57,0,0
+IPL_2024_038,2,PBKS,Sam Curran,21,12,2,0,175.0,b Cummins,0,8,38.1,0,0
+IPL_2024_038,2,PBKS,Jitesh Sharma,24,20,1,1,120.0,c & b Narine,0,10,41.67,0,0
+IPL_2024_039,1,MI,Rohit Sharma,35,28,3,1,125.0,lbw b Chahal,0,18,51.43,0,0
+IPL_2024_039,1,MI,Ishan ishan,21,13,1,0,161.54,c Dhoni b Bumrah,0,4,19.05,0,0
+IPL_2024_039,1,MI,Suryaumar Yadav,39,24,3,2,162.5,c Dhoni b Bumrah,0,24,61.54,0,0
+IPL_2024_039,1,MI,Tila Varma,52,34,1,3,152.94,c Dhoni b Bumrah,0,22,42.31,1,0
+IPL_2024_039,1,MI,Hardi Pandya,27,21,3,0,128.57,not out,1,12,44.44,0,0
+IPL_2024_039,2,DC,David arner,37,28,3,1,132.14,b Cummins,0,18,48.65,0,0
+IPL_2024_039,2,DC,Prithvi Sha,54,38,2,3,142.11,c & b Narine,0,26,48.15,1,0
+IPL_2024_039,2,DC,Jae Fraser-MGur,42,36,3,1,116.67,c & b Narine,0,18,42.86,0,0
+IPL_2024_039,2,DC,Rishabh Pant,27,18,2,1,150.0,c & b Narine,0,14,51.85,0,0
+IPL_2024_040,1,RCB,Faf du Plessis,23,14,0,1,164.29,c Dhoni b Bumrah,0,6,26.09,0,0
+IPL_2024_040,1,RCB,Virat ohli,27,18,2,1,150.0,b Cummins,0,14,51.85,0,0
+IPL_2024_040,1,RCB,ill Jas,53,29,2,3,182.76,c Dhoni b Bumrah,0,26,49.06,1,0
+IPL_2024_040,1,RCB,Rajat Patidar,36,25,2,1,144.0,lbw b Chahal,0,14,38.89,0,0
+IPL_2024_040,1,RCB,Glenn Maxell,31,21,2,1,147.62,c & b Narine,0,14,45.16,0,0
+IPL_2024_040,1,RCB,Cameron Green,23,13,2,0,176.92,c & b Narine,0,8,34.78,0,0
+IPL_2024_040,2,LSG,L Rahul,19,16,1,0,118.75,c Dhoni b Bumrah,0,4,21.05,0,0
+IPL_2024_040,2,LSG,Quinton de o,44,27,2,1,162.96,run out,0,14,31.82,0,0
+IPL_2024_040,2,LSG,Marus Stoinis,24,15,1,1,160.0,c Dhoni b Bumrah,0,10,41.67,0,0
+IPL_2024_040,2,LSG,Niholas Pooran,22,17,1,1,129.41,lbw b Chahal,0,10,45.45,0,0
+IPL_2024_040,2,LSG,Ayush Badoni,58,35,2,3,165.71,lbw b Chahal,0,26,44.83,1,0
+IPL_2024_040,2,LSG,Deepa Hooda,12,10,1,0,120.0,lbw b Chahal,0,4,33.33,0,0
+IPL_2024_041,1,PBKS,Shihar Dhaan,39,31,3,1,125.81,lbw b Chahal,0,18,46.15,0,0
+IPL_2024_041,1,PBKS,Jonny Bairsto,42,33,2,2,127.27,c Dhoni b Bumrah,0,20,47.62,0,0
+IPL_2024_041,1,PBKS,Prabhsimran Singh,15,12,0,0,125.0,b Cummins,0,0,0.0,0,0
+IPL_2024_041,1,PBKS,Rilee Rossou,49,35,4,2,140.0,c Dhoni b Bumrah,0,28,57.14,0,0
+IPL_2024_041,1,PBKS,Sam Curran,16,9,2,0,177.78,not out,1,8,50.0,0,0
+IPL_2024_041,2,LSG,L Rahul,37,28,1,2,132.14,b Cummins,0,16,43.24,0,0
+IPL_2024_041,2,LSG,Quinton de o,57,36,3,1,158.33,run out,0,18,31.58,1,0
+IPL_2024_041,2,LSG,Marus Stoinis,29,23,1,1,126.09,lbw b Chahal,0,10,34.48,0,0
+IPL_2024_041,2,LSG,Niholas Pooran,12,8,0,0,150.0,b Cummins,0,0,0.0,0,0
+IPL_2024_041,2,LSG,Ayush Badoni,23,14,1,0,164.29,c & b Narine,0,4,17.39,0,0
+IPL_2024_041,2,LSG,Deepa Hooda,16,9,1,0,177.78,not out,1,4,25.0,0,0
+IPL_2024_042,1,MI,Rohit Sharma,67,37,5,3,181.08,c & b Narine,0,38,56.72,1,0
+IPL_2024_042,1,MI,Ishan ishan,26,17,2,1,152.94,b Cummins,0,14,53.85,0,0
+IPL_2024_042,1,MI,Suryaumar Yadav,19,13,2,0,146.15,run out,0,8,42.11,0,0
+IPL_2024_042,1,MI,Tila Varma,46,30,4,2,153.33,c Dhoni b Bumrah,0,28,60.87,0,0
+IPL_2024_042,1,MI,Hardi Pandya,37,23,2,1,160.87,b Cummins,0,14,37.84,0,0
+IPL_2024_042,2,DC,David arner,26,19,2,1,136.84,c & b Narine,0,14,53.85,0,0
+IPL_2024_042,2,DC,Prithvi Sha,24,19,1,0,126.32,lbw b Chahal,0,4,16.67,0,0
+IPL_2024_042,2,DC,Jae Fraser-MGur,48,38,3,2,126.32,c Dhoni b Bumrah,0,24,50.0,0,0
+IPL_2024_042,2,DC,Rishabh Pant,34,29,1,1,117.24,c Dhoni b Bumrah,0,10,29.41,0,0
+IPL_2024_042,2,DC,Tristan Stubbs,23,15,1,0,153.33,lbw b Chahal,0,4,17.39,0,0
+IPL_2024_043,1,DC,David arner,16,10,1,0,160.0,lbw b Chahal,0,4,25.0,0,0
+IPL_2024_043,1,DC,Prithvi Sha,19,14,2,0,135.71,b Cummins,0,8,42.11,0,0
+IPL_2024_043,1,DC,Jae Fraser-MGur,60,37,6,2,162.16,run out,0,36,60.0,1,0
+IPL_2024_043,1,DC,Rishabh Pant,32,26,2,1,123.08,run out,0,14,43.75,0,0
+IPL_2024_043,1,DC,Tristan Stubbs,14,8,0,0,175.0,run out,0,0,0.0,0,0
+IPL_2024_043,1,DC,Axar Patel,14,10,1,0,140.0,c Dhoni b Bumrah,0,4,28.57,0,0
+IPL_2024_043,1,DC,Abishe Porel,19,15,1,0,126.67,not out,1,4,21.05,0,0
+IPL_2024_043,2,GT,Shubman Gill,21,18,2,1,116.67,c Dhoni b Bumrah,0,14,66.67,0,0
+IPL_2024_043,2,GT,riddhiman Saha,52,29,3,2,179.31,run out,0,24,46.15,1,0
+IPL_2024_043,2,GT,Sai Sudharsan,66,38,5,2,173.68,c Dhoni b Bumrah,0,32,48.48,1,0
+IPL_2024_043,2,GT,David Miller,16,10,1,0,160.0,b Cummins,0,4,25.0,0,0
+IPL_2024_043,2,GT,Azmatullah Omarzai,19,12,0,1,158.33,c Dhoni b Bumrah,0,6,31.58,0,0
+IPL_2024_043,2,GT,Rahul Teatia,17,12,1,0,141.67,b Cummins,0,4,23.53,0,0
+IPL_2024_044,1,RR,Yashasvi Jaisal,12,8,0,0,150.0,c & b Narine,0,0,0.0,0,0
+IPL_2024_044,1,RR,Jos Buttler,10,8,0,0,125.0,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_044,1,RR,Sanju Samson,31,26,1,1,119.23,run out,0,10,32.26,0,0
+IPL_2024_044,1,RR,Riyan Parag,17,10,1,0,170.0,run out,0,4,23.53,0,0
+IPL_2024_044,1,RR,Dhruv Jurel,32,25,1,0,128.0,b Cummins,0,4,12.5,0,0
+IPL_2024_044,1,RR,Shimron Hetmyer,49,30,4,2,163.33,lbw b Chahal,0,28,57.14,0,0
+IPL_2024_044,1,RR,Rovman Poell,19,13,2,0,146.15,not out,1,8,42.11,0,0
+IPL_2024_044,2,DC,David arner,39,33,3,1,118.18,run out,0,18,46.15,0,0
+IPL_2024_044,2,DC,Prithvi Sha,29,23,1,1,126.09,c & b Narine,0,10,34.48,0,0
+IPL_2024_044,2,DC,Jae Fraser-MGur,29,25,1,1,116.0,c Dhoni b Bumrah,0,10,34.48,0,0
+IPL_2024_044,2,DC,Rishabh Pant,46,32,2,1,143.75,c & b Narine,0,14,30.43,0,0
+IPL_2024_044,2,DC,Tristan Stubbs,8,7,0,0,114.29,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_045,1,KKR,Phil Salt,42,36,4,2,116.67,b Cummins,0,28,66.67,0,0
+IPL_2024_045,1,KKR,Sunil Narine,31,26,2,1,119.23,b Cummins,0,14,45.16,0,0
+IPL_2024_045,1,KKR,Venatesh Iyer,21,18,1,0,116.67,run out,0,4,19.05,0,0
+IPL_2024_045,1,KKR,Shreyas Iyer,25,20,1,1,125.0,c Dhoni b Bumrah,0,10,40.0,0,0
+IPL_2024_045,1,KKR,Rinu Singh,24,20,1,0,120.0,c & b Narine,0,4,16.67,0,0
+IPL_2024_045,2,PBKS,Shihar Dhaan,19,15,0,1,126.67,lbw b Chahal,0,6,31.58,0,0
+IPL_2024_045,2,PBKS,Jonny Bairsto,44,34,2,1,129.41,c & b Narine,0,14,31.82,0,0
+IPL_2024_045,2,PBKS,Prabhsimran Singh,31,24,1,1,129.17,lbw b Chahal,0,10,32.26,0,0
+IPL_2024_045,2,PBKS,Rilee Rossou,48,33,3,1,145.45,c Dhoni b Bumrah,0,18,37.5,0,0
+IPL_2024_045,2,PBKS,Sam Curran,18,14,2,0,128.57,b Cummins,0,8,44.44,0,0
+IPL_2024_046,1,CSK,Ruturaj Gaiad,23,14,2,0,164.29,lbw b Chahal,0,8,34.78,0,0
+IPL_2024_046,1,CSK,Rahin Ravindra,12,10,1,0,120.0,c Dhoni b Bumrah,0,4,33.33,0,0
+IPL_2024_046,1,CSK,Ajinya Rahane,34,25,2,1,136.0,c Dhoni b Bumrah,0,14,41.18,0,0
+IPL_2024_046,1,CSK,Daryl Mithell,16,11,0,0,145.45,c & b Narine,0,0,0.0,0,0
+IPL_2024_046,1,CSK,Shivam Dube,39,29,2,1,134.48,run out,0,14,35.9,0,0
+IPL_2024_046,1,CSK,Ravindra Jadeja,15,10,1,0,150.0,b Cummins,0,4,26.67,0,0
+IPL_2024_046,1,CSK,MS Dhoni,23,14,1,1,164.29,c Dhoni b Bumrah,0,10,43.48,0,0
+IPL_2024_046,1,CSK,Mithell Santner,11,7,0,0,157.14,not out,1,0,0.0,0,0
+IPL_2024_046,2,MI,Rohit Sharma,43,35,4,1,122.86,lbw b Chahal,0,22,51.16,0,0
+IPL_2024_046,2,MI,Ishan ishan,47,26,4,1,180.77,lbw b Chahal,0,22,46.81,0,0
+IPL_2024_046,2,MI,Suryaumar Yadav,21,12,2,0,175.0,run out,0,8,38.1,0,0
+IPL_2024_046,2,MI,Tila Varma,12,8,0,0,150.0,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_046,2,MI,Hardi Pandya,20,15,2,0,133.33,b Cummins,0,8,40.0,0,0
+IPL_2024_046,2,MI,Tim David,36,24,3,1,150.0,not out,1,18,50.0,0,0
+IPL_2024_047,1,KKR,Phil Salt,57,36,3,3,158.33,c Dhoni b Bumrah,0,30,52.63,1,0
+IPL_2024_047,1,KKR,Sunil Narine,62,36,3,1,172.22,c Dhoni b Bumrah,0,18,29.03,1,0
+IPL_2024_047,1,KKR,Venatesh Iyer,28,16,1,1,175.0,lbw b Chahal,0,10,35.71,0,0
+IPL_2024_047,1,KKR,Shreyas Iyer,36,24,3,0,150.0,run out,0,12,33.33,0,0
+IPL_2024_047,1,KKR,Rinu Singh,10,8,1,0,125.0,run out,0,4,40.0,0,0
+IPL_2024_047,2,DC,David arner,17,14,1,0,121.43,c Dhoni b Bumrah,0,4,23.53,0,0
+IPL_2024_047,2,DC,Prithvi Sha,30,25,1,1,120.0,c Dhoni b Bumrah,0,10,33.33,0,0
+IPL_2024_047,2,DC,Jae Fraser-MGur,16,11,1,0,145.45,run out,0,4,25.0,0,0
+IPL_2024_047,2,DC,Rishabh Pant,32,23,2,2,139.13,c & b Narine,0,20,62.5,0,0
+IPL_2024_047,2,DC,Tristan Stubbs,33,19,2,1,173.68,b Cummins,0,14,42.42,0,0
+IPL_2024_047,2,DC,Axar Patel,35,28,3,1,125.0,not out,1,18,51.43,0,0
+IPL_2024_048,1,RCB,Faf du Plessis,32,24,3,1,133.33,c Dhoni b Bumrah,0,18,56.25,0,0
+IPL_2024_048,1,RCB,Virat ohli,32,22,1,1,145.45,c Dhoni b Bumrah,0,10,31.25,0,0
+IPL_2024_048,1,RCB,ill Jas,30,18,1,1,166.67,c Dhoni b Bumrah,0,10,33.33,0,0
+IPL_2024_048,1,RCB,Rajat Patidar,39,29,4,1,134.48,run out,0,22,56.41,0,0
+IPL_2024_048,1,RCB,Glenn Maxell,12,10,0,0,120.0,b Cummins,0,0,0.0,0,0
+IPL_2024_048,1,RCB,Cameron Green,26,17,3,0,152.94,c Dhoni b Bumrah,0,12,46.15,0,0
+IPL_2024_048,2,GT,Shubman Gill,22,15,2,0,146.67,run out,0,8,36.36,0,0
+IPL_2024_048,2,GT,riddhiman Saha,30,21,1,1,142.86,b Cummins,0,10,33.33,0,0
+IPL_2024_048,2,GT,Sai Sudharsan,15,9,0,0,166.67,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_048,2,GT,David Miller,46,25,5,1,184.0,lbw b Chahal,0,26,56.52,0,0
+IPL_2024_048,2,GT,Azmatullah Omarzai,38,33,2,2,115.15,b Cummins,0,20,52.63,0,0
+IPL_2024_048,2,GT,Rahul Teatia,27,17,1,1,158.82,not out,1,10,37.04,0,0
+IPL_2024_049,1,RCB,Faf du Plessis,24,16,1,1,150.0,b Cummins,0,10,41.67,0,0
+IPL_2024_049,1,RCB,Virat ohli,45,35,1,2,128.57,c Dhoni b Bumrah,0,16,35.56,0,0
+IPL_2024_049,1,RCB,ill Jas,30,23,1,1,130.43,c & b Narine,0,10,33.33,0,0
+IPL_2024_049,1,RCB,Rajat Patidar,43,35,2,1,122.86,run out,0,14,32.56,0,0
+IPL_2024_049,1,RCB,Glenn Maxell,17,11,2,0,154.55,not out,1,8,47.06,0,0
+IPL_2024_049,2,RR,Yashasvi Jaisal,38,27,1,2,140.74,b Cummins,0,16,42.11,0,0
+IPL_2024_049,2,RR,Jos Buttler,42,23,3,2,182.61,lbw b Chahal,0,24,57.14,0,0
+IPL_2024_049,2,RR,Sanju Samson,35,25,1,1,140.0,lbw b Chahal,0,10,28.57,0,0
+IPL_2024_049,2,RR,Riyan Parag,27,15,2,1,180.0,b Cummins,0,14,51.85,0,0
+IPL_2024_049,2,RR,Dhruv Jurel,46,30,3,2,153.33,b Cummins,0,24,52.17,0,0
+IPL_2024_050,1,SRH,Travis Head,35,26,1,1,134.62,lbw b Chahal,0,10,28.57,0,0
+IPL_2024_050,1,SRH,Abhishe Sharma,60,33,3,2,181.82,c Dhoni b Bumrah,0,24,40.0,1,0
+IPL_2024_050,1,SRH,Rahul Tripathi,12,9,0,0,133.33,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_050,1,SRH,Aiden Marram,45,35,4,2,128.57,c & b Narine,0,28,62.22,0,0
+IPL_2024_050,1,SRH,Heinrih laasen,23,17,1,1,135.29,c Dhoni b Bumrah,0,10,43.48,0,0
+IPL_2024_050,2,LSG,L Rahul,30,20,1,1,150.0,c & b Narine,0,10,33.33,0,0
+IPL_2024_050,2,LSG,Quinton de o,38,24,3,1,158.33,run out,0,18,47.37,0,0
+IPL_2024_050,2,LSG,Marus Stoinis,60,35,2,3,171.43,lbw b Chahal,0,26,43.33,1,0
+IPL_2024_050,2,LSG,Niholas Pooran,33,27,1,2,122.22,lbw b Chahal,0,16,48.48,0,0
+IPL_2024_050,2,LSG,Ayush Badoni,20,14,1,1,142.86,run out,0,10,50.0,0,0
+IPL_2024_051,1,RR,Yashasvi Jaisal,31,18,2,2,172.22,run out,0,20,64.52,0,0
+IPL_2024_051,1,RR,Jos Buttler,47,31,2,1,151.61,c & b Narine,0,14,29.79,0,0
+IPL_2024_051,1,RR,Sanju Samson,16,11,0,0,145.45,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_051,1,RR,Riyan Parag,62,37,4,3,167.57,b Cummins,0,34,54.84,1,0
+IPL_2024_051,1,RR,Dhruv Jurel,32,23,3,1,139.13,c & b Narine,0,18,56.25,0,0
+IPL_2024_051,2,CSK,Ruturaj Gaiad,47,31,3,2,151.61,b Cummins,0,24,51.06,0,0
+IPL_2024_051,2,CSK,Rahin Ravindra,44,30,1,2,146.67,c & b Narine,0,16,36.36,0,0
+IPL_2024_051,2,CSK,Ajinya Rahane,20,17,2,0,117.65,c Dhoni b Bumrah,0,8,40.0,0,0
+IPL_2024_051,2,CSK,Daryl Mithell,24,19,2,1,126.32,c & b Narine,0,14,58.33,0,0
+IPL_2024_051,2,CSK,Shivam Dube,39,23,2,2,169.57,lbw b Chahal,0,20,51.28,0,0
+IPL_2024_052,1,PBKS,Shihar Dhaan,41,35,2,2,117.14,c & b Narine,0,20,48.78,0,0
+IPL_2024_052,1,PBKS,Jonny Bairsto,14,9,0,0,155.56,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_052,1,PBKS,Prabhsimran Singh,21,14,2,0,150.0,c Dhoni b Bumrah,0,8,38.1,0,0
+IPL_2024_052,1,PBKS,Rilee Rossou,27,19,1,1,142.11,c & b Narine,0,10,37.04,0,0
+IPL_2024_052,1,PBKS,Sam Curran,28,19,2,1,147.37,c & b Narine,0,14,50.0,0,0
+IPL_2024_052,1,PBKS,Jitesh Sharma,41,24,2,1,170.83,b Cummins,0,14,34.15,0,0
+IPL_2024_052,2,SRH,Travis Head,52,31,2,1,167.74,lbw b Chahal,0,14,26.92,1,0
+IPL_2024_052,2,SRH,Abhishe Sharma,29,19,2,1,152.63,c Dhoni b Bumrah,0,14,48.28,0,0
+IPL_2024_052,2,SRH,Rahul Tripathi,48,36,2,2,133.33,run out,0,20,41.67,0,0
+IPL_2024_052,2,SRH,Aiden Marram,46,28,2,1,164.29,c Dhoni b Bumrah,0,14,30.43,0,0
+IPL_2024_053,1,RCB,Faf du Plessis,27,17,2,1,158.82,run out,0,14,51.85,0,0
+IPL_2024_053,1,RCB,Virat ohli,10,8,0,0,125.0,run out,0,0,0.0,0,0
+IPL_2024_053,1,RCB,ill Jas,46,33,4,2,139.39,c Dhoni b Bumrah,0,28,60.87,0,0
+IPL_2024_053,1,RCB,Rajat Patidar,43,32,2,2,134.38,run out,0,20,46.51,0,0
+IPL_2024_053,1,RCB,Glenn Maxell,35,30,3,1,116.67,not out,1,18,51.43,0,0
+IPL_2024_053,2,RR,Yashasvi Jaisal,13,11,0,0,118.18,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_053,2,RR,Jos Buttler,27,21,1,1,128.57,run out,0,10,37.04,0,0
+IPL_2024_053,2,RR,Sanju Samson,22,18,1,1,122.22,run out,0,10,45.45,0,0
+IPL_2024_053,2,RR,Riyan Parag,59,38,2,3,155.26,c Dhoni b Bumrah,0,26,44.07,1,0
+IPL_2024_053,2,RR,Dhruv Jurel,31,23,2,1,134.78,run out,0,14,45.16,0,0
+IPL_2024_053,2,RR,Shimron Hetmyer,14,9,1,0,155.56,c & b Narine,0,4,28.57,0,0
+IPL_2024_054,1,PBKS,Shihar Dhaan,40,33,2,1,121.21,b Cummins,0,14,35.0,0,0
+IPL_2024_054,1,PBKS,Jonny Bairsto,37,24,2,2,154.17,b Cummins,0,20,54.05,0,0
+IPL_2024_054,1,PBKS,Prabhsimran Singh,40,34,3,2,117.65,c & b Narine,0,24,60.0,0,0
+IPL_2024_054,1,PBKS,Rilee Rossou,20,16,2,0,125.0,c & b Narine,0,8,40.0,0,0
+IPL_2024_054,1,PBKS,Sam Curran,23,13,2,0,176.92,not out,1,8,34.78,0,0
+IPL_2024_054,2,DC,David arner,55,33,4,3,166.67,c & b Narine,0,34,61.82,1,0
+IPL_2024_054,2,DC,Prithvi Sha,15,12,1,0,125.0,c Dhoni b Bumrah,0,4,26.67,0,0
+IPL_2024_054,2,DC,Jae Fraser-MGur,41,29,3,2,141.38,c Dhoni b Bumrah,0,24,58.54,0,0
+IPL_2024_054,2,DC,Rishabh Pant,14,10,0,0,140.0,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_054,2,DC,Tristan Stubbs,53,31,5,1,170.97,c & b Narine,0,26,49.06,1,0
+IPL_2024_055,1,MI,Rohit Sharma,48,26,1,2,184.62,c & b Narine,0,16,33.33,0,0
+IPL_2024_055,1,MI,Ishan ishan,18,15,0,0,120.0,c & b Narine,0,0,0.0,0,0
+IPL_2024_055,1,MI,Suryaumar Yadav,32,26,2,1,123.08,c & b Narine,0,14,43.75,0,0
+IPL_2024_055,1,MI,Tila Varma,30,19,2,1,157.89,c Dhoni b Bumrah,0,14,46.67,0,0
+IPL_2024_055,1,MI,Hardi Pandya,30,26,2,1,115.38,run out,0,14,46.67,0,0
+IPL_2024_055,1,MI,Tim David,10,8,1,0,125.0,run out,0,4,40.0,0,0
+IPL_2024_055,2,PBKS,Shihar Dhaan,24,17,1,1,141.18,lbw b Chahal,0,10,41.67,0,0
+IPL_2024_055,2,PBKS,Jonny Bairsto,34,29,1,1,117.24,run out,0,10,29.41,0,0
+IPL_2024_055,2,PBKS,Prabhsimran Singh,25,15,2,0,166.67,c & b Narine,0,8,32.0,0,0
+IPL_2024_055,2,PBKS,Rilee Rossou,51,34,5,2,150.0,lbw b Chahal,0,32,62.75,1,0
+IPL_2024_055,2,PBKS,Sam Curran,13,11,1,0,118.18,lbw b Chahal,0,4,30.77,0,0
+IPL_2024_055,2,PBKS,Jitesh Sharma,22,14,2,0,157.14,run out,0,8,36.36,0,0
+IPL_2024_056,1,KKR,Phil Salt,32,21,2,1,152.38,b Cummins,0,14,43.75,0,0
+IPL_2024_056,1,KKR,Sunil Narine,50,31,3,2,161.29,c & b Narine,0,24,48.0,1,0
+IPL_2024_056,1,KKR,Venatesh Iyer,44,32,3,2,137.5,run out,0,24,54.55,0,0
+IPL_2024_056,1,KKR,Shreyas Iyer,29,22,1,1,131.82,run out,0,10,34.48,0,0
+IPL_2024_056,1,KKR,Rinu Singh,25,14,2,0,178.57,not out,1,8,32.0,0,0
+IPL_2024_056,2,CSK,Ruturaj Gaiad,25,17,1,1,147.06,run out,0,10,40.0,0,0
+IPL_2024_056,2,CSK,Rahin Ravindra,45,36,3,2,125.0,run out,0,24,53.33,0,0
+IPL_2024_056,2,CSK,Ajinya Rahane,32,22,1,1,145.45,lbw b Chahal,0,10,31.25,0,0
+IPL_2024_056,2,CSK,Daryl Mithell,55,38,4,2,144.74,lbw b Chahal,0,28,50.91,1,0
+IPL_2024_056,2,CSK,Shivam Dube,8,7,0,0,114.29,not out,1,0,0.0,0,0
+IPL_2024_057,1,RR,Yashasvi Jaisal,26,19,3,0,136.84,b Cummins,0,12,46.15,0,0
+IPL_2024_057,1,RR,Jos Buttler,44,26,3,2,169.23,b Cummins,0,24,54.55,0,0
+IPL_2024_057,1,RR,Sanju Samson,25,19,2,1,131.58,b Cummins,0,14,56.0,0,0
+IPL_2024_057,1,RR,Riyan Parag,13,8,1,0,162.5,c & b Narine,0,4,30.77,0,0
+IPL_2024_057,1,RR,Dhruv Jurel,48,38,3,2,126.32,lbw b Chahal,0,24,50.0,0,0
+IPL_2024_057,1,RR,Shimron Hetmyer,12,10,1,0,120.0,not out,1,4,33.33,0,0
+IPL_2024_057,2,KKR,Phil Salt,44,27,3,2,162.96,c Dhoni b Bumrah,0,24,54.55,0,0
+IPL_2024_057,2,KKR,Sunil Narine,42,34,3,1,123.53,c & b Narine,0,18,42.86,0,0
+IPL_2024_057,2,KKR,Venatesh Iyer,29,17,2,1,170.59,c Dhoni b Bumrah,0,14,48.28,0,0
+IPL_2024_057,2,KKR,Shreyas Iyer,13,10,0,0,130.0,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_057,2,KKR,Rinu Singh,32,28,3,1,114.29,c Dhoni b Bumrah,0,18,56.25,0,0
+IPL_2024_057,2,KKR,Andre Russell,6,4,0,0,150.0,not out,1,0,0.0,0,0
+IPL_2024_058,1,CSK,Ruturaj Gaiad,32,26,3,0,123.08,b Cummins,0,12,37.5,0,0
+IPL_2024_058,1,CSK,Rahin Ravindra,53,31,4,2,170.97,run out,0,28,52.83,1,0
+IPL_2024_058,1,CSK,Ajinya Rahane,23,16,1,1,143.75,b Cummins,0,10,43.48,0,0
+IPL_2024_058,1,CSK,Daryl Mithell,32,20,1,1,160.0,c Dhoni b Bumrah,0,10,31.25,0,0
+IPL_2024_058,1,CSK,Shivam Dube,15,10,0,0,150.0,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2024_058,1,CSK,Ravindra Jadeja,21,17,2,0,123.53,not out,1,8,38.1,0,0
+IPL_2024_058,2,RR,Yashasvi Jaisal,38,24,2,1,158.33,c & b Narine,0,14,36.84,0,0
+IPL_2024_058,2,RR,Jos Buttler,15,9,1,0,166.67,c & b Narine,0,4,26.67,0,0
+IPL_2024_058,2,RR,Sanju Samson,22,16,1,1,137.5,lbw b Chahal,0,10,45.45,0,0
+IPL_2024_058,2,RR,Riyan Parag,60,36,2,2,166.67,run out,0,20,33.33,1,0
+IPL_2024_058,2,RR,Dhruv Jurel,12,10,1,0,120.0,lbw b Chahal,0,4,33.33,0,0
+IPL_2024_058,2,RR,Shimron Hetmyer,40,25,3,1,160.0,not out,1,18,45.0,0,0
+IPL_2024_059,1,KKR,Phil Salt,42,34,2,1,123.53,b Cummins,0,14,33.33,0,0
+IPL_2024_059,1,KKR,Sunil Narine,28,24,2,1,116.67,b Cummins,0,14,50.0,0,0
+IPL_2024_059,1,KKR,Venatesh Iyer,31,21,2,1,147.62,lbw b Chahal,0,14,45.16,0,0
+IPL_2024_059,1,KKR,Shreyas Iyer,36,27,2,1,133.33,run out,0,14,38.89,0,0
+IPL_2024_059,1,KKR,Rinu Singh,23,14,2,0,164.29,run out,0,8,34.78,0,0
+IPL_2024_059,2,RCB,Faf du Plessis,12,10,0,0,120.0,run out,0,0,0.0,0,0
+IPL_2024_059,2,RCB,Virat ohli,48,36,3,1,133.33,run out,0,18,37.5,0,0
+IPL_2024_059,2,RCB,ill Jas,68,38,4,2,178.95,lbw b Chahal,0,28,41.18,1,0
+IPL_2024_059,2,RCB,Rajat Patidar,52,30,4,1,173.33,c & b Narine,0,22,42.31,1,0
+IPL_2024_060,1,MI,Rohit Sharma,34,28,3,1,121.43,run out,0,18,52.94,0,0
+IPL_2024_060,1,MI,Ishan ishan,15,9,1,0,166.67,c & b Narine,0,4,26.67,0,0
+IPL_2024_060,1,MI,Suryaumar Yadav,44,26,3,2,169.23,b Cummins,0,24,54.55,0,0
+IPL_2024_060,1,MI,Tila Varma,19,15,1,0,126.67,lbw b Chahal,0,4,21.05,0,0
+IPL_2024_060,1,MI,Hardi Pandya,21,14,1,1,150.0,b Cummins,0,10,47.62,0,0
+IPL_2024_060,1,MI,Tim David,16,13,0,1,123.08,c & b Narine,0,6,37.5,0,0
+IPL_2024_060,1,MI,Romario Shepherd,24,15,1,1,160.0,not out,1,10,41.67,0,0
+IPL_2024_060,2,LSG,L Rahul,25,21,2,1,119.05,b Cummins,0,14,56.0,0,0
+IPL_2024_060,2,LSG,Quinton de o,34,19,1,2,178.95,run out,0,16,47.06,0,0
+IPL_2024_060,2,LSG,Marus Stoinis,45,37,3,1,121.62,c & b Narine,0,18,40.0,0,0
+IPL_2024_060,2,LSG,Niholas Pooran,38,30,2,2,126.67,c Dhoni b Bumrah,0,20,52.63,0,0
+IPL_2024_060,2,LSG,Ayush Badoni,22,13,2,0,169.23,c Dhoni b Bumrah,0,8,36.36,0,0
+IPL_2024_061,1,RCB,Faf du Plessis,34,20,3,1,170.0,c Dhoni b Bumrah,0,18,52.94,0,0
+IPL_2024_061,1,RCB,Virat ohli,12,9,1,0,133.33,b Cummins,0,4,33.33,0,0
+IPL_2024_061,1,RCB,ill Jas,42,31,2,2,135.48,b Cummins,0,20,47.62,0,0
+IPL_2024_061,1,RCB,Rajat Patidar,23,13,1,1,176.92,b Cummins,0,10,43.48,0,0
+IPL_2024_061,1,RCB,Glenn Maxell,37,26,3,1,142.31,b Cummins,0,18,48.65,0,0
+IPL_2024_061,1,RCB,Cameron Green,36,21,3,1,171.43,not out,1,18,50.0,0,0
+IPL_2024_061,2,PBKS,Shihar Dhaan,40,34,2,2,117.65,b Cummins,0,20,50.0,0,0
+IPL_2024_061,2,PBKS,Jonny Bairsto,31,25,2,1,124.0,c & b Narine,0,14,45.16,0,0
+IPL_2024_061,2,PBKS,Prabhsimran Singh,16,12,1,0,133.33,c & b Narine,0,4,25.0,0,0
+IPL_2024_061,2,PBKS,Rilee Rossou,38,30,1,2,126.67,run out,0,16,42.11,0,0
+IPL_2024_061,2,PBKS,Sam Curran,21,19,1,1,110.53,lbw b Chahal,0,10,47.62,0,0
+IPL_2024_062,1,PBKS,Shihar Dhaan,40,30,2,2,133.33,lbw b Chahal,0,20,50.0,0,0
+IPL_2024_062,1,PBKS,Jonny Bairsto,63,36,7,1,175.0,run out,0,34,53.97,1,0
+IPL_2024_062,1,PBKS,Prabhsimran Singh,42,26,3,2,161.54,b Cummins,0,24,57.14,0,0
+IPL_2024_062,1,PBKS,Rilee Rossou,26,21,1,0,123.81,b Cummins,0,4,15.38,0,0
+IPL_2024_062,1,PBKS,Sam Curran,8,7,0,0,114.29,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_062,2,GT,Shubman Gill,14,10,1,0,140.0,run out,0,4,28.57,0,0
+IPL_2024_062,2,GT,riddhiman Saha,28,24,2,1,116.67,lbw b Chahal,0,14,50.0,0,0
+IPL_2024_062,2,GT,Sai Sudharsan,28,19,2,0,147.37,c & b Narine,0,8,28.57,0,0
+IPL_2024_062,2,GT,David Miller,24,15,1,1,160.0,b Cummins,0,10,41.67,0,0
+IPL_2024_062,2,GT,Azmatullah Omarzai,46,28,3,2,164.29,b Cummins,0,24,52.17,0,0
+IPL_2024_062,2,GT,Rahul Teatia,34,24,3,1,141.67,c Dhoni b Bumrah,0,18,52.94,0,0
+IPL_2024_063,1,GT,Shubman Gill,46,30,4,2,153.33,run out,0,28,60.87,0,0
+IPL_2024_063,1,GT,riddhiman Saha,61,35,2,2,174.29,lbw b Chahal,0,20,32.79,1,0
+IPL_2024_063,1,GT,Sai Sudharsan,26,21,1,1,123.81,lbw b Chahal,0,10,38.46,0,0
+IPL_2024_063,1,GT,David Miller,36,30,2,1,120.0,run out,0,14,38.89,0,0
+IPL_2024_063,1,GT,Azmatullah Omarzai,6,4,0,0,150.0,not out,1,0,0.0,0,0
+IPL_2024_063,2,CSK,Ruturaj Gaiad,27,17,2,1,158.82,run out,0,14,51.85,0,0
+IPL_2024_063,2,CSK,Rahin Ravindra,41,23,4,1,178.26,b Cummins,0,22,53.66,0,0
+IPL_2024_063,2,CSK,Ajinya Rahane,46,30,5,1,153.33,b Cummins,0,26,56.52,0,0
+IPL_2024_063,2,CSK,Daryl Mithell,26,23,2,0,113.04,lbw b Chahal,0,8,30.77,0,0
+IPL_2024_063,2,CSK,Shivam Dube,32,27,3,1,118.52,c Dhoni b Bumrah,0,18,56.25,0,0
+IPL_2024_064,1,KKR,Phil Salt,44,26,3,1,169.23,lbw b Chahal,0,18,40.91,0,0
+IPL_2024_064,1,KKR,Sunil Narine,30,17,2,1,176.47,lbw b Chahal,0,14,46.67,0,0
+IPL_2024_064,1,KKR,Venatesh Iyer,25,18,1,0,138.89,b Cummins,0,4,16.0,0,0
+IPL_2024_064,1,KKR,Shreyas Iyer,44,28,4,2,157.14,b Cummins,0,28,63.64,0,0
+IPL_2024_064,1,KKR,Rinu Singh,18,11,0,1,163.64,run out,0,6,33.33,0,0
+IPL_2024_064,1,KKR,Andre Russell,23,20,1,1,115.0,not out,1,10,43.48,0,0
+IPL_2024_064,2,LSG,L Rahul,41,28,3,2,146.43,c Dhoni b Bumrah,0,24,58.54,0,0
+IPL_2024_064,2,LSG,Quinton de o,27,17,2,1,158.82,lbw b Chahal,0,14,51.85,0,0
+IPL_2024_064,2,LSG,Marus Stoinis,32,28,3,1,114.29,lbw b Chahal,0,18,56.25,0,0
+IPL_2024_064,2,LSG,Niholas Pooran,47,35,2,2,134.29,c Dhoni b Bumrah,0,20,42.55,0,0
+IPL_2024_064,2,LSG,Ayush Badoni,15,12,1,0,125.0,b Cummins,0,4,26.67,0,0
+IPL_2024_065,1,RR,Yashasvi Jaisal,27,16,2,0,168.75,b Cummins,0,8,29.63,0,0
+IPL_2024_065,1,RR,Jos Buttler,66,36,2,3,183.33,b Cummins,0,26,39.39,1,0
+IPL_2024_065,1,RR,Sanju Samson,20,15,2,0,133.33,lbw b Chahal,0,8,40.0,0,0
+IPL_2024_065,1,RR,Riyan Parag,38,33,4,1,115.15,lbw b Chahal,0,22,57.89,0,0
+IPL_2024_065,1,RR,Dhruv Jurel,25,20,2,1,125.0,c & b Narine,0,14,56.0,0,0
+IPL_2024_065,2,DC,David arner,45,26,3,1,173.08,c & b Narine,0,18,40.0,0,0
+IPL_2024_065,2,DC,Prithvi Sha,67,37,5,1,181.08,run out,0,26,38.81,1,0
+IPL_2024_065,2,DC,Jae Fraser-MGur,14,12,1,0,116.67,lbw b Chahal,0,4,28.57,0,0
+IPL_2024_065,2,DC,Rishabh Pant,27,20,3,0,135.0,c & b Narine,0,12,44.44,0,0
+IPL_2024_065,2,DC,Tristan Stubbs,18,14,1,0,128.57,b Cummins,0,4,22.22,0,0
+IPL_2024_065,2,DC,Axar Patel,16,10,0,0,160.0,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_066,1,RCB,Faf du Plessis,35,27,2,1,129.63,run out,0,14,40.0,0,0
+IPL_2024_066,1,RCB,Virat ohli,21,18,1,1,116.67,c & b Narine,0,10,47.62,0,0
+IPL_2024_066,1,RCB,ill Jas,21,17,1,0,123.53,c Dhoni b Bumrah,0,4,19.05,0,0
+IPL_2024_066,1,RCB,Rajat Patidar,59,33,4,2,178.79,c & b Narine,0,28,47.46,1,0
+IPL_2024_066,1,RCB,Glenn Maxell,42,25,3,2,168.0,c & b Narine,0,24,57.14,0,0
+IPL_2024_066,2,DC,David arner,49,35,5,1,140.0,b Cummins,0,26,53.06,0,0
+IPL_2024_066,2,DC,Prithvi Sha,25,16,2,0,156.25,run out,0,8,32.0,0,0
+IPL_2024_066,2,DC,Jae Fraser-MGur,35,20,1,2,175.0,b Cummins,0,16,45.71,0,0
+IPL_2024_066,2,DC,Rishabh Pant,19,14,0,1,135.71,b Cummins,0,6,31.58,0,0
+IPL_2024_066,2,DC,Tristan Stubbs,41,25,4,1,164.0,c & b Narine,0,22,53.66,0,0
+IPL_2024_066,2,DC,Axar Patel,13,10,1,0,130.0,not out,1,4,30.77,0,0
+IPL_2024_067,1,MI,Rohit Sharma,40,22,3,2,181.82,run out,0,24,60.0,0,0
+IPL_2024_067,1,MI,Ishan ishan,20,15,0,1,133.33,b Cummins,0,6,30.0,0,0
+IPL_2024_067,1,MI,Suryaumar Yadav,31,17,2,1,182.35,b Cummins,0,14,45.16,0,0
+IPL_2024_067,1,MI,Tila Varma,54,33,3,2,163.64,c Dhoni b Bumrah,0,24,44.44,1,0
+IPL_2024_067,1,MI,Hardi Pandya,28,19,1,1,147.37,b Cummins,0,10,35.71,0,0
+IPL_2024_067,1,MI,Tim David,25,14,2,1,178.57,not out,1,14,56.0,0,0
+IPL_2024_067,2,LSG,L Rahul,53,33,4,3,160.61,b Cummins,0,34,64.15,1,0
+IPL_2024_067,2,LSG,Quinton de o,22,18,1,0,122.22,c Dhoni b Bumrah,0,4,18.18,0,0
+IPL_2024_067,2,LSG,Marus Stoinis,32,21,2,1,152.38,c Dhoni b Bumrah,0,14,43.75,0,0
+IPL_2024_067,2,LSG,Niholas Pooran,32,24,3,0,133.33,lbw b Chahal,0,12,37.5,0,0
+IPL_2024_067,2,LSG,Ayush Badoni,33,24,3,1,137.5,c & b Narine,0,18,54.55,0,0
+IPL_2024_068,1,KKR,Phil Salt,25,21,1,1,119.05,run out,0,10,40.0,0,0
+IPL_2024_068,1,KKR,Sunil Narine,16,9,0,1,177.78,c & b Narine,0,6,37.5,0,0
+IPL_2024_068,1,KKR,Venatesh Iyer,24,20,3,0,120.0,b Cummins,0,12,50.0,0,0
+IPL_2024_068,1,KKR,Shreyas Iyer,33,29,1,2,113.79,c Dhoni b Bumrah,0,16,48.48,0,0
+IPL_2024_068,1,KKR,Rinu Singh,37,27,3,1,137.04,lbw b Chahal,0,18,48.65,0,0
+IPL_2024_068,1,KKR,Andre Russell,24,14,1,0,171.43,not out,1,4,16.67,0,0
+IPL_2024_068,2,LSG,L Rahul,39,33,4,1,118.18,run out,0,22,56.41,0,0
+IPL_2024_068,2,LSG,Quinton de o,44,25,3,2,176.0,b Cummins,0,24,54.55,0,0
+IPL_2024_068,2,LSG,Marus Stoinis,42,34,4,1,123.53,c Dhoni b Bumrah,0,22,52.38,0,0
+IPL_2024_068,2,LSG,Niholas Pooran,19,16,1,0,118.75,c & b Narine,0,4,21.05,0,0
+IPL_2024_068,2,LSG,Ayush Badoni,18,11,1,0,163.64,c & b Narine,0,4,22.22,0,0
+IPL_2024_069,1,RR,Yashasvi Jaisal,35,20,1,2,175.0,lbw b Chahal,0,16,45.71,0,0
+IPL_2024_069,1,RR,Jos Buttler,21,16,1,0,131.25,run out,0,4,19.05,0,0
+IPL_2024_069,1,RR,Sanju Samson,35,19,2,1,184.21,lbw b Chahal,0,14,40.0,0,0
+IPL_2024_069,1,RR,Riyan Parag,25,21,2,1,119.05,run out,0,14,56.0,0,0
+IPL_2024_069,1,RR,Dhruv Jurel,51,30,3,2,170.0,lbw b Chahal,0,24,47.06,1,0
+IPL_2024_069,1,RR,Shimron Hetmyer,22,14,2,0,157.14,not out,1,8,36.36,0,0
+IPL_2024_069,2,LSG,L Rahul,27,24,1,1,112.5,c & b Narine,0,10,37.04,0,0
+IPL_2024_069,2,LSG,Quinton de o,23,13,3,0,176.92,lbw b Chahal,0,12,52.17,0,0
+IPL_2024_069,2,LSG,Marus Stoinis,24,14,2,0,171.43,run out,0,8,33.33,0,0
+IPL_2024_069,2,LSG,Niholas Pooran,45,34,2,2,132.35,c Dhoni b Bumrah,0,20,44.44,0,0
+IPL_2024_069,2,LSG,Ayush Badoni,29,22,1,0,131.82,b Cummins,0,4,13.79,0,0
+IPL_2024_069,2,LSG,Deepa Hooda,23,13,1,1,176.92,c Dhoni b Bumrah,0,10,43.48,0,0
+IPL_2024_070,1,RR,Yashasvi Jaisal,41,35,3,1,117.14,b Cummins,0,18,43.9,0,0
+IPL_2024_070,1,RR,Jos Buttler,25,18,1,0,138.89,c & b Narine,0,4,16.0,0,0
+IPL_2024_070,1,RR,Sanju Samson,15,12,1,0,125.0,c & b Narine,0,4,26.67,0,0
+IPL_2024_070,1,RR,Riyan Parag,10,9,1,0,111.11,run out,0,4,40.0,0,0
+IPL_2024_070,1,RR,Dhruv Jurel,48,31,2,1,154.84,lbw b Chahal,0,14,29.17,0,0
+IPL_2024_070,1,RR,Shimron Hetmyer,21,12,1,1,175.0,c Dhoni b Bumrah,0,10,47.62,0,0
+IPL_2024_070,1,RR,Rovman Poell,4,3,0,0,133.33,not out,1,0,0.0,0,0
+IPL_2024_070,2,LSG,L Rahul,13,11,1,0,118.18,lbw b Chahal,0,4,30.77,0,0
+IPL_2024_070,2,LSG,Quinton de o,52,35,2,2,148.57,lbw b Chahal,0,20,38.46,1,0
+IPL_2024_070,2,LSG,Marus Stoinis,37,24,1,1,154.17,run out,0,10,27.03,0,0
+IPL_2024_070,2,LSG,Niholas Pooran,55,36,3,2,152.78,run out,0,24,43.64,1,0
+IPL_2024_070,2,LSG,Ayush Badoni,18,14,1,0,128.57,run out,0,4,22.22,0,0
+IPL_2024_071,1,KKR,Phil Salt,40,31,3,2,129.03,b Cummins,0,24,60.0,0,0
+IPL_2024_071,1,KKR,Sunil Narine,13,11,0,0,118.18,b Cummins,0,0,0.0,0,0
+IPL_2024_071,1,KKR,Venatesh Iyer,36,25,2,2,144.0,run out,0,20,55.56,0,0
+IPL_2024_071,1,KKR,Shreyas Iyer,24,19,2,0,126.32,lbw b Chahal,0,8,33.33,0,0
+IPL_2024_071,1,KKR,Rinu Singh,39,34,4,1,114.71,c & b Narine,0,22,56.41,0,0
+IPL_2024_071,2,LSG,L Rahul,33,23,3,1,143.48,c Dhoni b Bumrah,0,18,54.55,0,0
+IPL_2024_071,2,LSG,Quinton de o,15,11,0,0,136.36,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2024_071,2,LSG,Marus Stoinis,55,33,3,2,166.67,lbw b Chahal,0,24,43.64,1,0
+IPL_2024_071,2,LSG,Niholas Pooran,63,36,5,3,175.0,lbw b Chahal,0,38,60.32,1,0
+IPL_2024_072,1,KKR,Phil Salt,20,11,2,0,181.82,run out,0,8,40.0,0,0
+IPL_2024_072,1,KKR,Sunil Narine,16,10,0,1,160.0,c & b Narine,0,6,37.5,0,0
+IPL_2024_072,1,KKR,Venatesh Iyer,19,13,2,0,146.15,lbw b Chahal,0,8,42.11,0,0
+IPL_2024_072,1,KKR,Shreyas Iyer,33,28,2,2,117.86,c & b Narine,0,20,60.61,0,0
+IPL_2024_072,1,KKR,Rinu Singh,22,13,1,1,169.23,c Dhoni b Bumrah,0,10,45.45,0,0
+IPL_2024_072,1,KKR,Andre Russell,60,45,4,3,133.33,not out,1,34,56.67,1,0
+IPL_2024_072,2,SRH,Travis Head,18,14,1,0,128.57,run out,0,4,22.22,0,0
+IPL_2024_072,2,SRH,Abhishe Sharma,26,21,1,0,123.81,c & b Narine,0,4,15.38,0,0
+IPL_2024_072,2,SRH,Rahul Tripathi,37,25,1,2,148.0,b Cummins,0,16,43.24,0,0
+IPL_2024_072,2,SRH,Aiden Marram,40,24,2,1,166.67,b Cummins,0,14,35.0,0,0
+IPL_2024_072,2,SRH,Heinrih laasen,10,8,0,0,125.0,run out,0,0,0.0,0,0
+IPL_2024_072,2,SRH,Nitish umar Reddy,49,28,3,3,175.0,c & b Narine,0,30,61.22,0,0
+IPL_2024_073,1,GT,Shubman Gill,18,12,1,0,150.0,b Cummins,0,4,22.22,0,0
+IPL_2024_073,1,GT,riddhiman Saha,31,26,1,1,119.23,run out,0,10,32.26,0,0
+IPL_2024_073,1,GT,Sai Sudharsan,12,9,0,0,133.33,b Cummins,0,0,0.0,0,0
+IPL_2024_073,1,GT,David Miller,13,9,0,0,144.44,lbw b Chahal,0,0,0.0,0,0
+IPL_2024_073,1,GT,Azmatullah Omarzai,52,35,2,2,148.57,c Dhoni b Bumrah,0,20,38.46,1,0
+IPL_2024_073,1,GT,Rahul Teatia,45,29,3,2,155.17,not out,1,24,53.33,0,0
+IPL_2024_073,2,SRH,Travis Head,44,25,4,2,176.0,c Dhoni b Bumrah,0,28,63.64,0,0
+IPL_2024_073,2,SRH,Abhishe Sharma,17,15,1,0,113.33,c Dhoni b Bumrah,0,4,23.53,0,0
+IPL_2024_073,2,SRH,Rahul Tripathi,12,10,1,0,120.0,c Dhoni b Bumrah,0,4,33.33,0,0
+IPL_2024_073,2,SRH,Aiden Marram,20,15,1,1,133.33,c Dhoni b Bumrah,0,10,50.0,0,0
+IPL_2024_073,2,SRH,Heinrih laasen,43,30,2,2,143.33,run out,0,20,46.51,0,0
+IPL_2024_073,2,SRH,Nitish umar Reddy,27,16,2,1,168.75,run out,0,14,51.85,0,0
+IPL_2024_073,2,SRH,Abdul Samad,12,9,1,0,133.33,run out,0,4,33.33,0,0
+IPL_2024_074,1,DC,David arner,21,12,2,0,175.0,c & b Narine,0,8,38.1,0,0
+IPL_2024_074,1,DC,Prithvi Sha,11,8,1,0,137.5,b Cummins,0,4,36.36,0,0
+IPL_2024_074,1,DC,Jae Fraser-MGur,24,21,1,0,114.29,b Cummins,0,4,16.67,0,0
+IPL_2024_074,1,DC,Rishabh Pant,44,37,3,2,118.92,lbw b Chahal,0,24,54.55,0,0
+IPL_2024_074,1,DC,Tristan Stubbs,19,16,0,1,118.75,c & b Narine,0,6,31.58,0,0
+IPL_2024_074,1,DC,Axar Patel,14,12,1,0,116.67,run out,0,4,28.57,0,0
+IPL_2024_074,1,DC,Abishe Porel,22,14,1,1,157.14,not out,1,10,45.45,0,0
+IPL_2024_074,2,KKR,Phil Salt,38,26,1,2,146.15,c Dhoni b Bumrah,0,16,42.11,0,0
+IPL_2024_074,2,KKR,Sunil Narine,41,23,2,2,178.26,run out,0,20,48.78,0,0
+IPL_2024_074,2,KKR,Venatesh Iyer,50,32,4,1,156.25,run out,0,22,44.0,1,0
+IPL_2024_074,2,KKR,Shreyas Iyer,65,37,3,1,175.68,c & b Narine,0,18,27.69,1,0
+IPL_2025_001,1,CSK,Ruturaj Gaiad,37,27,2,0,137.04,c & b Narine,0,8,21.62,0,0
+IPL_2025_001,1,CSK,Rahin Ravindra,21,18,0,1,116.67,b Cummins,0,6,28.57,0,0
+IPL_2025_001,1,CSK,Ajinya Rahane,24,15,1,1,160.0,lbw b Chahal,0,10,41.67,0,0
+IPL_2025_001,1,CSK,Daryl Mithell,40,25,3,1,160.0,b Cummins,0,18,45.0,0,0
+IPL_2025_001,1,CSK,Shivam Dube,24,19,1,0,126.32,b Cummins,0,4,16.67,0,0
+IPL_2025_001,1,CSK,Ravindra Jadeja,21,16,1,0,131.25,not out,1,4,19.05,0,0
+IPL_2025_001,2,MI,Rohit Sharma,31,24,2,1,129.17,c & b Narine,0,14,45.16,0,0
+IPL_2025_001,2,MI,Ishan ishan,37,25,2,1,148.0,run out,0,14,37.84,0,0
+IPL_2025_001,2,MI,Suryaumar Yadav,36,30,4,1,120.0,lbw b Chahal,0,22,61.11,0,0
+IPL_2025_001,2,MI,Tila Varma,27,17,2,1,158.82,run out,0,14,51.85,0,0
+IPL_2025_001,2,MI,Hardi Pandya,23,18,1,1,127.78,b Cummins,0,10,43.48,0,0
+IPL_2025_001,2,MI,Tim David,7,6,0,0,116.67,b Cummins,0,0,0.0,0,0
+IPL_2025_002,1,KKR,Phil Salt,17,14,2,0,121.43,c Dhoni b Bumrah,0,8,47.06,0,0
+IPL_2025_002,1,KKR,Sunil Narine,44,32,3,1,137.5,b Cummins,0,18,40.91,0,0
+IPL_2025_002,1,KKR,Venatesh Iyer,34,24,2,1,141.67,c & b Narine,0,14,41.18,0,0
+IPL_2025_002,1,KKR,Shreyas Iyer,11,8,0,0,137.5,lbw b Chahal,0,0,0.0,0,0
+IPL_2025_002,1,KKR,Rinu Singh,12,8,0,0,150.0,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2025_002,1,KKR,Andre Russell,23,15,2,0,153.33,c & b Narine,0,8,34.78,0,0
+IPL_2025_002,1,KKR,Ramandeep Singh,26,19,2,0,136.84,b Cummins,0,8,30.77,0,0
+IPL_2025_002,2,MI,Rohit Sharma,13,11,0,0,118.18,b Cummins,0,0,0.0,0,0
+IPL_2025_002,2,MI,Ishan ishan,63,35,5,3,180.0,b Cummins,0,38,60.32,1,0
+IPL_2025_002,2,MI,Suryaumar Yadav,18,13,1,0,138.46,lbw b Chahal,0,4,22.22,0,0
+IPL_2025_002,2,MI,Tila Varma,12,9,0,0,133.33,lbw b Chahal,0,0,0.0,0,0
+IPL_2025_002,2,MI,Hardi Pandya,56,37,2,3,151.35,c Dhoni b Bumrah,0,26,46.43,1,0
+IPL_2025_002,2,MI,Tim David,26,15,2,1,173.33,b Cummins,0,14,53.85,0,0
+IPL_2025_003,1,RR,Yashasvi Jaisal,21,16,1,1,131.25,c & b Narine,0,10,47.62,0,0
+IPL_2025_003,1,RR,Jos Buttler,15,13,1,0,115.38,c Dhoni b Bumrah,0,4,26.67,0,0
+IPL_2025_003,1,RR,Sanju Samson,38,27,4,1,140.74,c & b Narine,0,22,57.89,0,0
+IPL_2025_003,1,RR,Riyan Parag,33,22,3,1,150.0,c & b Narine,0,18,54.55,0,0
+IPL_2025_003,1,RR,Dhruv Jurel,34,30,2,1,113.33,lbw b Chahal,0,14,41.18,0,0
+IPL_2025_003,1,RR,Shimron Hetmyer,20,12,1,1,166.67,not out,1,10,50.0,0,0
+IPL_2025_003,2,SRH,Travis Head,25,14,1,1,178.57,c & b Narine,0,10,40.0,0,0
+IPL_2025_003,2,SRH,Abhishe Sharma,18,14,1,0,128.57,lbw b Chahal,0,4,22.22,0,0
+IPL_2025_003,2,SRH,Rahul Tripathi,13,10,1,0,130.0,lbw b Chahal,0,4,30.77,0,0
+IPL_2025_003,2,SRH,Aiden Marram,20,15,1,0,133.33,b Cummins,0,4,20.0,0,0
+IPL_2025_003,2,SRH,Heinrih laasen,44,28,4,1,157.14,run out,0,22,50.0,0,0
+IPL_2025_003,2,SRH,Nitish umar Reddy,28,17,1,0,164.71,lbw b Chahal,0,4,14.29,0,0
+IPL_2025_003,2,SRH,Abdul Samad,31,22,2,1,140.91,not out,1,14,45.16,0,0
+IPL_2025_004,1,DC,David arner,65,38,5,3,171.05,c Dhoni b Bumrah,0,38,58.46,1,0
+IPL_2025_004,1,DC,Prithvi Sha,44,37,3,1,118.92,b Cummins,0,18,40.91,0,0
+IPL_2025_004,1,DC,Jae Fraser-MGur,50,30,4,2,166.67,lbw b Chahal,0,28,56.0,1,0
+IPL_2025_004,1,DC,Rishabh Pant,18,15,1,0,120.0,lbw b Chahal,0,4,22.22,0,0
+IPL_2025_004,2,MI,Rohit Sharma,47,34,3,1,138.24,b Cummins,0,18,38.3,0,0
+IPL_2025_004,2,MI,Ishan ishan,24,15,3,0,160.0,lbw b Chahal,0,12,50.0,0,0
+IPL_2025_004,2,MI,Suryaumar Yadav,61,37,3,4,164.86,run out,0,36,59.02,1,0
+IPL_2025_004,2,MI,Tila Varma,36,24,2,1,150.0,run out,0,14,38.89,0,0
+IPL_2025_004,2,MI,Hardi Pandya,13,8,1,0,162.5,b Cummins,0,4,30.77,0,0
+IPL_2025_005,1,KKR,Phil Salt,48,32,2,3,150.0,run out,0,26,54.17,0,0
+IPL_2025_005,1,KKR,Sunil Narine,58,36,2,2,161.11,c & b Narine,0,20,34.48,1,0
+IPL_2025_005,1,KKR,Venatesh Iyer,34,20,3,1,170.0,lbw b Chahal,0,18,52.94,0,0
+IPL_2025_005,1,KKR,Shreyas Iyer,45,29,4,2,155.17,b Cummins,0,28,62.22,0,0
+IPL_2025_005,1,KKR,Rinu Singh,4,3,0,0,133.33,b Cummins,0,0,0.0,0,0
+IPL_2025_005,2,SRH,Travis Head,40,25,2,1,160.0,run out,0,14,35.0,0,0
+IPL_2025_005,2,SRH,Abhishe Sharma,40,23,1,2,173.91,c Dhoni b Bumrah,0,16,40.0,0,0
+IPL_2025_005,2,SRH,Rahul Tripathi,28,17,2,1,164.71,b Cummins,0,14,50.0,0,0
+IPL_2025_005,2,SRH,Aiden Marram,30,22,2,1,136.36,run out,0,14,46.67,0,0
+IPL_2025_005,2,SRH,Heinrih laasen,24,16,2,0,150.0,lbw b Chahal,0,8,33.33,0,0
+IPL_2025_005,2,SRH,Nitish umar Reddy,26,17,1,0,152.94,not out,1,4,15.38,0,0
+IPL_2025_006,1,GT,Shubman Gill,45,33,4,2,136.36,c Dhoni b Bumrah,0,28,62.22,0,0
+IPL_2025_006,1,GT,riddhiman Saha,22,16,1,1,137.5,lbw b Chahal,0,10,45.45,0,0
+IPL_2025_006,1,GT,Sai Sudharsan,62,34,3,2,182.35,c Dhoni b Bumrah,0,24,38.71,1,0
+IPL_2025_006,1,GT,David Miller,22,15,2,0,146.67,run out,0,8,36.36,0,0
+IPL_2025_006,1,GT,Azmatullah Omarzai,25,22,0,1,113.64,b Cummins,0,6,24.0,0,0
+IPL_2025_006,2,DC,David arner,39,23,1,1,169.57,b Cummins,0,10,25.64,0,0
+IPL_2025_006,2,DC,Prithvi Sha,34,26,2,1,130.77,b Cummins,0,14,41.18,0,0
+IPL_2025_006,2,DC,Jae Fraser-MGur,30,25,1,1,120.0,run out,0,10,33.33,0,0
+IPL_2025_006,2,DC,Rishabh Pant,29,20,3,1,145.0,c & b Narine,0,18,62.07,0,0
+IPL_2025_006,2,DC,Tristan Stubbs,28,20,2,1,140.0,c Dhoni b Bumrah,0,14,50.0,0,0
+IPL_2025_006,2,DC,Axar Patel,8,6,0,0,133.33,not out,1,0,0.0,0,0
+IPL_2025_007,1,RR,Yashasvi Jaisal,37,25,2,1,148.0,lbw b Chahal,0,14,37.84,0,0
+IPL_2025_007,1,RR,Jos Buttler,45,32,4,1,140.62,c Dhoni b Bumrah,0,22,48.89,0,0
+IPL_2025_007,1,RR,Sanju Samson,13,12,0,0,108.33,c & b Narine,0,0,0.0,0,0
+IPL_2025_007,1,RR,Riyan Parag,52,34,4,1,152.94,run out,0,22,42.31,1,0
+IPL_2025_007,1,RR,Dhruv Jurel,16,13,1,0,123.08,lbw b Chahal,0,4,25.0,0,0
+IPL_2025_007,1,RR,Shimron Hetmyer,6,4,0,0,150.0,not out,1,0,0.0,0,0
+IPL_2025_007,2,DC,David arner,23,14,1,1,164.29,c & b Narine,0,10,43.48,0,0
+IPL_2025_007,2,DC,Prithvi Sha,52,32,2,1,162.5,b Cummins,0,14,26.92,1,0
+IPL_2025_007,2,DC,Jae Fraser-MGur,38,25,3,1,152.0,lbw b Chahal,0,18,47.37,0,0
+IPL_2025_007,2,DC,Rishabh Pant,20,15,1,0,133.33,lbw b Chahal,0,4,20.0,0,0
+IPL_2025_007,2,DC,Tristan Stubbs,35,21,3,1,166.67,c Dhoni b Bumrah,0,18,51.43,0,0
+IPL_2025_007,2,DC,Axar Patel,23,13,2,0,176.92,not out,1,8,34.78,0,0
+IPL_2025_008,1,DC,David arner,27,16,1,1,168.75,run out,0,10,37.04,0,0
+IPL_2025_008,1,DC,Prithvi Sha,28,18,2,1,155.56,c Dhoni b Bumrah,0,14,50.0,0,0
+IPL_2025_008,1,DC,Jae Fraser-MGur,19,11,1,0,172.73,b Cummins,0,4,21.05,0,0
+IPL_2025_008,1,DC,Rishabh Pant,17,13,2,0,130.77,c Dhoni b Bumrah,0,8,47.06,0,0
+IPL_2025_008,1,DC,Tristan Stubbs,11,9,0,0,122.22,lbw b Chahal,0,0,0.0,0,0
+IPL_2025_008,1,DC,Axar Patel,51,28,5,2,182.14,lbw b Chahal,0,32,62.75,1,0
+IPL_2025_008,1,DC,Abishe Porel,34,24,2,2,141.67,c & b Narine,0,20,58.82,0,0
+IPL_2025_008,1,DC,uldeep Yadav,1,1,0,0,100.0,not out,1,0,0.0,0,0
+IPL_2025_008,2,CSK,Ruturaj Gaiad,38,22,4,1,172.73,c Dhoni b Bumrah,0,22,57.89,0,0
+IPL_2025_008,2,CSK,Rahin Ravindra,46,33,2,3,139.39,c Dhoni b Bumrah,0,26,56.52,0,0
+IPL_2025_008,2,CSK,Ajinya Rahane,44,26,3,2,169.23,run out,0,24,54.55,0,0
+IPL_2025_008,2,CSK,Daryl Mithell,60,38,2,2,157.89,run out,0,20,33.33,1,0
+IPL_2025_008,2,CSK,Shivam Dube,1,1,0,0,100.0,b Cummins,0,0,0.0,0,0
+IPL_2025_009,1,PBKS,Shihar Dhaan,22,14,0,1,157.14,b Cummins,0,6,27.27,0,0
+IPL_2025_009,1,PBKS,Jonny Bairsto,19,16,1,0,118.75,c Dhoni b Bumrah,0,4,21.05,0,0
+IPL_2025_009,1,PBKS,Prabhsimran Singh,39,22,2,2,177.27,lbw b Chahal,0,20,51.28,0,0
+IPL_2025_009,1,PBKS,Rilee Rossou,52,33,4,2,157.58,c & b Narine,0,28,53.85,1,0
+IPL_2025_009,1,PBKS,Sam Curran,43,35,2,1,122.86,b Cummins,0,14,32.56,0,0
+IPL_2025_009,2,DC,David arner,20,17,1,0,117.65,b Cummins,0,4,20.0,0,0
+IPL_2025_009,2,DC,Prithvi Sha,36,24,2,1,150.0,run out,0,14,38.89,0,0
+IPL_2025_009,2,DC,Jae Fraser-MGur,40,25,3,2,160.0,lbw b Chahal,0,24,60.0,0,0
+IPL_2025_009,2,DC,Rishabh Pant,40,30,3,1,133.33,c & b Narine,0,18,45.0,0,0
+IPL_2025_009,2,DC,Tristan Stubbs,36,24,2,2,150.0,c & b Narine,0,20,55.56,0,0
+IPL_2025_010,1,PBKS,Shihar Dhaan,47,38,2,1,123.68,b Cummins,0,14,29.79,0,0
+IPL_2025_010,1,PBKS,Jonny Bairsto,39,29,2,1,134.48,b Cummins,0,14,35.9,0,0
+IPL_2025_010,1,PBKS,Prabhsimran Singh,43,33,2,2,130.3,c Dhoni b Bumrah,0,20,46.51,0,0
+IPL_2025_010,1,PBKS,Rilee Rossou,16,9,1,0,177.78,b Cummins,0,4,25.0,0,0
+IPL_2025_010,1,PBKS,Sam Curran,15,11,0,0,136.36,c & b Narine,0,0,0.0,0,0
+IPL_2025_010,2,KKR,Phil Salt,50,36,5,1,138.89,b Cummins,0,26,52.0,1,0
+IPL_2025_010,2,KKR,Sunil Narine,27,23,1,0,117.39,lbw b Chahal,0,4,14.81,0,0
+IPL_2025_010,2,KKR,Venatesh Iyer,31,27,2,1,114.81,b Cummins,0,14,45.16,0,0
+IPL_2025_010,2,KKR,Shreyas Iyer,39,23,2,1,169.57,c & b Narine,0,14,35.9,0,0
+IPL_2025_010,2,KKR,Rinu Singh,15,11,0,0,136.36,run out,0,0,0.0,0,0
+IPL_2025_011,1,GT,Shubman Gill,35,23,3,1,152.17,b Cummins,0,18,51.43,0,0
+IPL_2025_011,1,GT,riddhiman Saha,33,27,2,1,122.22,lbw b Chahal,0,14,42.42,0,0
+IPL_2025_011,1,GT,Sai Sudharsan,60,36,2,2,166.67,lbw b Chahal,0,20,33.33,1,0
+IPL_2025_011,1,GT,David Miller,50,34,3,2,147.06,run out,0,24,48.0,1,0
+IPL_2025_011,2,MI,Rohit Sharma,48,32,2,1,150.0,c Dhoni b Bumrah,0,14,29.17,0,0
+IPL_2025_011,2,MI,Ishan ishan,36,20,2,2,180.0,lbw b Chahal,0,20,55.56,0,0
+IPL_2025_011,2,MI,Suryaumar Yadav,56,36,2,2,155.56,lbw b Chahal,0,20,35.71,1,0
+IPL_2025_011,2,MI,Tila Varma,24,17,1,1,141.18,run out,0,10,41.67,0,0
+IPL_2025_011,2,MI,Hardi Pandya,22,15,1,1,146.67,c Dhoni b Bumrah,0,10,45.45,0,0
+IPL_2025_012,1,CSK,Ruturaj Gaiad,17,14,0,1,121.43,run out,0,6,35.29,0,0
+IPL_2025_012,1,CSK,Rahin Ravindra,24,16,2,0,150.0,c & b Narine,0,8,33.33,0,0
+IPL_2025_012,1,CSK,Ajinya Rahane,30,18,2,1,166.67,lbw b Chahal,0,14,46.67,0,0
+IPL_2025_012,1,CSK,Daryl Mithell,43,29,3,2,148.28,lbw b Chahal,0,24,55.81,0,0
+IPL_2025_012,1,CSK,Shivam Dube,43,24,4,1,179.17,run out,0,22,51.16,0,0
+IPL_2025_012,1,CSK,Ravindra Jadeja,27,19,2,1,142.11,not out,1,14,51.85,0,0
+IPL_2025_012,2,MI,Rohit Sharma,57,32,6,2,178.12,b Cummins,0,36,63.16,1,0
+IPL_2025_012,2,MI,Ishan ishan,43,29,3,2,148.28,lbw b Chahal,0,24,55.81,0,0
+IPL_2025_012,2,MI,Suryaumar Yadav,51,31,2,1,164.52,c Dhoni b Bumrah,0,14,27.45,1,0
+IPL_2025_012,2,MI,Tila Varma,36,28,2,2,128.57,run out,0,20,55.56,0,0
+IPL_2025_013,1,MI,Rohit Sharma,21,13,2,1,161.54,run out,0,14,66.67,0,0
+IPL_2025_013,1,MI,Ishan ishan,21,12,1,0,175.0,c & b Narine,0,4,19.05,0,0
+IPL_2025_013,1,MI,Suryaumar Yadav,40,32,3,1,125.0,lbw b Chahal,0,18,45.0,0,0
+IPL_2025_013,1,MI,Tila Varma,14,11,0,0,127.27,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2025_013,1,MI,Hardi Pandya,42,24,4,2,175.0,lbw b Chahal,0,28,66.67,0,0
+IPL_2025_013,1,MI,Tim David,45,28,3,1,160.71,not out,1,18,40.0,0,0
+IPL_2025_013,2,KKR,Phil Salt,32,18,3,1,177.78,c & b Narine,0,18,56.25,0,0
+IPL_2025_013,2,KKR,Sunil Narine,12,9,1,0,133.33,run out,0,4,33.33,0,0
+IPL_2025_013,2,KKR,Venatesh Iyer,58,36,4,2,161.11,lbw b Chahal,0,28,48.28,1,0
+IPL_2025_013,2,KKR,Shreyas Iyer,31,27,3,1,114.81,c & b Narine,0,18,58.06,0,0
+IPL_2025_013,2,KKR,Rinu Singh,50,30,4,2,166.67,c & b Narine,0,28,56.0,1,0
+IPL_2025_014,1,PBKS,Shihar Dhaan,33,24,3,1,137.5,c & b Narine,0,18,54.55,0,0
+IPL_2025_014,1,PBKS,Jonny Bairsto,16,10,1,0,160.0,lbw b Chahal,0,4,25.0,0,0
+IPL_2025_014,1,PBKS,Prabhsimran Singh,55,34,2,2,161.76,c Dhoni b Bumrah,0,20,36.36,1,0
+IPL_2025_014,1,PBKS,Rilee Rossou,15,13,1,0,115.38,run out,0,4,26.67,0,0
+IPL_2025_014,1,PBKS,Sam Curran,49,31,2,3,158.06,lbw b Chahal,0,26,53.06,0,0
+IPL_2025_014,1,PBKS,Jitesh Sharma,13,8,0,0,162.5,not out,1,0,0.0,0,0
+IPL_2025_014,2,RR,Yashasvi Jaisal,60,33,6,2,181.82,lbw b Chahal,0,36,60.0,1,0
+IPL_2025_014,2,RR,Jos Buttler,32,18,2,1,177.78,b Cummins,0,14,43.75,0,0
+IPL_2025_014,2,RR,Sanju Samson,50,31,2,1,161.29,b Cummins,0,14,28.0,1,0
+IPL_2025_014,2,RR,Riyan Parag,46,36,5,1,127.78,c Dhoni b Bumrah,0,26,56.52,0,0
+IPL_2025_015,1,RR,Yashasvi Jaisal,63,36,3,4,175.0,lbw b Chahal,0,36,57.14,1,0
+IPL_2025_015,1,RR,Jos Buttler,14,13,0,0,107.69,b Cummins,0,0,0.0,0,0
+IPL_2025_015,1,RR,Sanju Samson,36,23,3,1,156.52,run out,0,18,50.0,0,0
+IPL_2025_015,1,RR,Riyan Parag,34,25,2,1,136.0,b Cummins,0,14,41.18,0,0
+IPL_2025_015,1,RR,Dhruv Jurel,29,23,3,1,126.09,not out,1,18,62.07,0,0
+IPL_2025_015,2,CSK,Ruturaj Gaiad,19,14,2,0,135.71,b Cummins,0,8,42.11,0,0
+IPL_2025_015,2,CSK,Rahin Ravindra,60,36,4,3,166.67,lbw b Chahal,0,34,56.67,1,0
+IPL_2025_015,2,CSK,Ajinya Rahane,27,18,1,1,150.0,run out,0,10,37.04,0,0
+IPL_2025_015,2,CSK,Daryl Mithell,15,11,0,0,136.36,b Cummins,0,0,0.0,0,0
+IPL_2025_015,2,CSK,Shivam Dube,32,24,3,1,133.33,lbw b Chahal,0,18,56.25,0,0
+IPL_2025_015,2,CSK,Ravindra Jadeja,25,17,2,1,147.06,not out,1,14,56.0,0,0
+IPL_2025_016,1,SRH,Travis Head,56,37,3,2,151.35,c Dhoni b Bumrah,0,24,42.86,1,0
+IPL_2025_016,1,SRH,Abhishe Sharma,32,27,1,1,118.52,b Cummins,0,10,31.25,0,0
+IPL_2025_016,1,SRH,Rahul Tripathi,25,21,2,1,119.05,b Cummins,0,14,56.0,0,0
+IPL_2025_016,1,SRH,Aiden Marram,33,23,1,2,143.48,b Cummins,0,16,48.48,0,0
+IPL_2025_016,1,SRH,Heinrih laasen,15,12,0,0,125.0,run out,0,0,0.0,0,0
+IPL_2025_016,2,KKR,Phil Salt,14,10,0,0,140.0,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2025_016,2,KKR,Sunil Narine,20,12,0,1,166.67,run out,0,6,30.0,0,0
+IPL_2025_016,2,KKR,Venatesh Iyer,38,21,2,2,180.95,lbw b Chahal,0,20,52.63,0,0
+IPL_2025_016,2,KKR,Shreyas Iyer,33,19,1,0,173.68,c & b Narine,0,4,12.12,0,0
+IPL_2025_016,2,KKR,Rinu Singh,48,38,2,1,126.32,c & b Narine,0,14,29.17,0,0
+IPL_2025_016,2,KKR,Andre Russell,32,20,3,1,160.0,not out,1,18,56.25,0,0
+IPL_2025_017,1,MI,Rohit Sharma,42,24,1,2,175.0,b Cummins,0,16,38.1,0,0
+IPL_2025_017,1,MI,Ishan ishan,15,13,0,0,115.38,b Cummins,0,0,0.0,0,0
+IPL_2025_017,1,MI,Suryaumar Yadav,29,16,3,0,181.25,run out,0,12,41.38,0,0
+IPL_2025_017,1,MI,Tila Varma,26,19,1,0,136.84,b Cummins,0,4,15.38,0,0
+IPL_2025_017,1,MI,Hardi Pandya,42,31,3,1,135.48,lbw b Chahal,0,18,42.86,0,0
+IPL_2025_017,1,MI,Tim David,10,8,1,0,125.0,c Dhoni b Bumrah,0,4,40.0,0,0
+IPL_2025_017,1,MI,Romario Shepherd,11,9,1,0,122.22,not out,1,4,36.36,0,0
+IPL_2025_017,2,PBKS,Shihar Dhaan,21,18,1,0,116.67,lbw b Chahal,0,4,19.05,0,0
+IPL_2025_017,2,PBKS,Jonny Bairsto,48,28,4,2,171.43,c & b Narine,0,28,58.33,0,0
+IPL_2025_017,2,PBKS,Prabhsimran Singh,36,26,2,2,138.46,b Cummins,0,20,55.56,0,0
+IPL_2025_017,2,PBKS,Rilee Rossou,53,30,1,3,176.67,c Dhoni b Bumrah,0,22,41.51,1,0
+IPL_2025_017,2,PBKS,Sam Curran,28,18,2,1,155.56,c & b Narine,0,14,50.0,0,0
+IPL_2025_018,1,MI,Rohit Sharma,11,8,1,0,137.5,lbw b Chahal,0,4,36.36,0,0
+IPL_2025_018,1,MI,Ishan ishan,11,9,0,0,122.22,run out,0,0,0.0,0,0
+IPL_2025_018,1,MI,Suryaumar Yadav,48,32,3,1,150.0,c Dhoni b Bumrah,0,18,37.5,0,0
+IPL_2025_018,1,MI,Tila Varma,56,31,4,2,180.65,lbw b Chahal,0,28,50.0,1,0
+IPL_2025_018,1,MI,Hardi Pandya,44,31,2,2,141.94,c Dhoni b Bumrah,0,20,45.45,0,0
+IPL_2025_018,1,MI,Tim David,11,9,0,0,122.22,not out,1,0,0.0,0,0
+IPL_2025_018,2,GT,Shubman Gill,14,11,1,0,127.27,c & b Narine,0,4,28.57,0,0
+IPL_2025_018,2,GT,riddhiman Saha,30,21,2,1,142.86,c Dhoni b Bumrah,0,14,46.67,0,0
+IPL_2025_018,2,GT,Sai Sudharsan,22,13,2,0,169.23,run out,0,8,36.36,0,0
+IPL_2025_018,2,GT,David Miller,47,28,2,2,167.86,b Cummins,0,20,42.55,0,0
+IPL_2025_018,2,GT,Azmatullah Omarzai,35,20,1,1,175.0,run out,0,10,28.57,0,0
+IPL_2025_018,2,GT,Rahul Teatia,18,16,0,1,112.5,run out,0,6,33.33,0,0
+IPL_2025_018,2,GT,Rashid han,20,11,2,0,181.82,not out,1,8,40.0,0,0
+IPL_2025_019,1,LSG,L Rahul,12,9,1,0,133.33,b Cummins,0,4,33.33,0,0
+IPL_2025_019,1,LSG,Quinton de o,38,30,2,2,126.67,c & b Narine,0,20,52.63,0,0
+IPL_2025_019,1,LSG,Marus Stoinis,64,37,6,3,172.97,c & b Narine,0,42,65.62,1,0
+IPL_2025_019,1,LSG,Niholas Pooran,58,36,5,1,161.11,c & b Narine,0,26,44.83,1,0
+IPL_2025_019,1,LSG,Ayush Badoni,13,8,0,0,162.5,c & b Narine,0,0,0.0,0,0
+IPL_2025_019,2,MI,Rohit Sharma,24,17,1,1,141.18,run out,0,10,41.67,0,0
+IPL_2025_019,2,MI,Ishan ishan,16,9,0,0,177.78,b Cummins,0,0,0.0,0,0
+IPL_2025_019,2,MI,Suryaumar Yadav,53,31,4,3,170.97,b Cummins,0,34,64.15,1,0
+IPL_2025_019,2,MI,Tila Varma,31,18,2,1,172.22,c & b Narine,0,14,45.16,0,0
+IPL_2025_019,2,MI,Hardi Pandya,30,22,2,1,136.36,b Cummins,0,14,46.67,0,0
+IPL_2025_019,2,MI,Tim David,20,13,0,1,153.85,run out,0,6,30.0,0,0
+IPL_2025_019,2,MI,Romario Shepherd,16,10,1,1,160.0,not out,1,10,62.5,0,0
+IPL_2025_020,1,MI,Rohit Sharma,13,8,1,0,162.5,c & b Narine,0,4,30.77,0,0
+IPL_2025_020,1,MI,Ishan ishan,23,13,1,1,176.92,b Cummins,0,10,43.48,0,0
+IPL_2025_020,1,MI,Suryaumar Yadav,39,26,1,1,150.0,run out,0,10,25.64,0,0
+IPL_2025_020,1,MI,Tila Varma,56,35,2,3,160.0,c & b Narine,0,26,46.43,1,0
+IPL_2025_020,1,MI,Hardi Pandya,57,35,4,2,162.86,c & b Narine,0,28,49.12,1,0
+IPL_2025_020,1,MI,Tim David,3,3,0,0,100.0,not out,1,0,0.0,0,0
+IPL_2025_020,2,SRH,Travis Head,34,20,1,1,170.0,c Dhoni b Bumrah,0,10,29.41,0,0
+IPL_2025_020,2,SRH,Abhishe Sharma,16,10,1,0,160.0,lbw b Chahal,0,4,25.0,0,0
+IPL_2025_020,2,SRH,Rahul Tripathi,12,8,1,0,150.0,b Cummins,0,4,33.33,0,0
+IPL_2025_020,2,SRH,Aiden Marram,44,31,2,1,141.94,b Cummins,0,14,31.82,0,0
+IPL_2025_020,2,SRH,Heinrih laasen,37,21,2,1,176.19,lbw b Chahal,0,14,37.84,0,0
+IPL_2025_020,2,SRH,Nitish umar Reddy,28,20,1,1,140.0,c & b Narine,0,10,35.71,0,0
+IPL_2025_020,2,SRH,Abdul Samad,17,10,1,0,170.0,not out,1,4,23.53,0,0
+IPL_2025_021,1,SRH,Travis Head,68,37,4,3,183.78,b Cummins,0,34,50.0,1,0
+IPL_2025_021,1,SRH,Abhishe Sharma,43,31,1,2,138.71,c & b Narine,0,16,37.21,0,0
+IPL_2025_021,1,SRH,Rahul Tripathi,25,22,1,0,113.64,lbw b Chahal,0,4,16.0,0,0
+IPL_2025_021,1,SRH,Aiden Marram,49,30,5,1,163.33,lbw b Chahal,0,26,53.06,0,0
+IPL_2025_021,2,RCB,Faf du Plessis,50,34,2,1,147.06,c & b Narine,0,14,28.0,1,0
+IPL_2025_021,2,RCB,Virat ohli,18,10,2,0,180.0,b Cummins,0,8,44.44,0,0
+IPL_2025_021,2,RCB,ill Jas,45,30,4,2,150.0,c Dhoni b Bumrah,0,28,62.22,0,0
+IPL_2025_021,2,RCB,Rajat Patidar,14,10,0,0,140.0,b Cummins,0,0,0.0,0,0
+IPL_2025_021,2,RCB,Glenn Maxell,21,13,1,1,161.54,run out,0,10,47.62,0,0
+IPL_2025_021,2,RCB,Cameron Green,28,23,2,1,121.74,not out,1,14,50.0,0,0
+IPL_2025_022,1,KKR,Phil Salt,65,37,5,4,175.68,c Dhoni b Bumrah,0,44,67.69,1,0
+IPL_2025_022,1,KKR,Sunil Narine,32,24,3,0,133.33,lbw b Chahal,0,12,37.5,0,0
+IPL_2025_022,1,KKR,Venatesh Iyer,54,37,3,1,145.95,run out,0,18,33.33,1,0
+IPL_2025_022,1,KKR,Shreyas Iyer,26,17,1,1,152.94,c & b Narine,0,10,38.46,0,0
+IPL_2025_022,1,KKR,Rinu Singh,6,5,0,0,120.0,c & b Narine,0,0,0.0,0,0
+IPL_2025_022,2,PBKS,Shihar Dhaan,27,21,1,1,128.57,run out,0,10,37.04,0,0
+IPL_2025_022,2,PBKS,Jonny Bairsto,39,24,2,0,162.5,c Dhoni b Bumrah,0,8,20.51,0,0
+IPL_2025_022,2,PBKS,Prabhsimran Singh,65,37,4,2,175.68,c & b Narine,0,28,43.08,1,0
+IPL_2025_022,2,PBKS,Rilee Rossou,54,37,3,2,145.95,c Dhoni b Bumrah,0,24,44.44,1,0
+IPL_2025_023,1,GT,Shubman Gill,61,37,4,2,164.86,c & b Narine,0,28,45.9,1,0
+IPL_2025_023,1,GT,riddhiman Saha,33,19,1,1,173.68,lbw b Chahal,0,10,30.3,0,0
+IPL_2025_023,1,GT,Sai Sudharsan,25,17,1,1,147.06,run out,0,10,40.0,0,0
+IPL_2025_023,1,GT,David Miller,44,25,3,1,176.0,b Cummins,0,18,40.91,0,0
+IPL_2025_023,1,GT,Azmatullah Omarzai,38,22,2,1,172.73,lbw b Chahal,0,14,36.84,0,0
+IPL_2025_023,2,RCB,Faf du Plessis,38,26,3,1,146.15,lbw b Chahal,0,18,47.37,0,0
+IPL_2025_023,2,RCB,Virat ohli,49,28,1,2,175.0,c Dhoni b Bumrah,0,16,32.65,0,0
+IPL_2025_023,2,RCB,ill Jas,35,21,2,1,166.67,c & b Narine,0,14,40.0,0,0
+IPL_2025_023,2,RCB,Rajat Patidar,37,24,2,1,154.17,c & b Narine,0,14,37.84,0,0
+IPL_2025_023,2,RCB,Glenn Maxell,19,13,1,0,146.15,c Dhoni b Bumrah,0,4,21.05,0,0
+IPL_2025_023,2,RCB,Cameron Green,12,8,1,0,150.0,not out,1,4,33.33,0,0
+IPL_2025_024,1,RR,Yashasvi Jaisal,21,14,1,0,150.0,c Dhoni b Bumrah,0,4,19.05,0,0
+IPL_2025_024,1,RR,Jos Buttler,45,29,2,2,155.17,c & b Narine,0,20,44.44,0,0
+IPL_2025_024,1,RR,Sanju Samson,37,27,1,1,137.04,lbw b Chahal,0,10,27.03,0,0
+IPL_2025_024,1,RR,Riyan Parag,37,21,2,2,176.19,lbw b Chahal,0,20,54.05,0,0
+IPL_2025_024,1,RR,Dhruv Jurel,39,29,1,1,134.48,c Dhoni b Bumrah,0,10,25.64,0,0
+IPL_2025_024,2,KKR,Phil Salt,37,22,2,1,168.18,b Cummins,0,14,37.84,0,0
+IPL_2025_024,2,KKR,Sunil Narine,48,34,4,1,141.18,b Cummins,0,22,45.83,0,0
+IPL_2025_024,2,KKR,Venatesh Iyer,29,17,2,0,170.59,b Cummins,0,8,27.59,0,0
+IPL_2025_024,2,KKR,Shreyas Iyer,40,32,1,2,125.0,lbw b Chahal,0,16,40.0,0,0
+IPL_2025_024,2,KKR,Rinu Singh,24,15,1,1,160.0,run out,0,10,41.67,0,0
+IPL_2025_025,1,CSK,Ruturaj Gaiad,22,17,1,0,129.41,lbw b Chahal,0,4,18.18,0,0
+IPL_2025_025,1,CSK,Rahin Ravindra,54,31,4,2,174.19,b Cummins,0,28,51.85,1,0
+IPL_2025_025,1,CSK,Ajinya Rahane,38,27,2,1,140.74,c & b Narine,0,14,36.84,0,0
+IPL_2025_025,1,CSK,Daryl Mithell,43,26,2,2,165.38,c & b Narine,0,20,46.51,0,0
+IPL_2025_025,1,CSK,Shivam Dube,20,13,1,1,153.85,lbw b Chahal,0,10,50.0,0,0
+IPL_2025_025,1,CSK,Ravindra Jadeja,9,6,0,0,150.0,not out,1,0,0.0,0,0
+IPL_2025_025,2,RR,Yashasvi Jaisal,27,17,3,0,158.82,c & b Narine,0,12,44.44,0,0
+IPL_2025_025,2,RR,Jos Buttler,44,38,3,1,115.79,c & b Narine,0,18,40.91,0,0
+IPL_2025_025,2,RR,Sanju Samson,13,9,1,0,144.44,c & b Narine,0,4,30.77,0,0
+IPL_2025_025,2,RR,Riyan Parag,12,10,0,0,120.0,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2025_025,2,RR,Dhruv Jurel,37,26,1,2,142.31,c & b Narine,0,16,43.24,0,0
+IPL_2025_025,2,RR,Shimron Hetmyer,33,20,3,1,165.0,run out,0,18,54.55,0,0
+IPL_2025_026,1,GT,Shubman Gill,61,38,3,3,160.53,c Dhoni b Bumrah,0,30,49.18,1,0
+IPL_2025_026,1,GT,riddhiman Saha,40,29,2,2,137.93,b Cummins,0,20,50.0,0,0
+IPL_2025_026,1,GT,Sai Sudharsan,25,17,2,1,147.06,lbw b Chahal,0,14,56.0,0,0
+IPL_2025_026,1,GT,David Miller,9,8,0,0,112.5,lbw b Chahal,0,0,0.0,0,0
+IPL_2025_026,1,GT,Azmatullah Omarzai,47,28,3,2,167.86,run out,0,24,51.06,0,0
+IPL_2025_026,2,DC,David arner,22,14,1,1,157.14,c & b Narine,0,10,45.45,0,0
+IPL_2025_026,2,DC,Prithvi Sha,17,13,1,1,130.77,run out,0,10,58.82,0,0
+IPL_2025_026,2,DC,Jae Fraser-MGur,46,32,2,1,143.75,lbw b Chahal,0,14,30.43,0,0
+IPL_2025_026,2,DC,Rishabh Pant,32,22,1,1,145.45,b Cummins,0,10,31.25,0,0
+IPL_2025_026,2,DC,Tristan Stubbs,22,13,1,0,169.23,lbw b Chahal,0,4,18.18,0,0
+IPL_2025_026,2,DC,Axar Patel,38,26,3,1,146.15,not out,1,18,47.37,0,0
+IPL_2025_027,1,RR,Yashasvi Jaisal,17,11,1,0,154.55,b Cummins,0,4,23.53,0,0
+IPL_2025_027,1,RR,Jos Buttler,22,13,3,0,169.23,lbw b Chahal,0,12,54.55,0,0
+IPL_2025_027,1,RR,Sanju Samson,57,34,4,2,167.65,c Dhoni b Bumrah,0,28,49.12,1,0
+IPL_2025_027,1,RR,Riyan Parag,50,36,3,1,138.89,lbw b Chahal,0,18,36.0,1,0
+IPL_2025_027,1,RR,Dhruv Jurel,37,26,3,1,142.31,run out,0,18,48.65,0,0
+IPL_2025_027,2,LSG,L Rahul,43,26,2,2,165.38,c & b Narine,0,20,46.51,0,0
+IPL_2025_027,2,LSG,Quinton de o,52,38,2,3,136.84,lbw b Chahal,0,26,50.0,1,0
+IPL_2025_027,2,LSG,Marus Stoinis,39,27,3,1,144.44,c Dhoni b Bumrah,0,18,46.15,0,0
+IPL_2025_027,2,LSG,Niholas Pooran,23,18,0,1,127.78,lbw b Chahal,0,6,26.09,0,0
+IPL_2025_027,2,LSG,Ayush Badoni,16,11,1,0,145.45,not out,1,4,25.0,0,0
+IPL_2025_028,1,SRH,Travis Head,37,32,2,2,115.62,lbw b Chahal,0,20,54.05,0,0
+IPL_2025_028,1,SRH,Abhishe Sharma,38,31,2,1,122.58,lbw b Chahal,0,14,36.84,0,0
+IPL_2025_028,1,SRH,Rahul Tripathi,64,37,3,3,172.97,b Cummins,0,30,46.88,1,0
+IPL_2025_028,1,SRH,Aiden Marram,34,20,3,1,170.0,run out,0,18,52.94,0,0
+IPL_2025_028,2,RCB,Faf du Plessis,28,17,2,0,164.71,c Dhoni b Bumrah,0,8,28.57,0,0
+IPL_2025_028,2,RCB,Virat ohli,38,33,2,1,115.15,c & b Narine,0,14,36.84,0,0
+IPL_2025_028,2,RCB,ill Jas,34,23,3,1,147.83,c & b Narine,0,18,52.94,0,0
+IPL_2025_028,2,RCB,Rajat Patidar,21,15,1,0,140.0,lbw b Chahal,0,4,19.05,0,0
+IPL_2025_028,2,RCB,Glenn Maxell,57,32,4,2,178.12,not out,1,28,49.12,1,0
+IPL_2025_029,1,SRH,Travis Head,32,18,1,2,177.78,run out,0,16,50.0,0,0
+IPL_2025_029,1,SRH,Abhishe Sharma,12,8,0,0,150.0,b Cummins,0,0,0.0,0,0
+IPL_2025_029,1,SRH,Rahul Tripathi,22,16,1,0,137.5,lbw b Chahal,0,4,18.18,0,0
+IPL_2025_029,1,SRH,Aiden Marram,21,18,1,1,116.67,run out,0,10,47.62,0,0
+IPL_2025_029,1,SRH,Heinrih laasen,34,30,2,1,113.33,b Cummins,0,14,41.18,0,0
+IPL_2025_029,1,SRH,Nitish umar Reddy,28,17,3,0,164.71,c & b Narine,0,12,42.86,0,0
+IPL_2025_029,1,SRH,Abdul Samad,22,13,1,1,169.23,not out,1,10,45.45,0,0
+IPL_2025_029,2,LSG,L Rahul,16,13,1,0,123.08,c & b Narine,0,4,25.0,0,0
+IPL_2025_029,2,LSG,Quinton de o,22,19,0,1,115.79,c & b Narine,0,6,27.27,0,0
+IPL_2025_029,2,LSG,Marus Stoinis,52,30,3,2,173.33,run out,0,24,46.15,1,0
+IPL_2025_029,2,LSG,Niholas Pooran,16,11,1,0,145.45,run out,0,4,25.0,0,0
+IPL_2025_029,2,LSG,Ayush Badoni,18,12,1,0,150.0,lbw b Chahal,0,4,22.22,0,0
+IPL_2025_029,2,LSG,Deepa Hooda,45,26,3,1,173.08,c & b Narine,0,18,40.0,0,0
+IPL_2025_029,2,LSG,runal Pandya,15,9,0,0,166.67,not out,1,0,0.0,0,0
+IPL_2025_030,1,RCB,Faf du Plessis,24,14,1,0,171.43,b Cummins,0,4,16.67,0,0
+IPL_2025_030,1,RCB,Virat ohli,26,16,1,1,162.5,c & b Narine,0,10,38.46,0,0
+IPL_2025_030,1,RCB,ill Jas,46,30,3,2,153.33,lbw b Chahal,0,24,52.17,0,0
+IPL_2025_030,1,RCB,Rajat Patidar,53,38,3,2,139.47,b Cummins,0,24,45.28,1,0
+IPL_2025_030,1,RCB,Glenn Maxell,13,8,0,0,162.5,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2025_030,1,RCB,Cameron Green,17,14,2,0,121.43,run out,0,8,47.06,0,0
+IPL_2025_030,2,KKR,Phil Salt,13,8,0,0,162.5,c & b Narine,0,0,0.0,0,0
+IPL_2025_030,2,KKR,Sunil Narine,30,24,3,1,125.0,lbw b Chahal,0,18,60.0,0,0
+IPL_2025_030,2,KKR,Venatesh Iyer,64,38,4,1,168.42,run out,0,22,34.38,1,0
+IPL_2025_030,2,KKR,Shreyas Iyer,51,36,5,1,141.67,lbw b Chahal,0,26,50.98,1,0
+IPL_2025_030,2,KKR,Rinu Singh,20,14,1,0,142.86,c Dhoni b Bumrah,0,4,20.0,0,0
+IPL_2025_031,1,LSG,L Rahul,19,13,1,1,146.15,c Dhoni b Bumrah,0,10,52.63,0,0
+IPL_2025_031,1,LSG,Quinton de o,13,8,0,0,162.5,run out,0,0,0.0,0,0
+IPL_2025_031,1,LSG,Marus Stoinis,19,16,1,1,118.75,run out,0,10,52.63,0,0
+IPL_2025_031,1,LSG,Niholas Pooran,18,10,2,0,180.0,c & b Narine,0,8,44.44,0,0
+IPL_2025_031,1,LSG,Ayush Badoni,64,35,4,3,182.86,run out,0,34,53.12,1,0
+IPL_2025_031,1,LSG,Deepa Hooda,43,27,2,2,159.26,c Dhoni b Bumrah,0,20,46.51,0,0
+IPL_2025_031,1,LSG,runal Pandya,17,11,1,0,154.55,run out,0,4,23.53,0,0
+IPL_2025_031,2,DC,David arner,51,35,1,2,145.71,c Dhoni b Bumrah,0,16,31.37,1,0
+IPL_2025_031,2,DC,Prithvi Sha,33,27,2,1,122.22,c Dhoni b Bumrah,0,14,42.42,0,0
+IPL_2025_031,2,DC,Jae Fraser-MGur,60,36,4,2,166.67,c Dhoni b Bumrah,0,28,46.67,1,0
+IPL_2025_031,2,DC,Rishabh Pant,13,9,1,0,144.44,b Cummins,0,4,30.77,0,0
+IPL_2025_031,2,DC,Tristan Stubbs,10,9,0,0,111.11,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2025_031,2,DC,Axar Patel,5,4,0,0,125.0,run out,0,0,0.0,0,0
+IPL_2025_032,1,KKR,Phil Salt,48,38,4,2,126.32,c Dhoni b Bumrah,0,28,58.33,0,0
+IPL_2025_032,1,KKR,Sunil Narine,48,31,4,2,154.84,c Dhoni b Bumrah,0,28,58.33,0,0
+IPL_2025_032,1,KKR,Venatesh Iyer,34,22,2,0,154.55,lbw b Chahal,0,8,23.53,0,0
+IPL_2025_032,1,KKR,Shreyas Iyer,29,25,2,0,116.0,lbw b Chahal,0,8,27.59,0,0
+IPL_2025_032,1,KKR,Rinu Singh,5,4,0,0,125.0,not out,1,0,0.0,0,0
+IPL_2025_032,2,RR,Yashasvi Jaisal,58,35,3,1,165.71,run out,0,18,31.03,1,0
+IPL_2025_032,2,RR,Jos Buttler,36,21,2,2,171.43,b Cummins,0,20,55.56,0,0
+IPL_2025_032,2,RR,Sanju Samson,32,18,3,1,177.78,lbw b Chahal,0,18,56.25,0,0
+IPL_2025_032,2,RR,Riyan Parag,10,8,1,0,125.0,run out,0,4,40.0,0,0
+IPL_2025_032,2,RR,Dhruv Jurel,43,35,2,2,122.86,b Cummins,0,20,46.51,0,0
+IPL_2025_033,1,MI,Rohit Sharma,49,36,2,2,136.11,c Dhoni b Bumrah,0,20,40.82,0,0
+IPL_2025_033,1,MI,Ishan ishan,47,29,2,2,162.07,lbw b Chahal,0,20,42.55,0,0
+IPL_2025_033,1,MI,Suryaumar Yadav,40,23,1,1,173.91,run out,0,10,25.0,0,0
+IPL_2025_033,1,MI,Tila Varma,50,32,5,1,156.25,run out,0,26,52.0,1,0
+IPL_2025_033,2,KKR,Phil Salt,58,34,2,3,170.59,run out,0,26,44.83,1,0
+IPL_2025_033,2,KKR,Sunil Narine,42,24,3,1,175.0,lbw b Chahal,0,18,42.86,0,0
+IPL_2025_033,2,KKR,Venatesh Iyer,59,35,4,2,168.57,lbw b Chahal,0,28,47.46,1,0
+IPL_2025_033,2,KKR,Shreyas Iyer,47,27,2,1,174.07,b Cummins,0,14,29.79,0,0
+IPL_2025_034,1,CSK,Ruturaj Gaiad,29,25,1,1,116.0,b Cummins,0,10,34.48,0,0
+IPL_2025_034,1,CSK,Rahin Ravindra,19,14,1,1,135.71,c & b Narine,0,10,52.63,0,0
+IPL_2025_034,1,CSK,Ajinya Rahane,34,21,2,1,161.9,c Dhoni b Bumrah,0,14,41.18,0,0
+IPL_2025_034,1,CSK,Daryl Mithell,27,19,1,1,142.11,c Dhoni b Bumrah,0,10,37.04,0,0
+IPL_2025_034,1,CSK,Shivam Dube,40,24,4,1,166.67,c Dhoni b Bumrah,0,22,55.0,0,0
+IPL_2025_034,1,CSK,Ravindra Jadeja,29,17,2,1,170.59,not out,1,14,48.28,0,0
+IPL_2025_034,2,DC,David arner,31,26,1,1,119.23,run out,0,10,32.26,0,0
+IPL_2025_034,2,DC,Prithvi Sha,45,36,4,1,125.0,lbw b Chahal,0,22,48.89,0,0
+IPL_2025_034,2,DC,Jae Fraser-MGur,37,31,1,0,119.35,b Cummins,0,4,10.81,0,0
+IPL_2025_034,2,DC,Rishabh Pant,13,10,1,0,130.0,c Dhoni b Bumrah,0,4,30.77,0,0
+IPL_2025_034,2,DC,Tristan Stubbs,22,17,2,0,129.41,not out,1,8,36.36,0,0
+IPL_2025_035,1,KKR,Phil Salt,31,19,2,0,163.16,run out,0,8,25.81,0,0
+IPL_2025_035,1,KKR,Sunil Narine,27,20,2,0,135.0,lbw b Chahal,0,8,29.63,0,0
+IPL_2025_035,1,KKR,Venatesh Iyer,46,37,4,2,124.32,b Cummins,0,28,60.87,0,0
+IPL_2025_035,1,KKR,Shreyas Iyer,47,31,4,2,151.61,c Dhoni b Bumrah,0,28,59.57,0,0
+IPL_2025_035,1,KKR,Rinu Singh,14,9,1,0,155.56,lbw b Chahal,0,4,28.57,0,0
+IPL_2025_035,1,KKR,Andre Russell,5,4,0,0,125.0,b Cummins,0,0,0.0,0,0
+IPL_2025_035,2,GT,Shubman Gill,12,8,1,0,150.0,c & b Narine,0,4,33.33,0,0
+IPL_2025_035,2,GT,riddhiman Saha,35,22,3,1,159.09,c & b Narine,0,18,51.43,0,0
+IPL_2025_035,2,GT,Sai Sudharsan,45,33,2,1,136.36,b Cummins,0,14,31.11,0,0
+IPL_2025_035,2,GT,David Miller,16,14,0,1,114.29,run out,0,6,37.5,0,0
+IPL_2025_035,2,GT,Azmatullah Omarzai,47,35,4,1,134.29,run out,0,22,46.81,0,0
+IPL_2025_035,2,GT,Rahul Teatia,13,8,0,0,162.5,not out,1,0,0.0,0,0
+IPL_2025_036,1,DC,David arner,14,10,1,0,140.0,c Dhoni b Bumrah,0,4,28.57,0,0
+IPL_2025_036,1,DC,Prithvi Sha,25,20,2,1,125.0,c Dhoni b Bumrah,0,14,56.0,0,0
+IPL_2025_036,1,DC,Jae Fraser-MGur,22,15,2,1,146.67,lbw b Chahal,0,14,63.64,0,0
+IPL_2025_036,1,DC,Rishabh Pant,18,11,1,1,163.64,lbw b Chahal,0,10,55.56,0,0
+IPL_2025_036,1,DC,Tristan Stubbs,47,31,4,1,151.61,b Cummins,0,22,46.81,0,0
+IPL_2025_036,1,DC,Axar Patel,38,33,1,1,115.15,not out,1,10,26.32,0,0
+IPL_2025_036,2,GT,Shubman Gill,59,35,3,2,168.57,run out,0,24,40.68,1,0
+IPL_2025_036,2,GT,riddhiman Saha,22,16,1,1,137.5,c & b Narine,0,10,45.45,0,0
+IPL_2025_036,2,GT,Sai Sudharsan,25,15,2,0,166.67,lbw b Chahal,0,8,32.0,0,0
+IPL_2025_036,2,GT,David Miller,24,20,1,1,120.0,b Cummins,0,10,41.67,0,0
+IPL_2025_036,2,GT,Azmatullah Omarzai,25,15,2,1,166.67,c & b Narine,0,14,56.0,0,0
+IPL_2025_036,2,GT,Rahul Teatia,21,19,2,0,110.53,not out,1,8,38.1,0,0
+IPL_2025_037,1,GT,Shubman Gill,27,21,2,1,128.57,c & b Narine,0,14,51.85,0,0
+IPL_2025_037,1,GT,riddhiman Saha,31,19,2,1,163.16,c & b Narine,0,14,45.16,0,0
+IPL_2025_037,1,GT,Sai Sudharsan,47,35,4,1,134.29,run out,0,22,46.81,0,0
+IPL_2025_037,1,GT,David Miller,16,9,0,0,177.78,c & b Narine,0,0,0.0,0,0
+IPL_2025_037,1,GT,Azmatullah Omarzai,54,36,4,2,150.0,not out,1,28,51.85,1,0
+IPL_2025_037,2,RR,Yashasvi Jaisal,40,23,3,1,173.91,lbw b Chahal,0,18,45.0,0,0
+IPL_2025_037,2,RR,Jos Buttler,36,27,3,2,133.33,b Cummins,0,24,66.67,0,0
+IPL_2025_037,2,RR,Sanju Samson,34,22,3,1,154.55,c & b Narine,0,18,52.94,0,0
+IPL_2025_037,2,RR,Riyan Parag,38,24,4,1,158.33,b Cummins,0,22,57.89,0,0
+IPL_2025_037,2,RR,Dhruv Jurel,27,21,2,1,128.57,run out,0,14,51.85,0,0
+IPL_2025_037,2,RR,Shimron Hetmyer,4,3,0,0,133.33,not out,1,0,0.0,0,0
+IPL_2025_038,1,RR,Yashasvi Jaisal,22,12,1,1,183.33,b Cummins,0,10,45.45,0,0
+IPL_2025_038,1,RR,Jos Buttler,21,18,1,1,116.67,run out,0,10,47.62,0,0
+IPL_2025_038,1,RR,Sanju Samson,20,14,1,1,142.86,run out,0,10,50.0,0,0
+IPL_2025_038,1,RR,Riyan Parag,19,11,2,0,172.73,run out,0,8,42.11,0,0
+IPL_2025_038,1,RR,Dhruv Jurel,15,11,0,0,136.36,b Cummins,0,0,0.0,0,0
+IPL_2025_038,1,RR,Shimron Hetmyer,14,11,0,0,127.27,c & b Narine,0,0,0.0,0,0
+IPL_2025_038,1,RR,Rovman Poell,67,43,3,4,155.81,not out,1,36,53.73,1,0
+IPL_2025_038,2,PBKS,Shihar Dhaan,43,34,2,1,126.47,b Cummins,0,14,32.56,0,0
+IPL_2025_038,2,PBKS,Jonny Bairsto,23,15,2,1,153.33,c & b Narine,0,14,60.87,0,0
+IPL_2025_038,2,PBKS,Prabhsimran Singh,22,19,1,1,115.79,run out,0,10,45.45,0,0
+IPL_2025_038,2,PBKS,Rilee Rossou,54,38,2,2,142.11,lbw b Chahal,0,20,37.04,1,0
+IPL_2025_038,2,PBKS,Sam Curran,22,14,2,0,157.14,lbw b Chahal,0,8,36.36,0,0
+IPL_2025_039,1,DC,David arner,27,20,2,1,135.0,c & b Narine,0,14,51.85,0,0
+IPL_2025_039,1,DC,Prithvi Sha,22,18,2,0,122.22,run out,0,8,36.36,0,0
+IPL_2025_039,1,DC,Jae Fraser-MGur,17,13,0,1,130.77,lbw b Chahal,0,6,35.29,0,0
+IPL_2025_039,1,DC,Rishabh Pant,15,13,1,0,115.38,c Dhoni b Bumrah,0,4,26.67,0,0
+IPL_2025_039,1,DC,Tristan Stubbs,67,38,7,2,176.32,run out,0,40,59.7,1,0
+IPL_2025_039,1,DC,Axar Patel,21,18,2,0,116.67,c & b Narine,0,8,38.1,0,0
+IPL_2025_039,2,RR,Yashasvi Jaisal,19,17,0,0,111.76,run out,0,0,0.0,0,0
+IPL_2025_039,2,RR,Jos Buttler,33,24,2,1,137.5,run out,0,14,42.42,0,0
+IPL_2025_039,2,RR,Sanju Samson,24,16,1,1,150.0,lbw b Chahal,0,10,41.67,0,0
+IPL_2025_039,2,RR,Riyan Parag,21,17,1,0,123.53,lbw b Chahal,0,4,19.05,0,0
+IPL_2025_039,2,RR,Dhruv Jurel,27,20,1,1,135.0,c & b Narine,0,10,37.04,0,0
+IPL_2025_039,2,RR,Shimron Hetmyer,46,26,3,2,176.92,not out,1,24,52.17,0,0
+IPL_2025_040,1,GT,Shubman Gill,20,15,1,1,133.33,c & b Narine,0,10,50.0,0,0
+IPL_2025_040,1,GT,riddhiman Saha,23,18,1,1,127.78,c Dhoni b Bumrah,0,10,43.48,0,0
+IPL_2025_040,1,GT,Sai Sudharsan,39,26,4,1,150.0,c Dhoni b Bumrah,0,22,56.41,0,0
+IPL_2025_040,1,GT,David Miller,40,31,4,1,129.03,run out,0,22,55.0,0,0
+IPL_2025_040,1,GT,Azmatullah Omarzai,24,18,1,1,133.33,lbw b Chahal,0,10,41.67,0,0
+IPL_2025_040,1,GT,Rahul Teatia,18,12,1,0,150.0,not out,1,4,22.22,0,0
+IPL_2025_040,2,RR,Yashasvi Jaisal,12,10,1,0,120.0,b Cummins,0,4,33.33,0,0
+IPL_2025_040,2,RR,Jos Buttler,35,21,4,0,166.67,c & b Narine,0,16,45.71,0,0
+IPL_2025_040,2,RR,Sanju Samson,49,28,2,3,175.0,run out,0,26,53.06,0,0
+IPL_2025_040,2,RR,Riyan Parag,36,29,2,1,124.14,c Dhoni b Bumrah,0,14,38.89,0,0
+IPL_2025_040,2,RR,Dhruv Jurel,27,19,1,1,142.11,lbw b Chahal,0,10,37.04,0,0
+IPL_2025_040,2,RR,Shimron Hetmyer,20,13,1,0,153.85,b Cummins,0,4,20.0,0,0
+IPL_2025_041,1,KKR,Phil Salt,21,13,1,1,161.54,lbw b Chahal,0,10,47.62,0,0
+IPL_2025_041,1,KKR,Sunil Narine,27,15,2,1,180.0,c & b Narine,0,14,51.85,0,0
+IPL_2025_041,1,KKR,Venatesh Iyer,12,8,1,0,150.0,c & b Narine,0,4,33.33,0,0
+IPL_2025_041,1,KKR,Shreyas Iyer,24,19,2,1,126.32,b Cummins,0,14,58.33,0,0
+IPL_2025_041,1,KKR,Rinu Singh,14,8,0,0,175.0,b Cummins,0,0,0.0,0,0
+IPL_2025_041,1,KKR,Andre Russell,45,26,2,2,173.08,c & b Narine,0,20,44.44,0,0
+IPL_2025_041,1,KKR,Ramandeep Singh,20,14,1,1,142.86,c & b Narine,0,10,50.0,0,0
+IPL_2025_041,1,KKR,Mithell Star,23,17,2,0,135.29,not out,1,8,34.78,0,0
+IPL_2025_041,2,RCB,Faf du Plessis,9,8,0,0,112.5,c & b Narine,0,0,0.0,0,0
+IPL_2025_041,2,RCB,Virat ohli,31,25,2,1,124.0,run out,0,14,45.16,0,0
+IPL_2025_041,2,RCB,ill Jas,36,20,2,2,180.0,lbw b Chahal,0,20,55.56,0,0
+IPL_2025_041,2,RCB,Rajat Patidar,20,13,2,0,153.85,run out,0,8,40.0,0,0
+IPL_2025_041,2,RCB,Glenn Maxell,31,20,3,1,155.0,run out,0,18,58.06,0,0
+IPL_2025_041,2,RCB,Cameron Green,22,18,0,1,122.22,lbw b Chahal,0,6,27.27,0,0
+IPL_2025_041,2,RCB,Dinesh arthi,24,16,1,1,150.0,run out,0,10,41.67,0,0
+IPL_2025_042,1,LSG,L Rahul,18,13,1,0,138.46,b Cummins,0,4,22.22,0,0
+IPL_2025_042,1,LSG,Quinton de o,61,38,3,3,160.53,run out,0,30,49.18,1,0
+IPL_2025_042,1,LSG,Marus Stoinis,25,17,1,1,147.06,b Cummins,0,10,40.0,0,0
+IPL_2025_042,1,LSG,Niholas Pooran,15,10,1,0,150.0,c & b Narine,0,4,26.67,0,0
+IPL_2025_042,1,LSG,Ayush Badoni,24,19,1,1,126.32,c Dhoni b Bumrah,0,10,41.67,0,0
+IPL_2025_042,1,LSG,Deepa Hooda,41,23,2,2,178.26,not out,1,20,48.78,0,0
+IPL_2025_042,2,CSK,Ruturaj Gaiad,34,21,1,2,161.9,lbw b Chahal,0,16,47.06,0,0
+IPL_2025_042,2,CSK,Rahin Ravindra,21,16,1,1,131.25,lbw b Chahal,0,10,47.62,0,0
+IPL_2025_042,2,CSK,Ajinya Rahane,33,27,1,1,122.22,b Cummins,0,10,30.3,0,0
+IPL_2025_042,2,CSK,Daryl Mithell,53,33,2,2,160.61,lbw b Chahal,0,20,37.74,1,0
+IPL_2025_042,2,CSK,Shivam Dube,37,23,2,1,160.87,c & b Narine,0,14,37.84,0,0
+IPL_2025_043,1,PBKS,Shihar Dhaan,33,20,3,1,165.0,c Dhoni b Bumrah,0,18,54.55,0,0
+IPL_2025_043,1,PBKS,Jonny Bairsto,32,21,1,1,152.38,c Dhoni b Bumrah,0,10,31.25,0,0
+IPL_2025_043,1,PBKS,Prabhsimran Singh,56,33,5,2,169.7,c Dhoni b Bumrah,0,32,57.14,1,0
+IPL_2025_043,1,PBKS,Rilee Rossou,47,33,2,1,142.42,lbw b Chahal,0,14,29.79,0,0
+IPL_2025_043,1,PBKS,Sam Curran,18,13,0,1,138.46,c & b Narine,0,6,33.33,0,0
+IPL_2025_043,2,GT,Shubman Gill,35,22,1,2,159.09,run out,0,16,45.71,0,0
+IPL_2025_043,2,GT,riddhiman Saha,49,31,2,3,158.06,c Dhoni b Bumrah,0,26,53.06,0,0
+IPL_2025_043,2,GT,Sai Sudharsan,19,13,1,0,146.15,run out,0,4,21.05,0,0
+IPL_2025_043,2,GT,David Miller,33,27,3,0,122.22,b Cummins,0,12,36.36,0,0
+IPL_2025_043,2,GT,Azmatullah Omarzai,24,17,1,1,141.18,c & b Narine,0,10,41.67,0,0
+IPL_2025_043,2,GT,Rahul Teatia,14,10,1,0,140.0,not out,1,4,28.57,0,0
+IPL_2025_044,1,GT,Shubman Gill,21,12,1,1,175.0,run out,0,10,47.62,0,0
+IPL_2025_044,1,GT,riddhiman Saha,21,14,1,1,150.0,run out,0,10,47.62,0,0
+IPL_2025_044,1,GT,Sai Sudharsan,45,31,3,1,145.16,lbw b Chahal,0,18,40.0,0,0
+IPL_2025_044,1,GT,David Miller,39,31,3,1,125.81,c & b Narine,0,18,46.15,0,0
+IPL_2025_044,1,GT,Azmatullah Omarzai,11,9,1,0,122.22,c Dhoni b Bumrah,0,4,36.36,0,0
+IPL_2025_044,1,GT,Rahul Teatia,19,13,1,0,146.15,b Cummins,0,4,21.05,0,0
+IPL_2025_044,1,GT,Rashid han,14,9,1,0,155.56,run out,0,4,28.57,0,0
+IPL_2025_044,1,GT,Shahruh han,1,1,0,0,100.0,not out,1,0,0.0,0,0
+IPL_2025_044,2,PBKS,Shihar Dhaan,36,31,2,1,116.13,c & b Narine,0,14,38.89,0,0
+IPL_2025_044,2,PBKS,Jonny Bairsto,11,10,0,0,110.0,c & b Narine,0,0,0.0,0,0
+IPL_2025_044,2,PBKS,Prabhsimran Singh,39,31,3,1,125.81,run out,0,18,46.15,0,0
+IPL_2025_044,2,PBKS,Rilee Rossou,11,8,0,0,137.5,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2025_044,2,PBKS,Sam Curran,40,24,3,2,166.67,c Dhoni b Bumrah,0,24,60.0,0,0
+IPL_2025_044,2,PBKS,Jitesh Sharma,18,16,2,0,112.5,b Cummins,0,8,44.44,0,0
+IPL_2025_045,1,KKR,Phil Salt,22,12,1,1,183.33,c Dhoni b Bumrah,0,10,45.45,0,0
+IPL_2025_045,1,KKR,Sunil Narine,14,8,0,0,175.0,c Dhoni b Bumrah,0,0,0.0,0,0
+IPL_2025_045,1,KKR,Venatesh Iyer,23,14,1,1,164.29,c Dhoni b Bumrah,0,10,43.48,0,0
+IPL_2025_045,1,KKR,Shreyas Iyer,29,17,1,1,170.59,c & b Narine,0,10,34.48,0,0
+IPL_2025_045,1,KKR,Rinu Singh,54,36,6,1,150.0,c Dhoni b Bumrah,0,30,55.56,1,0
+IPL_2025_045,1,KKR,Andre Russell,58,33,3,2,175.76,not out,1,24,41.38,1,0
+IPL_2025_045,2,GT,Shubman Gill,64,36,6,2,177.78,b Cummins,0,36,56.25,1,0
+IPL_2025_045,2,GT,riddhiman Saha,50,29,3,2,172.41,c & b Narine,0,24,48.0,1,0
+IPL_2025_045,2,GT,Sai Sudharsan,44,35,3,2,125.71,lbw b Chahal,0,24,54.55,0,0
+IPL_2025_045,2,GT,David Miller,32,20,3,1,160.0,b Cummins,0,18,56.25,0,0
