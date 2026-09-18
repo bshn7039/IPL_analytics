@@ -7,8 +7,10 @@ import streamlit as st
 import plotly.express as px
 from database.db import query
 from analytics.strategy import get_toss_analysis, get_venue_analysis, get_phase_analysis
+from analytics.ui_styles import apply_custom_styles
 
 st.set_page_config(page_title="Match & Strategy | IPL Hub", page_icon="🧠", layout="wide")
+apply_custom_styles()
 
 st.markdown("# 🧠 Match & Tactical Strategy Intelligence")
 st.markdown("Macro-level analytical telemetry on toss advantage, ground acoustics, target chase feasibility, and phase execution.")
@@ -80,24 +82,20 @@ with sc1:
 with sc2:
     sim_target = st.slider("Target Score to Chase", min_value=120, max_value=240, value=180, step=5)
 with sc3:
-    # Target simulator calculation
     venue_row = venues_df[venues_df["venue"] == sim_venue].iloc[0] if not venues_df.empty and sim_venue in venues_df["venue"].values else None
     par_score = venue_row["avg_1st_innings"] if venue_row is not None else 175.0
     
-    # Sigmoid probability curve
     diff = par_score - sim_target
     chase_prob = round(min(95.0, max(5.0, 50.0 + (diff * 1.6))), 1)
     defend_prob = round(100.0 - chase_prob, 1)
     
-    st.markdown(f"""
-    <div style="background:#161F30; border-radius:10px; padding:0.8rem; text-align:center; border: 1px solid rgba(59, 130, 246, 0.3);">
-        <div style="font-size:0.75rem; color:#94A3B8;">CHASE PROBABILITY</div>
-        <div style="font-size:1.6rem; font-weight:800; color:{'#10B981' if chase_prob >= 50 else '#EF4444'};">
-            {chase_prob}%
-        </div>
-        <div style="font-size:0.75rem; color:#64748B;">Defend Chance: {defend_prob}%</div>
-    </div>
-    """, unsafe_allow_html=True)
+    color_chase = '#10B981' if chase_prob >= 50 else '#EF4444'
+    pred_card_html = f"""<div class="analytics-card" style="padding:1rem; border:1px solid rgba(59,130,246,0.35);">
+<div style="font-size:0.75rem; color:#94A3B8; font-weight:700;">CHASE WIN PROBABILITY</div>
+<div style="font-size:1.8rem; font-weight:800; color:{color_chase};">{chase_prob}%</div>
+<div style="font-size:0.78rem; color:#64748B;">Defend Chance: {defend_prob}%</div>
+</div>"""
+    st.markdown(pred_card_html, unsafe_allow_html=True)
 
 st.markdown("---")
 

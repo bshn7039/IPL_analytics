@@ -6,11 +6,13 @@ keyword search, summary metrics, and dual CSV/JSON export.
 import streamlit as st
 import pandas as pd
 from database.db import query
+from analytics.ui_styles import apply_custom_styles
 
 st.set_page_config(page_title="Data Explorer | IPL Hub", page_icon="🗄️", layout="wide")
+apply_custom_styles()
 
 st.markdown("# 🗄️ Interactive Data Explorer")
-st.markdown("Interrogate raw and processed database entities, filter schemas, and download subsets.")
+st.markdown("Interrogate raw and processed database entities across all seasons (2019–2026), filter schemas, and download subsets.")
 
 # Dataset Selector
 dataset = st.selectbox(
@@ -79,17 +81,14 @@ m3.metric("Table", dataset.upper())
 m4.metric("Memory Footprint", f"{round(df.memory_usage(deep=True).sum() / 1024, 1)} KB" if not df.empty else "0 KB")
 
 if not df.empty:
-    # Column selection widget
     selected_cols = st.multiselect("Customize Columns to View:", options=df.columns.tolist(), default=df.columns.tolist())
     view_df = df[selected_cols] if selected_cols else df
 
     st.dataframe(view_df, use_container_width=True)
 
-    # Statistical Summary Expander
     with st.expander("📊 Descriptive Statistical Metrics (Mean, Std, Min, Max)"):
         st.dataframe(view_df.describe(), use_container_width=True)
 
-    # Dual Export Options
     exp_c1, exp_c2 = st.columns(2)
     with exp_c1:
         csv_bytes = view_df.to_csv(index=False).encode("utf-8")

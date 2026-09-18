@@ -7,23 +7,13 @@ import streamlit as st
 from database.db import query
 from analytics.bowling import get_team_bowling_summary, get_top_bowlers
 from analytics.branding import get_franchise_meta
+from analytics.ui_styles import apply_custom_styles
 from visualization.bowling_charts import (
     plot_wickets_by_bowler, plot_economy_vs_wickets, plot_bowling_economy_bars_mpl
 )
 
 st.set_page_config(page_title="Bowling Analytics | IPL Hub", page_icon="🎯", layout="wide")
-
-st.markdown("""
-<style>
-    .spotlight-card-bowl {
-        background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
-        border-radius: 12px;
-        padding: 1.2rem 1.5rem;
-        border: 1px solid rgba(239, 68, 68, 0.3);
-        margin-bottom: 1.5rem;
-    }
-</style>
-""", unsafe_allow_html=True)
+apply_custom_styles()
 
 st.markdown("# 🎯 Franchise Bowling Analytics")
 st.markdown("Evaluating containment discipline, strike rates, economy thresholds, and wicket distribution.")
@@ -55,29 +45,28 @@ k5.metric("Maidens Bowled", f"{summary['maidens']}")
 st.markdown("---")
 
 # Bowler Spotlight
-top_bowl_df = get_top_bowlers(selected_team, selected_season, limit=20)
+top_bowl_df = get_top_bowlers(selected_team, selected_season, limit=25)
 if not top_bowl_df.empty:
     filtered_bowlers = top_bowl_df[top_bowl_df["overs"] >= min_overs] if "overs" in top_bowl_df.columns else top_bowl_df
     mvp_b = top_bowl_df.iloc[0]
 
-    st.markdown(f"""
-    <div class="spotlight-card-bowl" style="border-left: 6px solid #EF4444;">
-        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;">
-            <div>
-                <span style="color:#F87171; font-weight:700; font-size:0.85rem; text-transform:uppercase;">⚡ STRIKE BOWLER OF THE FRANCHISE</span>
-                <h2 style="margin:0.2rem 0; color:#FFFFFF;">{mvp_b['player']}</h2>
-                <div style="color:#94A3B8; font-size:0.95rem;">
-                    Matches: <b>{mvp_b['matches']}</b> &nbsp;|&nbsp; Overs: <b>{mvp_b['overs']}</b> &nbsp;|&nbsp; 
-                    Maidens: <b>{mvp_b['maidens']}</b> &nbsp;|&nbsp; Runs Conceded: <b>{mvp_b['runs_conceded']}</b>
-                </div>
-            </div>
-            <div style="text-align:right;">
-                <div style="font-size:2.2rem; font-weight:800; color:#EF4444;">{mvp_b['wickets']} Wickets</div>
-                <div style="color:#38BDF8; font-weight:600; font-size:1.1rem;">Econ: {mvp_b['economy']} &nbsp;|&nbsp; Avg: {mvp_b['bowling_avg']}</div>
-            </div>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+    spotlight_b_html = f"""<div class="analytics-card" style="border-left: 6px solid #EF4444; text-align:left; padding:1.5rem 1.8rem; margin-bottom:1.5rem;">
+<div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;">
+<div>
+<span style="color:#F87171; font-weight:800; font-size:0.85rem; letter-spacing:0.05em; text-transform:uppercase;">⚡ STRIKE BOWLER OF THE FRANCHISE</span>
+<h2 style="margin:0.2rem 0; color:#FFFFFF; font-weight:800;">{mvp_b['player']}</h2>
+<div style="color:#94A3B8; font-size:0.95rem;">
+Matches: <b>{mvp_b['matches']}</b> &nbsp;|&nbsp; Overs: <b>{mvp_b['overs']}</b> &nbsp;|&nbsp; 
+Maidens: <b>{mvp_b['maidens']}</b> &nbsp;|&nbsp; Runs Conceded: <b>{mvp_b['runs_conceded']}</b>
+</div>
+</div>
+<div style="text-align:right;">
+<div style="font-size:2.4rem; font-weight:800; color:#EF4444;">{mvp_b['wickets']} Wickets</div>
+<div style="color:#38BDF8; font-weight:700; font-size:1.15rem;">Econ: {mvp_b['economy']} &nbsp;|&nbsp; Avg: {mvp_b['bowling_avg']}</div>
+</div>
+</div>
+</div>"""
+    st.markdown(spotlight_b_html, unsafe_allow_html=True)
 else:
     filtered_bowlers = top_bowl_df
 

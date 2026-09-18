@@ -9,9 +9,11 @@ import plotly.graph_objects as go
 from database.db import query
 from analytics.comparison import compare_players
 from analytics.branding import get_franchise_meta
+from analytics.ui_styles import apply_custom_styles
 from visualization.comparison_charts import plot_player_comparison_bars
 
 st.set_page_config(page_title="Player Comparison | IPL Hub", page_icon="👤", layout="wide")
+apply_custom_styles()
 
 st.markdown("# 👤 Individual Player Head-to-Head Benchmarking")
 st.markdown("Compare scoring dynamics, boundary frequencies, consistency averages, and bowling figures.")
@@ -54,26 +56,24 @@ st.markdown("---")
 # Profile Cards Header
 c_a, c_b = st.columns(2)
 with c_a:
-    st.markdown(f"""
-    <div style="background:#161F30; border-radius:12px; padding:1.2rem; border-left:5px solid {team_meta_a['accent']};">
-        <div style="font-size:0.8rem; color:#94A3B8; text-transform:uppercase;">Franchise: {team_meta_a['full_name']} ({p_meta_a['team_short'] if p_meta_a is not None else ''})</div>
-        <h2 style="margin:0.2rem 0; color:#FFFFFF;">{player_a}</h2>
-        <span style="background:#1E293B; color:#38BDF8; padding:0.25rem 0.6rem; border-radius:6px; font-size:0.85rem; font-weight:600;">
-            {p_meta_a['role'] if p_meta_a is not None else 'Cricketer'}
-        </span>
-    </div>
-    """, unsafe_allow_html=True)
+    p1_html = f"""<div class="analytics-card" style="border-left:5px solid {team_meta_a['accent']}; text-align:left; padding:1.3rem 1.6rem;">
+<div style="font-size:0.8rem; color:#94A3B8; text-transform:uppercase; font-weight:700;">Franchise: {team_meta_a['full_name']} ({p_meta_a['team_short'] if p_meta_a is not None else ''})</div>
+<h2 style="margin:0.2rem 0; color:#FFFFFF; font-weight:800;">{player_a}</h2>
+<span style="background:#1E293B; color:#38BDF8; padding:0.3rem 0.7rem; border-radius:6px; font-size:0.85rem; font-weight:700;">
+{p_meta_a['role'] if p_meta_a is not None else 'Cricketer'}
+</span>
+</div>"""
+    st.markdown(p1_html, unsafe_allow_html=True)
 
 with c_b:
-    st.markdown(f"""
-    <div style="background:#161F30; border-radius:12px; padding:1.2rem; border-left:5px solid {team_meta_b['accent']};">
-        <div style="font-size:0.8rem; color:#94A3B8; text-transform:uppercase;">Franchise: {team_meta_b['full_name']} ({p_meta_b['team_short'] if p_meta_b is not None else ''})</div>
-        <h2 style="margin:0.2rem 0; color:#FFFFFF;">{player_b}</h2>
-        <span style="background:#1E293B; color:#F97316; padding:0.25rem 0.6rem; border-radius:6px; font-size:0.85rem; font-weight:600;">
-            {p_meta_b['role'] if p_meta_b is not None else 'Cricketer'}
-        </span>
-    </div>
-    """, unsafe_allow_html=True)
+    p2_html = f"""<div class="analytics-card" style="border-left:5px solid {team_meta_b['accent']}; text-align:left; padding:1.3rem 1.6rem;">
+<div style="font-size:0.8rem; color:#94A3B8; text-transform:uppercase; font-weight:700;">Franchise: {team_meta_b['full_name']} ({p_meta_b['team_short'] if p_meta_b is not None else ''})</div>
+<h2 style="margin:0.2rem 0; color:#FFFFFF; font-weight:800;">{player_b}</h2>
+<span style="background:#1E293B; color:#F97316; padding:0.3rem 0.7rem; border-radius:6px; font-size:0.85rem; font-weight:700;">
+{p_meta_b['role'] if p_meta_b is not None else 'Cricketer'}
+</span>
+</div>"""
+    st.markdown(p2_html, unsafe_allow_html=True)
 
 st.markdown("---")
 
@@ -84,7 +84,6 @@ if bat_a or bat_b:
     with bc1:
         st.plotly_chart(plot_player_comparison_bars(bat_a, bat_b, player_a, player_b), use_container_width=True)
     with bc2:
-        # Mini radar for players
         categories = ["Volume", "Consistency", "Strike Rate", "Sixes Rate", "Milestones"]
         def norm_p(b):
             if not b: return [0, 0, 0, 0, 0]

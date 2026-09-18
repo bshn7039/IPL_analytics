@@ -10,32 +10,13 @@ from analytics.batting import (
     get_team_batting_summary, get_top_batsmen, get_batting_first_vs_chasing
 )
 from analytics.branding import get_franchise_meta
+from analytics.ui_styles import apply_custom_styles
 from visualization.batting_charts import (
     plot_runs_by_player, plot_runs_vs_strike_rate, plot_boundary_distribution_mpl
 )
 
 st.set_page_config(page_title="Batting Analytics | IPL Hub", page_icon="🏏", layout="wide")
-
-st.markdown("""
-<style>
-    .section-title {
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: #F8FAFC;
-        margin: 1rem 0 0.5rem 0;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-    }
-    .spotlight-card {
-        background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
-        border-radius: 12px;
-        padding: 1.2rem 1.5rem;
-        border: 1px solid rgba(59, 130, 246, 0.3);
-        margin-bottom: 1.5rem;
-    }
-</style>
-""", unsafe_allow_html=True)
+apply_custom_styles()
 
 st.markdown("# 🏏 Franchise Batting Analytics")
 st.markdown("Quantifying batting efficiency, power-hitting velocity, milestone conversion, and individual contributions.")
@@ -69,29 +50,28 @@ k6.metric("Boundary Share", f"{summary['boundary_pct']}%")
 st.markdown("---")
 
 # Top Batsman Spotlight
-top_bat_df = get_top_batsmen(selected_team, selected_season, limit=20)
+top_bat_df = get_top_batsmen(selected_team, selected_season, limit=25)
 if not top_bat_df.empty:
     filtered_batsmen = top_bat_df[top_bat_df["balls"] >= min_balls] if "balls" in top_bat_df.columns else top_bat_df
     mvp = top_bat_df.iloc[0]
     
-    st.markdown(f"""
-    <div class="spotlight-card" style="border-left: 6px solid {meta['accent']};">
-        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;">
-            <div>
-                <span style="color:#F59E0B; font-weight:700; font-size:0.85rem; text-transform:uppercase;">⭐ FRANCHISE BATTING ANCHOR</span>
-                <h2 style="margin:0.2rem 0; color:#FFFFFF;">{mvp['player']}</h2>
-                <div style="color:#94A3B8; font-size:0.95rem;">
-                    Innings: <b>{mvp['innings']}</b> &nbsp;|&nbsp; High Score: <b>{mvp['highest_score']}</b> &nbsp;|&nbsp; 
-                    Fifties: <b>{mvp['fifties']}</b> &nbsp;|&nbsp; Hundreds: <b>{mvp['hundreds']}</b>
-                </div>
-            </div>
-            <div style="text-align:right;">
-                <div style="font-size:2.2rem; font-weight:800; color:{meta['accent']};">{mvp['runs']:,} Runs</div>
-                <div style="color:#38BDF8; font-weight:600; font-size:1.1rem;">Avg: {mvp['average']} &nbsp;|&nbsp; SR: {mvp['strike_rate']}</div>
-            </div>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+    spotlight_html = f"""<div class="analytics-card" style="border-left: 6px solid {meta['accent']}; text-align:left; padding:1.5rem 1.8rem; margin-bottom:1.5rem;">
+<div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;">
+<div>
+<span style="color:#F59E0B; font-weight:800; font-size:0.85rem; letter-spacing:0.05em; text-transform:uppercase;">⭐ FRANCHISE BATTING ANCHOR</span>
+<h2 style="margin:0.2rem 0; color:#FFFFFF; font-weight:800;">{mvp['player']}</h2>
+<div style="color:#94A3B8; font-size:0.95rem;">
+Innings: <b>{mvp['innings']}</b> &nbsp;|&nbsp; High Score: <b>{mvp['highest_score']}</b> &nbsp;|&nbsp; 
+Fifties: <b>{mvp['fifties']}</b> &nbsp;|&nbsp; Hundreds: <b>{mvp['hundreds']}</b>
+</div>
+</div>
+<div style="text-align:right;">
+<div style="font-size:2.4rem; font-weight:800; color:{meta['accent']};">{mvp['runs']:,} Runs</div>
+<div style="color:#38BDF8; font-weight:700; font-size:1.15rem;">Avg: {mvp['average']} &nbsp;|&nbsp; SR: {mvp['strike_rate']}</div>
+</div>
+</div>
+</div>"""
+    st.markdown(spotlight_html, unsafe_allow_html=True)
 else:
     filtered_batsmen = top_bat_df
 
@@ -127,24 +107,23 @@ split = get_batting_first_vs_chasing(selected_team, selected_season)
 
 sp1, sp2 = st.columns(2)
 with sp1:
-    st.markdown(f"""
-    <div style="background:#161F30; border-radius:10px; padding:1.3rem; border-left:5px solid #38BDF8; box-shadow:0 4px 6px rgba(0,0,0,0.2);">
-        <h3 style="margin:0 0 0.5rem 0; color:#38BDF8;">Batting 1st (Setting Target)</h3>
-        <p style="margin:0.2rem 0; color:#94A3B8;">Matches Setting Score: <b style="color:white;">{split['bat_first_matches']}</b></p>
-        <p style="margin:0.2rem 0; color:#94A3B8;">Average Target Set: <b style="color:white;">{split['bat_first_avg']}</b></p>
-        <div style="margin-top:0.8rem; font-size:1.3rem; font-weight:700; color:#38BDF8;">
-            Win Rate: {split['bat_first_win_pct']}%
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+    b1_html = f"""<div class="analytics-card" style="border-left:5px solid #38BDF8; text-align:left; padding:1.4rem;">
+<h3 style="margin:0 0 0.5rem 0; color:#38BDF8; font-weight:800;">Batting 1st (Setting Target)</h3>
+<p style="margin:0.2rem 0; color:#94A3B8;">Matches Setting Score: <b style="color:white;">{split['bat_first_matches']}</b></p>
+<p style="margin:0.2rem 0; color:#94A3B8;">Average Target Set: <b style="color:white;">{split['bat_first_avg']}</b></p>
+<div style="margin-top:0.8rem; font-size:1.35rem; font-weight:800; color:#38BDF8;">
+Win Rate: {split['bat_first_win_pct']}%
+</div>
+</div>"""
+    st.markdown(b1_html, unsafe_allow_html=True)
+
 with sp2:
-    st.markdown(f"""
-    <div style="background:#161F30; border-radius:10px; padding:1.3rem; border-left:5px solid #F97316; box-shadow:0 4px 6px rgba(0,0,0,0.2);">
-        <h3 style="margin:0 0 0.5rem 0; color:#F97316;">Batting 2nd (Chasing Target)</h3>
-        <p style="margin:0.2rem 0; color:#94A3B8;">Matches Chasing: <b style="color:white;">{split['chasing_matches']}</b></p>
-        <p style="margin:0.2rem 0; color:#94A3B8;">Average Chasing Score: <b style="color:white;">{split['chasing_avg']}</b></p>
-        <div style="margin-top:0.8rem; font-size:1.3rem; font-weight:700; color:#F97316;">
-            Win Rate: {split['chasing_win_pct']}%
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+    b2_html = f"""<div class="analytics-card" style="border-left:5px solid #F97316; text-align:left; padding:1.4rem;">
+<h3 style="margin:0 0 0.5rem 0; color:#F97316; font-weight:800;">Batting 2nd (Chasing Target)</h3>
+<p style="margin:0.2rem 0; color:#94A3B8;">Matches Chasing: <b style="color:white;">{split['chasing_matches']}</b></p>
+<p style="margin:0.2rem 0; color:#94A3B8;">Average Chasing Score: <b style="color:white;">{split['chasing_avg']}</b></p>
+<div style="margin-top:0.8rem; font-size:1.35rem; font-weight:800; color:#F97316;">
+Win Rate: {split['chasing_win_pct']}%
+</div>
+</div>"""
+    st.markdown(b2_html, unsafe_allow_html=True)

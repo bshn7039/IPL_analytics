@@ -1,4 +1,4 @@
-﻿"""
+"""
 IPL Data Loader & Synthetic Seeder
 Generates authentic multi-season IPL data (2023, 2024, 2025),
 cleans and transforms it via the processing pipeline,
@@ -284,13 +284,13 @@ def seed_database():
     insert_dataframe("players", players_df)
     print(f"[OK] Loaded {len(players_df)} official players.")
 
-    seasons = [2023, 2024, 2025]
+    seasons = [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     all_matches = []
     all_batting = []
     all_bowling = []
 
     for yr in seasons:
-        match_count = 74 if yr != 2025 else 45
+        match_count = 60 if yr in [2019, 2020, 2021] else 74
         m, b, bw = generate_season_data(yr, num_matches=match_count)
         all_matches.extend(m)
         all_batting.extend(b)
