@@ -1,4 +1,4 @@
-﻿"""
+"""
 🏏 IPL Analytics Hub — Overview Performance Intelligence Dashboard
 Modern sports intelligence interface featuring real-time franchise analytics,
 form guides, situational KPIs, trajectory charts, and rule-based insights.
@@ -34,14 +34,11 @@ teams_df = query("SELECT short_name, team_name FROM teams ORDER BY short_name AS
 available_teams = teams_df["short_name"].tolist() if not teams_df.empty else ["MI", "CSK", "RCB", "KKR"]
 
 # Top Selection Bar
-f_col1, f_col2, f_col3 = st.columns([1.5, 2, 2.5])
+f_col1, f_col2 = st.columns(2)
 with f_col1:
     selected_season = st.selectbox("📅 Season", available_seasons, index=0)
 with f_col2:
     selected_team = st.selectbox("🛡️ Franchise Team", available_teams, index=0)
-with f_col3:
-    opponents = ["All Opponents"] + [t for t in available_teams if t != selected_team]
-    selected_opp = st.selectbox("⚔️ Opponent Drilldown", opponents, index=0)
 
 meta = get_franchise_meta(selected_team)
 overview = get_team_overview(selected_team, selected_season)
@@ -150,11 +147,7 @@ st.markdown("---")
 c1, c2 = st.columns([2.3, 1.2])
 with c1:
     st.subheader("📈 Innings Run Progression & Match Outcomes")
-    if selected_opp != "All Opponents" and not matches_history.empty:
-        filtered_trend = matches_history[matches_history["opponent"] == selected_opp]
-    else:
-        filtered_trend = matches_history
-    trend_fig = plot_match_run_trend(filtered_trend, selected_team)
+    trend_fig = plot_match_run_trend(matches_history, selected_team)
     st.plotly_chart(trend_fig, use_container_width=True)
 
 with c2:

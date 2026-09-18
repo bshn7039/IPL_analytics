@@ -1,4 +1,4 @@
-﻿"""
+"""
 🎯 Page 2: Bowling Analytics
 Detailed evaluation of wicket-taking efficiency, run-containment discipline,
 economy distributions, and bowler quotas.
@@ -21,13 +21,11 @@ st.markdown("Evaluating containment discipline, strike rates, economy thresholds
 seasons = query("SELECT DISTINCT season FROM matches ORDER BY season DESC")["season"].tolist()
 teams = query("SELECT short_name FROM teams ORDER BY short_name ASC")["short_name"].tolist()
 
-c_s, c_t, c_ov = st.columns([1.5, 2, 2.5])
+c_s, c_t = st.columns(2)
 with c_s:
     selected_season = st.selectbox("Season", seasons, index=0)
 with c_t:
     selected_team = st.selectbox("Franchise Team", teams, index=0)
-with c_ov:
-    min_overs = st.slider("Filter: Min. Overs Bowled", min_value=0, max_value=50, value=8, step=4)
 
 meta = get_franchise_meta(selected_team)
 summary = get_team_bowling_summary(selected_team, selected_season)
@@ -47,7 +45,6 @@ st.markdown("---")
 # Bowler Spotlight
 top_bowl_df = get_top_bowlers(selected_team, selected_season, limit=25)
 if not top_bowl_df.empty:
-    filtered_bowlers = top_bowl_df[top_bowl_df["overs"] >= min_overs] if "overs" in top_bowl_df.columns else top_bowl_df
     mvp_b = top_bowl_df.iloc[0]
 
     spotlight_b_html = f"""<div class="analytics-card" style="border-left: 6px solid #EF4444; text-align:left; padding:1.5rem 1.8rem; margin-bottom:1.5rem;">
@@ -67,30 +64,28 @@ Maidens: <b>{mvp_b['maidens']}</b> &nbsp;|&nbsp; Runs Conceded: <b>{mvp_b['runs_
 </div>
 </div>"""
     st.markdown(spotlight_b_html, unsafe_allow_html=True)
-else:
-    filtered_bowlers = top_bowl_df
 
 # Visualizations Row 1
 ch1, ch2 = st.columns([1.5, 1.2])
 with ch1:
     st.markdown("### 📊 Top Wicket Takers")
-    st.plotly_chart(plot_wickets_by_bowler(filtered_bowlers.head(10)), use_container_width=True)
+    st.plotly_chart(plot_wickets_by_bowler(top_bowl_df.head(10)), use_container_width=True)
 with ch2:
     st.markdown("### 📉 Economy Rate Benchmark")
-    mpl_fig = plot_bowling_economy_bars_mpl(filtered_bowlers)
+    mpl_fig = plot_bowling_economy_bars_mpl(top_bowl_df)
     st.pyplot(mpl_fig, use_container_width=True)
 
 # Scatter: Economy vs Wickets Matrix
 st.markdown("### 🎯 Economy vs Wicket-Taking Matrix")
-st.plotly_chart(plot_economy_vs_wickets(filtered_bowlers), use_container_width=True)
+st.plotly_chart(plot_economy_vs_wickets(top_bowl_df), use_container_width=True)
 
 # Leaderboard Table
 st.markdown("### 📋 Complete Bowling Leaderboard")
-if not filtered_bowlers.empty:
+if not top_bowl_df.empty:
     st.dataframe(
-        filtered_bowlers.style.background_gradient(subset=["wickets"], cmap="Reds")
-                             .background_gradient(subset=["economy"], cmap="Blues_r"),
+        top_bowl_df.style.background_gradient(subset=["wickets"], cmap="Reds")
+                         .background_gradient(subset=["economy"], cmap="Blues_r"),
         use_container_width=True
     )
 else:
-    st.warning("No bowlers matched the minimum overs filter.")
+    st.warning("No bowling records found for the selected franchise.")

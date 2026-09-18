@@ -1,4 +1,4 @@
-﻿"""
+"""
 🏏 Page 1: Batting Analytics
 Deep-dive examination of individual run production, scoring velocity, boundary rates,
 and target-setting vs target-chasing effectiveness.
@@ -25,13 +25,11 @@ st.markdown("Quantifying batting efficiency, power-hitting velocity, milestone c
 seasons = query("SELECT DISTINCT season FROM matches ORDER BY season DESC")["season"].tolist()
 teams = query("SELECT short_name FROM teams ORDER BY short_name ASC")["short_name"].tolist()
 
-c_s, c_t, c_min = st.columns([1.5, 2, 2.5])
+c_s, c_t = st.columns(2)
 with c_s:
     selected_season = st.selectbox("Season", seasons, index=0)
 with c_t:
     selected_team = st.selectbox("Franchise Team", teams, index=0)
-with c_min:
-    min_balls = st.slider("Filter: Min. Balls Faced", min_value=0, max_value=200, value=20, step=10)
 
 meta = get_franchise_meta(selected_team)
 summary = get_team_batting_summary(selected_team, selected_season)
@@ -52,7 +50,6 @@ st.markdown("---")
 # Top Batsman Spotlight
 top_bat_df = get_top_batsmen(selected_team, selected_season, limit=25)
 if not top_bat_df.empty:
-    filtered_batsmen = top_bat_df[top_bat_df["balls"] >= min_balls] if "balls" in top_bat_df.columns else top_bat_df
     mvp = top_bat_df.iloc[0]
     
     spotlight_html = f"""<div class="analytics-card" style="border-left: 6px solid {meta['accent']}; text-align:left; padding:1.5rem 1.8rem; margin-bottom:1.5rem;">
@@ -72,14 +69,12 @@ Fifties: <b>{mvp['fifties']}</b> &nbsp;|&nbsp; Hundreds: <b>{mvp['hundreds']}</b
 </div>
 </div>"""
     st.markdown(spotlight_html, unsafe_allow_html=True)
-else:
-    filtered_batsmen = top_bat_df
 
 # Charts Row 1
 ch1, ch2 = st.columns([1.6, 1.1])
 with ch1:
     st.markdown("### 📊 Top Run Scorers")
-    st.plotly_chart(plot_runs_by_player(filtered_batsmen.head(10)), use_container_width=True)
+    st.plotly_chart(plot_runs_by_player(top_bat_df.head(10)), use_container_width=True)
 with ch2:
     st.markdown("### 🥧 Boundary Run Distribution")
     mpl_fig = plot_boundary_distribution_mpl(summary["total_fours"], summary["total_sixes"], summary["total_runs"])
@@ -87,17 +82,17 @@ with ch2:
 
 # Scatter Matrix: Runs vs Strike Rate
 st.markdown("### 🎯 Scoring Volume vs Aggression Matrix (Runs vs SR)")
-st.plotly_chart(plot_runs_vs_strike_rate(filtered_batsmen), use_container_width=True)
+st.plotly_chart(plot_runs_vs_strike_rate(top_bat_df), use_container_width=True)
 
 # Leaderboard Table
 st.markdown("### 📋 Complete Batting Leaderboard")
-if not filtered_batsmen.empty:
+if not top_bat_df.empty:
     st.dataframe(
-        filtered_batsmen.style.background_gradient(subset=["runs", "strike_rate"], cmap="Blues"),
+        top_bat_df.style.background_gradient(subset=["runs", "strike_rate"], cmap="Blues"),
         use_container_width=True
     )
 else:
-    st.warning("No players matched the minimum balls filter.")
+    st.warning("No batting records found for the selected franchise.")
 
 st.markdown("---")
 
