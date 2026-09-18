@@ -1,4 +1,4 @@
-﻿# Virtual Environment
+# Virtual Environment
 venv/
 env/
 ENV/
@@ -18,3 +18,9 @@ htmlcov/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Secrets & Environment
+.env
+.streamlit/secrets.toml
+secrets.toml
+*.env
