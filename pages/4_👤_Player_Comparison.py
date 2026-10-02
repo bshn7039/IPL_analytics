@@ -20,29 +20,29 @@ st.markdown("Compare scoring dynamics, boundary frequencies, consistency average
 
 # ── Pull players directly from the batting & bowling tables (real scraped names) ──
 bat_players_df = query("""
-    SELECT DISTINCT b.player, b.team,
+    SELECT b.player,
         SUM(b.runs) as total_runs,
-        COUNT(b.id) as innings
+        COUNT(*) as innings_count
     FROM batting b
-    GROUP BY b.player, b.team
-    HAVING innings >= 3
+    GROUP BY b.player
+    HAVING COUNT(*) >= 3
     ORDER BY total_runs DESC
 """)
 
 bowl_players_df = query("""
-    SELECT DISTINCT bw.player, bw.team,
+    SELECT bw.player,
         SUM(bw.wickets) as total_wickets,
-        COUNT(DISTINCT bw.match_id) as matches
+        COUNT(DISTINCT bw.match_id) as match_count
     FROM bowling bw
-    GROUP BY bw.player, bw.team
-    HAVING matches >= 2
+    GROUP BY bw.player
+    HAVING COUNT(DISTINCT bw.match_id) >= 2
     ORDER BY total_wickets DESC
 """)
 
 all_players_df = query("""
-    SELECT DISTINCT player, team FROM batting
+    SELECT DISTINCT player FROM batting
     UNION
-    SELECT DISTINCT player, team FROM bowling
+    SELECT DISTINCT player FROM bowling
     ORDER BY player ASC
 """)
 
