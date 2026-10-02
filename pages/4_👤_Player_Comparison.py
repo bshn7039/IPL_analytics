@@ -25,7 +25,7 @@ bat_players_df = query("""
         COUNT(*) as innings_count
     FROM batting b
     GROUP BY b.player
-    HAVING COUNT(*) >= 3
+    HAVING COUNT(*) >= 1
     ORDER BY total_runs DESC
 """)
 
@@ -35,7 +35,7 @@ bowl_players_df = query("""
         COUNT(DISTINCT bw.match_id) as match_count
     FROM bowling bw
     GROUP BY bw.player
-    HAVING COUNT(DISTINCT bw.match_id) >= 2
+    HAVING COUNT(DISTINCT bw.match_id) >= 1
     ORDER BY total_wickets DESC
 """)
 
@@ -46,6 +46,10 @@ all_players_df = query("""
     ORDER BY player ASC
 """)
 
+# If database query returned empty (e.g. working directory mismatch), try players table fallback
+if all_players_df.empty:
+    all_players_df = query("SELECT DISTINCT player_name as player FROM players ORDER BY player_name ASC")
+
 # Role filter — based on whether they appear more in batting or bowling data
 role_filter = st.radio(
     "Filter Players by Role:",
@@ -53,15 +57,18 @@ role_filter = st.radio(
     horizontal=True
 )
 
-if role_filter == "Top Batsmen (by runs)":
+if role_filter == "Top Batsmen (by runs)" and not bat_players_df.empty:
     player_list = bat_players_df["player"].tolist()
-elif role_filter == "Top Bowlers (by wickets)":
+elif role_filter == "Top Bowlers (by wickets)" and not bowl_players_df.empty:
     player_list = bowl_players_df["player"].tolist()
-else:
+elif not all_players_df.empty:
     player_list = all_players_df["player"].tolist()
+else:
+    player_list = []
 
 if not player_list:
-    st.warning("No player data found. Please run load_data.py first.")
+    st.error("⚠️ No player data found in the database. Please ensure `load_data.py` has run and `database/ipl.db` is present.")
+    st.info("Tip: If running Streamlit from a different working folder, restart using: `streamlit run app.py` from `d:\\IPL_statistics`.")
     st.stop()
 
 # ── Player selectors ─────────────────────────────────────────────────────────
