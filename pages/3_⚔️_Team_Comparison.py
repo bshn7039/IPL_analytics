@@ -1,4 +1,4 @@
-﻿"""
+"""
 ⚔️ Page 3: Team Comparison
 Comprehensive head-to-head analysis between any two IPL franchises,
 featuring radar comparison, comparative grouped metrics, simulated win probability, and tactical verdicts.

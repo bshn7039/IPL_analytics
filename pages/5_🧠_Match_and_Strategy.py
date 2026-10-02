@@ -1,4 +1,4 @@
-﻿"""
+"""
 🧠 Page 5: Match & Strategy Analytics
 Strategic telemetry examining toss conversion rates, venue scoring dynamics,
 interactive target-chase simulators, and phase-wise T20 phase execution.

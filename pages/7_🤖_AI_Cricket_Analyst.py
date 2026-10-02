@@ -1,4 +1,4 @@
-﻿"""
+"""
 🤖 Page 7: AI Cricket Analyst
 Natural language cricket intelligence assistant powered by DeepSeek.
 Features:

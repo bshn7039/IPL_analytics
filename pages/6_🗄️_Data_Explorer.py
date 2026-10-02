@@ -1,4 +1,4 @@
-﻿"""
+"""
 🗄️ Page 6: Data Explorer
 Direct tabular interrogation of underlying SQLite tables with custom column selection,
 keyword search, summary metrics, and dual CSV/JSON export.

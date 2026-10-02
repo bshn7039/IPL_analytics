@@ -1,4 +1,4 @@
-﻿"""
+"""
 Scraper Utility Functions
 Contains common helper functions used across scrapers:
 - get_headers(): Browser-like HTTP request headers
@@ -28,7 +28,7 @@ def get_headers():
         "User-Agent": random.choice(USER_AGENTS),
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
         "Upgrade-Insecure-Requests": "1"
     }
