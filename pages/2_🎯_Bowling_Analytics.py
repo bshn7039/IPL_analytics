@@ -110,19 +110,16 @@ if not top_bowl_df.empty:
 # ── Dual Visualizations Row ──
 ch1, ch2 = st.columns([1.5, 1.2])
 with ch1:
-    st.markdown('<div class="chart-wrapper"><div class="chart-title"><span>🎯 Top Wicket Takers — Leaderboard</span><span class="telemetry-chip-red">RANKED</span></div>', unsafe_allow_html=True)
+    st.markdown('<div class="chart-header"><span>🎯 Top Wicket Takers — Leaderboard</span><span class="telemetry-chip-red">RANKED</span></div>', unsafe_allow_html=True)
     st.plotly_chart(plot_wickets_by_bowler(top_bowl_df.head(8)), use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
 with ch2:
-    st.markdown('<div class="chart-wrapper"><div class="chart-title"><span>⚡ Economy vs Par Benchmark (8.60 RPO)</span><span class="telemetry-chip-amber">BENCHMARK</span></div>', unsafe_allow_html=True)
+    st.markdown('<div class="chart-header"><span>⚡ Economy vs Par Benchmark (8.60 RPO)</span><span class="telemetry-chip-amber">BENCHMARK</span></div>', unsafe_allow_html=True)
     mpl_fig = plot_bowling_economy_bars_mpl(top_bowl_df)
     st.pyplot(mpl_fig, use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
 
 # ── Economy vs Wickets Matrix (Efficiency Quadrants) ──
-st.markdown('<div class="chart-wrapper"><div class="chart-title"><span>📊 Economy vs Wickets Matrix — Efficiency Quadrants</span><span class="telemetry-chip">PRECISION</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="chart-header"><span>📊 Economy vs Wickets Matrix — Efficiency Quadrants</span><span class="telemetry-chip">PRECISION</span></div>', unsafe_allow_html=True)
 st.plotly_chart(plot_economy_vs_wickets(top_bowl_df), use_container_width=True)
-st.markdown('</div>', unsafe_allow_html=True)
 
 # ── Complete Leaderboard Table ──
 st.markdown('<div class="section-label" style="color:#F87171; margin-top:1.2rem;">Complete Squad Bowling Leaderboard</div>', unsafe_allow_html=True)

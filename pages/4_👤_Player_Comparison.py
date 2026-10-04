@@ -55,15 +55,7 @@ with r_col1:
         label_visibility="collapsed"
     )
 with r_col2:
-    st.markdown("""
-    <div style="display:flex; align-items:center; justify-content:flex-end; gap:0.6rem; height:100%;">
-        <span class="telemetry-chip-purple">
-            <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#A855F7; box-shadow:0 0 8px #A855F7;"></span>
-            PLAYER RADAR TELEMETRY
-        </span>
-        <span class="telemetry-chip">CAREER METRICS</span>
-    </div>
-    """, unsafe_allow_html=True)
+    st.markdown('<div style="display:flex; align-items:center; justify-content:flex-end; gap:0.6rem; height:100%;"><span class="telemetry-chip-purple"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#A855F7; box-shadow:0 0 8px #A855F7;"></span> PLAYER RADAR TELEMETRY</span><span class="telemetry-chip">CAREER METRICS</span></div>', unsafe_allow_html=True)
 
 if role_filter == "Top Batsmen (by runs)" and not bat_players_df.empty:
     player_list = bat_players_df["player"].tolist()
@@ -134,55 +126,73 @@ bowl_b = cmp_res.get("bowl_b")
 
 # ── Side-by-Side Player Profile Hero Cards ──
 st.markdown('<div class="section-label" style="color:#818CF8;">Player Profile Direct Benchmarks</div>', unsafe_allow_html=True)
+
+def render_player_hero_card(player_name, team_code, team_meta, bat_data, bowl_data):
+    accent = team_meta.get("accent", "#818CF8")
+    emoji = team_meta.get("emoji", "🏏")
+    full_name = team_meta.get("full_name", team_code)
+
+    chips = []
+    if bat_data and bowl_data:
+        chips.append('<span class="telemetry-chip-purple">⚡ All-Rounder</span>')
+    elif bat_data:
+        chips.append('<span class="telemetry-chip">🏏 Batsman</span>')
+    elif bowl_data:
+        chips.append('<span class="telemetry-chip-red">🎯 Bowler</span>')
+
+    if bat_data:
+        hs = bat_data.get("highest_score", "—")
+        chips.append(f'<span class="telemetry-chip-amber">HS: {hs}</span>')
+
+    if bowl_data and bowl_data.get("wickets", 0) > 0:
+        chips.append(f'<span class="telemetry-chip-green">WKTS: {bowl_data.get("wickets")}</span>')
+
+    chips_html = "".join(chips)
+
+    if bat_data:
+        runs = bat_data.get("runs", 0)
+        innings = bat_data.get("innings", 0)
+        avg = bat_data.get("average", 0)
+        sr = bat_data.get("strike_rate", 0)
+        bat_summary = f"{runs:,} runs in {innings} innings (Avg {avg} · SR {sr})"
+    else:
+        bat_summary = "No batting record logged"
+
+    bat_box = (
+        f'<div class="player-stat-box">'
+        f'<div class="player-stat-box-title">Batting Performance</div>'
+        f'<div class="player-stat-box-value">{bat_summary}</div>'
+        f'</div>'
+    )
+
+    bowl_box = ""
+    if bowl_data:
+        wickets = bowl_data.get("wickets", 0)
+        matches = bowl_data.get("matches", 0)
+        econ = bowl_data.get("economy", 0)
+        bowl_summary = f"{wickets} wickets in {matches} matches (Econ {econ})"
+        bowl_box = (
+            f'<div class="player-stat-box" style="margin-top:0.6rem;">'
+            f'<div class="player-stat-box-title" style="color:#F87171;">Bowling Figures</div>'
+            f'<div class="player-stat-box-value">{bowl_summary}</div>'
+            f'</div>'
+        )
+
+    return (
+        f'<div class="player-profile-card" style="border-left: 5px solid {accent};">'
+        f'<div class="player-franchise-label">{emoji} {full_name} · {team_code}</div>'
+        f'<h2 class="player-profile-name">{player_name}</h2>'
+        f'<div class="player-chip-row">{chips_html}</div>'
+        f'{bat_box}'
+        f'{bowl_box}'
+        f'</div>'
+    )
+
 c_a, c_b = st.columns(2)
-
 with c_a:
-    bat_info_a = f"{bat_a.get('runs', 0):,} runs in {bat_a.get('innings', 0)} innings (Avg {bat_a.get('average', 0)} · SR {bat_a.get('strike_rate', 0)})" if bat_a else "No batting record logged"
-    bowl_info_a = f"{bowl_a.get('wickets', 0)} wickets in {bowl_a.get('matches', 0)} matches (Econ {bowl_a.get('economy', 0)})" if bowl_a else None
-    bowl_markup_a = f"<div style='background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.06); border-radius:10px; padding:0.8rem 1.1rem;'><div style='font-size:0.7rem; font-family:Space Mono,monospace; color:#64748B; text-transform:uppercase;'>Bowling Figures</div><div style='color:#FFFFFF; font-size:1rem; font-weight:700; margin-top:0.2rem;'>{bowl_info_a}</div></div>" if bowl_info_a else ""
-
-    st.markdown(f"""
-    <div class="player-profile-card" style="border-left: 5px solid {team_meta_a['accent']};">
-        <div style="font-size:0.75rem; font-family:'Space Mono',monospace; color:#94A3B8; text-transform:uppercase;">
-            {team_meta_a['emoji']} {team_meta_a['full_name']} · {team_a}
-        </div>
-        <h2 style="margin:0.2rem 0 0.5rem; color:#FFFFFF; font-weight:800; font-size:1.8rem; letter-spacing:-0.02em;">{player_a}</h2>
-        <div style="display:flex; gap:0.4rem; flex-wrap:wrap; margin-bottom:0.8rem;">
-            {"<span class='telemetry-chip'>🏏 Batsman</span>" if bat_a else ""}
-            {"<span class='telemetry-chip-red'>🎯 Bowler</span>" if bowl_a else ""}
-            <span class="telemetry-chip-amber">HS: {bat_a.get('highest_score', 0) if bat_a else '—'}</span>
-        </div>
-        <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.06); border-radius:10px; padding:0.8rem 1.1rem; margin-bottom:0.6rem;">
-            <div style="font-size:0.7rem; font-family:'Space Mono',monospace; color:#64748B; text-transform:uppercase;">Batting Performance</div>
-            <div style="color:#FFFFFF; font-size:1rem; font-weight:700; margin-top:0.2rem;">{bat_info_a}</div>
-        </div>
-        {bowl_markup_a}
-    </div>
-    """, unsafe_allow_html=True)
-
+    st.markdown(render_player_hero_card(player_a, team_a, team_meta_a, bat_a, bowl_a), unsafe_allow_html=True)
 with c_b:
-    bat_info_b = f"{bat_b.get('runs', 0):,} runs in {bat_b.get('innings', 0)} innings (Avg {bat_b.get('average', 0)} · SR {bat_b.get('strike_rate', 0)})" if bat_b else "No batting record logged"
-    bowl_info_b = f"{bowl_b.get('wickets', 0)} wickets in {bowl_b.get('matches', 0)} matches (Econ {bowl_b.get('economy', 0)})" if bowl_b else None
-    bowl_markup_b = f"<div style='background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.06); border-radius:10px; padding:0.8rem 1.1rem;'><div style='font-size:0.7rem; font-family:Space Mono,monospace; color:#64748B; text-transform:uppercase;'>Bowling Figures</div><div style='color:#FFFFFF; font-size:1rem; font-weight:700; margin-top:0.2rem;'>{bowl_info_b}</div></div>" if bowl_info_b else ""
-
-    st.markdown(f"""
-    <div class="player-profile-card" style="border-left: 5px solid {team_meta_b['accent']};">
-        <div style="font-size:0.75rem; font-family:'Space Mono',monospace; color:#94A3B8; text-transform:uppercase;">
-            {team_meta_b['emoji']} {team_meta_b['full_name']} · {team_b}
-        </div>
-        <h2 style="margin:0.2rem 0 0.5rem; color:#FFFFFF; font-weight:800; font-size:1.8rem; letter-spacing:-0.02em;">{player_b}</h2>
-        <div style="display:flex; gap:0.4rem; flex-wrap:wrap; margin-bottom:0.8rem;">
-            {"<span class='telemetry-chip'>🏏 Batsman</span>" if bat_b else ""}
-            {"<span class='telemetry-chip-red'>🎯 Bowler</span>" if bowl_b else ""}
-            <span class="telemetry-chip-amber">HS: {bat_b.get('highest_score', 0) if bat_b else '—'}</span>
-        </div>
-        <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.06); border-radius:10px; padding:0.8rem 1.1rem; margin-bottom:0.6rem;">
-            <div style="font-size:0.7rem; font-family:'Space Mono',monospace; color:#64748B; text-transform:uppercase;">Batting Performance</div>
-            <div style="color:#FFFFFF; font-size:1rem; font-weight:700; margin-top:0.2rem;">{bat_info_b}</div>
-        </div>
-        {bowl_markup_b}
-    </div>
-    """, unsafe_allow_html=True)
+    st.markdown(render_player_hero_card(player_b, team_b, team_meta_b, bat_b, bowl_b), unsafe_allow_html=True)
 
 st.markdown('<hr class="section-divider">', unsafe_allow_html=True)
 
@@ -194,13 +204,11 @@ has_bowling = bool(bowl_a or bowl_b)
 
 with bc1:
     if has_batting:
-        st.markdown('<div class="chart-wrapper"><div class="chart-title"><span>📊 Direct Stat Variance — Batting Metrics</span><span class="telemetry-chip">BARS</span></div>', unsafe_allow_html=True)
+        st.markdown('<div class="chart-header"><span>📊 Direct Stat Variance — Batting Metrics</span><span class="telemetry-chip">BARS</span></div>', unsafe_allow_html=True)
         st.plotly_chart(plot_player_comparison_bars(bat_a, bat_b, player_a, player_b), use_container_width=True)
-        st.markdown('</div>', unsafe_allow_html=True)
     elif has_bowling:
-        st.markdown('<div class="chart-wrapper"><div class="chart-title"><span>🎯 Direct Stat Variance — Bowling Metrics</span><span class="telemetry-chip-red">BOWLING</span></div>', unsafe_allow_html=True)
+        st.markdown('<div class="chart-header"><span>🎯 Direct Stat Variance — Bowling Metrics</span><span class="telemetry-chip-red">BOWLING</span></div>', unsafe_allow_html=True)
         st.plotly_chart(plot_player_bowling_comparison_bars(bowl_a, bowl_b, player_a, player_b), use_container_width=True)
-        st.markdown('</div>', unsafe_allow_html=True)
 
 with bc2:
     if has_batting:
@@ -262,9 +270,8 @@ with bc2:
         margin=dict(l=30, r=30, t=30, b=30),
         legend=dict(orientation="h", y=-0.15, x=0.5, xanchor="center", font=dict(family="Space Mono", size=11, color="#DAE2FD"))
     )
-    st.markdown(f'<div class="chart-wrapper"><div class="chart-title"><span>{radar_title}</span><span class="telemetry-chip-purple">SKILL RADAR</span></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="chart-header"><span>{radar_title}</span><span class="telemetry-chip-purple">SKILL RADAR</span></div>', unsafe_allow_html=True)
     st.plotly_chart(fig_r, use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
 
 # ── Batting Table ──
 col_a = f"{player_a} (A)" if player_a == player_b else player_a

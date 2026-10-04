@@ -114,19 +114,16 @@ if not top_bat_df.empty:
 # ── Dual Visualizations Row ──
 ch1, ch2 = st.columns([1.6, 1.1])
 with ch1:
-    st.markdown('<div class="chart-wrapper"><div class="chart-title"><span>🏏 Top Run Scorers — Horizontal Leaderboard</span><span class="telemetry-chip">RANKED</span></div>', unsafe_allow_html=True)
+    st.markdown('<div class="chart-header"><span>🏏 Top Run Scorers — Horizontal Leaderboard</span><span class="telemetry-chip">RANKED</span></div>', unsafe_allow_html=True)
     st.plotly_chart(plot_runs_by_player(top_bat_df.head(8)), use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
 with ch2:
-    st.markdown('<div class="chart-wrapper"><div class="chart-title"><span>🎯 Boundary Run Distribution</span><span class="telemetry-chip-amber">SHARES</span></div>', unsafe_allow_html=True)
+    st.markdown('<div class="chart-header"><span>🎯 Boundary Run Distribution</span><span class="telemetry-chip-amber">SHARES</span></div>', unsafe_allow_html=True)
     mpl_fig = plot_boundary_distribution_mpl(summary["total_fours"], summary["total_sixes"], summary["total_runs"])
     st.pyplot(mpl_fig, use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
 
 # ── Scoring Volume vs Aggression Scatter Matrix ──
-st.markdown('<div class="chart-wrapper"><div class="chart-title"><span>⚡ Scoring Volume vs Aggression Matrix (Runs vs Strike Rate)</span><span class="telemetry-chip">QUADRANTS</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="chart-header"><span>⚡ Scoring Volume vs Aggression Matrix (Runs vs Strike Rate)</span><span class="telemetry-chip">QUADRANTS</span></div>', unsafe_allow_html=True)
 st.plotly_chart(plot_runs_vs_strike_rate(top_bat_df), use_container_width=True)
-st.markdown('</div>', unsafe_allow_html=True)
 
 # ── Complete Leaderboard Table ──
 st.markdown('<div class="section-label" style="margin-top:1.2rem;">Complete Squad Batting Leaderboard</div>', unsafe_allow_html=True)

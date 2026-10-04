@@ -341,14 +341,12 @@ if not venues_df.empty:
     )
     
     st.markdown("""
-<div class="chart-wrapper">
-    <div class="chart-header">
-        <span class="chart-title">1st Innings vs 2nd Innings Scoring Telemetry by Venue</span>
-        <span style="font-family:'Space Mono',monospace; font-size:0.7rem; color:#64748B;">TOP 10 VENUES BY VOLUME</span>
-    </div>
+<div class="chart-header">
+    <span class="chart-title">1st Innings vs 2nd Innings Scoring Telemetry by Venue</span>
+    <span style="font-family:'Space Mono',monospace; font-size:0.7rem; color:#64748B;">TOP 10 VENUES BY VOLUME</span>
+</div>
 """, unsafe_allow_html=True)
     st.plotly_chart(fig_venue, use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
 
     with st.expander("📊 Complete Stadium Scoring Directory & Record Margins"):
         st.dataframe(

@@ -422,6 +422,226 @@ def apply_custom_styles():
             color: #94A3B8;
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
+        .telemetry-chip-amber {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.72rem;
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            background: rgba(245, 158, 11, 0.14);
+            color: #FBBF24;
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+        .telemetry-chip-red {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.72rem;
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            background: rgba(239, 68, 68, 0.14);
+            color: #F87171;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+        .telemetry-chip-purple {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.72rem;
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            background: rgba(168, 85, 247, 0.14);
+            color: #C084FC;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+        }
+        .telemetry-chip-green {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.72rem;
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            background: rgba(16, 185, 129, 0.14);
+            color: #34D399;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+        .telemetry-chip-cyan {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.72rem;
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            background: rgba(6, 182, 212, 0.14);
+            color: #67E8F9;
+            border: 1px solid rgba(6, 182, 212, 0.3);
+        }
+        .telemetry-chip-blue {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.72rem;
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            background: rgba(59, 130, 246, 0.14);
+            color: #60A5FA;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        /* ── PLAYER PROFILE HERO CARDS (Module 04) ── */
+        .player-profile-card {
+            background: linear-gradient(160deg, #131B2E 0%, #0D1424 100%);
+            border-radius: 14px;
+            padding: 1.3rem 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-bottom: 0.8rem;
+        }
+        .player-profile-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.6);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+        .player-franchise-label {
+            font-size: 0.75rem;
+            font-family: 'Space Mono', monospace;
+            color: #94A3B8;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .player-profile-name {
+            margin: 0.25rem 0 0.55rem !important;
+            color: #FFFFFF !important;
+            font-weight: 800 !important;
+            font-size: 1.85rem !important;
+            letter-spacing: -0.02em !important;
+            line-height: 1.15 !important;
+        }
+        .player-chip-row {
+            display: flex;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.85rem;
+        }
+        .player-stat-box {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 10px;
+            padding: 0.8rem 1.1rem;
+            transition: border-color 0.2s ease;
+        }
+        .player-stat-box:hover {
+            border-color: rgba(255, 255, 255, 0.12);
+        }
+        .player-stat-box-title {
+            font-size: 0.7rem;
+            font-family: 'Space Mono', monospace;
+            color: #64748B;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            font-weight: 700;
+        }
+        .player-stat-box-value {
+            color: #FFFFFF;
+            font-size: 0.98rem;
+            font-weight: 700;
+            margin-top: 0.25rem;
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* ── CHART HEADERS & CONTAINERS ── */
+        .chart-wrapper {
+            background: linear-gradient(160deg, #131B2E 0%, #0D1424 100%);
+            border-radius: 14px;
+            padding: 1.2rem 1.4rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+            margin-bottom: 1.2rem;
+        }
+        .chart-header, .chart-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 0.8rem;
+        }
+
+        /* ── FRANCHISE & H2H DUEL CARDS (Module 03) ── */
+        .franchise-card {
+            background: linear-gradient(160deg, #131B2E 0%, #0D1424 100%);
+            border-radius: 14px;
+            padding: 1.4rem 1.2rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+            margin-bottom: 1rem;
+        }
+        .split-card {
+            background: linear-gradient(160deg, #131B2E 0%, #0D1424 100%);
+            border-radius: 14px;
+            padding: 1.4rem 1.2rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+            margin-bottom: 1rem;
+        }
+        .verdict-card {
+            background: linear-gradient(160deg, #131B2E 0%, #0D1424 100%);
+            border-radius: 14px;
+            padding: 1.25rem 1.4rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+            margin-bottom: 1rem;
+        }
+
+        /* ── KPI & ANALYTICS CARDS (Shared Across Modules) ── */
+        .kpi-card, .analytics-card {
+            background: linear-gradient(160deg, #131B2E 0%, #0D1424 100%);
+            border-radius: 14px;
+            padding: 1.25rem 1.4rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+            margin-bottom: 1rem;
+        }
+        .kpi-label, .analytics-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.72rem;
+            color: #64748B;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 0.35rem;
+            font-weight: 700;
+        }
+        .kpi-value, .analytics-val {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #FFFFFF;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+            font-variant-numeric: tabular-nums;
+        }
+        .kpi-sub, .analytics-sub {
+            font-size: 0.78rem;
+            color: #94A3B8;
+            margin-top: 0.45rem;
+            font-weight: 500;
+        }
 
         .section-divider {
             border: none;

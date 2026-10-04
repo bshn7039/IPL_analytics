@@ -134,13 +134,11 @@ st.markdown('<hr class="section-divider">', unsafe_allow_html=True)
 # ── Radar + Grouped Bars Dual View ──
 rc1, rc2 = st.columns([1.5, 1.3])
 with rc1:
-    st.markdown('<div class="chart-wrapper"><div class="chart-title"><span>🕸️ Tactical Radar Profile — 5-Axis Normalized Spider Chart</span><span class="telemetry-chip">RADAR</span></div>', unsafe_allow_html=True)
+    st.markdown('<div class="chart-header"><span>🕸️ Tactical Radar Profile — 5-Axis Normalized Spider Chart</span><span class="telemetry-chip">RADAR</span></div>', unsafe_allow_html=True)
     st.plotly_chart(plot_team_radar(cmp_data['stats_a'], cmp_data['stats_b'], team_a, team_b), use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
 with rc2:
-    st.markdown('<div class="chart-wrapper"><div class="chart-title"><span>📊 Direct Metric Differential — Grouped Bars</span><span class="telemetry-chip-amber">VARIANCE</span></div>', unsafe_allow_html=True)
+    st.markdown('<div class="chart-header"><span>📊 Direct Metric Differential — Grouped Bars</span><span class="telemetry-chip-amber">VARIANCE</span></div>', unsafe_allow_html=True)
     st.plotly_chart(plot_comparison_grouped_bars(cmp_data['stats_a'], cmp_data['stats_b'], team_a, team_b), use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
 
 # ── Statistical Matrix Table ──
 st.markdown('<div class="section-label" style="color:#F59E0B;">Statistical Matrix Breakdown</div>', unsafe_allow_html=True)
