@@ -15,7 +15,7 @@ from visualization.batting_charts import (
     plot_runs_by_player, plot_runs_vs_strike_rate, plot_boundary_distribution_mpl
 )
 
-st.set_page_config(page_title="Batting Analytics | IPL Telemetry Pro", page_icon="🏏", layout="wide")
+st.set_page_config(page_title="Batting Analytics | IPL Analytics", page_icon="🏏", layout="wide")
 apply_custom_styles()
 render_sidebar_system_status()
 

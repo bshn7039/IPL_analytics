@@ -11,7 +11,7 @@ from analytics.branding import get_franchise_meta
 from analytics.ui_styles import apply_custom_styles, render_sidebar_system_status
 from visualization.comparison_charts import plot_team_radar, plot_comparison_grouped_bars
 
-st.set_page_config(page_title="Team Comparison | IPL Telemetry Pro", page_icon="⚔️", layout="wide")
+st.set_page_config(page_title="Team Comparison | IPL Analytics", page_icon="⚔️", layout="wide")
 apply_custom_styles()
 render_sidebar_system_status()
 

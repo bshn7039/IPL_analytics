@@ -12,7 +12,7 @@ from visualization.bowling_charts import (
     plot_wickets_by_bowler, plot_economy_vs_wickets, plot_bowling_economy_bars_mpl
 )
 
-st.set_page_config(page_title="Bowling Analytics | IPL Telemetry Pro", page_icon="🎯", layout="wide")
+st.set_page_config(page_title="Bowling Analytics | IPL Analytics", page_icon="🎯", layout="wide")
 apply_custom_styles()
 render_sidebar_system_status()
 

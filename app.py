@@ -23,7 +23,7 @@ from visualization.batting_charts import plot_runs_by_player
 from visualization.bowling_charts import plot_wickets_by_bowler
 
 st.set_page_config(
-    page_title="Apex Telemetry | IPL Analytics Hub",
+    page_title="IPL Analytics Hub",
     page_icon="🏏",
     layout="wide",
     initial_sidebar_state="expanded"

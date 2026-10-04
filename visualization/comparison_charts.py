@@ -135,7 +135,9 @@ def plot_comparison_grouped_bars(stats_a, stats_b, team_a, team_b):
     return fig
 
 def plot_player_comparison_bars(stats_a, stats_b, player_a, player_b):
-    """Bar chart comparing two players on key stats."""
+    """Bar chart comparing two players on key batting stats."""
+    stats_a = stats_a or {}
+    stats_b = stats_b or {}
     metrics = ["Total Runs", "Strike Rate", "Average", "Boundary 4s", "Boundary 6s"]
     val_a = [stats_a.get("runs", 0), stats_a.get("strike_rate", 0), stats_a.get("average", 0), stats_a.get("fours", 0), stats_a.get("sixes", 0)]
     val_b = [stats_b.get("runs", 0), stats_b.get("strike_rate", 0), stats_b.get("average", 0), stats_b.get("fours", 0), stats_b.get("sixes", 0)]
@@ -152,6 +154,68 @@ def plot_player_comparison_bars(stats_a, stats_b, player_a, player_b):
         x=metrics, y=val_b, name=player_b,
         marker=dict(color="#06B6D4", line=dict(color="rgba(255,255,255,0.1)", width=1)),
         text=[f"{v:.1f}" if isinstance(v, float) else str(v) for v in val_b],
+        textposition="outside",
+        textfont=dict(family="Space Mono", size=10)
+    ))
+
+    fig.update_layout(
+        template="plotly_dark",
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(family="Inter, sans-serif", color="#DAE2FD"),
+        barmode="group",
+        xaxis=dict(
+            tickfont=dict(family="Outfit, sans-serif", size=11, color="#FFFFFF"),
+            showgrid=False
+        ),
+        yaxis=dict(
+            showgrid=True,
+            gridcolor="rgba(255,255,255,0.06)"
+        ),
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=-0.2,
+            xanchor="center",
+            x=0.5,
+            font=dict(family="Space Mono", size=11, color="#DAE2FD")
+        ),
+        margin=dict(l=20, r=20, t=20, b=30)
+    )
+    return fig
+
+def plot_player_bowling_comparison_bars(stats_a, stats_b, player_a, player_b):
+    """Bar chart comparing two players on key bowling metrics."""
+    stats_a = stats_a or {}
+    stats_b = stats_b or {}
+    metrics = ["Wickets", "Economy (x10)", "Bowling Avg", "Strike Rate", "Maidens"]
+    val_a = [
+        stats_a.get("wickets", 0) or 0,
+        round((stats_a.get("economy", 0) or 0) * 10, 1),
+        stats_a.get("bowling_avg", 0) or 0,
+        stats_a.get("bowling_sr", 0) or 0,
+        stats_a.get("maidens", 0) or 0
+    ]
+    val_b = [
+        stats_b.get("wickets", 0) or 0,
+        round((stats_b.get("economy", 0) or 0) * 10, 1),
+        stats_b.get("bowling_avg", 0) or 0,
+        stats_b.get("bowling_sr", 0) or 0,
+        stats_b.get("maidens", 0) or 0
+    ]
+
+    fig = go.Figure()
+    fig.add_trace(go.Bar(
+        x=metrics, y=val_a, name=player_a,
+        marker=dict(color="#EF4444", line=dict(color="rgba(255,255,255,0.1)", width=1)),
+        text=[f"{v/10:.2f}" if m == "Economy (x10)" else (f"{v:.1f}" if isinstance(v, float) else str(v)) for v, m in zip(val_a, metrics)],
+        textposition="outside",
+        textfont=dict(family="Space Mono", size=10)
+    ))
+    fig.add_trace(go.Bar(
+        x=metrics, y=val_b, name=player_b,
+        marker=dict(color="#F59E0B", line=dict(color="rgba(255,255,255,0.1)", width=1)),
+        text=[f"{v/10:.2f}" if m == "Economy (x10)" else (f"{v:.1f}" if isinstance(v, float) else str(v)) for v, m in zip(val_b, metrics)],
         textposition="outside",
         textfont=dict(family="Space Mono", size=10)
     ))
