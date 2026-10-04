@@ -106,8 +106,8 @@ def plot_bowling_economy_bars_mpl(bowlers_df):
         
         ax.set_xlabel('Economy Rate (RPO)', color='#94A3B8', fontsize=10, fontfamily='monospace')
         ax.tick_params(colors='#DAE2FD', labelsize=9)
-        ax.grid(axis='x', color='rgba(255,255,255,0.06)', linestyle=':')
-        ax.legend(facecolor='#131B2E', edgecolor='rgba(255,255,255,0.1)', labelcolor='#DAE2FD', fontsize=8)
+        ax.grid(axis='x', color='#222E42', linestyle=':')
+        ax.legend(facecolor='#131B2E', edgecolor='#334155', labelcolor='#DAE2FD', fontsize=8)
         
         for bar in bars:
             width = bar.get_width()
