@@ -78,8 +78,7 @@ st.markdown(f"""<div class="hero-banner" style="border-left: 6px solid {meta['ac
 <span style="font-size:28px;">{meta['emoji']}</span>
 </div>
 <div>
-<div style="display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap;">
-<span class="telemetry-chip">EL CLÁSICO TELEMETRY</span>
+<span class="telemetry-chip">⚡ FRANCHISE PERFORMANCE HUB</span>
 <span style="font-size:0.75rem; background:rgba(238,152,0,0.15); color:#F59E0B; border:1px solid rgba(238,152,0,0.3); padding:2px 8px; border-radius:6px; font-weight:700;">
 🏆 {meta['titles']}x CHAMPIONS
 </span>
