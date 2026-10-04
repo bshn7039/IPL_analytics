@@ -246,15 +246,15 @@ with st.sidebar:
     <div class="sidebar-card">
         <div class="sidebar-card-title">
             <span>OPERATIONAL PARAMETERS</span>
-            <span class="sidebar-badge sidebar-badge-cyan">RIGOR: 0.2</span>
+            <span class="sidebar-badge sidebar-badge-cyan">RIGOR: 0.25</span>
         </div>
         <div class="sidebar-stat-row">
-            <span>Target Budget:</span>
-            <strong style="color:#C084FC;">&lt; 250 Tokens</strong>
+            <span>Database Tool:</span>
+            <strong style="color:#34D399;">Active (Live SQL)</strong>
         </div>
         <div class="sidebar-stat-row">
             <span>Domain Scope:</span>
-            <strong>IPL 2008–2026</strong>
+            <strong>IPL 2019–2026</strong>
         </div>
         <div class="sidebar-stat-row">
             <span>Grounded Views:</span>
@@ -277,7 +277,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = [
         {
             "role": "assistant", 
-            "content": "👋 Welcome to **CricAI Telemetry Copilot**. Inquire regarding franchise win trajectories, player head-to-head metrics, death-over economy benchmarks, or venue toss conversion rates.", 
+            "content": "👋 Welcome to **CricAI Telemetry Copilot**. Inquire regarding franchise win trajectories, player head-to-head metrics, death-over economy benchmarks, or live database statistics.", 
             "usage": None
         }
     ]
@@ -288,16 +288,16 @@ p_col1, p_col2, p_col3, p_col4 = st.columns(4)
 
 prompt_to_send = None
 with p_col1:
-    if st.button("⚡ Leading run-scorers in 2024?", use_container_width=True):
-        prompt_to_send = "Who are the leading run scorers in IPL 2024 and what were their strike rates?"
+    if st.button("⚡ Most wins in 2026?", use_container_width=True):
+        prompt_to_send = "Who won the most matches in IPL 2026 and what were the full standings?"
 with p_col2:
-    if st.button("🎯 Bumrah death overs impact?", use_container_width=True):
-        prompt_to_send = "How effective is Jasprit Bumrah in the death overs compared to powerplay?"
+    if st.button("🎯 Database telemetry status?", use_container_width=True):
+        prompt_to_send = "Can you access the database? What records and matches are available?"
 with p_col3:
-    if st.button("⚔️ MI vs CSK head-to-head records?", use_container_width=True):
+    if st.button("⚔️ MI vs CSK head-to-head?", use_container_width=True):
         prompt_to_send = "Compare Mumbai Indians (MI) vs Chennai Super Kings (CSK) head-to-head records and strength profiles."
 with p_col4:
-    if st.button("🪙 Toss conversion win statistics?", use_container_width=True):
+    if st.button("🪙 Toss conversion win rates?", use_container_width=True):
         prompt_to_send = "Does winning the toss significantly improve match winning chances in IPL games?"
 
 st.markdown('<div style="height:1rem;"></div>', unsafe_allow_html=True)
@@ -305,6 +305,9 @@ st.markdown('<div style="height:1rem;"></div>', unsafe_allow_html=True)
 # ── Chat Display ──────────────────────────────────────────────────────────────
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
+        if msg.get("executed_queries"):
+            for q in msg["executed_queries"]:
+                st.markdown(f"<div style='font-family:\"Space Mono\",monospace; font-size:0.73rem; color:#34D399; background:rgba(16,185,129,0.08); border:1px solid rgba(16,185,129,0.25); border-radius:6px; padding:4px 10px; margin-bottom:8px;'>⚡ <strong>EXECUTED SQL:</strong> <code>{q}</code></div>", unsafe_allow_html=True)
         st.markdown(msg["content"])
         if msg.get("usage"):
             u = msg["usage"]
@@ -323,6 +326,10 @@ if user_input:
             history_for_api = [m for m in st.session_state.messages if m["role"] in ["user", "assistant"]]
             response_data = ask_cricket_ai(user_input, chat_history=history_for_api[:-1], custom_api_key=active_key)
 
+            if response_data.get("executed_queries"):
+                for q in response_data["executed_queries"]:
+                    st.markdown(f"<div style='font-family:\"Space Mono\",monospace; font-size:0.73rem; color:#34D399; background:rgba(16,185,129,0.08); border:1px solid rgba(16,185,129,0.25); border-radius:6px; padding:4px 10px; margin-bottom:8px;'>⚡ <strong>EXECUTED SQL:</strong> <code>{q}</code></div>", unsafe_allow_html=True)
+
             st.markdown(response_data["reply"])
             if response_data.get("usage"):
                 u = response_data["usage"]
@@ -331,5 +338,6 @@ if user_input:
             st.session_state.messages.append({
                 "role": "assistant",
                 "content": response_data["reply"],
-                "usage": response_data.get("usage")
+                "usage": response_data.get("usage"),
+                "executed_queries": response_data.get("executed_queries", [])
             })
