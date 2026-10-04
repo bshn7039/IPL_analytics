@@ -8,10 +8,11 @@ import plotly.express as px
 import pandas as pd
 from database.db import query
 from analytics.strategy import get_toss_analysis, get_venue_analysis, get_phase_analysis
-from analytics.ui_styles import apply_custom_styles
+from analytics.ui_styles import apply_custom_styles, render_sidebar_system_status
 
 st.set_page_config(page_title="Match & Strategy | IPL Hub", page_icon="🧠", layout="wide")
 apply_custom_styles()
+render_sidebar_system_status()
 
 st.markdown("""
 <style>

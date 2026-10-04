@@ -10,13 +10,14 @@ from analytics.batting import (
     get_team_batting_summary, get_top_batsmen, get_batting_first_vs_chasing
 )
 from analytics.branding import get_franchise_meta
-from analytics.ui_styles import apply_custom_styles
+from analytics.ui_styles import apply_custom_styles, render_sidebar_system_status
 from visualization.batting_charts import (
     plot_runs_by_player, plot_runs_vs_strike_rate, plot_boundary_distribution_mpl
 )
 
 st.set_page_config(page_title="Batting Analytics | IPL Telemetry Pro", page_icon="🏏", layout="wide")
 apply_custom_styles()
+render_sidebar_system_status()
 
 # ── Top Bar: Filters & Live Telemetry ──
 seasons = query("SELECT DISTINCT season FROM matches ORDER BY season DESC")["season"].tolist()

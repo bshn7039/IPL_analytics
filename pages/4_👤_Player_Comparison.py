@@ -9,11 +9,12 @@ import plotly.graph_objects as go
 from database.db import query
 from analytics.comparison import compare_players
 from analytics.branding import get_franchise_meta
-from analytics.ui_styles import apply_custom_styles
+from analytics.ui_styles import apply_custom_styles, render_sidebar_system_status
 from visualization.comparison_charts import plot_player_comparison_bars
 
 st.set_page_config(page_title="Player Comparison | IPL Telemetry Pro", page_icon="👤", layout="wide")
 apply_custom_styles()
+render_sidebar_system_status()
 
 # ── Pull players from batting & bowling tables ──
 bat_players_df = query("""

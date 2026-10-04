@@ -226,23 +226,47 @@ st.markdown('<hr class="section-divider">', unsafe_allow_html=True)
 existing_key = get_deepseek_api_key()
 
 with st.sidebar:
-    st.markdown('<div class="section-label">Engine Configuration</div>', unsafe_allow_html=True)
-    if existing_key:
-        st.markdown('<span class="telemetry-chip-green">✓ DeepSeek Key Verified</span>', unsafe_allow_html=True)
-    else:
-        st.markdown('<span class="telemetry-chip-amber">⚠ Key Missing (.env fallback)</span>', unsafe_allow_html=True)
+    key_badge = '<span class="sidebar-badge sidebar-badge-green">VERIFIED</span>' if existing_key else '<span class="sidebar-badge sidebar-badge-amber">MISSING</span>'
+    st.markdown(f"""
+    <div class="sidebar-card">
+        <div class="sidebar-card-title">
+            <span>ENGINE CONFIGURATION</span>
+            {key_badge}
+        </div>
+        <div style="font-family:'Space Mono',monospace; font-size:0.75rem; color:#94A3B8; margin-bottom:0.6rem; line-height:1.4;">
+            DeepSeek-R1 inference pipeline with dynamic SQLite context injection.
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
     custom_key = st.text_input("Override API Key", type="password", placeholder="sk-...")
     active_key = custom_key if custom_key else existing_key
 
-    st.markdown('<hr class="section-divider">', unsafe_allow_html=True)
     st.markdown("""
-    **Operational Parameters:**
-    - Domain: Indian Premier League records
-    - Grounded Entities: `matches`, `batting`, `bowling`
-    - Target prompt budget: &lt;250 tokens
-    - Temperature: 0.2 (High Analytical Rigor)
-    """)
+    <div class="sidebar-card">
+        <div class="sidebar-card-title">
+            <span>OPERATIONAL PARAMETERS</span>
+            <span class="sidebar-badge sidebar-badge-cyan">RIGOR: 0.2</span>
+        </div>
+        <div class="sidebar-stat-row">
+            <span>Target Budget:</span>
+            <strong style="color:#C084FC;">&lt; 250 Tokens</strong>
+        </div>
+        <div class="sidebar-stat-row">
+            <span>Domain Scope:</span>
+            <strong>IPL 2008–2026</strong>
+        </div>
+        <div class="sidebar-stat-row">
+            <span>Grounded Views:</span>
+            <strong>Matches, Batting, Bowling</strong>
+        </div>
+        <div class="sidebar-footer-strip">
+            <span>INFERENCE ENGINE</span>
+            <strong style="color:#34D399;">READY</strong>
+        </div>
+    </div>
+    <div style="height:0.6rem;"></div>
+    """, unsafe_allow_html=True)
 
     if st.button("🔄 Reset Dialogue History", use_container_width=True):
         st.session_state.messages = []

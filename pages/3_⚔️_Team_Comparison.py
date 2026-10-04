@@ -8,11 +8,12 @@ import pandas as pd
 from database.db import query
 from analytics.comparison import compare_teams
 from analytics.branding import get_franchise_meta
-from analytics.ui_styles import apply_custom_styles
+from analytics.ui_styles import apply_custom_styles, render_sidebar_system_status
 from visualization.comparison_charts import plot_team_radar, plot_comparison_grouped_bars
 
 st.set_page_config(page_title="Team Comparison | IPL Telemetry Pro", page_icon="⚔️", layout="wide")
 apply_custom_styles()
+render_sidebar_system_status()
 
 # ── Top Bar: Filters & Live Telemetry ──
 seasons = query("SELECT DISTINCT season FROM matches ORDER BY season DESC")["season"].tolist()

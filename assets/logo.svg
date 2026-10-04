@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 40" width="240" height="40" fill="none">
+    <!-- Emblem -->
+    <rect x="2" y="3" width="34" height="34" rx="8" fill="url(#crestGrad)" stroke="rgba(6, 182, 212, 0.4)" stroke-width="1.2"/>
+    <circle cx="19" cy="20" r="10" stroke="#06B6D4" stroke-width="1.2" stroke-dasharray="3 2"/>
+    <path d="M14 20 L24 20 M19 15 L19 25" stroke="#4CD7F6" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="19" cy="20" r="2.8" fill="#F59E0B"/>
+    <!-- Title -->
+    <text x="44" y="19" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="800" letter-spacing="0.06em">APEX TELEMETRY</text>
+    <text x="44" y="31" fill="#718096" font-family="'Segoe UI Mono', 'Courier New', monospace" font-size="8" font-weight="700" letter-spacing="0.12em">COMMAND HUB</text>
+    <!-- Pro Badge -->
+    <rect x="176" y="11" width="58" height="18" rx="4" fill="rgba(6, 182, 212, 0.12)" stroke="rgba(6, 182, 212, 0.35)" stroke-width="1"/>
+    <text x="183" y="23" fill="#38BDF8" font-family="'Segoe UI Mono', 'Courier New', monospace" font-size="8.5" font-weight="700" letter-spacing="0.05em">PRO v4.2</text>
+    <defs>
+        <linearGradient id="crestGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#0E223D"/>
+            <stop offset="100%" stop-color="#061224"/>
+        </linearGradient>
+    </defs>
+</svg>

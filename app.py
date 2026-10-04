@@ -311,20 +311,64 @@ Exploit dew differential post Over 12
 </div>
 </div>""", unsafe_allow_html=True)
 
-# ── SIDEBAR METADATA ──
-st.sidebar.markdown(f"""### 🛡️ Command Franchise
-**{meta['full_name']}** ({selected_team})
-- Campaign Season: **{selected_season}**
-- Home Pitch: *{meta['home_ground']}*
-- Trophy Cabinet: **{meta['titles']} IPL Titles**
+# ── SIDEBAR BROADCAST TELEMETRY ──
+st.sidebar.markdown(f"""
+<div class="sidebar-card">
+    <div class="sidebar-card-title">
+        <span>COMMAND FRANCHISE</span>
+        <span class="sidebar-badge sidebar-badge-cyan">{selected_team}</span>
+    </div>
+    <div style="font-family:'Outfit',sans-serif; font-size:1.05rem; font-weight:800; color:#FFFFFF; margin-bottom:0.35rem;">
+        {meta['full_name']}
+    </div>
+    <div class="sidebar-stat-row">
+        <span>Campaign Season:</span>
+        <strong style="color:#FBBF24;">{selected_season}</strong>
+    </div>
+    <div class="sidebar-stat-row">
+        <span>Home Pitch:</span>
+        <span style="color:#E2E8F0; font-size:0.7rem;">{meta['home_ground']}</span>
+    </div>
+    <div class="sidebar-stat-row">
+        <span>Trophy Cabinet:</span>
+        <strong style="color:#34D399;">{meta['titles']} IPL Titles</strong>
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
----
-### 🗄️ Database Telemetry Status
-""")
 db_stats = get_db_stats()
-st.sidebar.markdown(f"""- 🏆 Total Matches: **{db_stats['matches']}**
-- 🏏 Batting Records: **{db_stats['batting']:,}**
-- 🎯 Bowling Spells: **{db_stats['bowling']:,}**
-- 👥 Cataloged Players: **{db_stats['players']}**
-- 📅 Active Seasons: **{len(db_stats['seasons'])} Seasons (2019-2026)**
-""")
+st.sidebar.markdown(f"""
+<div class="sidebar-card">
+    <div class="sidebar-card-title">
+        <span style="display:flex; align-items:center; gap:5px;">
+            <span style="width:6px; height:6px; border-radius:50%; background:#10B981; box-shadow:0 0 8px #10B981;"></span>
+            SQLITE TELEMETRY
+        </span>
+        <span class="sidebar-badge sidebar-badge-green">ONLINE</span>
+    </div>
+    <div class="sidebar-stat-row">
+        <span>Total Matches:</span>
+        <strong>{db_stats['matches']}</strong>
+    </div>
+    <div class="sidebar-stat-row">
+        <span>Batting Records:</span>
+        <strong>{db_stats['batting']:,}</strong>
+    </div>
+    <div class="sidebar-stat-row">
+        <span>Bowling Spells:</span>
+        <strong>{db_stats['bowling']:,}</strong>
+    </div>
+    <div class="sidebar-stat-row">
+        <span>Cataloged Players:</span>
+        <strong>{db_stats['players']}</strong>
+    </div>
+    <div class="sidebar-stat-row">
+        <span>Active Seasons:</span>
+        <strong style="color:#67E8F9;">{len(db_stats['seasons'])} Seasons</strong>
+    </div>
+    <div class="sidebar-footer-strip">
+        <span>BROADCAST FEED v4.2</span>
+        <strong style="color:#4CD7F6;">HOT RELOAD</strong>
+    </div>
+</div>
+""", unsafe_allow_html=True)

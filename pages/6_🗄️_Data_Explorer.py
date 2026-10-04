@@ -6,10 +6,11 @@ keyword search, summary metrics, and dual CSV/JSON export.
 import streamlit as st
 import pandas as pd
 from database.db import query
-from analytics.ui_styles import apply_custom_styles
+from analytics.ui_styles import apply_custom_styles, render_sidebar_system_status
 
 st.set_page_config(page_title="Data Explorer | IPL Hub", page_icon="🗄️", layout="wide")
 apply_custom_styles()
+render_sidebar_system_status()
 
 st.markdown("""
 <style>

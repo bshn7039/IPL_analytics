@@ -7,13 +7,14 @@ import streamlit as st
 from database.db import query
 from analytics.bowling import get_team_bowling_summary, get_top_bowlers
 from analytics.branding import get_franchise_meta
-from analytics.ui_styles import apply_custom_styles
+from analytics.ui_styles import apply_custom_styles, render_sidebar_system_status
 from visualization.bowling_charts import (
     plot_wickets_by_bowler, plot_economy_vs_wickets, plot_bowling_economy_bars_mpl
 )
 
 st.set_page_config(page_title="Bowling Analytics | IPL Telemetry Pro", page_icon="🎯", layout="wide")
 apply_custom_styles()
+render_sidebar_system_status()
 
 # ── Top Bar: Filters & Live Telemetry ──
 seasons = query("SELECT DISTINCT season FROM matches ORDER BY season DESC")["season"].tolist()
