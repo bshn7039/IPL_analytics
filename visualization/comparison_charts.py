@@ -1,5 +1,5 @@
-﻿"""
-Comparison Visualizations Module
+"""
+Comparison Visualizations Module — IPL Telemetry Pro Theme
 Renders multi-axis radar/spider charts and comparative grouped bar charts.
 """
 import plotly.graph_objects as go
@@ -40,8 +40,8 @@ def plot_team_radar(stats_a, stats_b, team_a, team_b):
         theta=cat_loop,
         fill="toself",
         name=team_a,
-        line=dict(color="#3B82F6", width=2),
-        fillcolor="rgba(59, 130, 246, 0.25)"
+        line=dict(color="#06B6D4", width=2.5),
+        fillcolor="rgba(6, 182, 212, 0.22)"
     ))
 
     fig.add_trace(go.Scatterpolar(
@@ -49,59 +49,135 @@ def plot_team_radar(stats_a, stats_b, team_a, team_b):
         theta=cat_loop,
         fill="toself",
         name=team_b,
-        line=dict(color="#F97316", width=2),
-        fillcolor="rgba(249, 115, 22, 0.25)"
+        line=dict(color="#F59E0B", width=2.5),
+        fillcolor="rgba(245, 158, 11, 0.22)"
     ))
 
     fig.update_layout(
-        polar=dict(
-            radialaxis=dict(visible=True, range=[0, 100], color="#94A3B8"),
-            bgcolor="#11151F"
-        ),
-        showlegend=True,
         template="plotly_dark",
-        paper_bgcolor="#11151F",
-        margin=dict(l=40, r=40, t=40, b=40),
-        title=f"Head-to-Head Tactical Radar: {team_a} vs {team_b}"
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(family="Outfit, sans-serif", color="#DAE2FD"),
+        polar=dict(
+            radialaxis=dict(
+                visible=True,
+                range=[0, 100],
+                color="#64748B",
+                gridcolor="rgba(255,255,255,0.08)",
+                tickfont=dict(family="Space Mono", size=9)
+            ),
+            angularaxis=dict(
+                color="#CBD5E1",
+                gridcolor="rgba(255,255,255,0.08)",
+                tickfont=dict(family="Space Mono", size=10, color="#FFFFFF")
+            ),
+            bgcolor="rgba(0,0,0,0)"
+        ),
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=-0.15,
+            xanchor="center",
+            x=0.5,
+            font=dict(family="Space Mono", size=11, color="#DAE2FD")
+        ),
+        margin=dict(l=30, r=30, t=20, b=30)
     )
     return fig
 
 def plot_comparison_grouped_bars(stats_a, stats_b, team_a, team_b):
-    """Side-by-side grouped bar chart comparing raw totals and rates."""
-    metrics = ["Avg Score", "Strike Rate", "Economy", "Win %"]
-    vals_a = [stats_a.get("avg_score", 0), stats_a.get("batting_sr", 0), stats_a.get("economy", 0), stats_a.get("win_rate", 0)]
-    vals_b = [stats_b.get("avg_score", 0), stats_b.get("batting_sr", 0), stats_b.get("economy", 0), stats_b.get("win_rate", 0)]
+    """Grouped bar chart for direct team comparison."""
+    metrics = ["Win %", "Avg Score", "Strike Rate", "Economy"]
+    val_a = [stats_a.get("win_rate", 0), stats_a.get("avg_score", 0), stats_a.get("batting_sr", 0), stats_a.get("economy", 0) * 10]
+    val_b = [stats_b.get("win_rate", 0), stats_b.get("avg_score", 0), stats_b.get("batting_sr", 0), stats_b.get("economy", 0) * 10]
 
-    fig = go.Figure(data=[
-        go.Bar(name=team_a, x=metrics, y=vals_a, marker_color="#3B82F6"),
-        go.Bar(name=team_b, x=metrics, y=vals_b, marker_color="#F97316")
-    ])
+    fig = go.Figure()
+    fig.add_trace(go.Bar(
+        x=metrics, y=val_a, name=team_a,
+        marker=dict(color="#06B6D4", line=dict(color="rgba(255,255,255,0.1)", width=1)),
+        text=[f"{v:.1f}" if m != "Economy" else f"{v/10:.2f}" for v, m in zip(val_a, metrics)],
+        textposition="outside",
+        textfont=dict(family="Space Mono", size=10)
+    ))
+    fig.add_trace(go.Bar(
+        x=metrics, y=val_b, name=team_b,
+        marker=dict(color="#F59E0B", line=dict(color="rgba(255,255,255,0.1)", width=1)),
+        text=[f"{v:.1f}" if m != "Economy" else f"{v/10:.2f}" for v, m in zip(val_b, metrics)],
+        textposition="outside",
+        textfont=dict(family="Space Mono", size=10)
+    ))
+
     fig.update_layout(
-        barmode="group",
         template="plotly_dark",
-        plot_bgcolor="#11151F",
-        paper_bgcolor="#11151F",
-        title="Direct Metric Comparison",
-        margin=dict(l=20, r=20, t=40, b=20)
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(family="Inter, sans-serif", color="#DAE2FD"),
+        barmode="group",
+        xaxis=dict(
+            tickfont=dict(family="Outfit, sans-serif", size=11, color="#FFFFFF"),
+            showgrid=False
+        ),
+        yaxis=dict(
+            showgrid=True,
+            gridcolor="rgba(255,255,255,0.06)",
+            title=dict(text="Normalized Value Index", font=dict(family="Space Mono", size=10, color="#64748B"))
+        ),
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=-0.2,
+            xanchor="center",
+            x=0.5,
+            font=dict(family="Space Mono", size=11, color="#DAE2FD")
+        ),
+        margin=dict(l=20, r=20, t=20, b=30)
     )
     return fig
 
-def plot_player_comparison_bars(bat_a, bat_b, name_a, name_b):
-    """Visualizes comparative batting stats for two players."""
-    metrics = ["Runs", "Average", "Strike Rate", "Sixes"]
-    va = [bat_a.get("runs", 0), bat_a.get("average", 0), bat_a.get("strike_rate", 0), bat_a.get("sixes", 0)] if bat_a else [0, 0, 0, 0]
-    vb = [bat_b.get("runs", 0), bat_b.get("average", 0), bat_b.get("strike_rate", 0), bat_b.get("sixes", 0)] if bat_b else [0, 0, 0, 0]
+def plot_player_comparison_bars(stats_a, stats_b, player_a, player_b):
+    """Bar chart comparing two players on key stats."""
+    metrics = ["Total Runs", "Strike Rate", "Average", "Boundary 4s", "Boundary 6s"]
+    val_a = [stats_a.get("runs", 0), stats_a.get("strike_rate", 0), stats_a.get("average", 0), stats_a.get("fours", 0), stats_a.get("sixes", 0)]
+    val_b = [stats_b.get("runs", 0), stats_b.get("strike_rate", 0), stats_b.get("average", 0), stats_b.get("fours", 0), stats_b.get("sixes", 0)]
 
-    fig = go.Figure(data=[
-        go.Bar(name=name_a, x=metrics, y=va, marker_color="#10B981"),
-        go.Bar(name=name_b, x=metrics, y=vb, marker_color="#6366F1")
-    ])
+    fig = go.Figure()
+    fig.add_trace(go.Bar(
+        x=metrics, y=val_a, name=player_a,
+        marker=dict(color="#818CF8", line=dict(color="rgba(255,255,255,0.1)", width=1)),
+        text=[f"{v:.1f}" if isinstance(v, float) else str(v) for v in val_a],
+        textposition="outside",
+        textfont=dict(family="Space Mono", size=10)
+    ))
+    fig.add_trace(go.Bar(
+        x=metrics, y=val_b, name=player_b,
+        marker=dict(color="#06B6D4", line=dict(color="rgba(255,255,255,0.1)", width=1)),
+        text=[f"{v:.1f}" if isinstance(v, float) else str(v) for v in val_b],
+        textposition="outside",
+        textfont=dict(family="Space Mono", size=10)
+    ))
+
     fig.update_layout(
-        barmode="group",
         template="plotly_dark",
-        plot_bgcolor="#11151F",
-        paper_bgcolor="#11151F",
-        title="Player Batting Profile Comparison",
-        margin=dict(l=20, r=20, t=40, b=20)
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(family="Inter, sans-serif", color="#DAE2FD"),
+        barmode="group",
+        xaxis=dict(
+            tickfont=dict(family="Outfit, sans-serif", size=11, color="#FFFFFF"),
+            showgrid=False
+        ),
+        yaxis=dict(
+            showgrid=True,
+            gridcolor="rgba(255,255,255,0.06)"
+        ),
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=-0.2,
+            xanchor="center",
+            x=0.5,
+            font=dict(family="Space Mono", size=11, color="#DAE2FD")
+        ),
+        margin=dict(l=20, r=20, t=20, b=30)
     )
     return fig

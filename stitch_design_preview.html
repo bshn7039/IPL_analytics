@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>APEX IPL TELEMETRY | Broadcast Command Center</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Fonts: Space Mono, Outfit, Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Outfit:wght@400;500;600;700;800;900&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "primary-fixed": "#acedff",
+          "surface-container-lowest": "#060e20",
+          "secondary-fixed": "#ffddb8",
+          "on-error-container": "#ffdad6",
+          "surface-tint": "#4cd7f6",
+          "tertiary-fixed-dim": "#4edea3",
+          "on-surface": "#dae2fd",
+          "on-surface-variant": "#bcc9cd",
+          "surface-container": "#171f33",
+          "on-primary-container": "#00424f",
+          "on-background": "#dae2fd",
+          "surface-container-low": "#131b2e",
+          "surface-bright": "#31394d",
+          "on-primary-fixed-variant": "#004e5c",
+          "tertiary-fixed": "#6ffbbe",
+          "surface-container-high": "#222a3d",
+          "inverse-primary": "#00687a",
+          "secondary-container": "#ee9800",
+          "on-tertiary-fixed": "#002113",
+          "on-primary": "#003640",
+          "on-error": "#690005",
+          "surface": "#080d1a",
+          "error": "#ffb4ab",
+          "surface-container-highest": "#2d3449",
+          "on-tertiary-container": "#00452e",
+          "primary-fixed-dim": "#4cd7f6",
+          "on-secondary": "#472a00",
+          "surface-variant": "#2d3449",
+          "error-container": "#93000a",
+          "on-tertiary-fixed-variant": "#005236",
+          "tertiary-container": "#1bbd85",
+          "secondary": "#ffb95f",
+          "on-secondary-container": "#5b3800",
+          "outline-variant": "#3d494c",
+          "tertiary": "#4edea3",
+          "on-secondary-fixed": "#2a1700",
+          "inverse-on-surface": "#283044",
+          "outline": "#869397",
+          "inverse-surface": "#dae2fd",
+          "surface-dim": "#080d1a",
+          "secondary-fixed-dim": "#ffb95f",
+          "primary": "#4cd7f6",
+          "on-secondary-fixed-variant": "#653e00",
+          "background": "#080d1a",
+          "primary-container": "#06b6d4",
+          "on-primary-fixed": "#001f26",
+          "on-tertiary": "#003824"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "space-sm": "0.5rem",
+          "space-md": "1rem",
+          "margin": "1rem",
+          "gutter": "1rem",
+          "margin-lg": "2.5rem",
+          "gutter-lg": "1.5rem",
+          "space-xs": "0.25rem",
+          "space-lg": "1.5rem",
+          "margin-md": "1.5rem",
+          "space-xl": "2.5rem"
+        },
+        "fontFamily": {
+          "telemetry-metric": ["Outfit", "sans-serif"],
+          "label-caps": ["Inter", "sans-serif"],
+          "display-hero": ["Outfit", "sans-serif"],
+          "display-hero-mobile": ["Outfit", "sans-serif"],
+          "body-sm": ["Inter", "sans-serif"],
+          "title-scoreboard": ["Outfit", "sans-serif"],
+          "label-mono-sm": ["Space Mono", "monospace"],
+          "headline-lg-mobile": ["Outfit", "sans-serif"],
+          "body-lg": ["Inter", "sans-serif"],
+          "body-md": ["Inter", "sans-serif"],
+          "headline-md": ["Outfit", "sans-serif"],
+          "headline-lg": ["Outfit", "sans-serif"]
+        }
+      }
+    }
+  }
+</script>
+<style>
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+  }
+  .glow-cyan {
+    box-shadow: 0 0 25px -4px rgba(6, 182, 212, 0.45);
+  }
+  .glow-cyan-sm {
+    box-shadow: 0 0 12px 0 rgba(76, 215, 246, 0.35);
+  }
+  .glow-amber {
+    box-shadow: 0 0 20px -3px rgba(245, 158, 11, 0.4);
+  }
+  .glow-purple {
+    box-shadow: 0 0 20px -3px rgba(168, 85, 247, 0.4);
+  }
+  .glow-emerald {
+    box-shadow: 0 0 20px -3px rgba(16, 185, 129, 0.35);
+  }
+  .laser-border {
+    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.12);
+  }
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+</style>
+</head>
+<body class="bg-[#080d1a] text-on-surface antialiased selection:bg-primary-container selection:text-on-primary min-h-screen flex flex-col font-body-md overflow-x-hidden">
+<!-- 2. Top Telemetry Bar -->
+<header class="bg-[#060e20]/90 backdrop-blur-xl sticky top-0 z-50 border-b border-white/10 shadow-2xl">
+<div class="flex justify-between items-center w-full px-4 lg:px-6 py-2.5">
+<!-- Left Cluster: Mobile Brand + Telemetry Switcher & Franchise -->
+<div class="flex items-center gap-3 md:gap-4">
+<!-- Mobile Logo Icon -->
+<div class="lg:hidden flex items-center gap-2 pr-2 border-r border-white/10">
+<span class="material-symbols-outlined text-primary text-[24px]">sports_cricket</span>
+<span class="font-title-scoreboard font-extrabold text-sm text-primary tracking-wider">APEX</span>
+</div>
+<!-- Season Telemetry Switcher Dropdown -->
+<div class="relative flex items-center bg-surface-container-low rounded-lg p-0.5 border border-white/10 text-label-mono-sm">
+<span class="material-symbols-outlined text-[15px] text-outline ml-2">calendar_today</span>
+<select class="bg-transparent text-primary font-bold text-xs pl-2 pr-6 py-1 outline-none appearance-none cursor-pointer">
+<option class="bg-surface-container text-on-surface" selected="" value="2025">2025 Campaign</option>
+<option class="bg-surface-container text-on-surface" value="2024">2024 Campaign</option>
+<option class="bg-surface-container text-on-surface" value="2023">2023 Campaign</option>
+</select>
+<span class="material-symbols-outlined text-[14px] text-outline absolute right-1.5 pointer-events-none">expand_more</span>
+</div>
+<!-- Primary Franchise Command Selector -->
+<div class="flex items-center gap-2 bg-surface-container/70 px-3 py-1.5 rounded-lg border border-primary/30 hover:border-primary/60 cursor-pointer transition-all">
+<!-- Subtle Crest Badge -->
+<div class="w-5 h-5 rounded bg-gradient-to-tr from-blue-700 to-cyan-500 border border-amber-400/40 flex items-center justify-center text-[10px] font-black text-amber-300 shadow-sm">
+          MI
+        </div>
+<span class="text-xs md:text-sm font-semibold text-on-surface">Mumbai Indians [MI]</span>
+<span class="material-symbols-outlined text-[16px] text-outline">expand_more</span>
+</div>
+</div>
+<!-- Center/Global Quick Search -->
+<div class="hidden xl:flex items-center relative w-80">
+<span class="material-symbols-outlined absolute left-3 text-outline text-[18px]">search</span>
+<input class="bg-[#0b1326]/80 text-on-surface text-body-sm pl-9 pr-14 py-1.5 rounded-lg border border-white/10 focus:border-primary focus:ring-1 focus:ring-primary outline-none w-full transition-all placeholder:text-outline/70 font-mono text-xs" placeholder="Search bowler, pitch delta, hawk-eye..." type="text"/>
+<kbd class="absolute right-2.5 text-[10px] font-label-mono-sm bg-surface-container-high text-outline px-1.5 py-0.5 rounded border border-white/10">⌘K</kbd>
+</div>
+<!-- Right Cluster: Broadcast Status, FPS, Ping, Profile -->
+<div class="flex items-center gap-3">
+<!-- Live Broadcast Status Indicator -->
+<div class="flex items-center gap-2 bg-amber-500/10 text-amber-400 border border-amber-500/30 px-3 py-1 rounded-full text-label-mono-sm font-bold glow-amber">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-amber-400"></span>
+</span>
+<span class="text-[11px] tracking-wide uppercase">LIVE BROADCAST SYNC</span>
+</div>
+<!-- Telemetry Diagnostics Chips -->
+<div class="hidden sm:flex items-center gap-2 font-mono text-[11px] bg-surface-container-low px-2.5 py-1 rounded-lg border border-white/10 text-outline">
+<span class="flex items-center gap-1"><span class="text-tertiary">PING:</span> 14ms</span>
+<span class="text-outline-variant">|</span>
+<span class="text-primary font-bold">120 FPS</span>
+</div>
+<!-- Analyst Quick Actions & Avatar -->
+<div class="flex items-center gap-2 pl-2 border-l border-white/10">
+<button class="p-1.5 rounded-lg text-outline hover:text-primary hover:bg-surface-container transition-colors" title="Telemetry Settings">
+<span class="material-symbols-outlined text-[19px]">tune</span>
+</button>
+<div class="flex items-center gap-2">
+<div class="relative">
+<img alt="Director Avatar" class="w-8 h-8 rounded-full border border-primary/50 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxfQt2WjwLUIqws4hrJ1XYeCUsqMTQ-rpDV9whBDNoBxaSc8jsGzJrHlQNlnNMG2wxaxt4N01vqCyEjtyRWg4PZfBmuFVlC2fNLioMrAFcsMGbnbCOUCUXkx36p32roqKNrxORCzYn6Ijj3for0rnVffr1v4W39foykeXi0QRE7-Hvqn0R1TfTqrLfs_ugbgdq7ce_4KQNfh6qH2MqFF8DgvdH98HP1nlZ2dzhjSlFnI--BPKDVCTYQu07gjZWgbwKlb4VLmy9svE"/>
+<span class="absolute bottom-0 right-0 w-2 h-2 rounded-full bg-tertiary ring-2 ring-[#080d1a]"></span>
+</div>
+<div class="hidden 2xl:flex flex-col text-left">
+<span class="text-xs font-semibold text-on-surface leading-tight">Tactical Desk</span>
+<span class="text-[10px] font-mono text-tertiary leading-none">SYS_ACTIVE</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Shell Layout -->
+<div class="flex flex-1 w-full relative">
+<!-- 1. Cohesive Left Sidebar (Command Module) -->
+<aside class="hidden lg:flex w-64 h-[calc(100vh-53px)] sticky top-[53px] shrink-0 flex-col justify-between p-3 bg-[#060e20]/95 backdrop-blur-2xl border-r border-white/10 shadow-2xl z-40">
+<div class="space-y-4">
+<!-- Brand & Version Header -->
+<div class="px-2 pt-1 pb-2 border-b border-white/10">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[24px]">sports_cricket</span>
+<div>
+<h2 class="text-xs font-mono font-bold tracking-wider text-on-surface uppercase leading-none">APEX IPL TELEMETRY</h2>
+<span class="text-[10px] font-mono text-outline">COMMAND HUB</span>
+</div>
+</div>
+<span class="text-[10px] font-mono bg-primary/10 text-primary border border-primary/30 px-1.5 py-0.5 rounded font-bold">PRO v4.2</span>
+</div>
+</div>
+<!-- Module Navigation (8 exact modules) -->
+<nav class="space-y-1">
+<!-- 1. Overview (Active state with cyan neon border & glow) -->
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg bg-surface-container-high/80 text-primary border-l-4 border-primary font-semibold text-xs transition-all glow-cyan-sm shadow-inner" href="#">
+<span class="text-base">🏠</span>
+<span class="font-mono uppercase tracking-wider text-[11px]">Overview</span>
+<span class="ml-auto w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+</a>
+<!-- 2. Batting Analytics -->
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container/60 transition-all font-medium text-xs group" href="#">
+<span class="text-base group-hover:scale-110 transition-transform">🏏</span>
+<span class="font-mono uppercase tracking-wider text-[11px]">Batting Analytics</span>
+</a>
+<!-- 3. Bowling Analytics -->
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container/60 transition-all font-medium text-xs group" href="#">
+<span class="text-base group-hover:scale-110 transition-transform">🎯</span>
+<span class="font-mono uppercase tracking-wider text-[11px]">Bowling Analytics</span>
+</a>
+<!-- 4. Team Comparison -->
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container/60 transition-all font-medium text-xs group" href="#">
+<span class="text-base group-hover:scale-110 transition-transform">⚔️</span>
+<span class="font-mono uppercase tracking-wider text-[11px]">Team Comparison</span>
+</a>
+<!-- 5. Player Comparison -->
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container/60 transition-all font-medium text-xs group" href="#">
+<span class="text-base group-hover:scale-110 transition-transform">👤</span>
+<span class="font-mono uppercase tracking-wider text-[11px]">Player Comparison</span>
+</a>
+<!-- 6. Match & Strategy -->
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container/60 transition-all font-medium text-xs group" href="#">
+<span class="text-base group-hover:scale-110 transition-transform">🧠</span>
+<span class="font-mono uppercase tracking-wider text-[11px]">Match &amp; Strategy</span>
+</a>
+<!-- 7. Data Explorer -->
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container/60 transition-all font-medium text-xs group" href="#">
+<span class="text-base group-hover:scale-110 transition-transform">🗄️</span>
+<span class="font-mono uppercase tracking-wider text-[11px]">Data Explorer</span>
+</a>
+<!-- 8. AI Cricket Analyst -->
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-outline hover:text-primary hover:bg-surface-container/60 transition-all font-medium text-xs group" href="#">
+<span class="text-base group-hover:scale-110 transition-transform">🤖</span>
+<span class="font-mono uppercase tracking-wider text-[11px]">AI Cricket Analyst</span>
+<span class="ml-auto text-[9px] font-mono bg-cyan-950 text-cyan-300 border border-cyan-500/30 px-1 py-0.5 rounded">v2</span>
+</a>
+</nav>
+</div>
+<!-- Database telemetry status badge at the bottom -->
+<div class="pt-3 border-t border-white/10 space-y-2">
+<div class="p-2.5 rounded-lg bg-[#0b1326] border border-white/10 text-outline space-y-1">
+<div class="flex items-center justify-between text-[10px] font-mono text-tertiary">
+<span class="flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span> SQLITE TELEMETRY ENGINE
+          </span>
+<span class="text-[9px] text-outline">Ping: 12ms</span>
+</div>
+<p class="text-[10px] font-mono text-on-surface-variant leading-tight">
+          1,024 Matches | 148k Deliveries | 3,420 Spells logged
+        </p>
+</div>
+<div class="flex items-center justify-between text-[10px] font-mono text-outline px-1">
+<span>BROADCAST FEED v4.2</span>
+<span class="text-primary font-bold">HOT RELOAD</span>
+</div>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="flex-1 min-w-0 p-4 md:p-6 lg:p-7 space-y-6">
+<!-- 3. Hero Franchise Performance Card -->
+<section class="bg-surface-container-low/85 backdrop-blur-2xl rounded-xl border border-white/10 laser-border p-5 md:p-6 relative overflow-hidden shadow-2xl">
+<!-- Ambient light gradients -->
+<div class="absolute -top-20 -left-10 w-96 h-40 bg-blue-600/15 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-20 -right-10 w-96 h-40 bg-amber-500/10 blur-3xl pointer-events-none"></div>
+<div class="flex flex-col xl:flex-row xl:items-center justify-between gap-6 relative z-10">
+<!-- Left: Crest, Title, Badges -->
+<div class="flex items-start gap-4">
+<!-- Mumbai Indians blue/gold motif crest badge -->
+<div class="relative w-16 h-16 rounded-xl bg-gradient-to-br from-blue-700 via-blue-900 to-surface-container border-2 border-amber-400/60 flex items-center justify-center shrink-0 shadow-lg shadow-blue-900/40">
+<span class="material-symbols-outlined text-amber-300 text-[34px]" style="font-variation-settings: 'FILL' 1;">shield</span>
+<span class="absolute font-black text-xs text-white tracking-widest">MI</span>
+</div>
+<div class="space-y-1.5">
+<div class="flex flex-wrap items-center gap-2">
+<span class="text-[11px] font-mono uppercase bg-blue-500/20 text-primary border border-blue-400/30 px-2 py-0.5 rounded font-bold">
+                Franchise Hub
+              </span>
+<span class="text-[11px] font-mono uppercase bg-amber-500/20 text-amber-300 border border-amber-400/30 px-2 py-0.5 rounded font-bold flex items-center gap-1">
+                🏆 5x CHAMPIONS
+              </span>
+<span class="text-[11px] font-mono text-outline flex items-center gap-1">
+                🏟️ Wankhede Stadium, Mumbai
+              </span>
+</div>
+<h1 class="text-2xl md:text-3xl font-extrabold text-on-surface font-title-scoreboard tracking-tight">
+              Mumbai Indians
+              <span class="text-outline text-lg font-normal font-mono ml-2">Matchday Telemetry</span>
+</h1>
+<!-- Micro summary chips -->
+<div class="flex flex-wrap items-center gap-2.5 pt-1">
+<span class="text-[11px] font-mono bg-surface-container px-2.5 py-1 rounded border border-white/10 text-on-surface">
+                AVG SCORE: <strong class="text-primary font-bold">182.4</strong>
+</span>
+<span class="text-[11px] font-mono bg-surface-container px-2.5 py-1 rounded border border-white/10 text-on-surface">
+                TEAM SR: <strong class="text-secondary font-bold">146.8</strong>
+</span>
+<span class="text-[11px] font-mono bg-surface-container px-2.5 py-1 rounded border border-white/10 text-on-surface">
+                ECONOMY: <strong class="text-tertiary font-bold">8.35</strong>
+</span>
+</div>
+</div>
+</div>
+<!-- Right: Team Strength Index Circular Gauge & Win Probability Dual Split -->
+<div class="flex flex-wrap md:flex-nowrap items-center gap-5">
+<!-- Circular Gauge: Team Strength Index 84/100 -->
+<div class="flex items-center gap-3 bg-[#0b1326]/80 p-3 rounded-xl border border-white/10">
+<div class="relative w-16 h-16 flex items-center justify-center">
+<svg class="w-full h-full -rotate-90" viewbox="0 0 36 36">
+<!-- Background track -->
+<path class="text-surface-variant/40 stroke-current" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke-width="3"></path>
+<!-- Glowing Progress Ring -->
+<path class="text-cyan-400 stroke-current" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" filter="drop-shadow(0 0 3px rgba(6,182,212,0.8))" stroke-dasharray="84, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<div class="absolute flex flex-col items-center">
+<span class="text-sm font-black font-telemetry-metric text-on-surface tabular-nums">84</span>
+<span class="text-[8px] font-mono text-outline">/100</span>
+</div>
+</div>
+<div>
+<span class="text-[10px] font-mono text-outline block uppercase tracking-wider">TEAM STRENGTH INDEX</span>
+<span class="text-[11px] font-mono font-bold text-cyan-300 flex items-center gap-1">
+                ⚡ High Performance
+              </span>
+<span class="text-[10px] font-mono text-tertiary">+3.1 vs League Avg</span>
+</div>
+</div>
+<!-- Win Probability Dual Split Bar (58.3% MI vs 41.7% OPP) -->
+<div class="w-full md:w-64 bg-[#0b1326]/80 p-3 rounded-xl border border-white/10 space-y-1.5">
+<div class="flex justify-between items-center text-xs font-mono">
+<span class="text-primary font-bold">58.3% MI</span>
+<span class="text-outline text-[10px] uppercase">WIN PROBABILITY</span>
+<span class="text-amber-400 font-bold">41.7% OPP</span>
+</div>
+<!-- Dual Glowing Gradient Bar -->
+<div class="w-full h-2.5 bg-surface-variant/40 rounded-full overflow-hidden flex p-0.5 border border-white/5">
+<div class="bg-gradient-to-r from-cyan-500 to-primary h-full rounded-l-full glow-cyan" style="width: 58.3%"></div>
+<div class="bg-gradient-to-r from-amber-500 to-amber-300 h-full rounded-r-full glow-amber" style="width: 41.7%"></div>
+</div>
+<div class="flex justify-between text-[10px] font-mono text-outline">
+<span>Implied Odds: 1.71</span>
+<span>Chasing Scenario</span>
+<span>Odds: 2.38</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Form Guide Pills -->
+<div class="mt-4 pt-3.5 border-t border-white/10 flex flex-wrap items-center justify-between gap-3">
+<div class="flex items-center gap-2">
+<span class="text-xs font-mono text-outline uppercase tracking-wider mr-1">Form Guide:</span>
+<!-- Form Guide: [W] [W] [L] [W] [W] -->
+<div class="flex items-center gap-1.5">
+<span class="w-6 h-6 rounded-md bg-emerald-500/20 text-emerald-400 border border-emerald-400/40 flex items-center justify-center font-mono font-bold text-xs shadow-sm shadow-emerald-500/20" title="Win vs RCB">W</span>
+<span class="w-6 h-6 rounded-md bg-emerald-500/20 text-emerald-400 border border-emerald-400/40 flex items-center justify-center font-mono font-bold text-xs shadow-sm shadow-emerald-500/20" title="Win vs KKR">W</span>
+<span class="w-6 h-6 rounded-md bg-rose-500/20 text-rose-400 border border-rose-400/40 flex items-center justify-center font-mono font-bold text-xs shadow-sm shadow-rose-500/20" title="Loss vs RR">L</span>
+<span class="w-6 h-6 rounded-md bg-emerald-500/20 text-emerald-400 border border-emerald-400/40 flex items-center justify-center font-mono font-bold text-xs shadow-sm shadow-emerald-500/20" title="Win vs GT">W</span>
+<span class="w-6 h-6 rounded-md bg-emerald-500/20 text-emerald-400 border border-emerald-400/40 flex items-center justify-center font-mono font-bold text-xs shadow-sm shadow-emerald-500/20" title="Win vs DC">W</span>
+</div>
+<span class="text-[11px] font-mono text-tertiary ml-2">4 Wins / Last 5</span>
+</div>
+<div class="flex items-center gap-2 text-xs font-mono text-outline">
+<span>STADIUM WIN TALLY: <strong class="text-on-surface">54W - 28L</strong></span>
+<span class="text-outline-variant">•</span>
+<span>NET RUN RATE: <strong class="text-tertiary font-bold">+0.842</strong></span>
+</div>
+</div>
+</section>
+<!-- 4. Four Glassmorphic Telemetry KPI Cards -->
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<!-- Card 1: Win Rate & Campaign -->
+<div class="bg-surface-container-low/75 backdrop-blur-xl rounded-xl border border-white/10 laser-border p-4 hover:border-primary/40 transition-all shadow-xl group">
+<div class="flex justify-between items-start mb-2">
+<span class="text-[10px] font-mono text-outline uppercase tracking-wider">WIN RATE &amp; CAMPAIGN</span>
+<span class="text-[10px] font-mono bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 px-1.5 py-0.5 rounded flex items-center gap-1 font-bold">
+<span class="material-symbols-outlined text-[11px]">trending_up</span> +4.2% YoY
+          </span>
+</div>
+<div class="flex items-baseline gap-2 mb-2">
+<span class="text-3xl font-extrabold font-telemetry-metric text-on-surface tabular-nums">58.3%</span>
+<span class="text-xs font-mono text-primary font-semibold tabular-nums">7W - 5L</span>
+</div>
+<!-- Micro sparkline trend curve -->
+<div class="h-9 w-full mb-2">
+<svg class="w-full h-full" fill="none" viewbox="0 0 120 30">
+<path d="M 0,24 L 20,20 L 40,22 L 60,14 L 80,12 L 100,7 L 120,4" stroke="#10b981" stroke-linecap="round" stroke-width="2.5"></path>
+<path d="M 0,24 L 20,20 L 40,22 L 60,14 L 80,12 L 100,7 L 120,4 V 30 H 0 Z" fill="url(#sparkEmerald)" opacity="0.18"></path>
+<defs>
+<lineargradient id="sparkEmerald" x1="0" x2="0" y1="0" y2="1">
+<stop stop-color="#10b981"></stop>
+<stop offset="100%" stop-color="#10b981" stop-opacity="0"></stop>
+</lineargradient>
+</defs>
+</svg>
+</div>
+<div class="flex justify-between text-xs font-mono text-outline pt-2 border-t border-white/5">
+<span>12 Matches Played</span>
+<span class="text-on-surface font-semibold">Rank #2</span>
+</div>
+</div>
+<!-- Card 2: Team Strike Rate -->
+<div class="bg-surface-container-low/75 backdrop-blur-xl rounded-xl border border-white/10 laser-border p-4 hover:border-primary/40 transition-all shadow-xl group">
+<div class="flex justify-between items-start mb-2">
+<span class="text-[10px] font-mono text-outline uppercase tracking-wider">TEAM STRIKE RATE</span>
+<span class="text-[10px] font-mono bg-cyan-500/20 text-cyan-300 border border-cyan-400/40 px-1.5 py-0.5 rounded font-bold">
+            FIREPOWER
+          </span>
+</div>
+<div class="flex items-baseline gap-2 mb-2">
+<span class="text-3xl font-extrabold font-telemetry-metric text-on-surface tabular-nums">146.8</span>
+<span class="text-xs font-mono text-cyan-300 font-bold">SR</span>
+</div>
+<!-- 3-phase split breakdown cards -->
+<div class="grid grid-cols-3 gap-1 h-9 w-full mb-2 text-center font-mono">
+<div class="bg-surface-container/80 rounded p-1 flex flex-col justify-center">
+<span class="text-[8px] text-outline">PP 1-6</span>
+<span class="text-[11px] font-bold text-on-surface tabular-nums">148.2</span>
+</div>
+<div class="bg-surface-container/80 rounded p-1 flex flex-col justify-center">
+<span class="text-[8px] text-outline">MID 7-15</span>
+<span class="text-[11px] font-bold text-on-surface tabular-nums">135.6</span>
+</div>
+<div class="bg-amber-500/20 border border-amber-500/40 rounded p-1 flex flex-col justify-center glow-amber">
+<span class="text-[8px] text-amber-300 font-bold">DEATH 16-20</span>
+<span class="text-[11px] font-black text-amber-300 tabular-nums">184.5</span>
+</div>
+</div>
+<div class="flex justify-between text-xs font-mono text-outline pt-2 border-t border-white/5">
+<span>Total Runs Scored</span>
+<span class="text-cyan-300 font-semibold tabular-nums">2,418 Runs</span>
+</div>
+</div>
+<!-- Card 3: Bowling Economy -->
+<div class="bg-surface-container-low/75 backdrop-blur-xl rounded-xl border border-white/10 laser-border p-4 hover:border-primary/40 transition-all shadow-xl group">
+<div class="flex justify-between items-start mb-2">
+<span class="text-[10px] font-mono text-outline uppercase tracking-wider">BOWLING ECONOMY</span>
+<span class="text-[10px] font-mono bg-amber-500/20 text-amber-300 border border-amber-400/40 px-1.5 py-0.5 rounded font-bold">
+            CONTAINMENT
+          </span>
+</div>
+<div class="flex items-baseline gap-2 mb-2">
+<span class="text-3xl font-extrabold font-telemetry-metric text-on-surface tabular-nums">8.35</span>
+<span class="text-xs font-mono text-outline">RPO</span>
+</div>
+<!-- Downward containment sparkline -->
+<div class="h-9 w-full mb-2">
+<svg class="w-full h-full" fill="none" viewbox="0 0 120 30">
+<path d="M 0,5 L 20,9 L 40,15 L 60,19 L 80,17 L 100,22 L 120,24" stroke="#f59e0b" stroke-linecap="round" stroke-width="2.5"></path>
+<path d="M 0,5 L 20,9 L 40,15 L 60,19 L 80,17 L 100,22 L 120,24 V 30 H 0 Z" fill="url(#sparkAmber)" opacity="0.18"></path>
+<defs>
+<lineargradient id="sparkAmber" x1="0" x2="0" y1="0" y2="1">
+<stop stop-color="#f59e0b"></stop>
+<stop offset="100%" stop-color="#f59e0b" stop-opacity="0"></stop>
+</lineargradient>
+</defs>
+</svg>
+</div>
+<div class="flex justify-between text-xs font-mono text-outline pt-2 border-t border-white/5">
+<span>86 Wickets Taken</span>
+<span class="text-tertiary font-semibold tabular-nums">Avg 24.1</span>
+</div>
+</div>
+<!-- Card 4: Boundary Profile -->
+<div class="bg-surface-container-low/75 backdrop-blur-xl rounded-xl border border-white/10 laser-border p-4 hover:border-primary/40 transition-all shadow-xl group">
+<div class="flex justify-between items-start mb-2">
+<span class="text-[10px] font-mono text-outline uppercase tracking-wider">BOUNDARY PROFILE</span>
+<span class="text-[10px] font-mono bg-purple-500/20 text-purple-300 border border-purple-400/40 px-1.5 py-0.5 rounded font-bold">
+            64.2% Boundary Share
+          </span>
+</div>
+<div class="flex items-baseline gap-2 mb-2">
+<span class="text-3xl font-extrabold font-telemetry-metric text-purple-300 tabular-nums">322</span>
+<span class="text-xs font-mono text-outline">Boundaries</span>
+</div>
+<!-- Split counts: Fours vs Sixes -->
+<div class="grid grid-cols-2 gap-2 h-9 w-full mb-2 font-mono">
+<div class="bg-surface-container/80 rounded px-2 flex items-center justify-between border-l-2 border-cyan-400">
+<span class="text-[9px] text-outline">FOURS</span>
+<span class="text-xs font-bold text-on-surface tabular-nums">214</span>
+</div>
+<div class="bg-surface-container/80 rounded px-2 flex items-center justify-between border-l-2 border-purple-400">
+<span class="text-[9px] text-purple-300">SIXES</span>
+<span class="text-xs font-bold text-purple-300 tabular-nums">108</span>
+</div>
+</div>
+<div class="flex justify-between text-xs font-mono text-outline pt-2 border-t border-white/5">
+<span>Share of Total Team Runs</span>
+<span class="text-purple-300 font-semibold tabular-nums">1,504 Runs</span>
+</div>
+</div>
+</section>
+<!-- 5. Environmental & Pitch Telemetry Strip (4 Horizontal Glass Tiles) -->
+<section class="grid grid-cols-2 lg:grid-cols-4 gap-3.5">
+<!-- Tile 1: Pitch Profile -->
+<div class="bg-surface-container-low/80 backdrop-blur-xl p-3.5 rounded-xl border border-white/10 laser-border flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-primary/10 border border-primary/30 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">layers</span>
+</div>
+<div class="min-w-0">
+<span class="text-[9px] font-mono uppercase text-outline block leading-none">PITCH PROFILE</span>
+<h4 class="text-xs font-bold text-on-surface truncate">Red Soil Fast Deck</h4>
+<span class="text-[11px] font-mono text-primary font-semibold">Bounce Rating: 8.6/10</span>
+</div>
+</div>
+<!-- Tile 2: Dew Factor -->
+<div class="bg-surface-container-low/80 backdrop-blur-xl p-3.5 rounded-xl border border-white/10 laser-border flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 shrink-0">
+<span class="material-symbols-outlined text-[20px]">water_drop</span>
+</div>
+<div class="min-w-0">
+<span class="text-[9px] font-mono uppercase text-outline block leading-none">DEW FACTOR</span>
+<h4 class="text-xs font-bold text-amber-300 truncate">High Post 8:45 PM</h4>
+<span class="text-[11px] font-mono text-outline">Ball Grip: <strong class="text-rose-400">-22%</strong></span>
+</div>
+</div>
+<!-- Tile 3: Wind Velocity -->
+<div class="bg-surface-container-low/80 backdrop-blur-xl p-3.5 rounded-xl border border-white/10 laser-border flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
+<span class="material-symbols-outlined text-[20px]">air</span>
+</div>
+<div class="min-w-0">
+<span class="text-[9px] font-mono uppercase text-outline block leading-none">WIND VELOCITY</span>
+<h4 class="text-xs font-bold text-on-surface truncate">16 km/h SW</h4>
+<span class="text-[11px] font-mono text-emerald-400">Favours Mid-Wicket Arc</span>
+</div>
+</div>
+<!-- Tile 4: Venue 1st Innings Par -->
+<div class="bg-surface-container-low/80 backdrop-blur-xl p-3.5 rounded-xl border border-white/10 laser-border flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 shrink-0">
+<span class="material-symbols-outlined text-[20px]">analytics</span>
+</div>
+<div class="min-w-0">
+<span class="text-[9px] font-mono uppercase text-outline block leading-none">VENUE 1ST INNINGS PAR</span>
+<h4 class="text-xs font-bold text-on-surface truncate tabular-nums">184.2 Runs</h4>
+<span class="text-[11px] font-mono text-primary">Par Target: 188</span>
+</div>
+</div>
+</section>
+<!-- 6. Main Analytics Dual Visualizations -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+<!-- Visualization 1: Match Trajectory & Run Progression Telemetry (Span 8) -->
+<div class="lg:col-span-8 bg-surface-container-low/80 backdrop-blur-2xl rounded-xl border border-white/10 laser-border p-5 md:p-6 shadow-2xl flex flex-col justify-between">
+<div>
+<!-- Header -->
+<div class="flex flex-wrap items-center justify-between gap-2 pb-3 mb-4 border-b border-white/10">
+<div>
+<span class="text-[10px] font-mono uppercase text-primary tracking-wider block">MATCH TELEMETRY TRAJECTORY</span>
+<h3 class="text-lg font-bold text-on-surface font-headline-md">Match-by-Match Run Scoring vs Benchmark</h3>
+</div>
+<!-- Legend -->
+<div class="flex items-center gap-3 text-xs font-mono">
+<span class="flex items-center gap-1.5 text-primary">
+<span class="w-3 h-0.5 bg-primary rounded"></span> MI Run Output
+              </span>
+<span class="flex items-center gap-1.5 text-outline">
+<span class="w-3 h-0.5 border-t border-dashed border-outline"></span> League Median (172.0)
+              </span>
+<span class="flex items-center gap-1 text-emerald-400">
+<span class="w-2 h-2 rounded-full bg-emerald-400"></span> Win
+              </span>
+<span class="flex items-center gap-1 text-rose-400">
+<span class="w-2 h-2 rounded-full bg-rose-400"></span> Loss
+              </span>
+</div>
+</div>
+<!-- SVG Neon Glowing Chart (12 Matches) -->
+<div class="relative w-full h-64 bg-[#060e20]/80 rounded-lg p-3 border border-white/5 overflow-hidden">
+<!-- Gridlines -->
+<div class="absolute inset-0 flex flex-col justify-between p-4 pointer-events-none opacity-20">
+<div class="border-b border-white/30 w-full flex justify-end text-[9px] font-mono">220</div>
+<div class="border-b border-white/30 w-full flex justify-end text-[9px] font-mono">190</div>
+<div class="border-b border-white/30 w-full flex justify-end text-[9px] font-mono">160</div>
+<div class="border-b border-white/30 w-full flex justify-end text-[9px] font-mono">130</div>
+</div>
+<!-- Vector Line Graph -->
+<svg class="w-full h-full relative z-10" preserveaspectratio="none" viewbox="0 0 600 200">
+<!-- Dashed League Median Benchmark at 172.0 (approx Y = 95) -->
+<line stroke="#869397" stroke-dasharray="4,4" stroke-opacity="0.6" stroke-width="1.5" x1="20" x2="580" y1="95" y2="95"></line>
+<text fill="#869397" font-family="Space Mono" font-size="9" x="24" y="90">MEDIAN 172.0</text>
+<!-- Gradient fill under trajectory curve -->
+<path d="M 30,110 L 80,75 L 130,50 L 180,120 L 230,85 L 280,45 L 330,65 L 380,135 L 430,60 L 480,40 L 530,70 L 570,35 V 195 H 30 Z" fill="url(#neonCyanGrad)" opacity="0.18"></path>
+<!-- Neon glowing path -->
+<path d="M 30,110 L 80,75 L 130,50 L 180,120 L 230,85 L 280,45 L 330,65 L 380,135 L 430,60 L 480,40 L 530,70 L 570,35" fill="none" filter="drop-shadow(0 0 6px #06b6d4)" stroke="#4cd7f6" stroke-width="3"></path>
+<defs>
+<lineargradient id="neonCyanGrad" x1="0" x2="0" y1="0" y2="1">
+<stop stop-color="#06b6d4" stop-opacity="0.8"></stop>
+<stop offset="100%" stop-color="#06b6d4" stop-opacity="0"></stop>
+</lineargradient>
+</defs>
+<!-- 12 Match Data Nodes:
+                   M1: 164 (W) -> (30, 110)
+                   M2: 188 (W) -> (80, 75)
+                   M3: 206 (W) -> (130, 50)
+                   M4: 152 (L) -> (180, 120)
+                   M5: 182 (W) -> (230, 85)
+                   M6: 212 (W) -> (280, 45)
+                   M7: 194 (W) -> (330, 65)
+                   M8: 142 (L) -> (380, 135)
+                   M9: 198 (W) -> (430, 60)
+                   M10: 216 (W) -> (480, 40)
+                   M11: 190 (L) -> (530, 70)
+                   M12: 224 (W) -> (570, 35)
+              -->
+<circle cx="30" cy="110" fill="#10b981" r="4.5" stroke="#080d1a" stroke-width="1.5"></circle>
+<circle cx="80" cy="75" fill="#10b981" r="4.5" stroke="#080d1a" stroke-width="1.5"></circle>
+<circle cx="130" cy="50" fill="#10b981" r="4.5" stroke="#080d1a" stroke-width="1.5"></circle>
+<circle cx="180" cy="120" fill="#ffb4ab" r="4.5" stroke="#690005" stroke-width="1.5"></circle>
+<circle cx="230" cy="85" fill="#10b981" r="4.5" stroke="#080d1a" stroke-width="1.5"></circle>
+<circle cx="280" cy="45" fill="#10b981" r="4.5" stroke="#080d1a" stroke-width="1.5"></circle>
+<circle cx="330" cy="65" fill="#10b981" r="4.5" stroke="#080d1a" stroke-width="1.5"></circle>
+<circle cx="380" cy="135" fill="#ffb4ab" r="4.5" stroke="#690005" stroke-width="1.5"></circle>
+<circle cx="430" cy="60" fill="#10b981" r="4.5" stroke="#080d1a" stroke-width="1.5"></circle>
+<circle cx="480" cy="40" fill="#10b981" r="4.5" stroke="#080d1a" stroke-width="1.5"></circle>
+<circle cx="530" cy="70" fill="#ffb4ab" r="4.5" stroke="#690005" stroke-width="1.5"></circle>
+<!-- M12 Active Pulse -->
+<circle cx="570" cy="35" fill="#4cd7f6" r="6">
+<animate attributename="r" dur="1.5s" repeatcount="indefinite" values="5;8;5"></animate>
+<animate attributename="opacity" dur="1.5s" repeatcount="indefinite" values="1;0.4;1"></animate>
+</circle>
+</svg>
+<!-- X-Axis Labels -->
+<div class="absolute bottom-1 left-0 right-0 flex justify-between px-4 text-[10px] font-mono text-outline">
+<span>M01</span>
+<span>M02</span>
+<span>M03</span>
+<span>M04</span>
+<span>M05</span>
+<span>M06</span>
+<span>M07</span>
+<span>M08</span>
+<span>M09</span>
+<span>M10</span>
+<span>M11</span>
+<span class="text-primary font-bold">M12 (224)</span>
+</div>
+</div>
+</div>
+<!-- Trajectory Stats Footer -->
+<div class="mt-3 pt-3 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 text-xs font-mono">
+<div class="flex items-center gap-4">
+<span>PEAK INNING: <strong class="text-primary font-bold">224/5</strong></span>
+<span>LOWEST TOTAL: <strong class="text-outline">142/9</strong></span>
+<span>200+ SCORES: <strong class="text-tertiary">4 Times</strong></span>
+</div>
+<span class="text-primary cursor-pointer hover:underline flex items-center gap-1">
+            Export Ball Telemetry <span class="material-symbols-outlined text-[13px]">arrow_forward</span>
+</span>
+</div>
+</div>
+<!-- Visualization 2: Win / Loss Ratio Matrix (Span 4) -->
+<div class="lg:col-span-4 bg-surface-container-low/80 backdrop-blur-2xl rounded-xl border border-white/10 laser-border p-5 md:p-6 shadow-2xl flex flex-col justify-between">
+<div>
+<!-- Header -->
+<div class="flex items-center justify-between pb-3 mb-4 border-b border-white/10">
+<div>
+<span class="text-[10px] font-mono uppercase text-primary tracking-wider block">RATIO BREAKDOWN</span>
+<h3 class="text-lg font-bold text-on-surface font-headline-md">Win / Loss Ratio</h3>
+</div>
+<span class="text-[10px] font-mono bg-surface-container px-2 py-0.5 rounded border border-white/10 text-outline">
+              CAMPAIGN 2025
+            </span>
+</div>
+<!-- Luminous Donut Chart SVG with team win rate percentage (58.3%) in center -->
+<div class="relative w-full h-48 flex items-center justify-center">
+<svg class="w-44 h-44 -rotate-90" viewbox="0 0 100 100">
+<!-- Background Ring -->
+<circle cx="50" cy="50" fill="none" r="38" stroke="#1f293d" stroke-width="12"></circle>
+<!-- Losses Arc (41.7%) in Coral/Red -->
+<circle cx="50" cy="50" fill="none" opacity="0.85" r="38" stroke="#ffb4ab" stroke-dasharray="99.5 238.8" stroke-dashoffset="-139.3" stroke-width="12"></circle>
+<!-- Wins Arc (58.3%) in Luminous Cyan (58.3% of 238.76 = ~139.3) -->
+<circle cx="50" cy="50" fill="none" filter="drop-shadow(0 0 6px #06b6d4)" r="38" stroke="#4cd7f6" stroke-dasharray="139.3 238.8" stroke-linecap="round" stroke-width="12"></circle>
+</svg>
+<!-- Center Donut Content -->
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+<span class="text-2xl font-black font-telemetry-metric text-on-surface tracking-tight tabular-nums">58.3%</span>
+<span class="text-[9px] font-mono text-outline uppercase">WIN RATIO</span>
+<span class="text-[10px] font-mono text-tertiary font-bold">1.40 W/L</span>
+</div>
+</div>
+<!-- Segmented Win/Loss Breakdown Bars -->
+<div class="space-y-2.5 mt-2">
+<div>
+<div class="flex justify-between text-xs font-mono mb-1">
+<span class="text-primary font-bold flex items-center gap-1.5">
+<span class="w-2 h-2 rounded bg-primary"></span> 7 Matches Won
+                </span>
+<span class="text-on-surface font-semibold">58.3%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-variant/40 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full glow-cyan-sm" style="width: 58.3%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-xs font-mono mb-1">
+<span class="text-rose-400 font-bold flex items-center gap-1.5">
+<span class="w-2 h-2 rounded bg-rose-400"></span> 5 Matches Defeated
+                </span>
+<span class="text-outline">41.7%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-variant/40 rounded-full overflow-hidden">
+<div class="bg-rose-400 h-full rounded-full" style="width: 41.7%"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] font-mono text-outline">
+<span>Toss Won &amp; Match Won: <strong class="text-tertiary">71%</strong></span>
+<span>Defending: <strong class="text-on-surface">4W-2L</strong></span>
+</div>
+</div>
+</section>
+<!-- 7. Orange & Purple Cap Race Leaders (Side-by-side or stacked leaderboard) -->
+<section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+<!-- Leading Run Scorers (Orange Cap Trail) -->
+<div class="bg-surface-container-low/80 backdrop-blur-2xl rounded-xl border border-amber-500/30 laser-border p-5 md:p-6 shadow-2xl relative overflow-hidden">
+<div class="absolute -top-12 -right-12 w-40 h-40 bg-amber-500/10 blur-2xl rounded-full pointer-events-none"></div>
+<!-- Section Header -->
+<div class="flex items-center justify-between pb-3 mb-4 border-b border-white/10">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-amber-600 to-amber-400 text-on-secondary flex items-center justify-center font-bold shadow-md shadow-amber-500/20">
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">military_tech</span>
+</div>
+<div>
+<span class="text-[10px] font-mono uppercase text-amber-300 tracking-wider block">ORANGE CAP TRAIL</span>
+<h3 class="text-base font-bold text-on-surface font-headline-md">Leading Run Scorers</h3>
+</div>
+</div>
+<span class="text-[10px] font-mono bg-amber-500/15 text-amber-300 border border-amber-500/30 px-2 py-0.5 rounded font-bold">
+            Season Top 3
+          </span>
+</div>
+<!-- Ranked Horizontal Bar Leaderboard -->
+<div class="space-y-3.5">
+<!-- Rank 1: Virat Kohli (684 runs) -->
+<div class="p-3 rounded-lg bg-[#0b1326]/80 border border-amber-500/40 relative glow-amber">
+<div class="flex items-center justify-between gap-3 mb-1.5">
+<div class="flex items-center gap-2.5">
+<span class="text-xs font-mono font-black text-amber-300 w-4">#1</span>
+<span class="text-xs font-bold text-on-surface">Virat Kohli</span>
+<span class="text-[9px] font-mono bg-red-950/90 text-red-300 px-1.5 py-0.5 rounded border border-red-500/30">RCB</span>
+</div>
+<div class="flex items-center gap-2 font-mono">
+<span class="text-[10px] bg-surface-container px-1.5 py-0.5 rounded text-outline">SR 154.8</span>
+<span class="text-xs font-black text-amber-300 tabular-nums">684 Runs</span>
+</div>
+</div>
+<!-- Proportional Glowing Progress Bar (100% of 684) -->
+<div class="w-full h-2 bg-surface-variant/40 rounded-full overflow-hidden">
+<div class="bg-gradient-to-r from-amber-500 to-amber-300 h-full rounded-full glow-amber" style="width: 100%"></div>
+</div>
+</div>
+<!-- Rank 2: Ruturaj Gaikwad (583 runs) -->
+<div class="p-3 rounded-lg bg-[#0b1326]/60 border border-white/10 hover:border-amber-400/40 transition-all">
+<div class="flex items-center justify-between gap-3 mb-1.5">
+<div class="flex items-center gap-2.5">
+<span class="text-xs font-mono font-bold text-outline w-4">#2</span>
+<span class="text-xs font-bold text-on-surface">Ruturaj Gaikwad</span>
+<span class="text-[9px] font-mono bg-yellow-950/90 text-yellow-300 px-1.5 py-0.5 rounded border border-yellow-500/30">CSK</span>
+</div>
+<div class="flex items-center gap-2 font-mono">
+<span class="text-[10px] bg-surface-container px-1.5 py-0.5 rounded text-outline">SR 141.2</span>
+<span class="text-xs font-bold text-on-surface tabular-nums">583 Runs</span>
+</div>
+</div>
+<!-- Proportional Bar: (583 / 684 = ~85.2%) -->
+<div class="w-full h-2 bg-surface-variant/40 rounded-full overflow-hidden">
+<div class="bg-amber-400/70 h-full rounded-full" style="width: 85.2%"></div>
+</div>
+</div>
+<!-- Rank 3: Suryakumar Yadav (542 runs) -->
+<div class="p-3 rounded-lg bg-[#0b1326]/60 border border-white/10 hover:border-amber-400/40 transition-all">
+<div class="flex items-center justify-between gap-3 mb-1.5">
+<div class="flex items-center gap-2.5">
+<span class="text-xs font-mono font-bold text-outline w-4">#3</span>
+<span class="text-xs font-bold text-on-surface">Suryakumar Yadav</span>
+<span class="text-[9px] font-mono bg-blue-950/90 text-cyan-300 px-1.5 py-0.5 rounded border border-blue-500/30">MI</span>
+</div>
+<div class="flex items-center gap-2 font-mono">
+<span class="text-[10px] bg-cyan-950/80 text-cyan-300 px-1.5 py-0.5 rounded border border-cyan-500/30 font-bold">SR 178.6</span>
+<span class="text-xs font-bold text-on-surface tabular-nums">542 Runs</span>
+</div>
+</div>
+<!-- Proportional Bar: (542 / 684 = ~79.2%) -->
+<div class="w-full h-2 bg-surface-variant/40 rounded-full overflow-hidden">
+<div class="bg-amber-400/50 h-full rounded-full" style="width: 79.2%"></div>
+</div>
+</div>
+</div>
+<div class="mt-4 pt-3 border-t border-white/10 flex justify-between items-center text-[11px] font-mono text-outline">
+<span>Average Innings Par: <strong class="text-on-surface">48.6</strong></span>
+<span class="text-amber-300 cursor-pointer hover:underline">Complete Orange Cap Board →</span>
+</div>
+</div>
+<!-- Strike Bowlers (Purple Cap Trail) -->
+<div class="bg-surface-container-low/80 backdrop-blur-2xl rounded-xl border border-purple-500/30 laser-border p-5 md:p-6 shadow-2xl relative overflow-hidden">
+<div class="absolute -top-12 -right-12 w-40 h-40 bg-purple-500/10 blur-2xl rounded-full pointer-events-none"></div>
+<!-- Section Header -->
+<div class="flex items-center justify-between pb-3 mb-4 border-b border-white/10">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-purple-700 to-fuchsia-500 text-white flex items-center justify-center font-bold shadow-md shadow-purple-500/20">
+<span class="material-symbols-outlined text-[19px]">sports_baseball</span>
+</div>
+<div>
+<span class="text-[10px] font-mono uppercase text-purple-300 tracking-wider block">PURPLE CAP TRAIL</span>
+<h3 class="text-base font-bold text-on-surface font-headline-md">Strike Bowlers (Wickets)</h3>
+</div>
+</div>
+<span class="text-[10px] font-mono bg-purple-500/15 text-purple-300 border border-purple-500/30 px-2 py-0.5 rounded font-bold">
+            Season Top 3
+          </span>
+</div>
+<!-- Ranked Horizontal Bar Leaderboard -->
+<div class="space-y-3.5">
+<!-- Rank 1: Jasprit Bumrah (21 wkts) -->
+<div class="p-3 rounded-lg bg-[#0b1326]/80 border border-purple-500/40 relative glow-purple">
+<div class="flex items-center justify-between gap-3 mb-1.5">
+<div class="flex items-center gap-2.5">
+<span class="text-xs font-mono font-black text-purple-300 w-4">#1</span>
+<span class="text-xs font-bold text-on-surface">Jasprit Bumrah</span>
+<span class="text-[9px] font-mono bg-blue-950/90 text-cyan-300 px-1.5 py-0.5 rounded border border-blue-500/30">MI</span>
+</div>
+<div class="flex items-center gap-2 font-mono">
+<span class="text-[10px] bg-surface-container px-1.5 py-0.5 rounded text-tertiary">Econ 6.48</span>
+<span class="text-xs font-black text-purple-300 tabular-nums">21 Wkts</span>
+</div>
+</div>
+<!-- Proportional Glowing Progress Bar (100% of 21) -->
+<div class="w-full h-2 bg-surface-variant/40 rounded-full overflow-hidden">
+<div class="bg-gradient-to-r from-purple-600 via-fuchsia-500 to-purple-300 h-full rounded-full glow-purple" style="width: 100%"></div>
+</div>
+</div>
+<!-- Rank 2: Harshal Patel (20 wkts) -->
+<div class="p-3 rounded-lg bg-[#0b1326]/60 border border-white/10 hover:border-purple-400/40 transition-all">
+<div class="flex items-center justify-between gap-3 mb-1.5">
+<div class="flex items-center gap-2.5">
+<span class="text-xs font-mono font-bold text-outline w-4">#2</span>
+<span class="text-xs font-bold text-on-surface">Harshal Patel</span>
+<span class="text-[9px] font-mono bg-red-950/90 text-red-300 px-1.5 py-0.5 rounded border border-red-500/30">PBKS</span>
+</div>
+<div class="flex items-center gap-2 font-mono">
+<span class="text-[10px] bg-surface-container px-1.5 py-0.5 rounded text-outline">Econ 8.92</span>
+<span class="text-xs font-bold text-on-surface tabular-nums">20 Wkts</span>
+</div>
+</div>
+<!-- Proportional Bar: (20 / 21 = ~95.2%) -->
+<div class="w-full h-2 bg-surface-variant/40 rounded-full overflow-hidden">
+<div class="bg-purple-400/70 h-full rounded-full" style="width: 95.2%"></div>
+</div>
+</div>
+<!-- Rank 3: Kuldeep Yadav (18 wkts) -->
+<div class="p-3 rounded-lg bg-[#0b1326]/60 border border-white/10 hover:border-purple-400/40 transition-all">
+<div class="flex items-center justify-between gap-3 mb-1.5">
+<div class="flex items-center gap-2.5">
+<span class="text-xs font-mono font-bold text-outline w-4">#3</span>
+<span class="text-xs font-bold text-on-surface">Kuldeep Yadav</span>
+<span class="text-[9px] font-mono bg-blue-950/90 text-blue-300 px-1.5 py-0.5 rounded border border-blue-500/30">DC</span>
+</div>
+<div class="flex items-center gap-2 font-mono">
+<span class="text-[10px] bg-surface-container px-1.5 py-0.5 rounded text-outline">Econ 7.35</span>
+<span class="text-xs font-bold text-on-surface tabular-nums">18 Wkts</span>
+</div>
+</div>
+<!-- Proportional Bar: (18 / 21 = ~85.7%) -->
+<div class="w-full h-2 bg-surface-variant/40 rounded-full overflow-hidden">
+<div class="bg-purple-400/50 h-full rounded-full" style="width: 85.7%"></div>
+</div>
+</div>
+</div>
+<div class="mt-4 pt-3 border-t border-white/10 flex justify-between items-center text-[11px] font-mono text-outline">
+<span>Strike Rate Benchmark: <strong class="text-on-surface">14.2 balls</strong></span>
+<span class="text-purple-300 cursor-pointer hover:underline">Complete Purple Cap Board →</span>
+</div>
+</div>
+</section>
+<!-- 8. DeepSeek Strategy Engine & AI Diagnostics Drawer -->
+<section class="bg-surface-container-low/85 backdrop-blur-2xl rounded-xl border border-cyan-500/40 laser-border p-5 md:p-6 shadow-2xl relative overflow-hidden glow-cyan">
+<!-- Glow ambient backdrop -->
+<div class="absolute -top-24 -left-20 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -right-20 w-80 h-80 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 space-y-4">
+<!-- Header with Latency & Model Badge -->
+<div class="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-white/10">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-cyan-600 to-emerald-400 text-on-primary flex items-center justify-center font-bold shadow-lg shadow-cyan-500/30">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">psychology</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-bold text-sm md:text-base text-on-surface font-headline-md tracking-tight">
+                  DEEPSEEK STRATEGY ENGINE &amp; AI DIAGNOSTICS
+                </h3>
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-cyan-400"></span>
+</span>
+</div>
+<span class="text-[10px] font-mono text-cyan-300">Live Broadcast Telemetry Synced • Real-Time Decision Sim</span>
+</div>
+</div>
+<div class="flex items-center gap-2 font-mono text-[10px]">
+<span class="bg-[#0b1326] text-outline px-2 py-1 rounded border border-white/10">LATENCY: 180ms</span>
+<span class="bg-cyan-950/80 text-cyan-300 px-2 py-1 rounded border border-cyan-500/30 font-bold">MODEL: DeepSeek-R1-Cricket-v2</span>
+</div>
+</div>
+<!-- Tactical Diagnostics & Performance Splits -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="p-3.5 rounded-lg bg-[#060e20]/80 border border-white/10 space-y-2">
+<span class="text-[10px] font-mono uppercase text-emerald-400 font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">verified</span> TACTICAL STRENGTH CONFIRMED
+            </span>
+<p class="text-xs text-on-surface-variant font-body-sm leading-relaxed">
+              Death overs execution rate is currently <strong class="text-emerald-400">+18.4% above tournament benchmark</strong>. Jasprit Bumrah's blockhole yorker radar accuracy is 74.2% with only 5 boundaries conceded across 36 death deliveries.
+            </p>
+</div>
+<div class="p-3.5 rounded-lg bg-[#060e20]/80 border border-white/10 space-y-2">
+<span class="text-[10px] font-mono uppercase text-amber-400 font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">warning</span> CHOKE RISK IDENTIFIED
+            </span>
+<p class="text-xs text-on-surface-variant font-body-sm leading-relaxed">
+              Team is <strong class="text-rose-400">vulnerable against left-arm orthodox</strong> during overs 7-11. Dot-ball frequency escalates to 44.8% when facing turn away from the right-hander on dry red-soil strips.
+            </p>
+</div>
+</div>
+<!-- Recommended Simulation Chips -->
+<div class="space-y-2 pt-1">
+<span class="text-[10px] font-mono uppercase text-outline block">RECOMMENDED AI SIMULATIONS:</span>
+<div class="flex flex-wrap gap-2">
+<button class="px-3 py-1.5 rounded-lg bg-[#0b1326] hover:bg-surface-container text-xs font-mono text-on-surface hover:text-cyan-300 border border-white/10 hover:border-cyan-400/50 transition-all flex items-center gap-1.5 group">
+<span>⚡</span> Target short-of-length at death
+            </button>
+<button class="px-3 py-1.5 rounded-lg bg-[#0b1326] hover:bg-surface-container text-xs font-mono text-on-surface hover:text-amber-300 border border-white/10 hover:border-amber-400/50 transition-all flex items-center gap-1.5 group">
+<span>💧</span> Exploit dew differential post Over 12
+            </button>
+<button class="px-3 py-1.5 rounded-lg bg-[#0b1326] hover:bg-surface-container text-xs font-mono text-on-surface hover:text-purple-300 border border-white/10 hover:border-purple-400/50 transition-all flex items-center gap-1.5 group">
+<span>🎯</span> Bumrah 2-over burst overs 17 &amp; 19
+            </button>
+</div>
+</div>
+<!-- Interactive Prompt Query Input Bar -->
+<div class="pt-2 border-t border-white/10 flex items-center gap-2">
+<div class="relative flex-1">
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-outline text-[16px]">smart_toy</span>
+<input class="bg-[#060e20] text-on-surface text-xs font-mono pl-9 pr-4 py-2 rounded-lg border border-white/10 focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 outline-none w-full transition-all placeholder:text-outline/70" placeholder="Ask AI analyst query (e.g. 'Simulate win expectancy if chasing 195 with dew factor')..." type="text"/>
+</div>
+<button class="bg-gradient-to-r from-cyan-500 to-primary text-on-primary px-4 py-2 rounded-lg font-mono text-xs font-bold hover:opacity-90 active:scale-95 transition-all flex items-center gap-1.5 shadow-lg shadow-cyan-500/20">
+<span>Query DeepSeek</span>
+<span class="material-symbols-outlined text-[16px]">send</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+</div>
+</body></html>
+
