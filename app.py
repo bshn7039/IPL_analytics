@@ -44,26 +44,29 @@ meta = get_franchise_meta(selected_team)
 overview = get_team_overview(selected_team, selected_season)
 strength_score = get_team_strength_score(selected_team, selected_season)
 
-# Hero Banner with Franchise Branding
+# Hero Banner with Stitch Apex Sports Telemetry Branding
 banner_html = f"""<div class="hero-banner" style="border-left: 6px solid {meta['accent']};">
-<div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;">
+<div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.2rem;">
 <div>
-<div style="font-size:0.85rem; color:{meta['accent']}; font-weight:800; letter-spacing:0.06em; text-transform:uppercase;">
-{meta['emoji']} IPL FRANCHISE INTELLIGENCE • SEASON {selected_season}
+    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.4rem;">
+        <span class="telemetry-chip">⚡ COMMAND DECK</span>
+        <span style="font-size:0.8rem; color:#64748B; font-family:'Space Mono', monospace;">SEASON {selected_season} TELEMETRY</span>
+    </div>
+    <h1 style="margin:0.1rem 0; font-size:2.5rem; color:#FFFFFF; font-weight:900; letter-spacing:-0.03em;">
+        {meta['emoji']} {meta['full_name']} <span style="font-size:1.2rem; color:#64748B; font-weight:700;">[{selected_team}]</span>
+    </h1>
+    <div style="color:#94A3B8; font-size:0.92rem; margin-top:0.4rem; display:flex; flex-wrap:wrap; gap:1.2rem;">
+        <span>🏟️ <b>Pitch:</b> {meta['home_ground']}</span>
+        <span>🏆 <b>Trophy Cabinet:</b> <span style="color:#F59E0B; font-weight:700;">{meta['titles']} IPL Titles</span></span>
+        <span>🛡️ <b>Status:</b> <span style="color:#10B981; font-weight:700;">Live Franchise Telemetry</span></span>
+    </div>
 </div>
-<h1 style="margin:0.2rem 0; font-size:2.3rem; color:#FFFFFF; font-weight:800;">
-{meta['full_name']} <span style="font-size:1.3rem; color:#94A3B8; font-weight:600;">({selected_team})</span>
-</h1>
-<div style="color:#94A3B8; font-size:0.95rem;">
-🏟️ <b>Home Pitch:</b> {meta['home_ground']} &nbsp;|&nbsp; 🏆 <b>Championships:</b> {meta['titles']} IPL Titles
-</div>
-</div>
-<div style="text-align:right; margin-top:0.5rem;">
-<div style="font-size:0.8rem; color:#94A3B8; text-transform:uppercase; font-weight:700;">Team Strength Index</div>
-<div style="font-size:2.5rem; font-weight:800; color:#F59E0B; line-height:1.1;">
-⚡ {strength_score}<span style="font-size:1.2rem; color:#64748B;">/100</span>
-</div>
-<div style="font-size:0.85rem; color:#10B981; font-weight:700;">Composite Rating</div>
+<div style="background:rgba(6, 182, 212, 0.05); padding:1rem 1.6rem; border-radius:14px; border:1px solid rgba(6, 182, 212, 0.25); text-align:right; min-width:200px;">
+    <div style="font-size:0.72rem; color:#94A3B8; text-transform:uppercase; font-weight:700; letter-spacing:0.08em; font-family:'Space Mono', monospace;">Team Strength Index</div>
+    <div style="font-size:2.8rem; font-weight:900; color:#4CD7F6; line-height:1; font-variant-numeric: tabular-nums;">
+        {strength_score}<span style="font-size:1.1rem; color:#64748B;">/100</span>
+    </div>
+    <div style="font-size:0.75rem; color:#10B981; font-weight:700; margin-top:0.25rem;">● High Performance Rating</div>
 </div>
 </div>
 </div>"""
